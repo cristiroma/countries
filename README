@@ -1,0 +1,20 @@
+= Statement =
+
+The purpose of the project is to create a set of SQL scripts that contain the 
+usual list of countries that used in applications, web sites etc. that have 
+a database back-end.
+
+Also it provides the country flags used for these together with country names
+in different languages.
+
+I have looked over various sources from the web and gathered this data and put
+it in a friendly, reusable format.
+
+= How to use =
+	* These files were created for MySQL database server, but can be adapted
+	for other DBMS.
+	
+	* Import the countries.sql into MySQL and customize to your needs
+	* I have added the column active so you can enable/disable countries from
+	a list using SELECT * FROM countries WHERE enabled = 1
+	* Put pictures whenever you need into the application and access them.
