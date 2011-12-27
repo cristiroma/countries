@@ -1,3 +1,20 @@
+Database with world country list, their flags and name in various languages
+Copyright (C) 2011  Cristian Romanescu
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
 = Statement =
 
 The purpose of the project is to create a set of SQL scripts that contain the 
@@ -11,10 +28,13 @@ I have looked over various sources from the web and gathered this data and put
 it in a friendly, reusable format.
 
 = How to use =
-	* These files were created for MySQL database server, but can be adapted
-	for other DBMS.
-	
-	* Import the countries.sql into MySQL and customize to your needs
-	* I have added the column active so you can enable/disable countries from
-	a list using SELECT * FROM countries WHERE enabled = 1
-	* Put pictures whenever you need into the application and access them.
+
+There is a directory for each database type, containing SQL script files each
+with one table (for instance MySQL scripts are within mysql/ directory)
+
+The following SQL scripts are defined:
+  * geo_languages.sql - contains table geo_languages with all ISO 639-1 
+                        and ISO 639-2 languages
+  * geo_countries.sql - contains table geo_countries with world countries,
+                        ISO 3166-1 codes and their name in English
+

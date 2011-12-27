@@ -1,3 +1,8 @@
+2011-12-27 Cristian Romanescu <cristian@romanescu.ro>
+	* Organized with sub-directories fro each DB
+	* Added language table with ISO 639-1 and ISO 639-2 languages
+	* Updated README and ChangeLog
+
 2011-04-02 Cristian Romanescu <cristian@romanescu.ro>
 	* Added the README and ChangeLog files
 
