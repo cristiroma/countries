@@ -1,5 +1,9 @@
+2012-08-27 Cristian Romanescu <cristian@romanescu.ro>
+	* Updated flags to hi-quality version, manually adjusted
+	* Added sample script for PHP language
+
 2011-12-27 Cristian Romanescu <cristian@romanescu.ro>
-	* Organized with sub-directories fro each DB
+	* Organized with sub-directories for each DB
 	* Added language table with ISO 639-1 and ISO 639-2 languages
 	* Updated README and ChangeLog
 
