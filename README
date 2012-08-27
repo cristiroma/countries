@@ -17,24 +17,26 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 = Statement =
 
-The purpose of the project is to create a set of SQL scripts that contain the 
-usual list of countries that used in applications, web sites etc. that have 
-a database back-end.
+The purpose of this project is to provide a reusable, portable SQL script that
+enables applications to use an up-to-date list of countries.
 
-Also it provides the country flags used for these together with country names
-in different languages.
+Features:
 
-I have looked over various sources from the web and gathered this data and put
-it in a friendly, reusable format.
+* Database script with country table. Support for: MySQL
+* Hi-quality flags (PNG) for each country in the following sizes: 128x64
+* Examples to access the table from different programming languages
+
 
 = How to use =
 
-There is a directory for each database type, containing SQL script files each
-with one table (for instance MySQL scripts are within mysql/ directory)
+== MySQL ==
 
-The following SQL scripts are defined:
-  * geo_languages.sql - contains table geo_languages with all ISO 639-1 
-                        and ISO 639-2 languages
-  * geo_countries.sql - contains table geo_countries with world countries,
-                        ISO 3166-1 codes and their name in English
+Open a console and load the countries:
+	$> cat countries.sql | mysql -u username  -p database
+
+
+== PHP ==
+Edit lib/config.json to set your database connection parameters
+	$> php lib/countries.php
+
 
