@@ -29,8 +29,8 @@ CREATE TABLE `countries` (
   `code2l` varchar(2) NOT NULL COMMENT 'ISO 3166-1 alpha-2 two-letter code',
   `name` varchar(64) NOT NULL COMMENT 'Name of the country in English',
   `long_name` varchar(64) DEFAULT NULL COMMENT 'Country''s full name in english or original language',
-  `icon_medium` varchar(255) DEFAULT 'unknown' COMMENT 'Relative path to the large image of country''s flag',
-  `icon_small` varchar(255) NOT NULL DEFAULT 'unknown' COMMENT 'Relative path to the medium image of country''s flag',
+  `flag_128` varchar(255) DEFAULT NULL COMMENT 'Relative path to 128 x 64 pixel flag image',
+  `flag_32` varchar(255) DEFAULT NULL COMMENT 'Relative path to 32 x 16 pixel flag image',
   PRIMARY KEY (`id`),
   UNIQUE KEY `idx_countries_name` (`name`),
   UNIQUE KEY `idx_countries_code3l` (`code3l`),
@@ -57,4 +57,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2012-08-27 23:52:38
+-- Dump completed on 2012-08-28 22:40:49
