@@ -2,7 +2,7 @@
     {
         "code2l": "AF",
         "code3l": "AFG",
-        "flag_128": "flags/afghanistan_medium.png",
+        "flag_128": "flags/afghanistan_128.png",
         "flag_32": "flags/afghanistan_small.png",
         "long_name": "Islamic Republic of Afghanistan",
         "name": "Afghanistan"
@@ -10,7 +10,7 @@
     {
         "code2l": "AL",
         "code3l": "ALB",
-        "flag_128": "flags/albania_medium.png",
+        "flag_128": "flags/albania_128.png",
         "flag_32": "flags/albania_small.png",
         "long_name": "Republic of Albania",
         "name": "Albania"
@@ -18,7 +18,7 @@
     {
         "code2l": "DZ",
         "code3l": "DZA",
-        "flag_128": "flags/algeria_medium.png",
+        "flag_128": "flags/algeria_128.png",
         "flag_32": "flags/algeria_small.png",
         "long_name": "People's Democratic Republic of Algeria",
         "name": "Algeria"
@@ -26,7 +26,7 @@
     {
         "code2l": "AD",
         "code3l": "AND",
-        "flag_128": "flags/andorra_medium.png",
+        "flag_128": "flags/andorra_128.png",
         "flag_32": "flags/andorra_small.png",
         "long_name": "Principality of Andorra",
         "name": "Andorra"
@@ -34,7 +34,7 @@
     {
         "code2l": "AO",
         "code3l": "AGO",
-        "flag_128": "flags/angola_medium.png",
+        "flag_128": "flags/angola_128.png",
         "flag_32": "flags/angola_small.png",
         "long_name": "Republic of Angola",
         "name": "Angola"
@@ -42,7 +42,7 @@
     {
         "code2l": "AG",
         "code3l": "ATG",
-        "flag_128": "flags/antigua_and_barbuda_medium.png",
+        "flag_128": "flags/antigua_and_barbuda_128.png",
         "flag_32": "flags/antigua_and_barbuda_small.png",
         "long_name": "Antigua and Barbuda",
         "name": "Antigua and Barbuda"
@@ -50,7 +50,7 @@
     {
         "code2l": "AR",
         "code3l": "ARG",
-        "flag_128": "flags/argentina_medium.png",
+        "flag_128": "flags/argentina_128.png",
         "flag_32": "flags/argentina_small.png",
         "long_name": "Rep\u00fablica Argentina",
         "name": "Argentina"
@@ -58,7 +58,7 @@
     {
         "code2l": "AM",
         "code3l": "ARM",
-        "flag_128": "flags/armenia_medium.png",
+        "flag_128": "flags/armenia_128.png",
         "flag_32": "flags/armenia_small.png",
         "long_name": "Republic of Armenia",
         "name": "Armenia"
@@ -66,7 +66,7 @@
     {
         "code2l": "AU",
         "code3l": "AUS",
-        "flag_128": "flags/australia_medium.png",
+        "flag_128": "flags/australia_128.png",
         "flag_32": "flags/australia_small.png",
         "long_name": "Australia",
         "name": "Australia"
@@ -74,7 +74,7 @@
     {
         "code2l": "AT",
         "code3l": "AUT",
-        "flag_128": "flags/austria_medium.png",
+        "flag_128": "flags/austria_128.png",
         "flag_32": "flags/austria_small.png",
         "long_name": "Republic of Austria",
         "name": "Austria"
@@ -82,7 +82,7 @@
     {
         "code2l": "AZ",
         "code3l": "AZE",
-        "flag_128": "flags/azerbaijan_medium.png",
+        "flag_128": "flags/azerbaijan_128.png",
         "flag_32": "flags/azerbaijan_small.png",
         "long_name": "Republic of Azerbaijan",
         "name": "Azerbaijan"
@@ -90,7 +90,7 @@
     {
         "code2l": "BS",
         "code3l": "BHS",
-        "flag_128": "flags/bahamas_medium.png",
+        "flag_128": "flags/bahamas_128.png",
         "flag_32": "flags/bahamas_small.png",
         "long_name": "Commonwealth of The Bahamas",
         "name": "Bahamas"
@@ -98,7 +98,7 @@
     {
         "code2l": "BH",
         "code3l": "BHR",
-        "flag_128": "flags/bahrain_medium.png",
+        "flag_128": "flags/bahrain_128.png",
         "flag_32": "flags/bahrain_small.png",
         "long_name": "Kingdom of Bahrain",
         "name": "Bahrain"
@@ -106,7 +106,7 @@
     {
         "code2l": "BD",
         "code3l": "BGD",
-        "flag_128": "flags/bangladesh_medium.png",
+        "flag_128": "flags/bangladesh_128.png",
         "flag_32": "flags/bangladesh_small.png",
         "long_name": "People's Republic of Bangladesh",
         "name": "Bangladesh"
@@ -114,7 +114,7 @@
     {
         "code2l": "BB",
         "code3l": "BRB",
-        "flag_128": "flags/barbados_medium.png",
+        "flag_128": "flags/barbados_128.png",
         "flag_32": "flags/barbados_small.png",
         "long_name": "Republic of Belarus",
         "name": "Barbados"
@@ -122,7 +122,7 @@
     {
         "code2l": "BY",
         "code3l": "BLR",
-        "flag_128": "flags/belarus_medium.png",
+        "flag_128": "flags/belarus_128.png",
         "flag_32": "flags/belarus_small.png",
         "long_name": "Republic of Belarus",
         "name": "Belarus"
@@ -130,7 +130,7 @@
     {
         "code2l": "BE",
         "code3l": "BEL",
-        "flag_128": "flags/belgium_medium.png",
+        "flag_128": "flags/belgium_128.png",
         "flag_32": "flags/belgium_small.png",
         "long_name": "Kingdom of Belgium",
         "name": "Belgium"
@@ -138,7 +138,7 @@
     {
         "code2l": "BZ",
         "code3l": "BLZ",
-        "flag_128": "flags/belize_medium.png",
+        "flag_128": "flags/belize_128.png",
         "flag_32": "flags/belize_small.png",
         "long_name": "Belize",
         "name": "Belize"
@@ -146,7 +146,7 @@
     {
         "code2l": "BJ",
         "code3l": "BEN",
-        "flag_128": "flags/benin_medium.png",
+        "flag_128": "flags/benin_128.png",
         "flag_32": "flags/benin_small.png",
         "long_name": "Republic of Benin",
         "name": "Benin"
@@ -154,7 +154,7 @@
     {
         "code2l": "BT",
         "code3l": "BTN",
-        "flag_128": "flags/bhutan_medium.png",
+        "flag_128": "flags/bhutan_128.png",
         "flag_32": "flags/bhutan_small.png",
         "long_name": "Kingdom of Bhutan",
         "name": "Bhutan"
@@ -162,7 +162,7 @@
     {
         "code2l": "BA",
         "code3l": "BIH",
-        "flag_128": "flags/bosnia_and_herzegovina_medium.png",
+        "flag_128": "flags/bosnia_and_herzegovina_128.png",
         "flag_32": "flags/bosnia_and_herzegovina_small.png",
         "long_name": "Bosnia and Herzegovina",
         "name": "Bosnia and Herzegovina"
@@ -170,7 +170,7 @@
     {
         "code2l": "BW",
         "code3l": "BWA",
-        "flag_128": "flags/botswana_medium.png",
+        "flag_128": "flags/botswana_128.png",
         "flag_32": "flags/botswana_small.png",
         "long_name": "Republic of Botswana",
         "name": "Botswana"
@@ -178,7 +178,7 @@
     {
         "code2l": "BR",
         "code3l": "BRA",
-        "flag_128": "flags/brazil_medium.png",
+        "flag_128": "flags/brazil_128.png",
         "flag_32": "flags/brazil_small.png",
         "long_name": "Federative Republic of Brazil",
         "name": "Brazil"
@@ -186,7 +186,7 @@
     {
         "code2l": "BN",
         "code3l": "BRN",
-        "flag_128": "flags/brunei_darussalam_medium.png",
+        "flag_128": "flags/brunei_darussalam_128.png",
         "flag_32": "flags/brunei_darussalam_small.png",
         "long_name": "Brunei Darussalam",
         "name": "Brunei Darussalam"
@@ -194,7 +194,7 @@
     {
         "code2l": "BG",
         "code3l": "BGR",
-        "flag_128": "flags/bulgaria_medium.png",
+        "flag_128": "flags/bulgaria_128.png",
         "flag_32": "flags/bulgaria_small.png",
         "long_name": "Republic of Bulgaria",
         "name": "Bulgaria"
@@ -202,7 +202,7 @@
     {
         "code2l": "BF",
         "code3l": "BFA",
-        "flag_128": "flags/burkina_faso_medium.png",
+        "flag_128": "flags/burkina_faso_128.png",
         "flag_32": "flags/burkina_faso_small.png",
         "long_name": "Burkina Faso",
         "name": "Burkina Faso"
@@ -210,7 +210,7 @@
     {
         "code2l": "BI",
         "code3l": "BDI",
-        "flag_128": "flags/burundi_medium.png",
+        "flag_128": "flags/burundi_128.png",
         "flag_32": "flags/burundi_small.png",
         "long_name": "Republic of Burundi",
         "name": "Burundi"
@@ -218,7 +218,7 @@
     {
         "code2l": "KH",
         "code3l": "KHM",
-        "flag_128": "flags/cambodia_medium.png",
+        "flag_128": "flags/cambodia_128.png",
         "flag_32": "flags/cambodia_small.png",
         "long_name": "Kingdom of Cambodia",
         "name": "Cambodia"
@@ -226,7 +226,7 @@
     {
         "code2l": "CM",
         "code3l": "CMR",
-        "flag_128": "flags/cameroon_medium.png",
+        "flag_128": "flags/cameroon_128.png",
         "flag_32": "flags/cameroon_small.png",
         "long_name": "Republic of Cameroon",
         "name": "Cameroon"
@@ -234,7 +234,7 @@
     {
         "code2l": "CA",
         "code3l": "CAN",
-        "flag_128": "flags/canada_medium.png",
+        "flag_128": "flags/canada_128.png",
         "flag_32": "flags/canada_small.png",
         "long_name": "Canada",
         "name": "Canada"
@@ -242,7 +242,7 @@
     {
         "code2l": "CV",
         "code3l": "CPV",
-        "flag_128": "flags/cape_verde_medium.png",
+        "flag_128": "flags/cape_verde_128.png",
         "flag_32": "flags/cape_verde_small.png",
         "long_name": "Republic of Cape Verde",
         "name": "Cape Verde"
@@ -250,7 +250,7 @@
     {
         "code2l": "CF",
         "code3l": "CAF",
-        "flag_128": "flags/central_african_republic_medium.png",
+        "flag_128": "flags/central_african_republic_128.png",
         "flag_32": "flags/central_african_republic_small.png",
         "long_name": "Central African Republic",
         "name": "Central African Republic"
@@ -258,7 +258,7 @@
     {
         "code2l": "TD",
         "code3l": "TCD",
-        "flag_128": "flags/chad_medium.png",
+        "flag_128": "flags/chad_128.png",
         "flag_32": "flags/chad_small.png",
         "long_name": "Republic of Chad",
         "name": "Chad"
@@ -266,7 +266,7 @@
     {
         "code2l": "CL",
         "code3l": "CHL",
-        "flag_128": "flags/chile_medium.png",
+        "flag_128": "flags/chile_128.png",
         "flag_32": "flags/chile_small.png",
         "long_name": "Republic of Chile",
         "name": "Chile"
@@ -274,7 +274,7 @@
     {
         "code2l": "CN",
         "code3l": "CHN",
-        "flag_128": "flags/china_medium.png",
+        "flag_128": "flags/china_128.png",
         "flag_32": "flags/china_small.png",
         "long_name": "People's Republic of China",
         "name": "China"
@@ -282,7 +282,7 @@
     {
         "code2l": "CO",
         "code3l": "COL",
-        "flag_128": "flags/colombia_medium.png",
+        "flag_128": "flags/colombia_128.png",
         "flag_32": "flags/colombia_small.png",
         "long_name": "Republic of Colombia",
         "name": "Colombia"
@@ -290,7 +290,7 @@
     {
         "code2l": "KM",
         "code3l": "COM",
-        "flag_128": "flags/comoros_medium.png",
+        "flag_128": "flags/comoros_128.png",
         "flag_32": "flags/comoros_small.png",
         "long_name": "Union of the Comoros",
         "name": "Comoros"
@@ -298,7 +298,7 @@
     {
         "code2l": "CG",
         "code3l": "COG",
-        "flag_128": "flags/congo_medium.png",
+        "flag_128": "flags/congo_128.png",
         "flag_32": "flags/congo_small.png",
         "long_name": "Congo, Democratic Republic of the",
         "name": "Congo"
@@ -306,7 +306,7 @@
     {
         "code2l": "CR",
         "code3l": "CRI",
-        "flag_128": "flags/costa_rica_medium.png",
+        "flag_128": "flags/costa_rica_128.png",
         "flag_32": "flags/costa_rica_small.png",
         "long_name": "Republic of Costa Rica",
         "name": "Costa Rica"
@@ -314,7 +314,7 @@
     {
         "code2l": "HR",
         "code3l": "HRV",
-        "flag_128": "flags/croatia_medium.png",
+        "flag_128": "flags/croatia_128.png",
         "flag_32": "flags/croatia_small.png",
         "long_name": "Republic of Croatia",
         "name": "Croatia"
@@ -322,7 +322,7 @@
     {
         "code2l": "CU",
         "code3l": "CUB",
-        "flag_128": "flags/cuba_medium.png",
+        "flag_128": "flags/cuba_128.png",
         "flag_32": "flags/cuba_small.png",
         "long_name": "Republic of Cuba",
         "name": "Cuba"
@@ -330,7 +330,7 @@
     {
         "code2l": "CY",
         "code3l": "CYP",
-        "flag_128": "flags/cyprus_medium.png",
+        "flag_128": "flags/cyprus_128.png",
         "flag_32": "flags/cyprus_small.png",
         "long_name": "Republic of Cyprus",
         "name": "Cyprus"
@@ -338,7 +338,7 @@
     {
         "code2l": "CZ",
         "code3l": "CZE",
-        "flag_128": "flags/czech_republic_medium.png",
+        "flag_128": "flags/czech_republic_128.png",
         "flag_32": "flags/czech_republic_small.png",
         "long_name": "Czech Republic",
         "name": "Czech Republic"
@@ -346,7 +346,7 @@
     {
         "code2l": "CI",
         "code3l": "CIV",
-        "flag_128": "flags/cote_d_ivoire_medium.png",
+        "flag_128": "flags/cote_d_ivoire_128.png",
         "flag_32": "flags/cote_d_ivoire_small.png",
         "long_name": "Republic of C\u00f4te d'Ivoire",
         "name": "C\u00f4te d'Ivoire"
@@ -354,7 +354,7 @@
     {
         "code2l": "DK",
         "code3l": "DNK",
-        "flag_128": "flags/denmark_medium.png",
+        "flag_128": "flags/denmark_128.png",
         "flag_32": "flags/denmark_small.png",
         "long_name": "Kingdom of Denmark",
         "name": "Denmark"
@@ -362,7 +362,7 @@
     {
         "code2l": "DJ",
         "code3l": "DJI",
-        "flag_128": "flags/djibouti_medium.png",
+        "flag_128": "flags/djibouti_128.png",
         "flag_32": "flags/djibouti_small.png",
         "long_name": "Republic of Djibouti",
         "name": "Djibouti"
@@ -370,7 +370,7 @@
     {
         "code2l": "DM",
         "code3l": "DMA",
-        "flag_128": "flags/dominica_medium.png",
+        "flag_128": "flags/dominica_128.png",
         "flag_32": "flags/dominica_small.png",
         "long_name": "Commonwealth of Dominica",
         "name": "Dominica"
@@ -378,7 +378,7 @@
     {
         "code2l": "DO",
         "code3l": "DOM",
-        "flag_128": "flags/dominican_republic_medium.png",
+        "flag_128": "flags/dominican_republic_128.png",
         "flag_32": "flags/dominican_republic_small.png",
         "long_name": "Dominican Republic",
         "name": "Dominican Republic"
@@ -386,7 +386,7 @@
     {
         "code2l": "EC",
         "code3l": "ECU",
-        "flag_128": "flags/ecuador_medium.png",
+        "flag_128": "flags/ecuador_128.png",
         "flag_32": "flags/ecuador_small.png",
         "long_name": "Republic of Ecuador",
         "name": "Ecuador"
@@ -394,7 +394,7 @@
     {
         "code2l": "EG",
         "code3l": "EGY",
-        "flag_128": "flags/egypt_medium.png",
+        "flag_128": "flags/egypt_128.png",
         "flag_32": "flags/egypt_small.png",
         "long_name": "Arab Republic of Egypt",
         "name": "Egypt"
@@ -402,7 +402,7 @@
     {
         "code2l": "SV",
         "code3l": "SLV",
-        "flag_128": "flags/el_salvador_medium.png",
+        "flag_128": "flags/el_salvador_128.png",
         "flag_32": "flags/el_salvador_small.png",
         "long_name": "Republic of El Salvador",
         "name": "El Salvador"
@@ -410,7 +410,7 @@
     {
         "code2l": "GQ",
         "code3l": "GNQ",
-        "flag_128": "flags/equatorial_guinea_medium.png",
+        "flag_128": "flags/equatorial_guinea_128.png",
         "flag_32": "flags/equatorial_guinea_small.png",
         "long_name": "Republic of Equatorial Guinea",
         "name": "Equatorial Guinea"
@@ -418,7 +418,7 @@
     {
         "code2l": "ER",
         "code3l": "ERI",
-        "flag_128": "flags/eritrea_medium.png",
+        "flag_128": "flags/eritrea_128.png",
         "flag_32": "flags/eritrea_small.png",
         "long_name": "State of Eritrea",
         "name": "Eritrea"
@@ -426,7 +426,7 @@
     {
         "code2l": "EE",
         "code3l": "EST",
-        "flag_128": "flags/estonia_medium.png",
+        "flag_128": "flags/estonia_128.png",
         "flag_32": "flags/estonia_small.png",
         "long_name": "Republic of Estonia",
         "name": "Estonia"
@@ -434,7 +434,7 @@
     {
         "code2l": "ET",
         "code3l": "ETH",
-        "flag_128": "flags/ethiopia_medium.png",
+        "flag_128": "flags/ethiopia_128.png",
         "flag_32": "flags/ethiopia_small.png",
         "long_name": "Federal Democratic Republic of Ethiopia",
         "name": "Ethiopia"
@@ -442,7 +442,7 @@
     {
         "code2l": "FJ",
         "code3l": "FJI",
-        "flag_128": "flags/fiji_medium.png",
+        "flag_128": "flags/fiji_128.png",
         "flag_32": "flags/fiji_small.png",
         "long_name": "Republic of the Fiji Islands",
         "name": "Fiji"
@@ -450,7 +450,7 @@
     {
         "code2l": "FI",
         "code3l": "FIN",
-        "flag_128": "flags/finland_medium.png",
+        "flag_128": "flags/finland_128.png",
         "flag_32": "flags/finland_small.png",
         "long_name": "Republic of Finland",
         "name": "Finland"
@@ -458,7 +458,7 @@
     {
         "code2l": "FR",
         "code3l": "FRA",
-        "flag_128": "flags/france_medium.png",
+        "flag_128": "flags/france_128.png",
         "flag_32": "flags/france_small.png",
         "long_name": "French Republic",
         "name": "France"
@@ -466,7 +466,7 @@
     {
         "code2l": "GA",
         "code3l": "GAB",
-        "flag_128": "flags/gabon_medium.png",
+        "flag_128": "flags/gabon_128.png",
         "flag_32": "flags/gabon_small.png",
         "long_name": "Gabonese Republic",
         "name": "Gabon"
@@ -474,7 +474,7 @@
     {
         "code2l": "GM",
         "code3l": "GMB",
-        "flag_128": "flags/gambia_medium.png",
+        "flag_128": "flags/gambia_128.png",
         "flag_32": "flags/gambia_small.png",
         "long_name": "Republic of The Gambia",
         "name": "Gambia"
@@ -482,7 +482,7 @@
     {
         "code2l": "GE",
         "code3l": "GEO",
-        "flag_128": "flags/georgia_medium.png",
+        "flag_128": "flags/georgia_128.png",
         "flag_32": "flags/georgia_small.png",
         "long_name": "Georgia",
         "name": "Georgia"
@@ -490,7 +490,7 @@
     {
         "code2l": "DE",
         "code3l": "DEU",
-        "flag_128": "flags/germany_medium.png",
+        "flag_128": "flags/germany_128.png",
         "flag_32": "flags/germany_small.png",
         "long_name": "Federal Republic of Germany",
         "name": "Germany"
@@ -498,7 +498,7 @@
     {
         "code2l": "GH",
         "code3l": "GHA",
-        "flag_128": "flags/ghana_medium.png",
+        "flag_128": "flags/ghana_128.png",
         "flag_32": "flags/ghana_small.png",
         "long_name": "Republic of Ghana",
         "name": "Ghana"
@@ -506,7 +506,7 @@
     {
         "code2l": "GR",
         "code3l": "GRC",
-        "flag_128": "flags/greece_medium.png",
+        "flag_128": "flags/greece_128.png",
         "flag_32": "flags/greece_small.png",
         "long_name": "Hellenic Republic",
         "name": "Greece"
@@ -514,7 +514,7 @@
     {
         "code2l": "GD",
         "code3l": "GRD",
-        "flag_128": "flags/grenada_medium.png",
+        "flag_128": "flags/grenada_128.png",
         "flag_32": "flags/grenada_small.png",
         "long_name": "Grenada",
         "name": "Grenada"
@@ -522,7 +522,7 @@
     {
         "code2l": "GT",
         "code3l": "GTM",
-        "flag_128": "flags/guatemala_medium.png",
+        "flag_128": "flags/guatemala_128.png",
         "flag_32": "flags/guatemala_small.png",
         "long_name": "Republic of Guatemala",
         "name": "Guatemala"
@@ -530,7 +530,7 @@
     {
         "code2l": "GN",
         "code3l": "GIN",
-        "flag_128": "flags/guinea_medium.png",
+        "flag_128": "flags/guinea_128.png",
         "flag_32": "flags/guinea_small.png",
         "long_name": "Republic of Guinea",
         "name": "Guinea"
@@ -538,7 +538,7 @@
     {
         "code2l": "GW",
         "code3l": "GNB",
-        "flag_128": "flags/guinea-bissau_medium.png",
+        "flag_128": "flags/guinea-bissau_128.png",
         "flag_32": "flags/guinea-bissau_small.png",
         "long_name": "Republic of Guinea-Bissau",
         "name": "Guinea-Bissau"
@@ -546,7 +546,7 @@
     {
         "code2l": "GY",
         "code3l": "GUY",
-        "flag_128": "flags/guyana_medium.png",
+        "flag_128": "flags/guyana_128.png",
         "flag_32": "flags/guyana_small.png",
         "long_name": "Co-operative Republic of Guyana",
         "name": "Guyana"
@@ -554,7 +554,7 @@
     {
         "code2l": "HT",
         "code3l": "HTI",
-        "flag_128": "flags/haiti_medium.png",
+        "flag_128": "flags/haiti_128.png",
         "flag_32": "flags/haiti_small.png",
         "long_name": "Republic of Haiti",
         "name": "Haiti"
@@ -562,7 +562,7 @@
     {
         "code2l": "HN",
         "code3l": "HND",
-        "flag_128": "flags/honduras_medium.png",
+        "flag_128": "flags/honduras_128.png",
         "flag_32": "flags/honduras_small.png",
         "long_name": "Republic of Honduras",
         "name": "Honduras"
@@ -570,7 +570,7 @@
     {
         "code2l": "HU",
         "code3l": "HUN",
-        "flag_128": "flags/hungary_medium.png",
+        "flag_128": "flags/hungary_128.png",
         "flag_32": "flags/hungary_small.png",
         "long_name": "Republic of Hungary",
         "name": "Hungary"
@@ -578,7 +578,7 @@
     {
         "code2l": "IS",
         "code3l": "ISL",
-        "flag_128": "flags/iceland_medium.png",
+        "flag_128": "flags/iceland_128.png",
         "flag_32": "flags/iceland_small.png",
         "long_name": "Republic of Iceland",
         "name": "Iceland"
@@ -586,7 +586,7 @@
     {
         "code2l": "IN",
         "code3l": "IND",
-        "flag_128": "flags/india_medium.png",
+        "flag_128": "flags/india_128.png",
         "flag_32": "flags/india_small.png",
         "long_name": "Republic of India",
         "name": "India"
@@ -594,7 +594,7 @@
     {
         "code2l": "ID",
         "code3l": "IDN",
-        "flag_128": "flags/indonesia_medium.png",
+        "flag_128": "flags/indonesia_128.png",
         "flag_32": "flags/indonesia_small.png",
         "long_name": "Republic of Indonesia",
         "name": "Indonesia"
@@ -602,7 +602,7 @@
     {
         "code2l": "IQ",
         "code3l": "IRQ",
-        "flag_128": "flags/iraq_medium.png",
+        "flag_128": "flags/iraq_128.png",
         "flag_32": "flags/iraq_small.png",
         "long_name": "Republic of Iraq",
         "name": "Iraq"
@@ -610,7 +610,7 @@
     {
         "code2l": "IE",
         "code3l": "IRL",
-        "flag_128": "flags/ireland_medium.png",
+        "flag_128": "flags/ireland_128.png",
         "flag_32": "flags/ireland_small.png",
         "long_name": "Ireland",
         "name": "Ireland"
@@ -618,7 +618,7 @@
     {
         "code2l": "IL",
         "code3l": "ISR",
-        "flag_128": "flags/israel_medium.png",
+        "flag_128": "flags/israel_128.png",
         "flag_32": "flags/israel_small.png",
         "long_name": "State of Israel",
         "name": "Israel"
@@ -626,7 +626,7 @@
     {
         "code2l": "IT",
         "code3l": "ITA",
-        "flag_128": "flags/italy_medium.png",
+        "flag_128": "flags/italy_128.png",
         "flag_32": "flags/italy_small.png",
         "long_name": "Italian Republic",
         "name": "Italy"
@@ -634,7 +634,7 @@
     {
         "code2l": "JM",
         "code3l": "JAM",
-        "flag_128": "flags/jamaica_medium.png",
+        "flag_128": "flags/jamaica_128.png",
         "flag_32": "flags/jamaica_small.png",
         "long_name": "Jamaica",
         "name": "Jamaica"
@@ -642,7 +642,7 @@
     {
         "code2l": "JP",
         "code3l": "JPN",
-        "flag_128": "flags/japan_medium.png",
+        "flag_128": "flags/japan_128.png",
         "flag_32": "flags/japan_small.png",
         "long_name": "Japan",
         "name": "Japan"
@@ -650,7 +650,7 @@
     {
         "code2l": "JO",
         "code3l": "JOR",
-        "flag_128": "flags/jordan_medium.png",
+        "flag_128": "flags/jordan_128.png",
         "flag_32": "flags/jordan_small.png",
         "long_name": "Hashemite Kingdom of Jordan",
         "name": "Jordan"
@@ -658,7 +658,7 @@
     {
         "code2l": "KZ",
         "code3l": "KAZ",
-        "flag_128": "flags/kazakhstan_medium.png",
+        "flag_128": "flags/kazakhstan_128.png",
         "flag_32": "flags/kazakhstan_small.png",
         "long_name": "Republic of Kazakhstan",
         "name": "Kazakhstan"
@@ -666,7 +666,7 @@
     {
         "code2l": "KE",
         "code3l": "KEN",
-        "flag_128": "flags/kenya_medium.png",
+        "flag_128": "flags/kenya_128.png",
         "flag_32": "flags/kenya_small.png",
         "long_name": "Republic of Kenya",
         "name": "Kenya"
@@ -674,7 +674,7 @@
     {
         "code2l": "KI",
         "code3l": "KIR",
-        "flag_128": "flags/kiribati_medium.png",
+        "flag_128": "flags/kiribati_128.png",
         "flag_32": "flags/kiribati_small.png",
         "long_name": "Republic of Kiribati",
         "name": "Kiribati"
@@ -682,7 +682,7 @@
     {
         "code2l": "KW",
         "code3l": "KWT",
-        "flag_128": "flags/kuwait_medium.png",
+        "flag_128": "flags/kuwait_128.png",
         "flag_32": "flags/kuwait_small.png",
         "long_name": "State of Kuwait",
         "name": "Kuwait"
@@ -690,7 +690,7 @@
     {
         "code2l": "KG",
         "code3l": "KGZ",
-        "flag_128": "flags/kyrgyzstan_medium.png",
+        "flag_128": "flags/kyrgyzstan_128.png",
         "flag_32": "flags/kyrgyzstan_small.png",
         "long_name": "Kyrgyz Republic",
         "name": "Kyrgyzstan"
@@ -698,7 +698,7 @@
     {
         "code2l": "LA",
         "code3l": "LAO",
-        "flag_128": "flags/lao_people_s_democratic_republic_medium.png",
+        "flag_128": "flags/lao_people_s_democratic_republic_128.png",
         "flag_32": "flags/lao_people_s_democratic_republic_small.png",
         "long_name": "Lao People's Democratic Republic",
         "name": "Lao People's Democratic Republic"
@@ -706,7 +706,7 @@
     {
         "code2l": "LV",
         "code3l": "LVA",
-        "flag_128": "flags/latvia_medium.png",
+        "flag_128": "flags/latvia_128.png",
         "flag_32": "flags/latvia_small.png",
         "long_name": "Republic of Latvia",
         "name": "Latvia"
@@ -714,7 +714,7 @@
     {
         "code2l": "LB",
         "code3l": "LBN",
-        "flag_128": "flags/lebanon_medium.png",
+        "flag_128": "flags/lebanon_128.png",
         "flag_32": "flags/lebanon_small.png",
         "long_name": "Lebanese Republic",
         "name": "Lebanon"
@@ -722,7 +722,7 @@
     {
         "code2l": "LS",
         "code3l": "LSO",
-        "flag_128": "flags/lesotho_medium.png",
+        "flag_128": "flags/lesotho_128.png",
         "flag_32": "flags/lesotho_small.png",
         "long_name": "Kingdom of Lesotho",
         "name": "Lesotho"
@@ -730,7 +730,7 @@
     {
         "code2l": "LR",
         "code3l": "LBR",
-        "flag_128": "flags/liberia_medium.png",
+        "flag_128": "flags/liberia_128.png",
         "flag_32": "flags/liberia_small.png",
         "long_name": "Republic of Liberia",
         "name": "Liberia"
@@ -738,7 +738,7 @@
     {
         "code2l": "LY",
         "code3l": "LBY",
-        "flag_128": "flags/libyan_arab_jamahiriya_medium.png",
+        "flag_128": "flags/libyan_arab_jamahiriya_128.png",
         "flag_32": "flags/libyan_arab_jamahiriya_small.png",
         "long_name": "Great Socialist People's Libyan Arab Jamahiriya",
         "name": "Libya"
@@ -746,7 +746,7 @@
     {
         "code2l": "LI",
         "code3l": "LIE",
-        "flag_128": "flags/liechtenstein_medium.png",
+        "flag_128": "flags/liechtenstein_128.png",
         "flag_32": "flags/liechtenstein_small.png",
         "long_name": "Principality of Liechtenstein",
         "name": "Liechtenstein"
@@ -754,7 +754,7 @@
     {
         "code2l": "LT",
         "code3l": "LTU",
-        "flag_128": "flags/lithuania_medium.png",
+        "flag_128": "flags/lithuania_128.png",
         "flag_32": "flags/lithuania_small.png",
         "long_name": "Republic of Lithuania",
         "name": "Lithuania"
@@ -762,7 +762,7 @@
     {
         "code2l": "LU",
         "code3l": "LUX",
-        "flag_128": "flags/luxembourg_medium.png",
+        "flag_128": "flags/luxembourg_128.png",
         "flag_32": "flags/luxembourg_small.png",
         "long_name": "Grand Duchy of Luxembourg",
         "name": "Luxembourg"
@@ -770,7 +770,7 @@
     {
         "code2l": "MG",
         "code3l": "MDG",
-        "flag_128": "flags/madagascar_medium.png",
+        "flag_128": "flags/madagascar_128.png",
         "flag_32": "flags/madagascar_small.png",
         "long_name": "Republic of Madagascar",
         "name": "Madagascar"
@@ -778,7 +778,7 @@
     {
         "code2l": "MW",
         "code3l": "MWI",
-        "flag_128": "flags/malawi_medium.png",
+        "flag_128": "flags/malawi_128.png",
         "flag_32": "flags/malawi_small.png",
         "long_name": "Republic of Malawi",
         "name": "Malawi"
@@ -786,7 +786,7 @@
     {
         "code2l": "MY",
         "code3l": "MYS",
-        "flag_128": "flags/malaysia_medium.png",
+        "flag_128": "flags/malaysia_128.png",
         "flag_32": "flags/malaysia_small.png",
         "long_name": "Malaysia",
         "name": "Malaysia"
@@ -794,7 +794,7 @@
     {
         "code2l": "MV",
         "code3l": "MDV",
-        "flag_128": "flags/maldives_medium.png",
+        "flag_128": "flags/maldives_128.png",
         "flag_32": "flags/maldives_small.png",
         "long_name": "Republic of Maldives",
         "name": "Maldives"
@@ -802,7 +802,7 @@
     {
         "code2l": "ML",
         "code3l": "MLI",
-        "flag_128": "flags/mali_medium.png",
+        "flag_128": "flags/mali_128.png",
         "flag_32": "flags/mali_small.png",
         "long_name": "Republic of Mali",
         "name": "Mali"
@@ -810,7 +810,7 @@
     {
         "code2l": "MT",
         "code3l": "MLT",
-        "flag_128": "flags/malta_medium.png",
+        "flag_128": "flags/malta_128.png",
         "flag_32": "flags/malta_small.png",
         "long_name": "Republic of Malta",
         "name": "Malta"
@@ -818,7 +818,7 @@
     {
         "code2l": "MH",
         "code3l": "MHL",
-        "flag_128": "flags/marshall_islands_medium.png",
+        "flag_128": "flags/marshall_islands_128.png",
         "flag_32": "flags/marshall_islands_small.png",
         "long_name": "Republic of the Marshall Islands",
         "name": "Marshall Islands"
@@ -826,7 +826,7 @@
     {
         "code2l": "MR",
         "code3l": "MRT",
-        "flag_128": "flags/mauritania_medium.png",
+        "flag_128": "flags/mauritania_128.png",
         "flag_32": "flags/mauritania_small.png",
         "long_name": "Islamic Republic of Mauritania",
         "name": "Mauritania"
@@ -834,7 +834,7 @@
     {
         "code2l": "MU",
         "code3l": "MUS",
-        "flag_128": "flags/mauritius_medium.png",
+        "flag_128": "flags/mauritius_128.png",
         "flag_32": "flags/mauritius_small.png",
         "long_name": "Republic of Mauritius",
         "name": "Mauritius"
@@ -842,7 +842,7 @@
     {
         "code2l": "MX",
         "code3l": "MEX",
-        "flag_128": "flags/mexico_medium.png",
+        "flag_128": "flags/mexico_128.png",
         "flag_32": "flags/mexico_small.png",
         "long_name": "United Mexican States",
         "name": "Mexico"
@@ -850,7 +850,7 @@
     {
         "code2l": "MC",
         "code3l": "MCO",
-        "flag_128": "flags/monaco_medium.png",
+        "flag_128": "flags/monaco_128.png",
         "flag_32": "flags/monaco_small.png",
         "long_name": "Principality of Monaco",
         "name": "Monaco"
@@ -858,7 +858,7 @@
     {
         "code2l": "MN",
         "code3l": "MNG",
-        "flag_128": "flags/mongolia_medium.png",
+        "flag_128": "flags/mongolia_128.png",
         "flag_32": "flags/mongolia_small.png",
         "long_name": "Mongolia",
         "name": "Mongolia"
@@ -866,7 +866,7 @@
     {
         "code2l": "ME",
         "code3l": "MNE",
-        "flag_128": "flags/montenegro_medium.png",
+        "flag_128": "flags/montenegro_128.png",
         "flag_32": "flags/montenegro_small.png",
         "long_name": "Montenegro",
         "name": "Montenegro"
@@ -874,7 +874,7 @@
     {
         "code2l": "MA",
         "code3l": "MAR",
-        "flag_128": "flags/morocco_medium.png",
+        "flag_128": "flags/morocco_128.png",
         "flag_32": "flags/morocco_small.png",
         "long_name": "Kingdom of Morocco",
         "name": "Morocco"
@@ -882,7 +882,7 @@
     {
         "code2l": "MZ",
         "code3l": "MOZ",
-        "flag_128": "flags/mozambique_medium.png",
+        "flag_128": "flags/mozambique_128.png",
         "flag_32": "flags/mozambique_small.png",
         "long_name": "Republic of Mozambique",
         "name": "Mozambique"
@@ -890,7 +890,7 @@
     {
         "code2l": "MM",
         "code3l": "MMR",
-        "flag_128": "flags/myanmar_medium.png",
+        "flag_128": "flags/myanmar_128.png",
         "flag_32": "flags/myanmar_small.png",
         "long_name": "Myanmar",
         "name": "Myanmar"
@@ -898,7 +898,7 @@
     {
         "code2l": "NA",
         "code3l": "NAM",
-        "flag_128": "flags/namibia_medium.png",
+        "flag_128": "flags/namibia_128.png",
         "flag_32": "flags/namibia_small.png",
         "long_name": "Republic of Namibia",
         "name": "Namibia"
@@ -906,7 +906,7 @@
     {
         "code2l": "NR",
         "code3l": "NRU",
-        "flag_128": "flags/nauru_medium.png",
+        "flag_128": "flags/nauru_128.png",
         "flag_32": "flags/nauru_small.png",
         "long_name": "Republic of Nauru",
         "name": "Nauru"
@@ -922,7 +922,7 @@
     {
         "code2l": "NL",
         "code3l": "NLD",
-        "flag_128": "flags/netherlands_medium.png",
+        "flag_128": "flags/netherlands_128.png",
         "flag_32": "flags/netherlands_small.png",
         "long_name": "Kingdom of the Netherlands",
         "name": "Netherlands"
@@ -930,7 +930,7 @@
     {
         "code2l": "NZ",
         "code3l": "NZL",
-        "flag_128": "flags/new_zealand_medium.png",
+        "flag_128": "flags/new_zealand_128.png",
         "flag_32": "flags/new_zealand_small.png",
         "long_name": "New Zealand",
         "name": "New Zealand"
@@ -938,7 +938,7 @@
     {
         "code2l": "NI",
         "code3l": "NIC",
-        "flag_128": "flags/nicaragua_medium.png",
+        "flag_128": "flags/nicaragua_128.png",
         "flag_32": "flags/nicaragua_small.png",
         "long_name": "Republic of Nicaragua",
         "name": "Nicaragua"
@@ -946,7 +946,7 @@
     {
         "code2l": "NE",
         "code3l": "NER",
-        "flag_128": "flags/niger_medium.png",
+        "flag_128": "flags/niger_128.png",
         "flag_32": "flags/niger_small.png",
         "long_name": "Republic of Niger",
         "name": "Niger"
@@ -954,7 +954,7 @@
     {
         "code2l": "NG",
         "code3l": "NGA",
-        "flag_128": "flags/nigeria_medium.png",
+        "flag_128": "flags/nigeria_128.png",
         "flag_32": "flags/nigeria_small.png",
         "long_name": "Federal Republic of Nigeria",
         "name": "Nigeria"
@@ -962,7 +962,7 @@
     {
         "code2l": "NO",
         "code3l": "NOR",
-        "flag_128": "flags/norway_medium.png",
+        "flag_128": "flags/norway_128.png",
         "flag_32": "flags/norway_small.png",
         "long_name": "Kingdom of Norway",
         "name": "Norway"
@@ -970,7 +970,7 @@
     {
         "code2l": "OM",
         "code3l": "OMN",
-        "flag_128": "flags/oman_medium.png",
+        "flag_128": "flags/oman_128.png",
         "flag_32": "flags/oman_small.png",
         "long_name": "Sultanate of Oman",
         "name": "Oman"
@@ -978,7 +978,7 @@
     {
         "code2l": "PK",
         "code3l": "PAK",
-        "flag_128": "flags/pakistan_medium.png",
+        "flag_128": "flags/pakistan_128.png",
         "flag_32": "flags/pakistan_small.png",
         "long_name": "Islamic Republic of Pakistan",
         "name": "Pakistan"
@@ -986,7 +986,7 @@
     {
         "code2l": "PW",
         "code3l": "PLW",
-        "flag_128": "flags/palau_medium.png",
+        "flag_128": "flags/palau_128.png",
         "flag_32": "flags/palau_small.png",
         "long_name": "Republic of Palau",
         "name": "Palau"
@@ -994,7 +994,7 @@
     {
         "code2l": "PA",
         "code3l": "PAN",
-        "flag_128": "flags/panama_medium.png",
+        "flag_128": "flags/panama_128.png",
         "flag_32": "flags/panama_small.png",
         "long_name": "Republic of Panama",
         "name": "Panama"
@@ -1002,7 +1002,7 @@
     {
         "code2l": "PG",
         "code3l": "PNG",
-        "flag_128": "flags/papua_new_guinea_medium.png",
+        "flag_128": "flags/papua_new_guinea_128.png",
         "flag_32": "flags/papua_new_guinea_small.png",
         "long_name": "Independent State of Papua New Guinea",
         "name": "Papua New Guinea"
@@ -1010,7 +1010,7 @@
     {
         "code2l": "PY",
         "code3l": "PRY",
-        "flag_128": "flags/paraguay_medium.png",
+        "flag_128": "flags/paraguay_128.png",
         "flag_32": "flags/paraguay_small.png",
         "long_name": "Republic of Paraguay",
         "name": "Paraguay"
@@ -1018,7 +1018,7 @@
     {
         "code2l": "PE",
         "code3l": "PER",
-        "flag_128": "flags/peru_medium.png",
+        "flag_128": "flags/peru_128.png",
         "flag_32": "flags/peru_small.png",
         "long_name": "Republic of Peru",
         "name": "Peru"
@@ -1026,7 +1026,7 @@
     {
         "code2l": "PH",
         "code3l": "PHL",
-        "flag_128": "flags/philippines_medium.png",
+        "flag_128": "flags/philippines_128.png",
         "flag_32": "flags/philippines_small.png",
         "long_name": "Republic of the Philippines",
         "name": "Philippines"
@@ -1034,7 +1034,7 @@
     {
         "code2l": "PL",
         "code3l": "POL",
-        "flag_128": "flags/poland_medium.png",
+        "flag_128": "flags/poland_128.png",
         "flag_32": "flags/poland_small.png",
         "long_name": "Republic of Poland",
         "name": "Poland"
@@ -1042,7 +1042,7 @@
     {
         "code2l": "PT",
         "code3l": "PRT",
-        "flag_128": "flags/portugal_medium.png",
+        "flag_128": "flags/portugal_128.png",
         "flag_32": "flags/portugal_small.png",
         "long_name": "Portuguese Republic",
         "name": "Portugal"
@@ -1050,7 +1050,7 @@
     {
         "code2l": "QA",
         "code3l": "QAT",
-        "flag_128": "flags/qatar_medium.png",
+        "flag_128": "flags/qatar_128.png",
         "flag_32": "flags/qatar_small.png",
         "long_name": "State of Qatar",
         "name": "Qatar"
@@ -1058,7 +1058,7 @@
     {
         "code2l": "RO",
         "code3l": "ROU",
-        "flag_128": "flags/romania_medium.png",
+        "flag_128": "flags/romania_128.png",
         "flag_32": "flags/romania_small.png",
         "long_name": "Romania",
         "name": "Romania"
@@ -1066,7 +1066,7 @@
     {
         "code2l": "RU",
         "code3l": "RUS",
-        "flag_128": "flags/russian_federation_medium.png",
+        "flag_128": "flags/russian_federation_128.png",
         "flag_32": "flags/russian_federation_small.png",
         "long_name": "Russian Federation",
         "name": "Russian Federation"
@@ -1074,7 +1074,7 @@
     {
         "code2l": "RW",
         "code3l": "RWA",
-        "flag_128": "flags/rwanda_medium.png",
+        "flag_128": "flags/rwanda_128.png",
         "flag_32": "flags/rwanda_small.png",
         "long_name": "Republic of Rwanda",
         "name": "Rwanda"
@@ -1082,7 +1082,7 @@
     {
         "code2l": "KN",
         "code3l": "KNA",
-        "flag_128": "flags/saint_kitts_and_nevis_medium.png",
+        "flag_128": "flags/saint_kitts_and_nevis_128.png",
         "flag_32": "flags/saint_kitts_and_nevis_small.png",
         "long_name": "Federation of Saint Christopher and Nevis",
         "name": "Saint Kitts and Nevis"
@@ -1090,7 +1090,7 @@
     {
         "code2l": "LC",
         "code3l": "LCA",
-        "flag_128": "flags/saint_lucia_medium.png",
+        "flag_128": "flags/saint_lucia_128.png",
         "flag_32": "flags/saint_lucia_small.png",
         "long_name": "Saint Lucia",
         "name": "Saint Lucia"
@@ -1098,7 +1098,7 @@
     {
         "code2l": "VC",
         "code3l": "VCT",
-        "flag_128": "flags/saint_vincent_and_the_grenadines_medium.png",
+        "flag_128": "flags/saint_vincent_and_the_grenadines_128.png",
         "flag_32": "flags/saint_vincent_and_the_grenadines_small.png",
         "long_name": "Saint Vincent and the Grenadines",
         "name": "Saint Vincent and the Grenadines"
@@ -1106,7 +1106,7 @@
     {
         "code2l": "WS",
         "code3l": "WSM",
-        "flag_128": "flags/samoa_medium.png",
+        "flag_128": "flags/samoa_128.png",
         "flag_32": "flags/samoa_small.png",
         "long_name": "Independent State of Samoa",
         "name": "Samoa"
@@ -1114,7 +1114,7 @@
     {
         "code2l": "SM",
         "code3l": "SMR",
-        "flag_128": "flags/san_marino_medium.png",
+        "flag_128": "flags/san_marino_128.png",
         "flag_32": "flags/san_marino_small.png",
         "long_name": "Republic of San Marino",
         "name": "San Marino"
@@ -1122,7 +1122,7 @@
     {
         "code2l": "ST",
         "code3l": "STP",
-        "flag_128": "flags/sao_tome_and_principe_medium.png",
+        "flag_128": "flags/sao_tome_and_principe_128.png",
         "flag_32": "flags/sao_tome_and_principe_small.png",
         "long_name": "Democratic Republic of S\u00e3o Tom\u00e9 and Pr\u00edncipe",
         "name": "Sao Tome and Principe"
@@ -1130,7 +1130,7 @@
     {
         "code2l": "SA",
         "code3l": "SAU",
-        "flag_128": "flags/saudi_arabia_medium.png",
+        "flag_128": "flags/saudi_arabia_128.png",
         "flag_32": "flags/saudi_arabia_small.png",
         "long_name": "Kingdom of Saudi Arabia",
         "name": "Saudi Arabia"
@@ -1138,7 +1138,7 @@
     {
         "code2l": "SN",
         "code3l": "SEN",
-        "flag_128": "flags/senegal_medium.png",
+        "flag_128": "flags/senegal_128.png",
         "flag_32": "flags/senegal_small.png",
         "long_name": "Republic of Senegal",
         "name": "Senegal"
@@ -1146,7 +1146,7 @@
     {
         "code2l": "RS",
         "code3l": "SRB",
-        "flag_128": "flags/serbia_medium.png",
+        "flag_128": "flags/serbia_128.png",
         "flag_32": "flags/serbia_small.png",
         "long_name": "Republic of Serbia",
         "name": "Serbia"
@@ -1154,7 +1154,7 @@
     {
         "code2l": "SC",
         "code3l": "SYC",
-        "flag_128": "flags/seychelles_medium.png",
+        "flag_128": "flags/seychelles_128.png",
         "flag_32": "flags/seychelles_small.png",
         "long_name": "Republic of Seychelles",
         "name": "Seychelles"
@@ -1162,7 +1162,7 @@
     {
         "code2l": "SL",
         "code3l": "SLE",
-        "flag_128": "flags/sierra_leone_medium.png",
+        "flag_128": "flags/sierra_leone_128.png",
         "flag_32": "flags/sierra_leone_small.png",
         "long_name": "Republic of Sierra Leone",
         "name": "Sierra Leone"
@@ -1170,7 +1170,7 @@
     {
         "code2l": "SG",
         "code3l": "SGP",
-        "flag_128": "flags/singapore_medium.png",
+        "flag_128": "flags/singapore_128.png",
         "flag_32": "flags/singapore_small.png",
         "long_name": "Republic of Singapore",
         "name": "Singapore"
@@ -1178,7 +1178,7 @@
     {
         "code2l": "SK",
         "code3l": "SVK",
-        "flag_128": "flags/slovakia_medium.png",
+        "flag_128": "flags/slovakia_128.png",
         "flag_32": "flags/slovakia_small.png",
         "long_name": "Slovak Republic",
         "name": "Slovakia"
@@ -1186,7 +1186,7 @@
     {
         "code2l": "SI",
         "code3l": "SVN",
-        "flag_128": "flags/slovenia_medium.png",
+        "flag_128": "flags/slovenia_128.png",
         "flag_32": "flags/slovenia_small.png",
         "long_name": "Republic of Slovenia",
         "name": "Slovenia"
@@ -1194,7 +1194,7 @@
     {
         "code2l": "SB",
         "code3l": "SLB",
-        "flag_128": "flags/solomon_islands_medium.png",
+        "flag_128": "flags/solomon_islands_128.png",
         "flag_32": "flags/solomon_islands_small.png",
         "long_name": "Solomon Islands",
         "name": "Solomon Islands"
@@ -1202,7 +1202,7 @@
     {
         "code2l": "SO",
         "code3l": "SOM",
-        "flag_128": "flags/somalia_medium.png",
+        "flag_128": "flags/somalia_128.png",
         "flag_32": "flags/somalia_small.png",
         "long_name": "Republic of Somalia",
         "name": "Somalia"
@@ -1210,7 +1210,7 @@
     {
         "code2l": "ZA",
         "code3l": "ZAF",
-        "flag_128": "flags/south_africa_medium.png",
+        "flag_128": "flags/south_africa_128.png",
         "flag_32": "flags/south_africa_small.png",
         "long_name": "Republic of South Africa",
         "name": "South Africa"
@@ -1218,7 +1218,7 @@
     {
         "code2l": "ES",
         "code3l": "ESP",
-        "flag_128": "flags/spain_medium.png",
+        "flag_128": "flags/spain_128.png",
         "flag_32": "flags/spain_small.png",
         "long_name": "Kingdom of Spain",
         "name": "Spain"
@@ -1226,7 +1226,7 @@
     {
         "code2l": "LK",
         "code3l": "LKA",
-        "flag_128": "flags/sri_lanka_medium.png",
+        "flag_128": "flags/sri_lanka_128.png",
         "flag_32": "flags/sri_lanka_small.png",
         "long_name": "Democratic Socialist Republic of Sri Lanka",
         "name": "Sri Lanka"
@@ -1234,7 +1234,7 @@
     {
         "code2l": "SD",
         "code3l": "SDN",
-        "flag_128": "flags/sudan_medium.png",
+        "flag_128": "flags/sudan_128.png",
         "flag_32": "flags/sudan_small.png",
         "long_name": "Republic of the Sudan",
         "name": "Sudan"
@@ -1242,7 +1242,7 @@
     {
         "code2l": "SR",
         "code3l": "SUR",
-        "flag_128": "flags/suriname_medium.png",
+        "flag_128": "flags/suriname_128.png",
         "flag_32": "flags/suriname_small.png",
         "long_name": "Republic of Suriname",
         "name": "Suriname"
@@ -1250,7 +1250,7 @@
     {
         "code2l": "SZ",
         "code3l": "SWZ",
-        "flag_128": "flags/swaziland_medium.png",
+        "flag_128": "flags/swaziland_128.png",
         "flag_32": "flags/swaziland_small.png",
         "long_name": "Kingdom of Swaziland",
         "name": "Swaziland"
@@ -1258,7 +1258,7 @@
     {
         "code2l": "SE",
         "code3l": "SWE",
-        "flag_128": "flags/sweden_medium.png",
+        "flag_128": "flags/sweden_128.png",
         "flag_32": "flags/sweden_small.png",
         "long_name": "Kingdom of Sweden",
         "name": "Sweden"
@@ -1274,7 +1274,7 @@
     {
         "code2l": "SY",
         "code3l": "SYR",
-        "flag_128": "flags/syrian_arab_republic_medium.png",
+        "flag_128": "flags/syrian_arab_republic_128.png",
         "flag_32": "flags/syrian_arab_republic_small.png",
         "long_name": "Syrian Arab Republic",
         "name": "Syrian Arab Republic"
@@ -1282,7 +1282,7 @@
     {
         "code2l": "TJ",
         "code3l": "TJK",
-        "flag_128": "flags/tajikistan_medium.png",
+        "flag_128": "flags/tajikistan_128.png",
         "flag_32": "flags/tajikistan_small.png",
         "long_name": "Republic of Tajikistan",
         "name": "Tajikistan"
@@ -1290,7 +1290,7 @@
     {
         "code2l": "TH",
         "code3l": "THA",
-        "flag_128": "flags/thailand_medium.png",
+        "flag_128": "flags/thailand_128.png",
         "flag_32": "flags/thailand_small.png",
         "long_name": "Kingdom of Thailand",
         "name": "Thailand"
@@ -1298,7 +1298,7 @@
     {
         "code2l": "TL",
         "code3l": "TLS",
-        "flag_128": "flags/timor-leste_medium.png",
+        "flag_128": "flags/timor-leste_128.png",
         "flag_32": "flags/timor-leste_small.png",
         "long_name": "Timor-Leste",
         "name": "Timor-Leste"
@@ -1306,7 +1306,7 @@
     {
         "code2l": "TG",
         "code3l": "TGO",
-        "flag_128": "flags/togo_medium.png",
+        "flag_128": "flags/togo_128.png",
         "flag_32": "flags/togo_small.png",
         "long_name": "Togolese Republic",
         "name": "Togo"
@@ -1314,7 +1314,7 @@
     {
         "code2l": "TO",
         "code3l": "TON",
-        "flag_128": "flags/tonga_medium.png",
+        "flag_128": "flags/tonga_128.png",
         "flag_32": "flags/tonga_small.png",
         "long_name": "Kingdom of Tonga",
         "name": "Tonga"
@@ -1322,7 +1322,7 @@
     {
         "code2l": "TT",
         "code3l": "TTO",
-        "flag_128": "flags/trinidad_and_tobago_medium.png",
+        "flag_128": "flags/trinidad_and_tobago_128.png",
         "flag_32": "flags/trinidad_and_tobago_small.png",
         "long_name": "Republic of Trinidad and Tobago",
         "name": "Trinidad and Tobago"
@@ -1330,7 +1330,7 @@
     {
         "code2l": "TN",
         "code3l": "TUN",
-        "flag_128": "flags/tunisia_medium.png",
+        "flag_128": "flags/tunisia_128.png",
         "flag_32": "flags/tunisia_small.png",
         "long_name": "Republic of Tunisia",
         "name": "Tunisia"
@@ -1338,7 +1338,7 @@
     {
         "code2l": "TR",
         "code3l": "TUR",
-        "flag_128": "flags/turkey_medium.png",
+        "flag_128": "flags/turkey_128.png",
         "flag_32": "flags/turkey_small.png",
         "long_name": "Republic of Turkey",
         "name": "Turkey"
@@ -1346,7 +1346,7 @@
     {
         "code2l": "TM",
         "code3l": "TKM",
-        "flag_128": "flags/turkmenistan_medium.png",
+        "flag_128": "flags/turkmenistan_128.png",
         "flag_32": "flags/turkmenistan_small.png",
         "long_name": "Turkmenistan",
         "name": "Turkmenistan"
@@ -1354,7 +1354,7 @@
     {
         "code2l": "TV",
         "code3l": "TUV",
-        "flag_128": "flags/tuvalu_medium.png",
+        "flag_128": "flags/tuvalu_128.png",
         "flag_32": "flags/tuvalu_small.png",
         "long_name": "Tuvalu",
         "name": "Tuvalu"
@@ -1362,7 +1362,7 @@
     {
         "code2l": "UG",
         "code3l": "UGA",
-        "flag_128": "flags/uganda_medium.png",
+        "flag_128": "flags/uganda_128.png",
         "flag_32": "flags/uganda_small.png",
         "long_name": "Republic of Uganda",
         "name": "Uganda"
@@ -1370,7 +1370,7 @@
     {
         "code2l": "UA",
         "code3l": "UKR",
-        "flag_128": "flags/ukraine_medium.png",
+        "flag_128": "flags/ukraine_128.png",
         "flag_32": "flags/ukraine_small.png",
         "long_name": "Ukraine",
         "name": "Ukraine"
@@ -1378,7 +1378,7 @@
     {
         "code2l": "AE",
         "code3l": "ARE",
-        "flag_128": "flags/united_arab_emirates_medium.png",
+        "flag_128": "flags/united_arab_emirates_128.png",
         "flag_32": "flags/united_arab_emirates_small.png",
         "long_name": "United Arab Emirates",
         "name": "United Arab Emirates"
@@ -1386,7 +1386,7 @@
     {
         "code2l": "UY",
         "code3l": "URY",
-        "flag_128": "flags/uruguay_medium.png",
+        "flag_128": "flags/uruguay_128.png",
         "flag_32": "flags/uruguay_small.png",
         "long_name": "Eastern Republic of Uruguay",
         "name": "Uruguay"
@@ -1394,7 +1394,7 @@
     {
         "code2l": "UZ",
         "code3l": "UZB",
-        "flag_128": "flags/uzbekistan_medium.png",
+        "flag_128": "flags/uzbekistan_128.png",
         "flag_32": "flags/uzbekistan_small.png",
         "long_name": "Republic of Uzbekistan",
         "name": "Uzbekistan"
@@ -1402,7 +1402,7 @@
     {
         "code2l": "VU",
         "code3l": "VUT",
-        "flag_128": "flags/vanuatu_medium.png",
+        "flag_128": "flags/vanuatu_128.png",
         "flag_32": "flags/vanuatu_small.png",
         "long_name": "Republic of Vanuatu",
         "name": "Vanuatu"
@@ -1410,7 +1410,7 @@
     {
         "code2l": "VN",
         "code3l": "VNM",
-        "flag_128": "flags/viet_nam_medium.png",
+        "flag_128": "flags/viet_nam_128.png",
         "flag_32": "flags/viet_nam_small.png",
         "long_name": "Socialist Republic of Vietnam",
         "name": "Viet Nam"
@@ -1418,7 +1418,7 @@
     {
         "code2l": "YE",
         "code3l": "YEM",
-        "flag_128": "flags/yemen_medium.png",
+        "flag_128": "flags/yemen_128.png",
         "flag_32": "flags/yemen_small.png",
         "long_name": "Republic of Yemen",
         "name": "Yemen"
@@ -1426,7 +1426,7 @@
     {
         "code2l": "ZM",
         "code3l": "ZMB",
-        "flag_128": "flags/zambia_medium.png",
+        "flag_128": "flags/zambia_128.png",
         "flag_32": "flags/zambia_small.png",
         "long_name": "Republic of Zambia",
         "name": "Zambia"
@@ -1434,7 +1434,7 @@
     {
         "code2l": "ZW",
         "code3l": "ZWE",
-        "flag_128": "flags/zimbabwe_medium.png",
+        "flag_128": "flags/zimbabwe_128.png",
         "flag_32": "flags/zimbabwe_small.png",
         "long_name": "Republic of Zimbabwe",
         "name": "Zimbabwe"
@@ -1442,7 +1442,7 @@
     {
         "code2l": "CK",
         "code3l": "COK",
-        "flag_128": "flags/cook_medium.png",
+        "flag_128": "flags/cook_128.png",
         "flag_32": "flags/cook_small.png",
         "long_name": "Cook Islands",
         "name": "Cook Islands"
@@ -1450,7 +1450,7 @@
     {
         "code2l": "BO",
         "code3l": "BOL",
-        "flag_128": "flags/bolivia_medium.png",
+        "flag_128": "flags/bolivia_128.png",
         "flag_32": "flags/bolivia_small.png",
         "long_name": "Plurinational State of Bolivia",
         "name": "Bolivia"
@@ -1458,7 +1458,7 @@
     {
         "code2l": "CD",
         "code3l": "ZAR",
-        "flag_128": "flags/congo_medium.png",
+        "flag_128": "flags/congo_128.png",
         "flag_32": "flags/congo_small.png",
         "long_name": "Congo, Democratic Republic of the",
         "name": "Democratic Republic of the Congo"
@@ -1466,7 +1466,7 @@
     {
         "code2l": "EU",
         "code3l": "EUR",
-        "flag_128": "flags/eu_medium.png",
+        "flag_128": "flags/eu_128.png",
         "flag_32": "flags/eu_small.png",
         "long_name": "European Union",
         "name": "European Union"
@@ -1474,7 +1474,7 @@
     {
         "code2l": "FM",
         "code3l": "FSM",
-        "flag_128": "flags/micronesia_medium.png",
+        "flag_128": "flags/micronesia_128.png",
         "flag_32": "flags/micronesia_small.png",
         "long_name": "Micronesia, Federated States of",
         "name": "Micronesia"
@@ -1482,7 +1482,7 @@
     {
         "code2l": "GB",
         "code3l": "GBR",
-        "flag_128": "flags/gb_medium.png",
+        "flag_128": "flags/gb_128.png",
         "flag_32": "flags/gb_small.png",
         "long_name": "United Kingdom of Great Britain and Northern Ireland",
         "name": "Great Britain"
@@ -1490,7 +1490,7 @@
     {
         "code2l": "IR",
         "code3l": "IRN",
-        "flag_128": "flags/iran_medium.png",
+        "flag_128": "flags/iran_128.png",
         "flag_32": "flags/iran_small.png",
         "long_name": "Islamic Republic of Iran",
         "name": "Iran"
@@ -1498,7 +1498,7 @@
     {
         "code2l": "KP",
         "code3l": "PRK",
-        "flag_128": "flags/north_korea_medium.png",
+        "flag_128": "flags/north_korea_128.png",
         "flag_32": "flags/north_korea_small.png",
         "long_name": "Democratic People's Republic of Korea",
         "name": "Democratic People's Republic of Korea"
@@ -1506,7 +1506,7 @@
     {
         "code2l": "KR",
         "code3l": "KOR",
-        "flag_128": "flags/korea_medium.png",
+        "flag_128": "flags/korea_128.png",
         "flag_32": "flags/korea_small.png",
         "long_name": "Republic of Korea",
         "name": "Republic of Korea"
@@ -1514,7 +1514,7 @@
     {
         "code2l": "MD",
         "code3l": "MDA",
-        "flag_128": "flags/moldova_medium.png",
+        "flag_128": "flags/moldova_128.png",
         "flag_32": "flags/moldova_small.png",
         "long_name": "Republic of Moldova",
         "name": "Moldova"
@@ -1522,7 +1522,7 @@
     {
         "code2l": "MK",
         "code3l": "MKD",
-        "flag_128": "flags/macedonia_medium.png",
+        "flag_128": "flags/macedonia_128.png",
         "flag_32": "flags/macedonia_small.png",
         "long_name": "Republic of Macedonia",
         "name": "Macedonia"
@@ -1530,7 +1530,7 @@
     {
         "code2l": "NU",
         "code3l": "NIU",
-        "flag_128": "flags/niue_medium.png",
+        "flag_128": "flags/niue_128.png",
         "flag_32": "flags/niue_small.png",
         "long_name": "Niue",
         "name": "Niue"
@@ -1538,7 +1538,7 @@
     {
         "code2l": "TZ",
         "code3l": "TZA",
-        "flag_128": "flags/tanzania_medium.png",
+        "flag_128": "flags/tanzania_128.png",
         "flag_32": "flags/tanzania_small.png",
         "long_name": "United Republic of Tanzania",
         "name": "Tanzania"
@@ -1546,7 +1546,7 @@
     {
         "code2l": "VE",
         "code3l": "VEN",
-        "flag_128": "flags/venezuela_medium.png",
+        "flag_128": "flags/venezuela_128.png",
         "flag_32": "flags/venezuela_small.png",
         "long_name": "Bolivarian Republic of Venezuela",
         "name": "Venezuela"
@@ -1554,7 +1554,7 @@
     {
         "code2l": "AI",
         "code3l": "AIA",
-        "flag_128": "flags/anguilla_medium.png",
+        "flag_128": "flags/anguilla_128.png",
         "flag_32": "flags/anguilla_small.png",
         "long_name": "Anguilla",
         "name": "Anguilla"
@@ -1562,7 +1562,7 @@
     {
         "code2l": "AQ",
         "code3l": "ATA",
-        "flag_128": "flags/antarctica_medium.png",
+        "flag_128": "flags/antarctica_128.png",
         "flag_32": "flags/antarctica_small.png",
         "long_name": "Antarctica",
         "name": "Antarctica"
@@ -1570,7 +1570,7 @@
     {
         "code2l": "AS",
         "code3l": "ASM",
-        "flag_128": "flags/american_samoa_medium.png",
+        "flag_128": "flags/american_samoa_128.png",
         "flag_32": "flags/american_samoa_small.png",
         "long_name": "American Samoa",
         "name": "American Samoa"
@@ -1578,7 +1578,7 @@
     {
         "code2l": "AW",
         "code3l": "ABW",
-        "flag_128": "flags/aruba_medium.png",
+        "flag_128": "flags/aruba_128.png",
         "flag_32": "flags/aruba_small.png",
         "long_name": "Aruba",
         "name": "Aruba"
@@ -1586,7 +1586,7 @@
     {
         "code2l": "AX",
         "code3l": "ALA",
-        "flag_128": "flags/aland_islands_medium.png",
+        "flag_128": "flags/aland_islands_128.png",
         "flag_32": "flags/aland_islands_small.png",
         "long_name": "\u00c5land Islands",
         "name": "\u00c5land Islands"
@@ -1594,7 +1594,7 @@
     {
         "code2l": "BL",
         "code3l": "BLM",
-        "flag_128": "flags/saint_barthelemy_medium.png",
+        "flag_128": "flags/saint_barthelemy_128.png",
         "flag_32": "flags/saint_barthelemy_small.png",
         "long_name": "Saint Barth\u00e9lemy",
         "name": "Saint Barth\u00e9lemy"
@@ -1602,7 +1602,7 @@
     {
         "code2l": "BM",
         "code3l": "BMU",
-        "flag_128": "flags/bermuda_medium.png",
+        "flag_128": "flags/bermuda_128.png",
         "flag_32": "flags/bermuda_small.png",
         "long_name": "Bermuda",
         "name": "Bermuda"
@@ -1610,7 +1610,7 @@
     {
         "code2l": "BQ",
         "code3l": "BES",
-        "flag_128": "flags/bonaire_saint_eustatius_and_saba_medium.png",
+        "flag_128": "flags/bonaire_saint_eustatius_and_saba_128.png",
         "flag_32": "flags/bonaire_saint_eustatius_and_saba_small.png",
         "long_name": "Bonaire, Saint Eustatius And Saba",
         "name": "Bonaire, Saint Eustatius And Saba"
@@ -1618,7 +1618,7 @@
     {
         "code2l": "BV",
         "code3l": "BVT",
-        "flag_128": "flags/bouvet_island_medium.png",
+        "flag_128": "flags/bouvet_island_128.png",
         "flag_32": "flags/bouvet_island_small.png",
         "long_name": "Bouvet Island",
         "name": "Bouvet Island"
@@ -1626,7 +1626,7 @@
     {
         "code2l": "CC",
         "code3l": "CCK",
-        "flag_128": "flags/cocos_keeling_islands_medium.png",
+        "flag_128": "flags/cocos_keeling_islands_128.png",
         "flag_32": "flags/cocos_keeling_islands_small.png",
         "long_name": "Cocos (Keeling) Islands",
         "name": "Cocos (keeling) Islands"
@@ -1634,7 +1634,7 @@
     {
         "code2l": "CW",
         "code3l": "CUW",
-        "flag_128": "flags/curacao_medium.png",
+        "flag_128": "flags/curacao_128.png",
         "flag_32": "flags/curacao_small.png",
         "long_name": "Cura\u00e7ao",
         "name": "Cura\u00e7ao"
@@ -1642,7 +1642,7 @@
     {
         "code2l": "CX",
         "code3l": "CXR",
-        "flag_128": "flags/christmas_island_medium.png",
+        "flag_128": "flags/christmas_island_128.png",
         "flag_32": "flags/christmas_island_small.png",
         "long_name": "Christmas Island",
         "name": "Christmas Island"
@@ -1650,7 +1650,7 @@
     {
         "code2l": "EH",
         "code3l": "ESH",
-        "flag_128": "flags/western_sahara_medium.png",
+        "flag_128": "flags/western_sahara_128.png",
         "flag_32": "flags/western_sahara_small.png",
         "long_name": "Western Sahara",
         "name": "Western Sahara"
@@ -1658,7 +1658,7 @@
     {
         "code2l": "FK",
         "code3l": "FLK",
-        "flag_128": "flags/falkland_islands_malvinas_medium.png",
+        "flag_128": "flags/falkland_islands_malvinas_128.png",
         "flag_32": "flags/falkland_islands_malvinas_small.png",
         "long_name": "Falkland Islands (Malvinas)",
         "name": "Falkland Islands (malvinas)"
@@ -1666,7 +1666,7 @@
     {
         "code2l": "FO",
         "code3l": "FRO",
-        "flag_128": "flags/faroe_islands_medium.png",
+        "flag_128": "flags/faroe_islands_128.png",
         "flag_32": "flags/faroe_islands_small.png",
         "long_name": "Faroe Islands",
         "name": "Faroe Islands"
@@ -1674,7 +1674,7 @@
     {
         "code2l": "GF",
         "code3l": "GUF",
-        "flag_128": "flags/french_guiana_medium.png",
+        "flag_128": "flags/french_guiana_128.png",
         "flag_32": "flags/french_guiana_small.png",
         "long_name": "French Guiana",
         "name": "French Guiana"
@@ -1682,7 +1682,7 @@
     {
         "code2l": "GG",
         "code3l": "GGY",
-        "flag_128": "flags/guernsey_medium.png",
+        "flag_128": "flags/guernsey_128.png",
         "flag_32": "flags/guernsey_small.png",
         "long_name": "Guernsey",
         "name": "Guernsey"
@@ -1690,7 +1690,7 @@
     {
         "code2l": "GI",
         "code3l": "GIB",
-        "flag_128": "flags/gibraltar_medium.png",
+        "flag_128": "flags/gibraltar_128.png",
         "flag_32": "flags/gibraltar_small.png",
         "long_name": "Gibraltar",
         "name": "Gibraltar"
@@ -1698,7 +1698,7 @@
     {
         "code2l": "GL",
         "code3l": "GRL",
-        "flag_128": "flags/greenland_medium.png",
+        "flag_128": "flags/greenland_128.png",
         "flag_32": "flags/greenland_small.png",
         "long_name": "Greenland",
         "name": "Greenland"
@@ -1706,7 +1706,7 @@
     {
         "code2l": "GP",
         "code3l": "GLP",
-        "flag_128": "flags/guadeloupe_medium.png",
+        "flag_128": "flags/guadeloupe_128.png",
         "flag_32": "flags/guadeloupe_small.png",
         "long_name": "Guadeloupe",
         "name": "Guadeloupe"
@@ -1714,7 +1714,7 @@
     {
         "code2l": "GS",
         "code3l": "SGS",
-        "flag_128": "flags/south_georgia_and_the_south_sandwich_islands_medium.png",
+        "flag_128": "flags/south_georgia_and_the_south_sandwich_islands_128.png",
         "flag_32": "flags/south_georgia_and_the_south_sandwich_islands_small.png",
         "long_name": "South Georgia And The South Sandwich Islands",
         "name": "South Georgia And The South Sandwich Islands"
@@ -1722,7 +1722,7 @@
     {
         "code2l": "GU",
         "code3l": "GUM",
-        "flag_128": "flags/guam_medium.png",
+        "flag_128": "flags/guam_128.png",
         "flag_32": "flags/guam_small.png",
         "long_name": "Guam",
         "name": "Guam"
@@ -1730,7 +1730,7 @@
     {
         "code2l": "HK",
         "code3l": "HKG",
-        "flag_128": "flags/hong_kong_medium.png",
+        "flag_128": "flags/hong_kong_128.png",
         "flag_32": "flags/hong_kong_small.png",
         "long_name": "Hong Kong",
         "name": "Hong Kong"
@@ -1738,7 +1738,7 @@
     {
         "code2l": "HM",
         "code3l": "HMD",
-        "flag_128": "flags/heard_island_and_mcdonald_islands_medium.png",
+        "flag_128": "flags/heard_island_and_mcdonald_islands_128.png",
         "flag_32": "flags/heard_island_and_mcdonald_islands_small.png",
         "long_name": "Heard Island And Mcdonald Islands",
         "name": "Heard Island And Mcdonald Islands"
@@ -1746,7 +1746,7 @@
     {
         "code2l": "IM",
         "code3l": "IMN",
-        "flag_128": "flags/isle_of_man_medium.png",
+        "flag_128": "flags/isle_of_man_128.png",
         "flag_32": "flags/isle_of_man_small.png",
         "long_name": "Isle Of Man",
         "name": "Isle Of Man"
@@ -1754,7 +1754,7 @@
     {
         "code2l": "IO",
         "code3l": "IOT",
-        "flag_128": "flags/british_indian_ocean_territory_medium.png",
+        "flag_128": "flags/british_indian_ocean_territory_128.png",
         "flag_32": "flags/british_indian_ocean_territory_small.png",
         "long_name": "British Indian Ocean Territory",
         "name": "British Indian Ocean Territory"
@@ -1762,7 +1762,7 @@
     {
         "code2l": "JE",
         "code3l": "JEY",
-        "flag_128": "flags/jersey_medium.png",
+        "flag_128": "flags/jersey_128.png",
         "flag_32": "flags/jersey_small.png",
         "long_name": "Jersey",
         "name": "Jersey"
@@ -1770,7 +1770,7 @@
     {
         "code2l": "KY",
         "code3l": "CYM",
-        "flag_128": "flags/cayman_islands_medium.png",
+        "flag_128": "flags/cayman_islands_128.png",
         "flag_32": "flags/cayman_islands_small.png",
         "long_name": "Cayman Islands",
         "name": "Cayman Islands"
@@ -1778,7 +1778,7 @@
     {
         "code2l": "MF",
         "code3l": "MAF",
-        "flag_128": "flags/saint_martin_french_part_medium.png",
+        "flag_128": "flags/saint_martin_french_part_128.png",
         "flag_32": "flags/saint_martin_french_part_small.png",
         "long_name": "Saint Martin (french Part)",
         "name": "Saint Martin (french Part)"
@@ -1786,7 +1786,7 @@
     {
         "code2l": "MO",
         "code3l": "MAC",
-        "flag_128": "flags/macao_medium.png",
+        "flag_128": "flags/macao_128.png",
         "flag_32": "flags/macao_small.png",
         "long_name": "Macao",
         "name": "Macao"
@@ -1794,7 +1794,7 @@
     {
         "code2l": "MP",
         "code3l": "MNP",
-        "flag_128": "flags/northern_mariana_islands_medium.png",
+        "flag_128": "flags/northern_mariana_islands_128.png",
         "flag_32": "flags/northern_mariana_islands_small.png",
         "long_name": "Northern Mariana Islands",
         "name": "Northern Mariana Islands"
@@ -1802,7 +1802,7 @@
     {
         "code2l": "MQ",
         "code3l": "MTQ",
-        "flag_128": "flags/martinique_medium.png",
+        "flag_128": "flags/martinique_128.png",
         "flag_32": "flags/martinique_small.png",
         "long_name": "Martinique",
         "name": "Martinique"
@@ -1810,7 +1810,7 @@
     {
         "code2l": "MS",
         "code3l": "MSR",
-        "flag_128": "flags/montserrat_medium.png",
+        "flag_128": "flags/montserrat_128.png",
         "flag_32": "flags/montserrat_small.png",
         "long_name": "Montserrat",
         "name": "Montserrat"
@@ -1818,7 +1818,7 @@
     {
         "code2l": "NC",
         "code3l": "NCL",
-        "flag_128": "flags/new_caledonia_medium.png",
+        "flag_128": "flags/new_caledonia_128.png",
         "flag_32": "flags/new_caledonia_small.png",
         "long_name": "New Caledonia",
         "name": "New Caledonia"
@@ -1826,7 +1826,7 @@
     {
         "code2l": "NF",
         "code3l": "NFK",
-        "flag_128": "flags/norfolk_island_medium.png",
+        "flag_128": "flags/norfolk_island_128.png",
         "flag_32": "flags/norfolk_island_small.png",
         "long_name": "Norfolk Island",
         "name": "Norfolk Island"
@@ -1834,7 +1834,7 @@
     {
         "code2l": "PF",
         "code3l": "PYF",
-        "flag_128": "flags/french_polynesia_medium.png",
+        "flag_128": "flags/french_polynesia_128.png",
         "flag_32": "flags/french_polynesia_small.png",
         "long_name": "French Polynesia",
         "name": "French Polynesia"
@@ -1842,7 +1842,7 @@
     {
         "code2l": "PM",
         "code3l": "SPM",
-        "flag_128": "flags/saint_pierre_and_miquelon_medium.png",
+        "flag_128": "flags/saint_pierre_and_miquelon_128.png",
         "flag_32": "flags/saint_pierre_and_miquelon_small.png",
         "long_name": "Saint Pierre And Miquelon",
         "name": "Saint Pierre And Miquelon"
@@ -1850,7 +1850,7 @@
     {
         "code2l": "PN",
         "code3l": "PCN",
-        "flag_128": "flags/pitcairn_medium.png",
+        "flag_128": "flags/pitcairn_128.png",
         "flag_32": "flags/pitcairn_small.png",
         "long_name": "Pitcairn",
         "name": "Pitcairn"
@@ -1858,7 +1858,7 @@
     {
         "code2l": "PR",
         "code3l": "PRI",
-        "flag_128": "flags/puerto_rico_medium.png",
+        "flag_128": "flags/puerto_rico_128.png",
         "flag_32": "flags/puerto_rico_small.png",
         "long_name": "Puerto Rico",
         "name": "Puerto Rico"
@@ -1866,7 +1866,7 @@
     {
         "code2l": "PS",
         "code3l": "PSE",
-        "flag_128": "flags/palestinian_territory_occupied_medium.png",
+        "flag_128": "flags/palestinian_territory_occupied_128.png",
         "flag_32": "flags/palestinian_territory_occupied_small.png",
         "long_name": "Palestinian Territory, Occupied",
         "name": "Palestinian Territory, Occupied"
@@ -1874,7 +1874,7 @@
     {
         "code2l": "RE",
         "code3l": "REU",
-        "flag_128": "flags/reunion_medium.png",
+        "flag_128": "flags/reunion_128.png",
         "flag_32": "flags/reunion_small.png",
         "long_name": "R\u00e9union",
         "name": "R\u00e9union"
@@ -1882,7 +1882,7 @@
     {
         "code2l": "SH",
         "code3l": "SHN",
-        "flag_128": "flags/saint_helena_ascension_and_tristan_da_cunha_medium.png",
+        "flag_128": "flags/saint_helena_ascension_and_tristan_da_cunha_128.png",
         "flag_32": "flags/saint_helena_ascension_and_tristan_da_cunha_small.png",
         "long_name": "Saint Helena, Ascension And Tristan Da Cunha",
         "name": "Saint Helena, Ascension And Tristan Da Cunha"
@@ -1890,7 +1890,7 @@
     {
         "code2l": "SJ",
         "code3l": "SJM",
-        "flag_128": "flags/svalbard_and_jan_mayen_medium.png",
+        "flag_128": "flags/svalbard_and_jan_mayen_128.png",
         "flag_32": "flags/svalbard_and_jan_mayen_small.png",
         "long_name": "Svalbard And Jan Mayen",
         "name": "Svalbard And Jan Mayen"
@@ -1898,7 +1898,7 @@
     {
         "code2l": "SX",
         "code3l": "SXM",
-        "flag_128": "flags/sint_maarten_dutch_part_medium.png",
+        "flag_128": "flags/sint_maarten_dutch_part_128.png",
         "flag_32": "flags/sint_maarten_dutch_part_small.png",
         "long_name": "Sint Maarten (Dutch Part)",
         "name": "Sint Maarten (Dutch Part)"
@@ -1906,7 +1906,7 @@
     {
         "code2l": "TC",
         "code3l": "TCA",
-        "flag_128": "flags/turks_and_caicos_islands_medium.png",
+        "flag_128": "flags/turks_and_caicos_islands_128.png",
         "flag_32": "flags/turks_and_caicos_islands_small.png",
         "long_name": "Turks And Caicos Islands",
         "name": "Turks And Caicos Islands"
@@ -1914,7 +1914,7 @@
     {
         "code2l": "TF",
         "code3l": "ATF",
-        "flag_128": "flags/french_southern_territories_medium.png",
+        "flag_128": "flags/french_southern_territories_128.png",
         "flag_32": "flags/french_southern_territories_small.png",
         "long_name": "French Southern Territories",
         "name": "French Southern Territories"
@@ -1922,7 +1922,7 @@
     {
         "code2l": "TK",
         "code3l": "TKL",
-        "flag_128": "flags/tokelau_medium.png",
+        "flag_128": "flags/tokelau_128.png",
         "flag_32": "flags/tokelau_small.png",
         "long_name": "Tokelau",
         "name": "Tokelau"
@@ -1930,7 +1930,7 @@
     {
         "code2l": "TW",
         "code3l": "TWN",
-        "flag_128": "flags/taiwan_province_of_china_medium.png",
+        "flag_128": "flags/taiwan_province_of_china_128.png",
         "flag_32": "flags/taiwan_province_of_china_small.png",
         "long_name": "Taiwan, Province Of China",
         "name": "Taiwan, Province Of China"
@@ -1938,7 +1938,7 @@
     {
         "code2l": "UM",
         "code3l": "UMI",
-        "flag_128": "flags/united_states_minor_outlying_islands_medium.png",
+        "flag_128": "flags/united_states_minor_outlying_islands_128.png",
         "flag_32": "flags/united_states_minor_outlying_islands_small.png",
         "long_name": "United States Minor Outlying Islands",
         "name": "United States Minor Outlying Islands"
@@ -1946,7 +1946,7 @@
     {
         "code2l": "US",
         "code3l": "USA",
-        "flag_128": "flags/united_states_medium.png",
+        "flag_128": "flags/united_states_128.png",
         "flag_32": "flags/united_states_small.png",
         "long_name": "United States of America",
         "name": "United States"
@@ -1954,7 +1954,7 @@
     {
         "code2l": "VA",
         "code3l": "VAT",
-        "flag_128": "flags/holy_see_vatican_city_state_medium.png",
+        "flag_128": "flags/holy_see_vatican_city_state_128.png",
         "flag_32": "flags/holy_see_vatican_city_state_small.png",
         "long_name": "State of the Vatican City",
         "name": "Vatican City"
@@ -1962,7 +1962,7 @@
     {
         "code2l": "VG",
         "code3l": "VGB",
-        "flag_128": "flags/virgin_islands_british_medium.png",
+        "flag_128": "flags/virgin_islands_british_128.png",
         "flag_32": "flags/virgin_islands_british_small.png",
         "long_name": "Virgin Islands, British",
         "name": "Virgin Islands, British"
@@ -1970,7 +1970,7 @@
     {
         "code2l": "VI",
         "code3l": "VIR",
-        "flag_128": "flags/virgin_islands_us_medium.png",
+        "flag_128": "flags/virgin_islands_us_128.png",
         "flag_32": "flags/virgin_islands_us_small.png",
         "long_name": "Virgin Islands, U.s.",
         "name": "Virgin Islands, U.s."
@@ -1978,7 +1978,7 @@
     {
         "code2l": "WF",
         "code3l": "WLF",
-        "flag_128": "flags/wallis_and_futuna_medium.png",
+        "flag_128": "flags/wallis_and_futuna_128.png",
         "flag_32": "flags/wallis_and_futuna_small.png",
         "long_name": "Wallis And Futuna",
         "name": "Wallis And Futuna"
@@ -1986,7 +1986,7 @@
     {
         "code2l": "YT",
         "code3l": "MYT",
-        "flag_128": "flags/mayotte_medium.png",
+        "flag_128": "flags/mayotte_128.png",
         "flag_32": "flags/mayotte_small.png",
         "long_name": "Mayotte",
         "name": "Mayotte"

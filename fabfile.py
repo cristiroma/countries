@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import os, string, simplejson as json
+import MySQLdb as mysql
 
 from fabric.api import *
 from fabric.utils import puts
@@ -11,12 +12,11 @@ import fabric.network
 import fabric.state
 
 class CountryRow:
-    def __init__(self, **kwds):
-        self.__dict__.update(kwds)
-        
-    def encode(self, o):
+	def __init__(self, **kwds):
+		self.__dict__.update(kwds)
+
+	def encode(self, o):
 		print o
-		
 
 def _setup(task):
 	config = {}
@@ -39,32 +39,39 @@ def _setup(task):
 		task(*args, **kwargs)
 
 	return task_with_setup
-	
-	
-def get_rows():
-	import MySQLdb as mysql
 
+def _get_conn():
 	db = mysql.connect(env.db_host, env.db_user, env.db_pass, env.db_database, charset = "utf8", use_unicode = True)
-	cur = db.cursor()
+	return db
+
+def _get_cursor():
+	db = _get_conn()
+	return db.cursor()
+
+def _get_rows():
+	cur = _get_cursor()
 	cur.execute('SELECT code2l,code3l,name,long_name,flag_32,flag_128 FROM countries')
 	result = cur.fetchall()
-
 	cur.close()
-	db.close()
-
-	return result	
+	return result
 
 @_setup
 def dump_mysql():
+	"""
+	Dump MySQL database into SQL dump file
+	"""
 	print 'Writing SQL dump to %s' % env.mysql_dump
 	local('mysqldump -u %s --password=%s -r %s %s' % (env.db_user, env.db_pass, env.mysql_dump, env.db_database ));
 
 
 @_setup
 def dump_json():
+	"""
+	Dump MySQL database into JSON format
+	"""
 	i = 0
 	arr = list()
-	for row in get_rows():
+	for row in _get_rows():
 		ob = CountryRow(code2l = row[0], code3l = row[1], name = row[2], 
 			long_name = row[3], flag_32 = row[4], flag_128 = row[5])
 		arr.append(ob.__dict__)
@@ -76,6 +83,9 @@ def dump_json():
 
 @_setup
 def dump_csv():
+	"""
+	Dump MySQL database into CSV format
+	"""
 	import csv, codecs
 	
 	arr = list()
@@ -84,9 +94,33 @@ def dump_csv():
 		i = 0
 		writer = csv.writer(out, delimiter = ',', quotechar = '"', quoting=csv.QUOTE_MINIMAL)
 		print 'Writing CSV dump to %s' % env.csv_dump
-		for row in get_rows():
+		for row in _get_rows():
 			l = list()
 			for cell in row:
 				l.append(cell.encode('utf-8'))
 			writer.writerow(l)
 			i += 1
+
+@_setup
+def fix_flags():
+	"""
+	DO NOT USE (internal use). Used to rename the files friendlier. 
+	"""
+	db = _get_conn()
+	cur = db.cursor()
+	cur.execute('SELECT code2l,code3l,name,long_name,flag_32,flag_128,id FROM countries')
+	result = cur.fetchall()
+	cur1 = db.cursor()
+	for row in result:
+		rid = row[6]
+		large = row[5].replace('large', '128')
+		try:
+			os.rename(row[5], large)
+		except:
+			pass
+		cur1.execute('UPDATE countries SET flag_128=\'%s\' WHERE id = %s' % (large, rid))
+		#if not os.path.exists(large):
+		#	print 'Invalid flag for %s' % row[3]
+		#else:
+		#		cur1.execute('UPDATE countries SET flag_128=\'%s\' WHERE id = %s' % (large, rid))
+	db.commit()
