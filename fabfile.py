@@ -142,9 +142,10 @@ def rename_flags():
 		try:
 			shutil.copy(f_32, new_f_32)
 			shutil.copy(f_128, new_f_128)
-			cur1.execute('UPDATE countries SET flag_32=\'%s\', flag_128=\'%s\' WHERE id=%s' % (f_128, f_32, rid))
+			cur1.execute('UPDATE countries SET flag_32=\'%s\', flag_128=\'%s\' WHERE id=%s' % (new_f_128, new_f_32, rid))
 		except:
 			print "FAILED %s" % (row[3])
+	db.commit()
 
 
 
