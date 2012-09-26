@@ -1,250 +1,249 @@
-"ISO 3166 2-letter","ISO 3166 3-letter","Common name","Official name","Small flag","Large flag"
-AF,AFG,Afghanistan,"Islamic Republic of Afghanistan",flags/afghanistan_small.png,flags/afghanistan_medium.png
-AL,ALB,Albania,"Republic of Albania",flags/albania_small.png,flags/albania_medium.png
-DZ,DZA,Algeria,"People's Democratic Republic of Algeria",flags/algeria_small.png,flags/algeria_medium.png
-AD,AND,Andorra,"Principality of Andorra",flags/andorra_small.png,flags/andorra_medium.png
-AO,AGO,Angola,"Republic of Angola",flags/angola_small.png,flags/angola_medium.png
-AG,ATG,"Antigua and Barbuda","Antigua and Barbuda",flags/antigua_and_barbuda_small.png,flags/antigua_and_barbuda_medium.png
-AR,ARG,Argentina,"República Argentina",flags/argentina_small.png,flags/argentina_medium.png
-AM,ARM,Armenia,"Republic of Armenia",flags/armenia_small.png,flags/armenia_medium.png
+﻿AF,AFG,Afghanistan,Islamic Republic of Afghanistan,flags/afghanistan_small.png,flags/afghanistan_medium.png
+AL,ALB,Albania,Republic of Albania,flags/albania_small.png,flags/albania_medium.png
+DZ,DZA,Algeria,People's Democratic Republic of Algeria,flags/algeria_small.png,flags/algeria_medium.png
+AD,AND,Andorra,Principality of Andorra,flags/andorra_small.png,flags/andorra_medium.png
+AO,AGO,Angola,Republic of Angola,flags/angola_small.png,flags/angola_medium.png
+AG,ATG,Antigua and Barbuda,Antigua and Barbuda,flags/antigua_and_barbuda_small.png,flags/antigua_and_barbuda_medium.png
+AR,ARG,Argentina,República Argentina,flags/argentina_small.png,flags/argentina_medium.png
+AM,ARM,Armenia,Republic of Armenia,flags/armenia_small.png,flags/armenia_medium.png
 AU,AUS,Australia,Australia,flags/australia_small.png,flags/australia_medium.png
-AT,AUT,Austria,"Republic of Austria",flags/austria_small.png,flags/austria_medium.png
-AZ,AZE,Azerbaijan,"Republic of Azerbaijan",flags/azerbaijan_small.png,flags/azerbaijan_medium.png
-BS,BHS,Bahamas,"Commonwealth of The Bahamas",flags/bahamas_small.png,flags/bahamas_medium.png
-BH,BHR,Bahrain,"Kingdom of Bahrain",flags/bahrain_small.png,flags/bahrain_medium.png
-BD,BGD,Bangladesh,"People's Republic of Bangladesh",flags/bangladesh_small.png,flags/bangladesh_medium.png
-BB,BRB,Barbados,"Republic of Belarus",flags/barbados_small.png,flags/barbados_medium.png
-BY,BLR,Belarus,"Republic of Belarus",flags/belarus_small.png,flags/belarus_medium.png
-BE,BEL,Belgium,"Kingdom of Belgium",flags/belgium_small.png,flags/belgium_medium.png
+AT,AUT,Austria,Republic of Austria,flags/austria_small.png,flags/austria_medium.png
+AZ,AZE,Azerbaijan,Republic of Azerbaijan,flags/azerbaijan_small.png,flags/azerbaijan_medium.png
+BS,BHS,Bahamas,Commonwealth of The Bahamas,flags/bahamas_small.png,flags/bahamas_medium.png
+BH,BHR,Bahrain,Kingdom of Bahrain,flags/bahrain_small.png,flags/bahrain_medium.png
+BD,BGD,Bangladesh,People's Republic of Bangladesh,flags/bangladesh_small.png,flags/bangladesh_medium.png
+BB,BRB,Barbados,Republic of Belarus,flags/barbados_small.png,flags/barbados_medium.png
+BY,BLR,Belarus,Republic of Belarus,flags/belarus_small.png,flags/belarus_medium.png
+BE,BEL,Belgium,Kingdom of Belgium,flags/belgium_small.png,flags/belgium_medium.png
 BZ,BLZ,Belize,Belize,flags/belize_small.png,flags/belize_medium.png
-BJ,BEN,Benin,"Republic of Benin",flags/benin_small.png,flags/benin_medium.png
-BT,BTN,Bhutan,"Kingdom of Bhutan",flags/bhutan_small.png,flags/bhutan_medium.png
-BA,BIH,"Bosnia and Herzegovina","Bosnia and Herzegovina",flags/bosnia_and_herzegovina_small.png,flags/bosnia_and_herzegovina_medium.png
-BW,BWA,Botswana,"Republic of Botswana",flags/botswana_small.png,flags/botswana_medium.png
-BR,BRA,Brazil,"Federative Republic of Brazil",flags/brazil_small.png,flags/brazil_medium.png
-BN,BRN,"Brunei Darussalam","Brunei Darussalam",flags/brunei_darussalam_small.png,flags/brunei_darussalam_medium.png
-BG,BGR,Bulgaria,"Republic of Bulgaria",flags/bulgaria_small.png,flags/bulgaria_medium.png
-BF,BFA,"Burkina Faso","Burkina Faso",flags/burkina_faso_small.png,flags/burkina_faso_medium.png
-BI,BDI,Burundi,"Republic of Burundi",flags/burundi_small.png,flags/burundi_medium.png
-KH,KHM,Cambodia,"Kingdom of Cambodia",flags/cambodia_small.png,flags/cambodia_medium.png
-CM,CMR,Cameroon,"Republic of Cameroon",flags/cameroon_small.png,flags/cameroon_medium.png
+BJ,BEN,Benin,Republic of Benin,flags/benin_small.png,flags/benin_medium.png
+BT,BTN,Bhutan,Kingdom of Bhutan,flags/bhutan_small.png,flags/bhutan_medium.png
+BA,BIH,Bosnia and Herzegovina,Bosnia and Herzegovina,flags/bosnia_and_herzegovina_small.png,flags/bosnia_and_herzegovina_medium.png
+BW,BWA,Botswana,Republic of Botswana,flags/botswana_small.png,flags/botswana_medium.png
+BR,BRA,Brazil,Federative Republic of Brazil,flags/brazil_small.png,flags/brazil_medium.png
+BN,BRN,Brunei Darussalam,Brunei Darussalam,flags/brunei_darussalam_small.png,flags/brunei_darussalam_medium.png
+BG,BGR,Bulgaria,Republic of Bulgaria,flags/bulgaria_small.png,flags/bulgaria_medium.png
+BF,BFA,Burkina Faso,Burkina Faso,flags/burkina_faso_small.png,flags/burkina_faso_medium.png
+BI,BDI,Burundi,Republic of Burundi,flags/burundi_small.png,flags/burundi_medium.png
+KH,KHM,Cambodia,Kingdom of Cambodia,flags/cambodia_small.png,flags/cambodia_medium.png
+CM,CMR,Cameroon,Republic of Cameroon,flags/cameroon_small.png,flags/cameroon_medium.png
 CA,CAN,Canada,Canada,flags/canada_small.png,flags/canada_medium.png
-CV,CPV,"Cape Verde","Republic of Cape Verde",flags/cape_verde_small.png,flags/cape_verde_medium.png
-CF,CAF,"Central African Republic","Central African Republic",flags/central_african_republic_small.png,flags/central_african_republic_medium.png
-TD,TCD,Chad,"Republic of Chad",flags/chad_small.png,flags/chad_medium.png
-CL,CHL,Chile,"Republic of Chile",flags/chile_small.png,flags/chile_medium.png
-CN,CHN,China,"People's Republic of China",flags/china_small.png,flags/china_medium.png
-CO,COL,Colombia,"Republic of Colombia",flags/colombia_small.png,flags/colombia_medium.png
-KM,COM,Comoros,"Union of the Comoros",flags/comoros_small.png,flags/comoros_medium.png
+CV,CPV,Cape Verde,Republic of Cape Verde,flags/cape_verde_small.png,flags/cape_verde_medium.png
+CF,CAF,Central African Republic,Central African Republic,flags/central_african_republic_small.png,flags/central_african_republic_medium.png
+TD,TCD,Chad,Republic of Chad,flags/chad_small.png,flags/chad_medium.png
+CL,CHL,Chile,Republic of Chile,flags/chile_small.png,flags/chile_medium.png
+CN,CHN,China,People's Republic of China,flags/china_small.png,flags/china_medium.png
+CO,COL,Colombia,Republic of Colombia,flags/colombia_small.png,flags/colombia_medium.png
+KM,COM,Comoros,Union of the Comoros,flags/comoros_small.png,flags/comoros_medium.png
 CG,COG,Congo,"Congo, Democratic Republic of the",flags/congo_small.png,flags/congo_medium.png
-CR,CRI,"Costa Rica","Republic of Costa Rica",flags/costa_rica_small.png,flags/costa_rica_medium.png
-HR,HRV,Croatia,"Republic of Croatia",flags/croatia_small.png,flags/croatia_medium.png
-CU,CUB,Cuba,"Republic of Cuba",flags/cuba_small.png,flags/cuba_medium.png
-CY,CYP,Cyprus,"Republic of Cyprus",flags/cyprus_small.png,flags/cyprus_medium.png
-CZ,CZE,"Czech Republic","Czech Republic",flags/czech_republic_small.png,flags/czech_republic_medium.png
-CI,CIV,"Côte d'Ivoire","Republic of Côte d'Ivoire",flags/cote_d_ivoire_small.png,flags/cote_d_ivoire_medium.png
-DK,DNK,Denmark,"Kingdom of Denmark",flags/denmark_small.png,flags/denmark_medium.png
-DJ,DJI,Djibouti,"Republic of Djibouti",flags/djibouti_small.png,flags/djibouti_medium.png
-DM,DMA,Dominica,"Commonwealth of Dominica",flags/dominica_small.png,flags/dominica_medium.png
-DO,DOM,"Dominican Republic","Dominican Republic",flags/dominican_republic_small.png,flags/dominican_republic_medium.png
-EC,ECU,Ecuador,"Republic of Ecuador",flags/ecuador_small.png,flags/ecuador_medium.png
-EG,EGY,Egypt,"Arab Republic of Egypt",flags/egypt_small.png,flags/egypt_medium.png
-SV,SLV,"El Salvador","Republic of El Salvador",flags/el_salvador_small.png,flags/el_salvador_medium.png
-GQ,GNQ,"Equatorial Guinea","Republic of Equatorial Guinea",flags/equatorial_guinea_small.png,flags/equatorial_guinea_medium.png
-ER,ERI,Eritrea,"State of Eritrea",flags/eritrea_small.png,flags/eritrea_medium.png
-EE,EST,Estonia,"Republic of Estonia",flags/estonia_small.png,flags/estonia_medium.png
-ET,ETH,Ethiopia,"Federal Democratic Republic of Ethiopia",flags/ethiopia_small.png,flags/ethiopia_medium.png
-FJ,FJI,Fiji,"Republic of the Fiji Islands",flags/fiji_small.png,flags/fiji_medium.png
-FI,FIN,Finland,"Republic of Finland",flags/finland_small.png,flags/finland_medium.png
-FR,FRA,France,"French Republic",flags/france_small.png,flags/france_medium.png
-GA,GAB,Gabon,"Gabonese Republic",flags/gabon_small.png,flags/gabon_medium.png
-GM,GMB,Gambia,"Republic of The Gambia",flags/gambia_small.png,flags/gambia_medium.png
+CR,CRI,Costa Rica,Republic of Costa Rica,flags/costa_rica_small.png,flags/costa_rica_medium.png
+HR,HRV,Croatia,Republic of Croatia,flags/croatia_small.png,flags/croatia_medium.png
+CU,CUB,Cuba,Republic of Cuba,flags/cuba_small.png,flags/cuba_medium.png
+CY,CYP,Cyprus,Republic of Cyprus,flags/cyprus_small.png,flags/cyprus_medium.png
+CZ,CZE,Czech Republic,Czech Republic,flags/czech_republic_small.png,flags/czech_republic_medium.png
+CI,CIV,Côte d'Ivoire,Republic of Côte d'Ivoire,flags/cote_d_ivoire_small.png,flags/cote_d_ivoire_medium.png
+DK,DNK,Denmark,Kingdom of Denmark,flags/denmark_small.png,flags/denmark_medium.png
+DJ,DJI,Djibouti,Republic of Djibouti,flags/djibouti_small.png,flags/djibouti_medium.png
+DM,DMA,Dominica,Commonwealth of Dominica,flags/dominica_small.png,flags/dominica_medium.png
+DO,DOM,Dominican Republic,Dominican Republic,flags/dominican_republic_small.png,flags/dominican_republic_medium.png
+EC,ECU,Ecuador,Republic of Ecuador,flags/ecuador_small.png,flags/ecuador_medium.png
+EG,EGY,Egypt,Arab Republic of Egypt,flags/egypt_small.png,flags/egypt_medium.png
+SV,SLV,El Salvador,Republic of El Salvador,flags/el_salvador_small.png,flags/el_salvador_medium.png
+GQ,GNQ,Equatorial Guinea,Republic of Equatorial Guinea,flags/equatorial_guinea_small.png,flags/equatorial_guinea_medium.png
+ER,ERI,Eritrea,State of Eritrea,flags/eritrea_small.png,flags/eritrea_medium.png
+EE,EST,Estonia,Republic of Estonia,flags/estonia_small.png,flags/estonia_medium.png
+ET,ETH,Ethiopia,Federal Democratic Republic of Ethiopia,flags/ethiopia_small.png,flags/ethiopia_medium.png
+FJ,FJI,Fiji,Republic of the Fiji Islands,flags/fiji_small.png,flags/fiji_medium.png
+FI,FIN,Finland,Republic of Finland,flags/finland_small.png,flags/finland_medium.png
+FR,FRA,France,French Republic,flags/france_small.png,flags/france_medium.png
+GA,GAB,Gabon,Gabonese Republic,flags/gabon_small.png,flags/gabon_medium.png
+GM,GMB,Gambia,Republic of The Gambia,flags/gambia_small.png,flags/gambia_medium.png
 GE,GEO,Georgia,Georgia,flags/georgia_small.png,flags/georgia_medium.png
-DE,DEU,Germany,"Federal Republic of Germany",flags/germany_small.png,flags/germany_medium.png
-GH,GHA,Ghana,"Republic of Ghana",flags/ghana_small.png,flags/ghana_medium.png
-GR,GRC,Greece,"Hellenic Republic",flags/greece_small.png,flags/greece_medium.png
+DE,DEU,Germany,Federal Republic of Germany,flags/germany_small.png,flags/germany_medium.png
+GH,GHA,Ghana,Republic of Ghana,flags/ghana_small.png,flags/ghana_medium.png
+GR,GRC,Greece,Hellenic Republic,flags/greece_small.png,flags/greece_medium.png
 GD,GRD,Grenada,Grenada,flags/grenada_small.png,flags/grenada_medium.png
-GT,GTM,Guatemala,"Republic of Guatemala",flags/guatemala_small.png,flags/guatemala_medium.png
-GN,GIN,Guinea,"Republic of Guinea",flags/guinea_small.png,flags/guinea_medium.png
-GW,GNB,Guinea-Bissau,"Republic of Guinea-Bissau",flags/guinea-bissau_small.png,flags/guinea-bissau_medium.png
-GY,GUY,Guyana,"Co-operative Republic of Guyana",flags/guyana_small.png,flags/guyana_medium.png
-HT,HTI,Haiti,"Republic of Haiti",flags/haiti_small.png,flags/haiti_medium.png
-HN,HND,Honduras,"Republic of Honduras",flags/honduras_small.png,flags/honduras_medium.png
-HU,HUN,Hungary,"Republic of Hungary",flags/hungary_small.png,flags/hungary_medium.png
-IS,ISL,Iceland,"Republic of Iceland",flags/iceland_small.png,flags/iceland_medium.png
-IN,IND,India,"Republic of India",flags/india_small.png,flags/india_medium.png
-ID,IDN,Indonesia,"Republic of Indonesia",flags/indonesia_small.png,flags/indonesia_medium.png
-IQ,IRQ,Iraq,"Republic of Iraq",flags/iraq_small.png,flags/iraq_medium.png
+GT,GTM,Guatemala,Republic of Guatemala,flags/guatemala_small.png,flags/guatemala_medium.png
+GN,GIN,Guinea,Republic of Guinea,flags/guinea_small.png,flags/guinea_medium.png
+GW,GNB,Guinea-Bissau,Republic of Guinea-Bissau,flags/guinea-bissau_small.png,flags/guinea-bissau_medium.png
+GY,GUY,Guyana,Co-operative Republic of Guyana,flags/guyana_small.png,flags/guyana_medium.png
+HT,HTI,Haiti,Republic of Haiti,flags/haiti_small.png,flags/haiti_medium.png
+HN,HND,Honduras,Republic of Honduras,flags/honduras_small.png,flags/honduras_medium.png
+HU,HUN,Hungary,Republic of Hungary,flags/hungary_small.png,flags/hungary_medium.png
+IS,ISL,Iceland,Republic of Iceland,flags/iceland_small.png,flags/iceland_medium.png
+IN,IND,India,Republic of India,flags/india_small.png,flags/india_medium.png
+ID,IDN,Indonesia,Republic of Indonesia,flags/indonesia_small.png,flags/indonesia_medium.png
+IQ,IRQ,Iraq,Republic of Iraq,flags/iraq_small.png,flags/iraq_medium.png
 IE,IRL,Ireland,Ireland,flags/ireland_small.png,flags/ireland_medium.png
-IL,ISR,Israel,"State of Israel",flags/israel_small.png,flags/israel_medium.png
-IT,ITA,Italy,"Italian Republic",flags/italy_small.png,flags/italy_medium.png
+IL,ISR,Israel,State of Israel,flags/israel_small.png,flags/israel_medium.png
+IT,ITA,Italy,Italian Republic,flags/italy_small.png,flags/italy_medium.png
 JM,JAM,Jamaica,Jamaica,flags/jamaica_small.png,flags/jamaica_medium.png
 JP,JPN,Japan,Japan,flags/japan_small.png,flags/japan_medium.png
-JO,JOR,Jordan,"Hashemite Kingdom of Jordan",flags/jordan_small.png,flags/jordan_medium.png
-KZ,KAZ,Kazakhstan,"Republic of Kazakhstan",flags/kazakhstan_small.png,flags/kazakhstan_medium.png
-KE,KEN,Kenya,"Republic of Kenya",flags/kenya_small.png,flags/kenya_medium.png
-KI,KIR,Kiribati,"Republic of Kiribati",flags/kiribati_small.png,flags/kiribati_medium.png
-KW,KWT,Kuwait,"State of Kuwait",flags/kuwait_small.png,flags/kuwait_medium.png
-KG,KGZ,Kyrgyzstan,"Kyrgyz Republic",flags/kyrgyzstan_small.png,flags/kyrgyzstan_medium.png
-LA,LAO,"Lao People's Democratic Republic","Lao People's Democratic Republic",flags/lao_people_s_democratic_republic_small.png,flags/lao_people_s_democratic_republic_medium.png
-LV,LVA,Latvia,"Republic of Latvia",flags/latvia_small.png,flags/latvia_medium.png
-LB,LBN,Lebanon,"Lebanese Republic",flags/lebanon_small.png,flags/lebanon_medium.png
-LS,LSO,Lesotho,"Kingdom of Lesotho",flags/lesotho_small.png,flags/lesotho_medium.png
-LR,LBR,Liberia,"Republic of Liberia",flags/liberia_small.png,flags/liberia_medium.png
-LY,LBY,Libya,"Great Socialist People's Libyan Arab Jamahiriya",flags/libyan_arab_jamahiriya_small.png,flags/libyan_arab_jamahiriya_medium.png
-LI,LIE,Liechtenstein,"Principality of Liechtenstein",flags/liechtenstein_small.png,flags/liechtenstein_medium.png
-LT,LTU,Lithuania,"Republic of Lithuania",flags/lithuania_small.png,flags/lithuania_medium.png
-LU,LUX,Luxembourg,"Grand Duchy of Luxembourg",flags/luxembourg_small.png,flags/luxembourg_medium.png
-MG,MDG,Madagascar,"Republic of Madagascar",flags/madagascar_small.png,flags/madagascar_medium.png
-MW,MWI,Malawi,"Republic of Malawi",flags/malawi_small.png,flags/malawi_medium.png
+JO,JOR,Jordan,Hashemite Kingdom of Jordan,flags/jordan_small.png,flags/jordan_medium.png
+KZ,KAZ,Kazakhstan,Republic of Kazakhstan,flags/kazakhstan_small.png,flags/kazakhstan_medium.png
+KE,KEN,Kenya,Republic of Kenya,flags/kenya_small.png,flags/kenya_medium.png
+KI,KIR,Kiribati,Republic of Kiribati,flags/kiribati_small.png,flags/kiribati_medium.png
+KW,KWT,Kuwait,State of Kuwait,flags/kuwait_small.png,flags/kuwait_medium.png
+KG,KGZ,Kyrgyzstan,Kyrgyz Republic,flags/kyrgyzstan_small.png,flags/kyrgyzstan_medium.png
+LA,LAO,Lao People's Democratic Republic,Lao People's Democratic Republic,flags/lao_people_s_democratic_republic_small.png,flags/lao_people_s_democratic_republic_medium.png
+LV,LVA,Latvia,Republic of Latvia,flags/latvia_small.png,flags/latvia_medium.png
+LB,LBN,Lebanon,Lebanese Republic,flags/lebanon_small.png,flags/lebanon_medium.png
+LS,LSO,Lesotho,Kingdom of Lesotho,flags/lesotho_small.png,flags/lesotho_medium.png
+LR,LBR,Liberia,Republic of Liberia,flags/liberia_small.png,flags/liberia_medium.png
+LY,LBY,Libya,Great Socialist People's Libyan Arab Jamahiriya,flags/libyan_arab_jamahiriya_small.png,flags/libyan_arab_jamahiriya_medium.png
+LI,LIE,Liechtenstein,Principality of Liechtenstein,flags/liechtenstein_small.png,flags/liechtenstein_medium.png
+LT,LTU,Lithuania,Republic of Lithuania,flags/lithuania_small.png,flags/lithuania_medium.png
+LU,LUX,Luxembourg,Grand Duchy of Luxembourg,flags/luxembourg_small.png,flags/luxembourg_medium.png
+MG,MDG,Madagascar,Republic of Madagascar,flags/madagascar_small.png,flags/madagascar_medium.png
+MW,MWI,Malawi,Republic of Malawi,flags/malawi_small.png,flags/malawi_medium.png
 MY,MYS,Malaysia,Malaysia,flags/malaysia_small.png,flags/malaysia_medium.png
-MV,MDV,Maldives,"Republic of Maldives",flags/maldives_small.png,flags/maldives_medium.png
-ML,MLI,Mali,"Republic of Mali",flags/mali_small.png,flags/mali_medium.png
-MT,MLT,Malta,"Republic of Malta",flags/malta_small.png,flags/malta_medium.png
-MH,MHL,"Marshall Islands","Republic of the Marshall Islands",flags/marshall_islands_small.png,flags/marshall_islands_medium.png
-MR,MRT,Mauritania,"Islamic Republic of Mauritania",flags/mauritania_small.png,flags/mauritania_medium.png
-MU,MUS,Mauritius,"Republic of Mauritius",flags/mauritius_small.png,flags/mauritius_medium.png
-MX,MEX,Mexico,"United Mexican States",flags/mexico_small.png,flags/mexico_medium.png
-MC,MCO,Monaco,"Principality of Monaco",flags/monaco_small.png,flags/monaco_medium.png
+MV,MDV,Maldives,Republic of Maldives,flags/maldives_small.png,flags/maldives_medium.png
+ML,MLI,Mali,Republic of Mali,flags/mali_small.png,flags/mali_medium.png
+MT,MLT,Malta,Republic of Malta,flags/malta_small.png,flags/malta_medium.png
+MH,MHL,Marshall Islands,Republic of the Marshall Islands,flags/marshall_islands_small.png,flags/marshall_islands_medium.png
+MR,MRT,Mauritania,Islamic Republic of Mauritania,flags/mauritania_small.png,flags/mauritania_medium.png
+MU,MUS,Mauritius,Republic of Mauritius,flags/mauritius_small.png,flags/mauritius_medium.png
+MX,MEX,Mexico,United Mexican States,flags/mexico_small.png,flags/mexico_medium.png
+MC,MCO,Monaco,Principality of Monaco,flags/monaco_small.png,flags/monaco_medium.png
 MN,MNG,Mongolia,Mongolia,flags/mongolia_small.png,flags/mongolia_medium.png
 ME,MNE,Montenegro,Montenegro,flags/montenegro_small.png,flags/montenegro_medium.png
-MA,MAR,Morocco,"Kingdom of Morocco",flags/morocco_small.png,flags/morocco_medium.png
-MZ,MOZ,Mozambique,"Republic of Mozambique",flags/mozambique_small.png,flags/mozambique_medium.png
+MA,MAR,Morocco,Kingdom of Morocco,flags/morocco_small.png,flags/morocco_medium.png
+MZ,MOZ,Mozambique,Republic of Mozambique,flags/mozambique_small.png,flags/mozambique_medium.png
 MM,MMR,Myanmar,Myanmar,flags/myanmar_small.png,flags/myanmar_medium.png
-NA,NAM,Namibia,"Republic of Namibia",flags/namibia_small.png,flags/namibia_medium.png
-NR,NRU,Nauru,"Republic of Nauru",flags/nauru_small.png,flags/nauru_medium.png
-NP,NPL,Nepal,"Federal Democratic Republic of Nepal",flags/nepal_small.png,flags/nepal_medium.png
-NL,NLD,Netherlands,"Kingdom of the Netherlands",flags/netherlands_small.png,flags/netherlands_medium.png
-NZ,NZL,"New Zealand","New Zealand",flags/new_zealand_small.png,flags/new_zealand_medium.png
-NI,NIC,Nicaragua,"Republic of Nicaragua",flags/nicaragua_small.png,flags/nicaragua_medium.png
-NE,NER,Niger,"Republic of Niger",flags/niger_small.png,flags/niger_medium.png
-NG,NGA,Nigeria,"Federal Republic of Nigeria",flags/nigeria_small.png,flags/nigeria_medium.png
-NO,NOR,Norway,"Kingdom of Norway",flags/norway_small.png,flags/norway_medium.png
-OM,OMN,Oman,"Sultanate of Oman",flags/oman_small.png,flags/oman_medium.png
-PK,PAK,Pakistan,"Islamic Republic of Pakistan",flags/pakistan_small.png,flags/pakistan_medium.png
-PW,PLW,Palau,"Republic of Palau",flags/palau_small.png,flags/palau_medium.png
-PA,PAN,Panama,"Republic of Panama",flags/panama_small.png,flags/panama_medium.png
-PG,PNG,"Papua New Guinea","Independent State of Papua New Guinea",flags/papua_new_guinea_small.png,flags/papua_new_guinea_medium.png
-PY,PRY,Paraguay,"Republic of Paraguay",flags/paraguay_small.png,flags/paraguay_medium.png
-PE,PER,Peru,"Republic of Peru",flags/peru_small.png,flags/peru_medium.png
-PH,PHL,Philippines,"Republic of the Philippines",flags/philippines_small.png,flags/philippines_medium.png
-PL,POL,Poland,"Republic of Poland",flags/poland_small.png,flags/poland_medium.png
-PT,PRT,Portugal,"Portuguese Republic",flags/portugal_small.png,flags/portugal_medium.png
-QA,QAT,Qatar,"State of Qatar",flags/qatar_small.png,flags/qatar_medium.png
+NA,NAM,Namibia,Republic of Namibia,flags/namibia_small.png,flags/namibia_medium.png
+NR,NRU,Nauru,Republic of Nauru,flags/nauru_small.png,flags/nauru_medium.png
+NP,NPL,Nepal,Federal Democratic Republic of Nepal,flags/nepal_small.png,flags/nepal_medium.png
+NL,NLD,Netherlands,Kingdom of the Netherlands,flags/netherlands_small.png,flags/netherlands_medium.png
+NZ,NZL,New Zealand,New Zealand,flags/new_zealand_small.png,flags/new_zealand_medium.png
+NI,NIC,Nicaragua,Republic of Nicaragua,flags/nicaragua_small.png,flags/nicaragua_medium.png
+NE,NER,Niger,Republic of Niger,flags/niger_small.png,flags/niger_medium.png
+NG,NGA,Nigeria,Federal Republic of Nigeria,flags/nigeria_small.png,flags/nigeria_medium.png
+NO,NOR,Norway,Kingdom of Norway,flags/norway_small.png,flags/norway_medium.png
+OM,OMN,Oman,Sultanate of Oman,flags/oman_small.png,flags/oman_medium.png
+PK,PAK,Pakistan,Islamic Republic of Pakistan,flags/pakistan_small.png,flags/pakistan_medium.png
+PW,PLW,Palau,Republic of Palau,flags/palau_small.png,flags/palau_medium.png
+PA,PAN,Panama,Republic of Panama,flags/panama_small.png,flags/panama_medium.png
+PG,PNG,Papua New Guinea,Independent State of Papua New Guinea,flags/papua_new_guinea_small.png,flags/papua_new_guinea_medium.png
+PY,PRY,Paraguay,Republic of Paraguay,flags/paraguay_small.png,flags/paraguay_medium.png
+PE,PER,Peru,Republic of Peru,flags/peru_small.png,flags/peru_medium.png
+PH,PHL,Philippines,Republic of the Philippines,flags/philippines_small.png,flags/philippines_medium.png
+PL,POL,Poland,Republic of Poland,flags/poland_small.png,flags/poland_medium.png
+PT,PRT,Portugal,Portuguese Republic,flags/portugal_small.png,flags/portugal_medium.png
+QA,QAT,Qatar,State of Qatar,flags/qatar_small.png,flags/qatar_medium.png
 RO,ROU,Romania,Romania,flags/romania_small.png,flags/romania_medium.png
-RU,RUS,"Russian Federation","Russian Federation",flags/russian_federation_small.png,flags/russian_federation_medium.png
-RW,RWA,Rwanda,"Republic of Rwanda",flags/rwanda_small.png,flags/rwanda_medium.png
-KN,KNA,"Saint Kitts and Nevis","Federation of Saint Christopher and Nevis",flags/saint_kitts_and_nevis_small.png,flags/saint_kitts_and_nevis_medium.png
-LC,LCA,"Saint Lucia","Saint Lucia",flags/saint_lucia_small.png,flags/saint_lucia_medium.png
-VC,VCT,"Saint Vincent and the Grenadines","Saint Vincent and the Grenadines",flags/saint_vincent_and_the_grenadines_small.png,flags/saint_vincent_and_the_grenadines_medium.png
-WS,WSM,Samoa,"Independent State of Samoa",flags/samoa_small.png,flags/samoa_medium.png
-SM,SMR,"San Marino","Republic of San Marino",flags/san_marino_small.png,flags/san_marino_medium.png
-ST,STP,"Sao Tome and Principe","Democratic Republic of São Tomé and Príncipe",flags/sao_tome_and_principe_small.png,flags/sao_tome_and_principe_medium.png
-SA,SAU,"Saudi Arabia","Kingdom of Saudi Arabia",flags/saudi_arabia_small.png,flags/saudi_arabia_medium.png
-SN,SEN,Senegal,"Republic of Senegal",flags/senegal_small.png,flags/senegal_medium.png
-RS,SRB,Serbia,"Republic of Serbia",flags/serbia_small.png,flags/serbia_medium.png
-SC,SYC,Seychelles,"Republic of Seychelles",flags/seychelles_small.png,flags/seychelles_medium.png
-SL,SLE,"Sierra Leone","Republic of Sierra Leone",flags/sierra_leone_small.png,flags/sierra_leone_medium.png
-SG,SGP,Singapore,"Republic of Singapore",flags/singapore_small.png,flags/singapore_medium.png
-SK,SVK,Slovakia,"Slovak Republic",flags/slovakia_small.png,flags/slovakia_medium.png
-SI,SVN,Slovenia,"Republic of Slovenia",flags/slovenia_small.png,flags/slovenia_medium.png
-SB,SLB,"Solomon Islands","Solomon Islands",flags/solomon_islands_small.png,flags/solomon_islands_medium.png
-SO,SOM,Somalia,"Republic of Somalia",flags/somalia_small.png,flags/somalia_medium.png
-ZA,ZAF,"South Africa","Republic of South Africa",flags/south_africa_small.png,flags/south_africa_medium.png
-ES,ESP,Spain,"Kingdom of Spain",flags/spain_small.png,flags/spain_medium.png
-LK,LKA,"Sri Lanka","Democratic Socialist Republic of Sri Lanka",flags/sri_lanka_small.png,flags/sri_lanka_medium.png
-SD,SDN,Sudan,"Republic of the Sudan",flags/sudan_small.png,flags/sudan_medium.png
-SR,SUR,Suriname,"Republic of Suriname",flags/suriname_small.png,flags/suriname_medium.png
-SZ,SWZ,Swaziland,"Kingdom of Swaziland",flags/swaziland_small.png,flags/swaziland_medium.png
-SE,SWE,Sweden,"Kingdom of Sweden",flags/sweden_small.png,flags/sweden_medium.png
-CH,CHE,Switzerland,"Swiss Confederation",flags/switzerland_small.png,flags/switzerland_medium.png
-SY,SYR,"Syrian Arab Republic","Syrian Arab Republic",flags/syrian_arab_republic_small.png,flags/syrian_arab_republic_medium.png
-TJ,TJK,Tajikistan,"Republic of Tajikistan",flags/tajikistan_small.png,flags/tajikistan_medium.png
-TH,THA,Thailand,"Kingdom of Thailand",flags/thailand_small.png,flags/thailand_medium.png
+RU,RUS,Russian Federation,Russian Federation,flags/russian_federation_small.png,flags/russian_federation_medium.png
+RW,RWA,Rwanda,Republic of Rwanda,flags/rwanda_small.png,flags/rwanda_medium.png
+KN,KNA,Saint Kitts and Nevis,Federation of Saint Christopher and Nevis,flags/saint_kitts_and_nevis_small.png,flags/saint_kitts_and_nevis_medium.png
+LC,LCA,Saint Lucia,Saint Lucia,flags/saint_lucia_small.png,flags/saint_lucia_medium.png
+VC,VCT,Saint Vincent and the Grenadines,Saint Vincent and the Grenadines,flags/saint_vincent_and_the_grenadines_small.png,flags/saint_vincent_and_the_grenadines_medium.png
+WS,WSM,Samoa,Independent State of Samoa,flags/samoa_small.png,flags/samoa_medium.png
+SM,SMR,San Marino,Republic of San Marino,flags/san_marino_small.png,flags/san_marino_medium.png
+ST,STP,Sao Tome and Principe,Democratic Republic of São Tomé and Príncipe,flags/sao_tome_and_principe_small.png,flags/sao_tome_and_principe_medium.png
+SA,SAU,Saudi Arabia,Kingdom of Saudi Arabia,flags/saudi_arabia_small.png,flags/saudi_arabia_medium.png
+SN,SEN,Senegal,Republic of Senegal,flags/senegal_small.png,flags/senegal_medium.png
+RS,SRB,Serbia,Republic of Serbia,flags/serbia_small.png,flags/serbia_medium.png
+SC,SYC,Seychelles,Republic of Seychelles,flags/seychelles_small.png,flags/seychelles_medium.png
+SL,SLE,Sierra Leone,Republic of Sierra Leone,flags/sierra_leone_small.png,flags/sierra_leone_medium.png
+SG,SGP,Singapore,Republic of Singapore,flags/singapore_small.png,flags/singapore_medium.png
+SK,SVK,Slovakia,Slovak Republic,flags/slovakia_small.png,flags/slovakia_medium.png
+SI,SVN,Slovenia,Republic of Slovenia,flags/slovenia_small.png,flags/slovenia_medium.png
+SB,SLB,Solomon Islands,Solomon Islands,flags/solomon_islands_small.png,flags/solomon_islands_medium.png
+SO,SOM,Somalia,Republic of Somalia,flags/somalia_small.png,flags/somalia_medium.png
+ZA,ZAF,South Africa,Republic of South Africa,flags/south_africa_small.png,flags/south_africa_medium.png
+ES,ESP,Spain,Kingdom of Spain,flags/spain_small.png,flags/spain_medium.png
+LK,LKA,Sri Lanka,Democratic Socialist Republic of Sri Lanka,flags/sri_lanka_small.png,flags/sri_lanka_medium.png
+SD,SDN,Sudan,Republic of the Sudan,flags/sudan_small.png,flags/sudan_medium.png
+SR,SUR,Suriname,Republic of Suriname,flags/suriname_small.png,flags/suriname_medium.png
+SZ,SWZ,Swaziland,Kingdom of Swaziland,flags/swaziland_small.png,flags/swaziland_medium.png
+SE,SWE,Sweden,Kingdom of Sweden,flags/sweden_small.png,flags/sweden_medium.png
+CH,CHE,Switzerland,Swiss Confederation,flags/switzerland_small.png,flags/switzerland_medium.png
+SY,SYR,Syrian Arab Republic,Syrian Arab Republic,flags/syrian_arab_republic_small.png,flags/syrian_arab_republic_medium.png
+TJ,TJK,Tajikistan,Republic of Tajikistan,flags/tajikistan_small.png,flags/tajikistan_medium.png
+TH,THA,Thailand,Kingdom of Thailand,flags/thailand_small.png,flags/thailand_medium.png
 TL,TLS,Timor-Leste,Timor-Leste,flags/timor-leste_small.png,flags/timor-leste_medium.png
-TG,TGO,Togo,"Togolese Republic",flags/togo_small.png,flags/togo_medium.png
-TO,TON,Tonga,"Kingdom of Tonga",flags/tonga_small.png,flags/tonga_medium.png
-TT,TTO,"Trinidad and Tobago","Republic of Trinidad and Tobago",flags/trinidad_and_tobago_small.png,flags/trinidad_and_tobago_medium.png
-TN,TUN,Tunisia,"Republic of Tunisia",flags/tunisia_small.png,flags/tunisia_medium.png
-TR,TUR,Turkey,"Republic of Turkey",flags/turkey_small.png,flags/turkey_medium.png
+TG,TGO,Togo,Togolese Republic,flags/togo_small.png,flags/togo_medium.png
+TO,TON,Tonga,Kingdom of Tonga,flags/tonga_small.png,flags/tonga_medium.png
+TT,TTO,Trinidad and Tobago,Republic of Trinidad and Tobago,flags/trinidad_and_tobago_small.png,flags/trinidad_and_tobago_medium.png
+TN,TUN,Tunisia,Republic of Tunisia,flags/tunisia_small.png,flags/tunisia_medium.png
+TR,TUR,Turkey,Republic of Turkey,flags/turkey_small.png,flags/turkey_medium.png
 TM,TKM,Turkmenistan,Turkmenistan,flags/turkmenistan_small.png,flags/turkmenistan_medium.png
 TV,TUV,Tuvalu,Tuvalu,flags/tuvalu_small.png,flags/tuvalu_medium.png
-UG,UGA,Uganda,"Republic of Uganda",flags/uganda_small.png,flags/uganda_medium.png
+UG,UGA,Uganda,Republic of Uganda,flags/uganda_small.png,flags/uganda_medium.png
 UA,UKR,Ukraine,Ukraine,flags/ukraine_small.png,flags/ukraine_medium.png
-AE,ARE,"United Arab Emirates","United Arab Emirates",flags/united_arab_emirates_small.png,flags/united_arab_emirates_medium.png
-UY,URY,Uruguay,"Eastern Republic of Uruguay",flags/uruguay_small.png,flags/uruguay_medium.png
-UZ,UZB,Uzbekistan,"Republic of Uzbekistan",flags/uzbekistan_small.png,flags/uzbekistan_medium.png
-VU,VUT,Vanuatu,"Republic of Vanuatu",flags/vanuatu_small.png,flags/vanuatu_medium.png
-VN,VNM,"Viet Nam","Socialist Republic of Vietnam",flags/viet_nam_small.png,flags/viet_nam_medium.png
-YE,YEM,Yemen,"Republic of Yemen",flags/yemen_small.png,flags/yemen_medium.png
-ZM,ZMB,Zambia,"Republic of Zambia",flags/zambia_small.png,flags/zambia_medium.png
-ZW,ZWE,Zimbabwe,"Republic of Zimbabwe",flags/zimbabwe_small.png,flags/zimbabwe_medium.png
-CK,COK,"Cook Islands","Cook Islands",flags/cook_small.png,flags/cook_medium.png
-BO,BOL,Bolivia,"Plurinational State of Bolivia",flags/bolivia_small.png,flags/bolivia_medium.png
-CD,ZAR,"Democratic Republic of the Congo","Congo, Democratic Republic of the",flags/congo_small.png,flags/congo_medium.png
-EU,EUR,"European Union","European Union",flags/eu_small.png,flags/eu_medium.png
+AE,ARE,United Arab Emirates,United Arab Emirates,flags/united_arab_emirates_small.png,flags/united_arab_emirates_medium.png
+UY,URY,Uruguay,Eastern Republic of Uruguay,flags/uruguay_small.png,flags/uruguay_medium.png
+UZ,UZB,Uzbekistan,Republic of Uzbekistan,flags/uzbekistan_small.png,flags/uzbekistan_medium.png
+VU,VUT,Vanuatu,Republic of Vanuatu,flags/vanuatu_small.png,flags/vanuatu_medium.png
+VN,VNM,Viet Nam,Socialist Republic of Vietnam,flags/viet_nam_small.png,flags/viet_nam_medium.png
+YE,YEM,Yemen,Republic of Yemen,flags/yemen_small.png,flags/yemen_medium.png
+ZM,ZMB,Zambia,Republic of Zambia,flags/zambia_small.png,flags/zambia_medium.png
+ZW,ZWE,Zimbabwe,Republic of Zimbabwe,flags/zimbabwe_small.png,flags/zimbabwe_medium.png
+CK,COK,Cook Islands,Cook Islands,flags/cook_small.png,flags/cook_medium.png
+BO,BOL,Bolivia,Plurinational State of Bolivia,flags/bolivia_small.png,flags/bolivia_medium.png
+CD,ZAR,Democratic Republic of the Congo,"Congo, Democratic Republic of the",flags/congo_small.png,flags/congo_medium.png
+EU,EUR,European Union,European Union,flags/eu_small.png,flags/eu_medium.png
 FM,FSM,Micronesia,"Micronesia, Federated States of",flags/micronesia_small.png,flags/micronesia_medium.png
-GB,GBR,"Great Britain","United Kingdom of Great Britain and Northern Ireland",flags/gb_small.png,flags/gb_medium.png
-IR,IRN,Iran,"Islamic Republic of Iran",flags/iran_small.png,flags/iran_medium.png
-KP,PRK,"Democratic People's Republic of Korea","Democratic People's Republic of Korea",flags/north_korea_small.png,flags/north_korea_medium.png
-KR,KOR,"Republic of Korea","Republic of Korea",flags/korea_small.png,flags/korea_medium.png
-MD,MDA,Moldova,"Republic of Moldova",flags/moldova_small.png,flags/moldova_medium.png
-MK,MKD,Macedonia,"Republic of Macedonia",flags/macedonia_small.png,flags/macedonia_medium.png
+GB,GBR,Great Britain,United Kingdom of Great Britain and Northern Ireland,flags/gb_small.png,flags/gb_medium.png
+IR,IRN,Iran,Islamic Republic of Iran,flags/iran_small.png,flags/iran_medium.png
+KP,PRK,Democratic People's Republic of Korea,Democratic People's Republic of Korea,flags/north_korea_small.png,flags/north_korea_medium.png
+KR,KOR,Republic of Korea,Republic of Korea,flags/korea_small.png,flags/korea_medium.png
+MD,MDA,Moldova,Republic of Moldova,flags/moldova_small.png,flags/moldova_medium.png
+MK,MKD,Macedonia,Republic of Macedonia,flags/macedonia_small.png,flags/macedonia_medium.png
 NU,NIU,Niue,Niue,flags/niue_small.png,flags/niue_medium.png
-TZ,TZA,Tanzania,"United Republic of Tanzania",flags/tanzania_small.png,flags/tanzania_medium.png
-VE,VEN,Venezuela,"Bolivarian Republic of Venezuela",flags/venezuela_small.png,flags/venezuela_medium.png
+TZ,TZA,Tanzania,United Republic of Tanzania,flags/tanzania_small.png,flags/tanzania_medium.png
+VE,VEN,Venezuela,Bolivarian Republic of Venezuela,flags/venezuela_small.png,flags/venezuela_medium.png
 AI,AIA,Anguilla,Anguilla,flags/anguilla_small.png,flags/anguilla_medium.png
 AQ,ATA,Antarctica,Antarctica,flags/antarctica_small.png,flags/antarctica_medium.png
-AS,ASM,"American Samoa","American Samoa",flags/american_samoa_small.png,flags/american_samoa_medium.png
+AS,ASM,American Samoa,American Samoa,flags/american_samoa_small.png,flags/american_samoa_medium.png
 AW,ABW,Aruba,Aruba,flags/aruba_small.png,flags/aruba_medium.png
-AX,ALA,"Åland Islands","Åland Islands",flags/aland_islands_small.png,flags/aland_islands_medium.png
-BL,BLM,"Saint Barthélemy","Saint Barthélemy",flags/saint_barthelemy_small.png,flags/saint_barthelemy_medium.png
+AX,ALA,Åland Islands,Åland Islands,flags/aland_islands_small.png,flags/aland_islands_medium.png
+BL,BLM,Saint Barthélemy,Saint Barthélemy,flags/saint_barthelemy_small.png,flags/saint_barthelemy_medium.png
 BM,BMU,Bermuda,Bermuda,flags/bermuda_small.png,flags/bermuda_medium.png
 BQ,BES,"Bonaire, Saint Eustatius And Saba","Bonaire, Saint Eustatius And Saba",flags/bonaire_saint_eustatius_and_saba_small.png,flags/bonaire_saint_eustatius_and_saba_medium.png
-BV,BVT,"Bouvet Island","Bouvet Island",flags/bouvet_island_small.png,flags/bouvet_island_medium.png
-CC,CCK,"Cocos (keeling) Islands","Cocos (Keeling) Islands",flags/cocos_keeling_islands_small.png,flags/cocos_keeling_islands_medium.png
+BV,BVT,Bouvet Island,Bouvet Island,flags/bouvet_island_small.png,flags/bouvet_island_medium.png
+CC,CCK,Cocos (keeling) Islands,Cocos (Keeling) Islands,flags/cocos_keeling_islands_small.png,flags/cocos_keeling_islands_medium.png
 CW,CUW,Curaçao,Curaçao,flags/curacao_small.png,flags/curacao_medium.png
-CX,CXR,"Christmas Island","Christmas Island",flags/christmas_island_small.png,flags/christmas_island_medium.png
-EH,ESH,"Western Sahara","Western Sahara",flags/western_sahara_small.png,flags/western_sahara_medium.png
-FK,FLK,"Falkland Islands (malvinas)","Falkland Islands (Malvinas)",flags/falkland_islands_malvinas_small.png,flags/falkland_islands_malvinas_medium.png
-FO,FRO,"Faroe Islands","Faroe Islands",flags/faroe_islands_small.png,flags/faroe_islands_medium.png
-GF,GUF,"French Guiana","French Guiana",flags/french_guiana_small.png,flags/french_guiana_medium.png
+CX,CXR,Christmas Island,Christmas Island,flags/christmas_island_small.png,flags/christmas_island_medium.png
+EH,ESH,Western Sahara,Western Sahara,flags/western_sahara_small.png,flags/western_sahara_medium.png
+FK,FLK,Falkland Islands (malvinas),Falkland Islands (Malvinas),flags/falkland_islands_malvinas_small.png,flags/falkland_islands_malvinas_medium.png
+FO,FRO,Faroe Islands,Faroe Islands,flags/faroe_islands_small.png,flags/faroe_islands_medium.png
+GF,GUF,French Guiana,French Guiana,flags/french_guiana_small.png,flags/french_guiana_medium.png
 GG,GGY,Guernsey,Guernsey,flags/guernsey_small.png,flags/guernsey_medium.png
 GI,GIB,Gibraltar,Gibraltar,flags/gibraltar_small.png,flags/gibraltar_medium.png
 GL,GRL,Greenland,Greenland,flags/greenland_small.png,flags/greenland_medium.png
 GP,GLP,Guadeloupe,Guadeloupe,flags/guadeloupe_small.png,flags/guadeloupe_medium.png
-GS,SGS,"South Georgia And The South Sandwich Islands","South Georgia And The South Sandwich Islands",flags/south_georgia_and_the_south_sandwich_islands_small.png,flags/south_georgia_and_the_south_sandwich_islands_medium.png
+GS,SGS,South Georgia And The South Sandwich Islands,South Georgia And The South Sandwich Islands,flags/south_georgia_and_the_south_sandwich_islands_small.png,flags/south_georgia_and_the_south_sandwich_islands_medium.png
 GU,GUM,Guam,Guam,flags/guam_small.png,flags/guam_medium.png
-HK,HKG,"Hong Kong","Hong Kong",flags/hong_kong_small.png,flags/hong_kong_medium.png
-HM,HMD,"Heard Island And Mcdonald Islands","Heard Island And Mcdonald Islands",flags/heard_island_and_mcdonald_islands_small.png,flags/heard_island_and_mcdonald_islands_medium.png
-IM,IMN,"Isle Of Man","Isle Of Man",flags/isle_of_man_small.png,flags/isle_of_man_medium.png
-IO,IOT,"British Indian Ocean Territory","British Indian Ocean Territory",flags/british_indian_ocean_territory_small.png,flags/british_indian_ocean_territory_medium.png
+HK,HKG,Hong Kong,Hong Kong,flags/hong_kong_small.png,flags/hong_kong_medium.png
+HM,HMD,Heard Island And Mcdonald Islands,Heard Island And Mcdonald Islands,flags/heard_island_and_mcdonald_islands_small.png,flags/heard_island_and_mcdonald_islands_medium.png
+IM,IMN,Isle Of Man,Isle Of Man,flags/isle_of_man_small.png,flags/isle_of_man_medium.png
+IO,IOT,British Indian Ocean Territory,British Indian Ocean Territory,flags/british_indian_ocean_territory_small.png,flags/british_indian_ocean_territory_medium.png
 JE,JEY,Jersey,Jersey,flags/jersey_small.png,flags/jersey_medium.png
-KY,CYM,"Cayman Islands","Cayman Islands",flags/cayman_islands_small.png,flags/cayman_islands_medium.png
-MF,MAF,"Saint Martin (french Part)","Saint Martin (french Part)",flags/saint_martin_french_part_small.png,flags/saint_martin_french_part_medium.png
+KY,CYM,Cayman Islands,Cayman Islands,flags/cayman_islands_small.png,flags/cayman_islands_medium.png
+MF,MAF,Saint Martin (french Part),Saint Martin (french Part),flags/saint_martin_french_part_small.png,flags/saint_martin_french_part_medium.png
 MO,MAC,Macao,Macao,flags/macao_small.png,flags/macao_medium.png
-MP,MNP,"Northern Mariana Islands","Northern Mariana Islands",flags/northern_mariana_islands_small.png,flags/northern_mariana_islands_medium.png
+MP,MNP,Northern Mariana Islands,Northern Mariana Islands,flags/northern_mariana_islands_small.png,flags/northern_mariana_islands_medium.png
 MQ,MTQ,Martinique,Martinique,flags/martinique_small.png,flags/martinique_medium.png
 MS,MSR,Montserrat,Montserrat,flags/montserrat_small.png,flags/montserrat_medium.png
-NC,NCL,"New Caledonia","New Caledonia",flags/new_caledonia_small.png,flags/new_caledonia_medium.png
-NF,NFK,"Norfolk Island","Norfolk Island",flags/norfolk_island_small.png,flags/norfolk_island_medium.png
-PF,PYF,"French Polynesia","French Polynesia",flags/french_polynesia_small.png,flags/french_polynesia_medium.png
-PM,SPM,"Saint Pierre And Miquelon","Saint Pierre And Miquelon",flags/saint_pierre_and_miquelon_small.png,flags/saint_pierre_and_miquelon_medium.png
+NC,NCL,New Caledonia,New Caledonia,flags/new_caledonia_small.png,flags/new_caledonia_medium.png
+NF,NFK,Norfolk Island,Norfolk Island,flags/norfolk_island_small.png,flags/norfolk_island_medium.png
+PF,PYF,French Polynesia,French Polynesia,flags/french_polynesia_small.png,flags/french_polynesia_medium.png
+PM,SPM,Saint Pierre And Miquelon,Saint Pierre And Miquelon,flags/saint_pierre_and_miquelon_small.png,flags/saint_pierre_and_miquelon_medium.png
 PN,PCN,Pitcairn,Pitcairn,flags/pitcairn_small.png,flags/pitcairn_medium.png
-PR,PRI,"Puerto Rico","Puerto Rico",flags/puerto_rico_small.png,flags/puerto_rico_medium.png
+PR,PRI,Puerto Rico,Puerto Rico,flags/puerto_rico_small.png,flags/puerto_rico_medium.png
 PS,PSE,"Palestinian Territory, Occupied","Palestinian Territory, Occupied",flags/palestinian_territory_occupied_small.png,flags/palestinian_territory_occupied_medium.png
 RE,REU,Réunion,Réunion,flags/reunion_small.png,flags/reunion_medium.png
 SH,SHN,"Saint Helena, Ascension And Tristan Da Cunha","Saint Helena, Ascension And Tristan Da Cunha",flags/saint_helena_ascension_and_tristan_da_cunha_small.png,flags/saint_helena_ascension_and_tristan_da_cunha_medium.png
-SJ,SJM,"Svalbard And Jan Mayen","Svalbard And Jan Mayen",flags/svalbard_and_jan_mayen_small.png,flags/svalbard_and_jan_mayen_medium.png
-SX,SXM,"Sint Maarten (Dutch Part)","Sint Maarten (Dutch Part)",flags/sint_maarten_dutch_part_small.png,flags/sint_maarten_dutch_part_medium.png
-TC,TCA,"Turks And Caicos Islands","Turks And Caicos Islands",flags/turks_and_caicos_islands_small.png,flags/turks_and_caicos_islands_medium.png
-TF,ATF,"French Southern Territories","French Southern Territories",flags/french_southern_territories_small.png,flags/french_southern_territories_medium.png
+SJ,SJM,Svalbard And Jan Mayen,Svalbard And Jan Mayen,flags/svalbard_and_jan_mayen_small.png,flags/svalbard_and_jan_mayen_medium.png
+SX,SXM,Sint Maarten (Dutch Part),Sint Maarten (Dutch Part),flags/sint_maarten_dutch_part_small.png,flags/sint_maarten_dutch_part_medium.png
+TC,TCA,Turks And Caicos Islands,Turks And Caicos Islands,flags/turks_and_caicos_islands_small.png,flags/turks_and_caicos_islands_medium.png
+TF,ATF,French Southern Territories,French Southern Territories,flags/french_southern_territories_small.png,flags/french_southern_territories_medium.png
 TK,TKL,Tokelau,Tokelau,flags/tokelau_small.png,flags/tokelau_medium.png
 TW,TWN,"Taiwan, Province Of China","Taiwan, Province Of China",flags/taiwan_province_of_china_small.png,flags/taiwan_province_of_china_medium.png
-UM,UMI,"United States Minor Outlying Islands","United States Minor Outlying Islands",flags/united_states_minor_outlying_islands_small.png,flags/united_states_minor_outlying_islands_medium.png
-US,USA,"United States","United States of America",flags/united_states_small.png,flags/united_states_medium.png
-VA,VAT,"Vatican City","State of the Vatican City",flags/holy_see_vatican_city_state_small.png,flags/holy_see_vatican_city_state_medium.png
+UM,UMI,United States Minor Outlying Islands,United States Minor Outlying Islands,flags/united_states_minor_outlying_islands_small.png,flags/united_states_minor_outlying_islands_medium.png
+US,USA,United States,United States of America,flags/united_states_small.png,flags/united_states_medium.png
+VA,VAT,Vatican City,State of the Vatican City,flags/holy_see_vatican_city_state_small.png,flags/holy_see_vatican_city_state_medium.png
 VG,VGB,"Virgin Islands, British","Virgin Islands, British",flags/virgin_islands_british_small.png,flags/virgin_islands_british_medium.png
 VI,VIR,"Virgin Islands, U.s.","Virgin Islands, U.s.",flags/virgin_islands_us_small.png,flags/virgin_islands_us_medium.png
-WF,WLF,"Wallis And Futuna","Wallis And Futuna",flags/wallis_and_futuna_small.png,flags/wallis_and_futuna_medium.png
+WF,WLF,Wallis And Futuna,Wallis And Futuna,flags/wallis_and_futuna_small.png,flags/wallis_and_futuna_medium.png
 YT,MYT,Mayotte,Mayotte,flags/mayotte_small.png,flags/mayotte_medium.png
