@@ -1,9 +1,13 @@
 {
     "database" : {
-	"host" : "localhost",
-	"port" : "3306",
-        "user" : "root",
-	"pass" : "root",
-	"db" : "database",
-    }
+		"host" : "localhost",
+		"port" : "3306",
+		"user" : "root",
+		"pass" : "root",
+		"db"   : "countries"
+    },
+    "host"       : "localhost",
+    "mysql_dump" : "./mysql/countries.sql",
+    "json_dump"  : "json/countries.json",
+    "csv_dump"   : "csv/countries.csv"
 }
