@@ -35,8 +35,4 @@ Open a console and load the countries:
 	$> cat countries.sql | mysql -u username  -p database
 
 
-== PHP ==
-Edit lib/config.json to set your database connection parameters
-	$> php lib/countries.php
-
 

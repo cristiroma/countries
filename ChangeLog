@@ -1,3 +1,6 @@
+2012-09-26 Cristian Romanescu <cristian@romanescu.ro>
+	* Added JSON and CSV formats for country data
+
 2012-08-27 Cristian Romanescu <cristian@romanescu.ro>
 	* Updated flags to hi-quality version, manually adjusted
 	* Added sample script for PHP language
