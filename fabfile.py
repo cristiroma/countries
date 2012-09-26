@@ -11,7 +11,7 @@ from fabric.contrib.files import sed, uncomment
 import fabric.network
 import fabric.state
 
-class CountryRow:
+class _CountryRow:
 	def __init__(self, **kwds):
 		self.__dict__.update(kwds)
 
@@ -72,7 +72,7 @@ def dump_json():
 	i = 0
 	arr = list()
 	for row in _get_rows():
-		ob = CountryRow(code2l = row[0], code3l = row[1], name = row[2], 
+		ob = _CountryRow(code2l = row[0], code3l = row[1], name = row[2], 
 			long_name = row[3], flag_32 = row[4], flag_128 = row[5])
 		arr.append(ob.__dict__)
 		i += 1
@@ -102,10 +102,32 @@ def dump_csv():
 			i += 1
 
 @_setup
-def fix_flags():
+def check_flags():
 	"""
-	DO NOT USE (internal use). Used to rename the files friendlier. 
+	Check that all countries have correct flags
 	"""
+	db = _get_conn()
+	cur = db.cursor()
+	cur.execute('SELECT code2l,code3l,name,long_name,flag_32,flag_128,id FROM countries')
+	result = cur.fetchall()
+	for row in result:
+		rid = row[6]
+		small = row[4]
+		large = row[5]
+		if not os.path.exists(small):
+			print 'Invalid SMALL flag for %s' % row[3]
+		if not os.path.exists(large):
+			print 'Invalid LARGE flag for %s' % row[3]
+	cur.close()
+	db.close()
+
+
+@_setup
+def rename_flags():
+	"""
+	DO NOT USE (internal use). Used to rename the files according to country. 
+	"""
+	import shutil
 	db = _get_conn()
 	cur = db.cursor()
 	cur.execute('SELECT code2l,code3l,name,long_name,flag_32,flag_128,id FROM countries')
@@ -113,14 +135,21 @@ def fix_flags():
 	cur1 = db.cursor()
 	for row in result:
 		rid = row[6]
-		large = row[5].replace('large', '128')
+		f_128 = row[5]
+		f_32 = row[4]
+		new_f_128 = 'flags/%s%s' % (_slugify(row[3]), '-128.png')
+		new_f_32 = 'flags/%s%s' % (_slugify(row[3]), '-32.png')
 		try:
-			os.rename(row[5], large)
+			shutil.copy(f_32, new_f_32)
+			shutil.copy(f_128, new_f_128)
+			cur1.execute('UPDATE countries SET flag_32=\'%s\', flag_128=\'%s\' WHERE id=%s' % (f_128, f_32, rid))
 		except:
-			pass
-		cur1.execute('UPDATE countries SET flag_128=\'%s\' WHERE id = %s' % (large, rid))
-		#if not os.path.exists(large):
-		#	print 'Invalid flag for %s' % row[3]
-		#else:
-		#		cur1.execute('UPDATE countries SET flag_128=\'%s\' WHERE id = %s' % (large, rid))
-	db.commit()
+			print "FAILED %s" % (row[3])
+
+
+
+def _slugify(value):
+	import re, unicodedata;
+	value = unicodedata.normalize('NFKD', value).encode('ascii', 'ignore').decode('ascii')
+	value = re.sub('[^\w\s-]', '', value).strip().lower()
+	return re.sub('[-\s]+', '-', value)
