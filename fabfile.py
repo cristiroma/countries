@@ -97,7 +97,10 @@ def dump_csv():
 		for row in _get_rows():
 			l = list()
 			for cell in row:
-				l.append(cell.encode('utf-8'))
+				c = ''
+				if cell is not None:
+					c = cell.encode('utf-8')
+				l.append(c)
 			writer.writerow(l)
 			i += 1
 
