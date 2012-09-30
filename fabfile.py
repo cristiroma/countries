@@ -50,7 +50,7 @@ def _get_cursor():
 
 def _get_rows():
 	cur = _get_cursor()
-	cur.execute('SELECT code2l,code3l,name,long_name,flag_32,flag_128 FROM countries')
+	cur.execute('SELECT code2l,code3l,name,official_name,flag_32,flag_128 FROM countries')
 	result = cur.fetchall()
 	cur.close()
 	return result
@@ -73,7 +73,7 @@ def dump_json():
 	arr = list()
 	for row in _get_rows():
 		ob = _CountryRow(code2l = row[0], code3l = row[1], name = row[2], 
-			long_name = row[3], flag_32 = row[4], flag_128 = row[5])
+			official_name = row[3], flag_32 = row[4], flag_128 = row[5])
 		arr.append(ob.__dict__)
 		i += 1
 	with open(env.json_dump, 'w') as out:
@@ -108,7 +108,7 @@ def check_flags():
 	"""
 	db = _get_conn()
 	cur = db.cursor()
-	cur.execute('SELECT code2l,code3l,name,long_name,flag_32,flag_128,id FROM countries')
+	cur.execute('SELECT code2l,code3l,name,official_name,flag_32,flag_128,id FROM countries')
 	result = cur.fetchall()
 	for row in result:
 		rid = row[6]
@@ -130,7 +130,7 @@ def rename_flags():
 	import shutil
 	db = _get_conn()
 	cur = db.cursor()
-	cur.execute('SELECT code2l,code3l,name,long_name,flag_32,flag_128,id FROM countries')
+	cur.execute('SELECT code2l,code3l,name,official_name,flag_32,flag_128,id FROM countries')
 	result = cur.fetchall()
 	cur1 = db.cursor()
 	for row in result:
