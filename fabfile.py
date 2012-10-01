@@ -3,6 +3,7 @@
 
 import os, string, simplejson as json
 import MySQLdb as mysql
+import csv, codecs, cStringIO
 
 from fabric.api import *
 from fabric.utils import puts
@@ -34,21 +35,6 @@ def _setup(task):
 
 	return task_with_setup
 
-def _get_conn():
-	db = mysql.connect(env.db_host, env.db_user, env.db_pass, env.db_database, charset = "utf8", use_unicode = True)
-	return db
-
-def _get_cursor():
-	db = _get_conn()
-	return db.cursor()
-
-def _get_rows():
-	cur = _get_cursor()
-	cur.execute('SELECT code2l,code3l,name,official_name,flag_32,flag_128 FROM country')
-	result = cur.fetchall()
-	cur.close()
-	return result
-
 
 @_setup
 def dump_mysql():
@@ -56,7 +42,7 @@ def dump_mysql():
 	Dump MySQL database into SQL dump file
 	"""
 	print 'Writing SQL dump to %s' % env.mysql_dump
-	local('mysqldump -u %s --password=%s -r %s %s' % (env.db_user, env.db_pass, env.mysql_dump, env.db_database ));
+	local('mysqldump -u %s --password=%s -r %s %s' % (env.db_user, env.db_pass, env.mysql_dump, env.db_database));
 
 
 @_setup
@@ -66,9 +52,9 @@ def dump_json():
 	"""
 	i = 0
 	arr = list()
-	for row in _get_rows():
-		ob = CountryRow(code2l = row[0], code3l = row[1], name = row[2], 
-			official_name = row[3], flag_32 = row[4], flag_128 = row[5])
+	for row in Country().getList():
+		ob = CountryRow(code2l = row[1], code3l = row[2], name = row[3], 
+			flag_32 = row[4], flag_128 = row[5])
 		arr.append(ob.__dict__)
 		i += 1
 	with open(env.json_dump, 'w') as out:
@@ -85,67 +71,34 @@ def dump_csv():
 	import csv, codecs
 	
 	arr = list()
-	with open(env.csv_dump, 'w') as out:
-		out.write(u'\ufeff'.encode('utf8')) # BOM
-		i = 0
-		writer = csv.writer(out, delimiter = ',', quotechar = '"', quoting=csv.QUOTE_MINIMAL)
-		print 'Writing CSV dump to %s' % env.csv_dump
-		for row in _get_rows():
-			l = list()
-			for cell in row:
-				c = ''
-				if cell is not None:
-					c = cell.encode('utf-8')
-				l.append(c)
-			writer.writerow(l)
-			i += 1
 
+	with open(env.csv_dump, 'w') as out:
+		writer = UnicodeWriter(out)
+		print 'Writing CSV dump to %s' % env.csv_dump
+		i = 0
+		for row in Country().getList():
+			try :
+				l = list()
+				for cell in row:
+					cell = u'%s' % (cell)
+					l.append(cell)
+				writer.writerow(l)
+				i += 1
+			except Exception as e:
+				print row
+				raise e
+		print i
 
 @_setup
 def check_flags():
 	"""
 	Check that all country have correct flags
 	"""
-	db = _get_conn()
-	cur = db.cursor()
-	cur.execute('SELECT code2l,code3l,name,official_name,flag_32,flag_128,id FROM country')
-	result = cur.fetchall()
-	for row in result:
-		rid = row[6]
-		small = row[4]
-		large = row[5]
-		if not os.path.exists(small):
-			print 'Invalid SMALL flag for %s' % row[3]
-		if not os.path.exists(large):
-			print 'Invalid LARGE flag for %s' % row[3]
-	cur.close()
-	db.close()
-
-
-@_setup
-def rename_flags():
-	"""
-	DO NOT USE (internal use). Used to rename the files according to country. 
-	"""
-	import shutil
-	db = _get_conn()
-	cur = db.cursor()
-	cur.execute('SELECT code2l,code3l,name,official_name,flag_32,flag_128,id FROM country')
-	result = cur.fetchall()
-	cur1 = db.cursor()
-	for row in result:
-		rid = row[6]
-		f_128 = row[5]
-		f_32 = row[4]
-		new_f_128 = 'flags/%s%s' % (_slugify(row[3]), '-128.png')
-		new_f_32 = 'flags/%s%s' % (_slugify(row[3]), '-32.png')
-		try:
-			shutil.copy(f_32, new_f_32)
-			shutil.copy(f_128, new_f_128)
-			cur1.execute('UPDATE country SET flag_32=\'%s\', flag_128=\'%s\' WHERE id=%s' % (new_f_128, new_f_32, rid))
-		except:
-			print "FAILED %s" % (row[3])
-	db.commit()
+	for row in Country().getListObjects():
+		if not hasattr(row, 'flag_32') or row.flag_32 is None or not os.path.exists(row.flag_32):
+			print 'Invalid 32x16 flag for %s' % row.name
+		if not hasattr(row, 'flag_128') or row.flag_128 is None or not os.path.exists(row.flag_128):
+			print 'Invalid 128x64 flag for %s' % row.name
 
 
 def _slugify(value):
@@ -155,10 +108,76 @@ def _slugify(value):
 	return re.sub('[-\s]+', '-', value)
 
 
+
+class Database:
+	db = None
+
+	def __init__(self):
+		if Database.db is None:
+			Database.db = mysql.connect(env.db_host,
+				env.db_user,
+				env.db_pass,
+				env.db_database,
+				charset = "utf8",
+				use_unicode = True
+			)
+
+
 class CountryRow:
+
 	def __init__(self, **kwds):
 		self.__dict__.update(kwds)
 
 	def encode(self, o):
 		print o
 
+class Country(Database):
+
+	def getList(self):
+		cur = Database.db.cursor()
+		cur.execute('SELECT id, code2l,code3l,name,flag_32,flag_128 FROM country')
+		result = cur.fetchall()
+		cur.close()
+		return result
+
+	def getListObjects(self):
+		ret = list()
+		cur = Database.db.cursor()
+		cur.execute('SELECT id, code2l,code3l,name,flag_32,flag_128 FROM country')
+		result = cur.fetchall()
+		for row in result:
+			ob = CountryRow(code2l = row[1], code3l = row[2], name = row[3], 
+				flag_32 = row[4], flag_128 = row[5])
+			ret.append(ob)
+		return ret
+
+		
+
+class UnicodeWriter:
+	"""
+	A CSV writer which will write rows to CSV file "f",
+	which is encoded in the given encoding.
+	"""
+
+	def __init__(self, f, dialect=csv.excel, encoding="utf-8", **kwds):
+		# Redirect output to a queue
+		self.queue = cStringIO.StringIO()
+		self.writer = csv.writer(self.queue, dialect=dialect, **kwds)
+		self.stream = f
+		self.encoder = codecs.getincrementalencoder(encoding)()
+
+	def writerow(self, row):
+		self.writer.writerow([s.encode("utf-8") for s in row])
+		# Fetch UTF-8 output from the queue ...
+		data = self.queue.getvalue()
+		data = data.decode("utf-8")
+		# ... and reencode it into the target encoding
+		data = self.encoder.encode(data)
+		# write to the target stream
+		self.stream.write(data)
+		# empty queue
+		self.queue.truncate(0)
+
+	def writerows(self, rows):
+		for row in rows:
+			self.writerow(row)
