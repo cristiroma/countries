@@ -32,7 +32,7 @@ Features:
 == MySQL ==
 
 Open a console and load the countries:
-	$> cat countries.sql | mysql -u username  -p database
+	$> cat country.sql | mysql -u username  -p database
 
 
 

@@ -11,12 +11,6 @@ from fabric.contrib.files import sed, uncomment
 import fabric.network
 import fabric.state
 
-class _CountryRow:
-	def __init__(self, **kwds):
-		self.__dict__.update(kwds)
-
-	def encode(self, o):
-		print o
 
 def _setup(task):
 	config = {}
@@ -50,10 +44,11 @@ def _get_cursor():
 
 def _get_rows():
 	cur = _get_cursor()
-	cur.execute('SELECT code2l,code3l,name,official_name,flag_32,flag_128 FROM countries')
+	cur.execute('SELECT code2l,code3l,name,official_name,flag_32,flag_128 FROM country')
 	result = cur.fetchall()
 	cur.close()
 	return result
+
 
 @_setup
 def dump_mysql():
@@ -72,7 +67,7 @@ def dump_json():
 	i = 0
 	arr = list()
 	for row in _get_rows():
-		ob = _CountryRow(code2l = row[0], code3l = row[1], name = row[2], 
+		ob = CountryRow(code2l = row[0], code3l = row[1], name = row[2], 
 			official_name = row[3], flag_32 = row[4], flag_128 = row[5])
 		arr.append(ob.__dict__)
 		i += 1
@@ -80,6 +75,7 @@ def dump_json():
 		print 'Writing JSON dump to %s' % env.json_dump
 		out.write(json.dumps(arr, sort_keys=True, indent=4))
 	print 'Wrote %s records' % i
+
 
 @_setup
 def dump_csv():
@@ -104,14 +100,15 @@ def dump_csv():
 			writer.writerow(l)
 			i += 1
 
+
 @_setup
 def check_flags():
 	"""
-	Check that all countries have correct flags
+	Check that all country have correct flags
 	"""
 	db = _get_conn()
 	cur = db.cursor()
-	cur.execute('SELECT code2l,code3l,name,official_name,flag_32,flag_128,id FROM countries')
+	cur.execute('SELECT code2l,code3l,name,official_name,flag_32,flag_128,id FROM country')
 	result = cur.fetchall()
 	for row in result:
 		rid = row[6]
@@ -133,7 +130,7 @@ def rename_flags():
 	import shutil
 	db = _get_conn()
 	cur = db.cursor()
-	cur.execute('SELECT code2l,code3l,name,official_name,flag_32,flag_128,id FROM countries')
+	cur.execute('SELECT code2l,code3l,name,official_name,flag_32,flag_128,id FROM country')
 	result = cur.fetchall()
 	cur1 = db.cursor()
 	for row in result:
@@ -145,11 +142,10 @@ def rename_flags():
 		try:
 			shutil.copy(f_32, new_f_32)
 			shutil.copy(f_128, new_f_128)
-			cur1.execute('UPDATE countries SET flag_32=\'%s\', flag_128=\'%s\' WHERE id=%s' % (new_f_128, new_f_32, rid))
+			cur1.execute('UPDATE country SET flag_32=\'%s\', flag_128=\'%s\' WHERE id=%s' % (new_f_128, new_f_32, rid))
 		except:
 			print "FAILED %s" % (row[3])
 	db.commit()
-
 
 
 def _slugify(value):
@@ -157,3 +153,12 @@ def _slugify(value):
 	value = unicodedata.normalize('NFKD', value).encode('ascii', 'ignore').decode('ascii')
 	value = re.sub('[^\w\s-]', '', value).strip().lower()
 	return re.sub('[-\s]+', '-', value)
+
+
+class CountryRow:
+	def __init__(self, **kwds):
+		self.__dict__.update(kwds)
+
+	def encode(self, o):
+		print o
+

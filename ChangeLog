@@ -1,3 +1,7 @@
+2012-09-30 Cristian Romanescu <cristian@romanescu.ro>
+	* Fixed names and official names from ISO & EU sites
+	* Changed DB structure to separate name and official names
+
 2012-09-26 Cristian Romanescu <cristian@romanescu.ro>
 	* Added JSON and CSV formats for country data
 
