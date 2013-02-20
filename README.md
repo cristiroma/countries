@@ -12,7 +12,9 @@ Currently formats:
 Features:
 
 * Database script with country table. Support for: MySQL
-* Hi-quality flags (PNG) for each country in the following sizes: 128x64
+* Hi-quality flags (PNG) for each country in the following sizes:
+	* max 64 px height 
+	* max 128 pixels height
 * Examples to access the table from different programming languages
 
 
