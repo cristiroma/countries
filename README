@@ -1,4 +1,5 @@
-= Statement =
+Statement
+=========
 
 The purpose of this project is to provide a reusable, portable data set with world country information. 
 I would like to provide the data set in various formats to make it easy to use from popular programming languages.
@@ -15,9 +16,11 @@ Features:
 * Examples to access the table from different programming languages
 
 
-= How to use =
+How to use
+==========
 
-== MySQL ==
+MySQL
+----
 
 Open a console and load the countries:
 	$> cat country.sql | mysql -u username  -p database
