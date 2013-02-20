@@ -1,4 +1,3 @@
-#!/usr/bin/python
 # -*- coding: utf-8 -*-
 
 import os, string, simplejson as json
@@ -54,7 +53,7 @@ def dump_json():
 	arr = list()
 	for row in Country().getList():
 		ob = CountryRow(code2l = row[1], code3l = row[2], name = row[3], 
-			flag_32 = row[4], flag_128 = row[5])
+			flag_32 = row[4], flag_128 = row[5], official_name = row[6])
 		arr.append(ob.__dict__)
 		i += 1
 	with open(env.json_dump, 'w') as out:
@@ -135,7 +134,7 @@ class Country(Database):
 
 	def getList(self):
 		cur = Database.db.cursor()
-		cur.execute('SELECT id, code2l,code3l,name,flag_32,flag_128 FROM country')
+		cur.execute('SELECT a.id, a.code2l, a.code3l, a.name, a.flag_32, a.flag_128, b.official_name FROM country a LEFT JOIN country_names b ON a.id = b.id_country')
 		result = cur.fetchall()
 		cur.close()
 		return result
@@ -143,11 +142,11 @@ class Country(Database):
 	def getListObjects(self):
 		ret = list()
 		cur = Database.db.cursor()
-		cur.execute('SELECT id, code2l,code3l,name,flag_32,flag_128 FROM country')
+		cur.execute('SELECT a.id, a.code2l, a.code3l, a.name, a.flag_32, a.flag_128, b.official_name FROM country a LEFT JOIN country_names b ON a.id = b.id_country')
 		result = cur.fetchall()
 		for row in result:
 			ob = CountryRow(code2l = row[1], code3l = row[2], name = row[3], 
-				flag_32 = row[4], flag_128 = row[5])
+				flag_32 = row[4], flag_128 = row[5], official_name = row[6])
 			ret.append(ob)
 		return ret
 
