@@ -1,10 +1,10 @@
 {
     "database" : {
-		"host" : "db",
-		"port" : "3306",
-		"user" : "root",
-		"pass" : "root",
-		"db"   : "countries"
+		"host" : "MYSQL_HOST",
+		"port" : "MYSQL_PORT",
+		"user" : "MYSQL_USER",
+		"pass" : "MYSQL_PASSWORD",
+		"db"   : "MYSQL_DATABASE"
     },
     "host"       : "localhost",
     "mysql_dump" : "./mysql/countries.sql",
