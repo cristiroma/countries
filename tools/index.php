@@ -1,9 +1,10 @@
 <?php
 	require_once dirname(__FILE__) . '/common.php';
-	function get_invalid_countries() {
-			return db_query('SELECT * FROM country WHERE latitude IS NULL or LONGITUDE IS NULL');
+	function get_countries() {
+			return db_query('SELECT * FROM country ORDER BY name');
 	}
-	$invalid_c = get_invalid_countries();
+	$countries = get_countries();
+	echo count($countries);
 ?>
 <!DOCTYPE html>
 <html>
@@ -12,25 +13,38 @@
 	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
 	<meta charset="utf-8">
 	<link href="http://countries.localhost/style.css" rel="stylesheet">
-	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<script src="http://countries.localhost/script.js"></script>
   </head>
   <body>
-	<h1>Set country headers</h1>
-	<p>
-		<em>Instructions</em>: Select country from list, drag and zooom the map to have it best centered on the selected country. Press Save when you're satisfied
-	</p>
-	<div id="controls">
-		<label for="country">Country</label>
-		<select id="country">
-				<option value="">-- Please select --</option>
-			<?php foreach($invalid_c as $c): ?>
-				<option value="<?php echo $c['id']; ?>"><?php echo $c['name']; ?></option>
+	<h1>Country listing</h1>
+	<table class="countries">
+		<thead>
+			<tr>
+				<th>#</th>
+				<th>Name</th>
+				<th>ISO 3166-1<br />alpha-2</th>
+				<th>ISO 3166-1<br />alpha-3</th>
+				<th>Flag (small)</th>
+				<th>Flag (large)</th>
+				<th>Latitude</th>
+				<th>Longitude</th>
+				<th>Optimal zoom</th>
+			</tr>
+		</thead>
+		<tbody>
+			<?php foreach($countries as $idx => $c): ?>
+			<tr>
+				<td><?php echo $idx + 1; ?>
+				<td><?php echo $c->name; ?>
+				<td class="center"><?php echo $c->code2l; ?>
+				<td class="center"><?php echo $c->code3l; ?>
+				<td class="center flag"><img src="<?php echo $c->flag_32; ?>" /></td>
+				<td class="center flag"><img src="<?php echo $c->flag_128; ?>" /></td>
+				<td><?php echo $c->latitude; ?>
+				<td><?php echo $c->longitude; ?>
+				<td><?php echo $c->zoom; ?>
+			</tr>
 			<?php endforeach; ?>
-		</select>
-		<button id="save">Save</button>
-	</div>
-	<div id="map-canvas"></div>
+		</tbody>
+	</table>
   </body>
 </html>
