@@ -11,7 +11,7 @@
                 $config->database->port
             );
             if($conn->connect_error) {
-                die(sprintf("Connect failed: %s\n", $mysqli->connect_error));
+                die(sprintf("Connect failed: %s\n", $conn->connect_error));
             } else {
                 // var_dump($conn->host_info);
             }
@@ -20,15 +20,16 @@
 
     function db_query($sql) {
         $conn = db_connect();
+        $ret = array();
         if($cur = $conn->query($sql)) {
-            while ($row = $cur->fetch_assoc()) {
-                $ret[] = $cur->fetch_assoc();
-                }
-                $cur->close();
-            } else {
-                var_dump($conn);
-                die('Query failed');
+            while ($row = $cur->fetch_object()) {
+                $ret[] = $row;
             }
+            $cur->free();
+        } else {
+            var_dump($conn);
+            die('Query failed');
+        }
         $conn->close();
         return $ret;
     }

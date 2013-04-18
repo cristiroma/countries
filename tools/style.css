@@ -1,0 +1,47 @@
+html, body {
+    height: 100%;
+    width: 1010px;
+    margin: 0 0 0 20px;
+    padding: 0;
+}
+
+clear { clear: both; }
+
+#map-canvas {
+    width: 800px;
+    height: 496px;
+}
+
+#controls {
+    float: left;
+}
+
+table.countries {
+    margin-left: 10px;
+    border: 0;
+    border-collapse: collapse;
+}
+
+table.countries th {
+    padding: 0 20px;
+}
+table.countries td {
+    padding: 3px;
+    border: 1px solid black;
+}
+
+td.center {
+    text-align: center;
+}
+
+td.flag img { 
+    border: 1px solid #f4f4f4;
+}
+
+#existing {
+    float: left;
+    margin-left: 20px;
+    width: 300px;
+}
+
+#coordinates { margin: 50px 0 0 20px; }
