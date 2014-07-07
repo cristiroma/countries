@@ -1,6 +1,6 @@
 <?php
     $config = json_decode(file_get_contents(dirname(__FILE__) . '/../config.json'));
-    
+
     function db_connect() {
             global $config;
             $conn = new mysqli(
