@@ -4,30 +4,35 @@ Statement
 The purpose of this project is to provide a reusable, portable data set with world country information. 
 I would like to provide the data set in various formats to make it easy to use from popular programming languages.
 
-Currently formats:
-* MySQL dump
+Current storage data formats for the country data (under data/ directory):
+
+* SQL dump (MySQL)
 * JSON
 * CSV
 
 Features:
 
-* Database script with country table. Support for: MySQL
-* Hi-quality flags (PNG) for each country in the following sizes:
-	* max 64 px height 
-	* max 128 pixels height
-* Examples to access the table from different programming languages
+* Database SQL script with country table
+* Hi-quality flags (PNG file) available in two sizes:
+	* max 128 px height (128 x 64)
+	* max 32 px height (32 x 16)
 
 
 How to use
 ==========
 
+Everything you need is under the ```data/``` dir.
+
 MySQL
 ----
 
 Open a console and load the countries:
-	$> cat country.sql | mysql -u username  -p database
+```
+	$> cat data/mysql/country.sql | mysql -u username -p database
+```
 
-
+License
+=======
 
 Database with world country list, their flags and name in various languages
 Copyright (C) 2011  Cristian Romanescu
@@ -44,5 +49,3 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
-
