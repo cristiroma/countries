@@ -1,13 +1,13 @@
 {
     "database" : {
-		"host" : "MYSQL_HOST",
-		"port" : "MYSQL_PORT",
-		"user" : "MYSQL_USER",
-		"pass" : "MYSQL_PASSWORD",
-		"db"   : "MYSQL_DATABASE"
+        "host" : "MYSQL_HOST",
+        "port" : "MYSQL_PORT",
+        "user" : "MYSQL_USER",
+        "pass" : "MYSQL_PASSWORD",
+        "db"   : "MYSQL_DATABASE"
     },
     "host"       : "localhost",
-    "mysql_dump" : "./mysql/countries.sql",
-    "json_dump"  : "json/countries.json",
-    "csv_dump"   : "csv/countries.csv"
+    "mysql_dump" : "./data/countries.sql",
+    "json_dump"  : "./data/json/countries.json",
+    "csv_dump"   : "./data/csv/countries.csv"
 }
