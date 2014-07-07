@@ -1,3 +1,8 @@
+2014-07-07 Cristian Romanescu <cristian@romanescu.ro>
+	* Fixed flag names to use the actual ISO code instead of country name
+	* Streamlined the build process
+	* Added latitude/longitude to the country table
+
 2012-09-30 Cristian Romanescu <cristian@romanescu.ro>
 	* Fixed names and official names from ISO & EU sites
 	* Changed DB structure to separate name and official names
