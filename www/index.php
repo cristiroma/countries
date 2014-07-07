@@ -13,7 +13,7 @@ echo count($countries);
 	<title>Configure map centers using Google Maps</title>
 	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
 	<meta charset="utf-8">
-	<link href="http://countries.localhost/style.css" rel="stylesheet">
+	<link href="/style.css" rel="stylesheet">
 </head>
 <body>
 <h1>Country listing</h1>
