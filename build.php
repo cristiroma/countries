@@ -9,7 +9,7 @@ require_once 'www/common.php';
 global $argv;
 
 if(count($argv) < 2) {
-	echo "Usage: php build.php <json|csv>\n";
+	echo "Usage: php build.php <json|csv|validate_flags>\n";
 	exit(-1);
 }
 
@@ -17,6 +17,7 @@ $cmd = $argv[1];
 
 call_user_func("exec_$cmd");
 
+/** Export SQL data in JSON */
 function exec_json() {
 	global $config;
 	$countries = db_query('SELECT * FROM country ORDER BY name');
@@ -24,6 +25,7 @@ function exec_json() {
 	file_put_contents($config->json_dump, $v);
 }
 
+/** Export SQL data in CSV */
 function exec_csv() {
 	global $config;
 	$countries = db_query('SELECT * FROM country ORDER BY name');
@@ -43,4 +45,28 @@ function exec_csv() {
 		fputcsv($fp, $row);
 	}
 	fclose($fp);
+}
+
+/** Validate flag files exist on disk */
+function exec_validate_flags() {
+	$countries = db_query('SELECT * FROM country ORDER BY name');
+	foreach($countries as $country) {
+		if(empty($country->flag_32)) {
+			echo "WARN:  32-pixel flag not set for: {$country->name}\n";
+		} else {
+			$f32 = "data/flags/{$country->flag_32}";
+			if(!is_file($f32)) {
+				echo "ERR :  missing  32-pixel flag on disk for: {$country->name}\n";
+			}
+		}
+		if(empty($country->flag_128)) {
+			echo "WARN: 128-pixel flag not set for: {$country->name}\n";
+		} else {
+			$f128 = "data/flags/{$country->flag_128}";
+			if(!is_file($f128)) {
+				echo "ERR :  missing 128-pixel flag on disk for: {$country->name}\n";
+			}
+		}
+	}
+	echo "No output above means everything is OK\n";
 }
