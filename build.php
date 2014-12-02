@@ -35,13 +35,14 @@ function exec_csv() {
 	foreach($countries as $country) {
 		$row = array();
 		$row[0] = $country->name;
-		$row[1] = $country->code2l;
-		$row[2] = $country->code3l;
-		$row[3] = $country->flag_32;
-		$row[4] = $country->flag_128;
-		$row[5] = $country->latitude;
-		$row[6] = $country->longitude;
-		$row[7] = $country->zoom;
+		$row[1] = $country->name_official;
+		$row[2] = $country->code2l;
+		$row[3] = $country->code3l;
+		$row[4] = $country->flag_32;
+		$row[5] = $country->flag_128;
+		$row[6] = $country->latitude;
+		$row[7] = $country->longitude;
+		$row[8] = $country->zoom;
 		fputcsv($fp, $row);
 	}
 	fclose($fp);
