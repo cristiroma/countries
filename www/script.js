@@ -1,5 +1,5 @@
 var map = null;
-var base_url = 'http://countries.localhost';
+var base_url = '';
 
 function initialize() {
     var mapOptions = {

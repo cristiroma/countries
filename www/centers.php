@@ -9,10 +9,10 @@
 	<title>Configure map centers using Google Maps</title>
 	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
 	<meta charset="utf-8">
-	<link href="http://countries.localhost/style.css" rel="stylesheet"></link>
+	<link href="/style.css" rel="stylesheet"></link>
 	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<script src="http://countries.localhost/script.js"></script>
+	<script src="/script.js"></script>
   </head>
   <body>
 	<h1>Set country headers</h1>
@@ -28,7 +28,7 @@
 			<?php endforeach; ?>
 		</select>
 		<button id="save">Save</button>
-		<div id="coordinates">xxxx, yyyyyy</div>
+		<div id="coordinates"></div>
 	</div>
 	<div id="existing">
 		<label for="valid">Valid countries (select to see on map)</label>
