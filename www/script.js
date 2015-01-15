@@ -58,10 +58,10 @@ $(document).ready(function() {
                     if(data.success) {
                         var lat = data.country.latitude;
                         var lng = data.country.longitude;
-                        var zoom = data.country.zoom;
+                        var zoom = parseInt(data.country.zoom);
                         var latlng = new google.maps.LatLng(lat, lng);
                         map.panTo(latlng);
-                        map.setZoom(6)
+                        map.setZoom(zoom);
                     }
                 }
             );
