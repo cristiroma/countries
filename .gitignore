@@ -1,4 +1,6 @@
-Sandbox/
-fabfile.pyc
-countries.geany
+.idea/
+apache.conf
 config.json
+countries.geany
+fabfile.pyc
+Sandbox/
