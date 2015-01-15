@@ -1,4 +1,5 @@
 <?php
+	header('Content-type: text/html; charset=UTF-8');
 	require_once dirname(__FILE__) . '/common.php';
 	$invalid_c = db_query('SELECT * FROM country WHERE (latitude IS NULL) or (LONGITUDE IS NULL) or (zoom IS NULL) ORDER BY name');
 	$valid_c = db_query('SELECT * FROM country WHERE (latitude IS NOT NULL) or (LONGITUDE IS NOT NULL) or (zoom IS NOT NULL) ORDER BY name');
@@ -8,8 +9,8 @@
   <head>
 	<title>Configure map centers using Google Maps</title>
 	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
-	<meta charset="utf-8">
-	<link href="/style.css" rel="stylesheet"></link>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href="/style.css" rel="stylesheet" />
 	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script src="/script.js"></script>

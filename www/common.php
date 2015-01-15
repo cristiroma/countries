@@ -16,6 +16,7 @@ function db_connect() {
 	} else {
 		// var_dump($conn->host_info);
 	}
+	$conn->query('SET NAMES UTF8');
 	return $conn;
 }
 
