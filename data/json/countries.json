@@ -99,9 +99,9 @@
         "name_official": "Anguilla",
         "flag_32": "AI-32.png",
         "flag_128": "AI-128.png",
-        "latitude": null,
-        "longitude": null,
-        "zoom": null
+        "latitude": "17.76277568",
+        "longitude": "-62.98072438",
+        "zoom": "8"
     },
     {
         "id": "196",
@@ -333,9 +333,9 @@
         "name_official": "Kingdom of Bhutan",
         "flag_32": "BT-32.png",
         "flag_128": "BT-128.png",
-        "latitude": null,
-        "longitude": null,
-        "zoom": null
+        "latitude": "27.28252303",
+        "longitude": "90.39514885",
+        "zoom": "9"
     },
     {
         "id": "182",
@@ -437,9 +437,9 @@
         "name_official": "Brunei Darussalam",
         "flag_32": "BN-32.png",
         "flag_128": "BN-128.png",
-        "latitude": null,
-        "longitude": null,
-        "zoom": null
+        "latitude": "4.49304847",
+        "longitude": "114.73590875",
+        "zoom": "9"
     },
     {
         "id": "25",
