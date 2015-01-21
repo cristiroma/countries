@@ -39,6 +39,7 @@
 			<option value="<?php echo $c->id; ?>"><?php echo $c->name; ?></option>
 			<?php endforeach; ?>
 		</select>
+		<button id="existing_next">Next &raquo;</button>
 		<button id="existing_update">Update</button>
 	</div>
 	<div id="map-canvas"></div>

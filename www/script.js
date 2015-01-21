@@ -20,42 +20,47 @@ function initialize() {
 google.maps.event.addDomListener(window, 'load', initialize);
 
 $(document).ready(function() {
-        $('#country').change(function() {
-                var op = $('#country option:selected')[0];
-                var name = $(op).text();
-                var geocoder = new google.maps.Geocoder();
-                geocoder.geocode({ address: name }, function (results) {
-                        if (results.length > 0) {
+    $('#country').change(function() {
+        var op = $('#country option:selected')[0];
+        var name = $(op).text();
+        var geocoder = new google.maps.Geocoder();
+        geocoder.geocode({ address: name }, function (results) {
+            if (results.length > 0) {
                 var p = results[0].geometry.location;
                 var latlng = new google.maps.LatLng(p.lat(), p.lng());
                 zoom = 6;
                 map.panTo(latlng);
                 map.setZoom(6)
             }
-                });
         });
-        $('#save').click(on_click_save);
-        $('#existing_update').click(on_click_update);
-        $('#valid').change(function() {
-            var op = $('option:selected', this)[0];
-            var country_id = $(op).val();            
-            $.post(base_url + '/ajax.php',
-                {
-                    action: 'get_country',
-                    country : country_id
-                },
-                function(data) {
-                    if(data.success) {
-                        var lat = data.country.latitude;
-                        var lng = data.country.longitude;
-                        var zoom = parseInt(data.country.zoom);
-                        var latlng = new google.maps.LatLng(lat, lng);
-                        map.panTo(latlng);
-                        map.setZoom(zoom);
-                    }
+    });
+    $('#save').click(on_click_save);
+    $('#existing_update').click(on_click_update);
+    $('#valid').change(function() {
+        var op = $('option:selected', this)[0];
+        var country_id = $(op).val();
+        $.post(base_url + '/ajax.php',
+            {
+                action: 'get_country',
+                country : country_id
+            },
+            function(data) {
+                if(data.success) {
+                    var lat = data.country.latitude;
+                    var lng = data.country.longitude;
+                    var zoom = parseInt(data.country.zoom);
+                    var latlng = new google.maps.LatLng(lat, lng);
+                    map.panTo(latlng);
+                    map.setZoom(zoom);
                 }
-            );
-        });
+            }
+        );
+    });
+    $('#existing_next').click(function() {
+        var selected = $($('#valid option:selected')[0]);
+        selected.next('option').attr('selected', 'selected');
+        $('#valid').trigger('change');
+    });
 });
 
 function on_click_save() {
