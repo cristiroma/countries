@@ -17,6 +17,7 @@ Features:
 	* max 128 px height (128 x 64)
 	* max 32 px height (32 x 16)
 
+* [Demo website](http://countries.romanescu.ro)
 
 How to use
 ==========
