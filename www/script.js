@@ -34,18 +34,8 @@ $(document).ready(function() {
             }
                 });
         });
-        $('#save').click(function() {
-                var op = $('#country option:selected')[0];
-                var country_id = $(op).val();
-                var center = map.getBounds().getCenter();
-                var zoom = map.getZoom();
-                save(country_id, center.lat(), center.lng(), zoom, function(data) {
-                    var selected = $($('#country option:selected')[0]);
-                    selected.next('option').attr('selected', 'selected');
-                    selected.remove();
-                    $('#country').trigger('change');
-                });
-        });
+        $('#save').click(on_click_save);
+        $('#existing_update').click(on_click_update);
         $('#valid').change(function() {
             var op = $('option:selected', this)[0];
             var country_id = $(op).val();            
@@ -68,6 +58,30 @@ $(document).ready(function() {
         });
 });
 
+function on_click_save() {
+    var op = $('#country option:selected')[0];
+    var country_id = $(op).val();
+    var center = map.getBounds().getCenter();
+    var zoom = map.getZoom();
+    save(country_id, center.lat(), center.lng(), zoom, function(data) {
+        var selected = $($('#country option:selected')[0]);
+        selected.next('option').attr('selected', 'selected');
+        selected.remove();
+        $('#country').trigger('change');
+    });
+}
+
+function on_click_update() {
+    var op = $('#valid option:selected')[0];
+    var country_id = $(op).val();
+    var center = map.getBounds().getCenter();
+    var zoom = map.getZoom();
+    save(country_id, center.lat(), center.lng(), zoom, function(data) {
+        var selected = $($('#valid option:selected')[0]);
+        selected.next('option').attr('selected', 'selected');
+        $('#valid').trigger('change');
+    });
+}
 
 function save(id, latitude, longitude, zoom, callback) {
     $.post(base_url + '/ajax.php',
