@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.5.30, for osx10.9 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.22, for osx10.10 (x86_64)
 --
 -- Host: localhost    Database: countries
 -- ------------------------------------------------------
--- Server version	5.5.30-log
+-- Server version	5.6.22
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -36,7 +36,7 @@ CREATE TABLE `region` (
 
 LOCK TABLES `region` WRITE;
 /*!40000 ALTER TABLE `region` DISABLE KEYS */;
-INSERT INTO `region` VALUES (1,'Africa',1),(2,'Asia and the Pacific',1),(3,'Europe',1),(4,'Latin America and the Caribbean',1),(5,'North America',1),(6,'Polar: Arctic',1),(7,'West Asia',1);
+INSERT INTO `region` VALUES (1,'Africa',1),(2,'Asia and the Pacific',1),(3,'Europe',1),(4,'Latin America and the Caribbean',1),(5,'North America',1),(6,'Polar: Arctic',0),(7,'West Asia',1);
 /*!40000 ALTER TABLE `region` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -75,4 +75,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-12-03 22:04:49
+-- Dump completed on 2015-02-16 12:28:03
