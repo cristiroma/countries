@@ -481,6 +481,19 @@
         "zoom": "8"
     },
     {
+        "id": "31",
+        "enabled": "1",
+        "code3l": "CPV",
+        "code2l": "CV",
+        "name": "Cabo Verde",
+        "name_official": "Republic of Cabo Verde",
+        "flag_32": "CV-32.png",
+        "flag_128": "CV-128.png",
+        "latitude": "15.11988711",
+        "longitude": "-23.60517010",
+        "zoom": "10"
+    },
+    {
         "id": "28",
         "enabled": "1",
         "code3l": "KHM",
@@ -518,19 +531,6 @@
         "latitude": "60.36196817",
         "longitude": "-106.69833150",
         "zoom": "4"
-    },
-    {
-        "id": "31",
-        "enabled": "1",
-        "code3l": "CPV",
-        "code2l": "CV",
-        "name": "Cape Verde",
-        "name_official": "Republic of Cape Verde",
-        "flag_32": "CV-32.png",
-        "flag_128": "CV-128.png",
-        "latitude": "15.11988711",
-        "longitude": "-23.60517010",
-        "zoom": "10"
     },
     {
         "id": "222",
