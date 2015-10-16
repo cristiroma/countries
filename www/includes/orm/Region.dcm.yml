@@ -1,0 +1,26 @@
+Region:
+    type: entity
+    table: region
+    id:
+        id:
+            type: integer
+            nullable: false
+            options:
+                unsigned: false
+            id: true
+            generator:
+                strategy: IDENTITY
+    fields:
+        name:
+            type: string
+            nullable: true
+            length: 32
+            options:
+                fixed: false
+        isUnep:
+            type: boolean
+            nullable: false
+            options:
+                default: '0'
+            column: is_unep
+    lifecycleCallbacks: {  }

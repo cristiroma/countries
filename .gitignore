@@ -4,3 +4,4 @@ config.json
 countries.geany
 fabfile.pyc
 Sandbox/
+vendor/

@@ -1,0 +1,31 @@
+CountryRegion:
+    type: entity
+    table: country_region
+    uniqueConstraints:
+        country_id:
+            columns:
+                - country_id
+                - region_id
+    id:
+        id:
+            type: integer
+            nullable: false
+            options:
+                unsigned: false
+            id: true
+            generator:
+                strategy: IDENTITY
+    fields:
+        countryId:
+            type: integer
+            nullable: false
+            options:
+                unsigned: false
+            column: country_id
+        regionId:
+            type: integer
+            nullable: false
+            options:
+                unsigned: false
+            column: region_id
+    lifecycleCallbacks: {  }
