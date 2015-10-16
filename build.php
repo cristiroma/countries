@@ -4,12 +4,12 @@
  * Created: 201407071327
  */
 
-require_once 'www/common.php';
+require_once 'bootstrap.php';
 
 global $argv;
 
 if(count($argv) < 2) {
-	echo "Usage: php build.php <json|csv|validate_flags>\n";
+	echo "Usage: php build.php <json|csv|validate_flags|gh_pages>\n";
 	exit(-1);
 }
 
@@ -70,4 +70,29 @@ function exec_validate_flags() {
 		}
 	}
 	echo "No output above means everything is OK\n";
+}
+
+function exec_gh_pages() {
+	ob_start();
+	require_once 'www/gh-index.php';
+
+  mkdir('gh-pages');
+	$data = ob_get_clean();
+	if ($f = fopen('gh-pages/index.html', 'w+')) {
+		fwrite($f, $data);
+		fclose($f);
+	}
+	$countries = get_countries();
+	/** @var Country $country */
+	foreach($countries as $country) {
+		$filename = slugify($country->getCode3l()) . '.html';
+		if ($f = fopen('gh-pages/' . $filename, 'w+')) {
+			$_GET['code'] = $country->getCode3l();
+			ob_start();
+			require 'www/detail.php';
+			$data = ob_get_clean();
+			fwrite($f, $data);
+			fclose($f);
+		}
+	}
 }

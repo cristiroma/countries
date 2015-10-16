@@ -7,7 +7,7 @@ use Doctrine\ORM\EntityManager;
 require __DIR__ . '/vendor/autoload.php';
 
 global $cfg;
-$cfg = json_decode(file_get_contents(__DIR__ . '/../config.json'));
+$cfg = json_decode(file_get_contents(__DIR__ . '/config.json'));
 $isDevMode = TRUE;
 $dbParams = array(
 	'driver' => 'pdo_mysql',
@@ -15,9 +15,16 @@ $dbParams = array(
 	'password' => $cfg->database->pass,
 	'dbname' => $cfg->database->db,
 );
-$config = Setup::createYAMLMetadataConfiguration(array(__DIR__ . "/includes/orm"), $isDevMode);
+$config = Setup::createYAMLMetadataConfiguration(array(__DIR__ . "/src/Entity"), $isDevMode);
 $em = EntityManager::create($dbParams, $config);
 
+function slugify($string) {
+	$result = strtolower($string);
+	$result = preg_replace("/[^a-z0-9\s-]/", "", $result);
+	$result = trim(preg_replace("/[\s-]+/", " ", $result));
+	$result = preg_replace("/\s/", "-", $result);
+	return $result;
+}
 
 function get_countries() {
 	global $em;
