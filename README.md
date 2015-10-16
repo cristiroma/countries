@@ -1,28 +1,26 @@
-Statement
-=========
+About
+=====
 
-The purpose of this project is to provide a reusable, portable data set with world country information. 
-I would like to provide the data set in various formats to make it easy to use from popular programming languages.
-
-Current storage data formats for the country data (under data/ directory):
-
-* SQL dump (MySQL)
-* JSON
-* CSV
+Comprehensive data set with world countries in popular formats to easily use in different programming languages.
 
 Features:
 
-* Database SQL script with country table
-* Hi-quality flags (PNG file) available in two sizes:
-	* max 128 px height (128 x 64)
-	* max 32 px height (32 x 16)
-
+* Comprehensive list of world countries
+* Common formats: SQL (MySQL), JSON, CSV
+* Hi-quality flags (PNG file) available in two sizes: 128 x 64, and 32 x 16.
+* ISO codes 3166-1 / 3166-2 (ie. RO, ROU for Romania)
+* Country 'center' coordinates & zoom hand-picked to optimally fit into a square Google map viewport
+* List of official UN Regions & assignment of countries to regions
 * [Demo website](http://countries.romanescu.ro)
+
+TODO list:
+
+* Code examples
 
 How to use
 ==========
 
-Everything you need is under the ```data/``` dir.
+Look into the ```data/``` directory for your preffered format. 
 
 MySQL
 ----
