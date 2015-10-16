@@ -89,7 +89,10 @@ function exec_gh_pages() {
 		if ($f = fopen('gh-pages/' . $filename, 'w+')) {
 			$_GET['code'] = $country->getCode3l();
 			ob_start();
+			$page_title = $country->getNameOfficial();
+			require 'www/includes/header.inc';
 			require 'www/detail.php';
+			require 'www/includes/footer.inc';
 			$data = ob_get_clean();
 			fwrite($f, $data);
 			fclose($f);

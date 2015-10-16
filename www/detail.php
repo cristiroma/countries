@@ -7,7 +7,7 @@ if (empty($_GET['code']) || strlen($_GET['code']) != 3) {
 $country = get_country_by_code3l($_GET['code']);
 $regions = get_country_regions($country->getId());
 $page_title = $country->getNameOfficial();
-include_once 'includes/header.inc';
+require_once __DIR__ . '/includes/header.inc';
 ?>
 <div class="container">
   <div class="page-header">
@@ -79,4 +79,4 @@ include_once 'includes/header.inc';
     </div>
   </div>
 </div>
-<?php include_once 'includes/footer.inc'; ?>
+<?php require_once __DIR__ . '/includes/footer.inc'; ?>
