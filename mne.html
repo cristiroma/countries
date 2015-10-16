@@ -1,0 +1,61 @@
+<div class="container">
+  <div class="page-header">
+    <div class="pull-right"><a href="/#MNE">Back to list</a></div>
+    <h1 class="">
+      <img src="data/flags/ME-128.png" style="margin-right: 10px;" />
+      Montenegro</h1>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">Country name</h3>
+    </div>
+    <div class="panel-body">
+      <dl class="dl-horizontal pull-left">
+        <dt>Name</dt>
+        <dd>Montenegro</dd>
+
+        <dt>Official name</dt>
+        <dd>Montenegro</dd>
+
+              <dt>Regions</dt>
+        <dd>
+              Europe,
+              </dd>
+            </dl>
+      <div class="pull-right">
+
+        <img src="data/flags/ME-32.png" style="border: 1px solid #c0c0c0; margin-right: 10px;" />
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">Geographical information</h3>
+    </div>
+    <div class="panel-body">
+      <dl class="dl-horizontal pull-left">
+              <dt>Regions</dt>
+        <dd>
+                      Europe,
+                  </dd>
+              <dt>Latitude</dt>
+        <dd>42.71699590</dd>
+        <dt>Longitude</dt>
+        <dd>19.09699321</dd>
+        <dt>Optimal zoom</dt>
+        <dd>8</dd>
+      </dl>
+      <div id="map" class="pull-right" style="width: 400px; height: 400px;"></div>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyApZu296XxM7Z8h4SMpVgWO_z-spvRaMXI&callback=initMap" async defer></script>
+      <script>
+        var map;
+        function initMap() {
+          map = new google.maps.Map(document.getElementById('map'), {
+            center: { lat: 42.71699590, lng: 19.09699321 },
+            zoom: 8          });
+        }
+      </script>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,53 @@
+<div class="container">
+  <div class="page-header">
+    <div class="pull-right"><a href="/#SGS">Back to list</a></div>
+    <h1 class="">
+      <img src="data/flags/GS-128.png" style="margin-right: 10px;" />
+      South Georgia and the South Sandwich Islands</h1>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">Country name</h3>
+    </div>
+    <div class="panel-body">
+      <dl class="dl-horizontal pull-left">
+        <dt>Name</dt>
+        <dd>South Georgia and the South Sandwich Islands</dd>
+
+        <dt>Official name</dt>
+        <dd>South Georgia and the South Sandwich Islands</dd>
+
+            </dl>
+      <div class="pull-right">
+
+        <img src="data/flags/GS-32.png" style="border: 1px solid #c0c0c0; margin-right: 10px;" />
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">Geographical information</h3>
+    </div>
+    <div class="panel-body">
+      <dl class="dl-horizontal pull-left">
+              <dt>Latitude</dt>
+        <dd>-54.38130284</dd>
+        <dt>Longitude</dt>
+        <dd>-36.67305304</dd>
+        <dt>Optimal zoom</dt>
+        <dd>9</dd>
+      </dl>
+      <div id="map" class="pull-right" style="width: 400px; height: 400px;"></div>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyApZu296XxM7Z8h4SMpVgWO_z-spvRaMXI&callback=initMap" async defer></script>
+      <script>
+        var map;
+        function initMap() {
+          map = new google.maps.Map(document.getElementById('map'), {
+            center: { lat: -54.38130284, lng: -36.67305304 },
+            zoom: 9          });
+        }
+      </script>
+    </div>
+  </div>
+</div>

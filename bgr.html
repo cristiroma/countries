@@ -1,0 +1,61 @@
+<div class="container">
+  <div class="page-header">
+    <div class="pull-right"><a href="/#BGR">Back to list</a></div>
+    <h1 class="">
+      <img src="data/flags/BG-128.png" style="margin-right: 10px;" />
+      Republic of Bulgaria</h1>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">Country name</h3>
+    </div>
+    <div class="panel-body">
+      <dl class="dl-horizontal pull-left">
+        <dt>Name</dt>
+        <dd>Bulgaria</dd>
+
+        <dt>Official name</dt>
+        <dd>Republic of Bulgaria</dd>
+
+              <dt>Regions</dt>
+        <dd>
+              Europe,
+              </dd>
+            </dl>
+      <div class="pull-right">
+
+        <img src="data/flags/BG-32.png" style="border: 1px solid #c0c0c0; margin-right: 10px;" />
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">Geographical information</h3>
+    </div>
+    <div class="panel-body">
+      <dl class="dl-horizontal pull-left">
+              <dt>Regions</dt>
+        <dd>
+                      Europe,
+                  </dd>
+              <dt>Latitude</dt>
+        <dd>42.70160678</dd>
+        <dt>Longitude</dt>
+        <dd>25.48583200</dd>
+        <dt>Optimal zoom</dt>
+        <dd>7</dd>
+      </dl>
+      <div id="map" class="pull-right" style="width: 400px; height: 400px;"></div>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyApZu296XxM7Z8h4SMpVgWO_z-spvRaMXI&callback=initMap" async defer></script>
+      <script>
+        var map;
+        function initMap() {
+          map = new google.maps.Map(document.getElementById('map'), {
+            center: { lat: 42.70160678, lng: 25.48583200 },
+            zoom: 7          });
+        }
+      </script>
+    </div>
+  </div>
+</div>
