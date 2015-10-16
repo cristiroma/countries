@@ -11,7 +11,9 @@ Features:
 * ISO codes 3166-1 / 3166-2 (ie. RO, ROU for Romania)
 * Country 'center' coordinates & zoom hand-picked to optimally fit into a square Google map viewport
 * List of official UN Regions & assignment of countries to regions
-* [Demo website](http://countries.romanescu.ro)
+
+
+[View Demo](http://cristiroma.github.io/countries)
 
 TODO list:
 
