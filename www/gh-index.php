@@ -1,10 +1,13 @@
 <?php
-require_once 'bootstrap.php';
+require_once __DIR__ . '/../bootstrap.php';
 $countries = get_countries();
 include_once 'includes/header.inc';
 ?>
 <div class="container">
   <h1>List of countries</h1>
+  <p>
+    <a href="data/json/countries.json">Download JSON</a> | <a href="data/csv/countries.csv">Download CSV</a>
+  </p>
   <p>
     Click on any country to see the its details
   </p>

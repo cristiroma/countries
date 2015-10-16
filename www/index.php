@@ -1,5 +1,5 @@
 <?php
-require_once 'bootstrap.php';
+require_once __DIR__ . '/../bootstrap.php';
 $countries = get_countries();
 include_once 'includes/header.inc';
 ?>
