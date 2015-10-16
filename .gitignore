@@ -1,1 +1,4 @@
+config.json
+vendor/
 .idea/
+gh-pages/
