@@ -8,9 +8,9 @@ require_once 'bootstrap.php';
 
 global $argv;
 
-if(count($argv) < 2) {
-	echo "Usage: php build.php <json|csv|validate_flags|gh_pages>\n";
-	exit(-1);
+if (count($argv) < 2) {
+  echo "Usage: php build.php <css|json|csv|validate_flags|gh_pages>\n";
+  exit(-1);
 }
 
 $cmd = $argv[1];
