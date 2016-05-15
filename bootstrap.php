@@ -26,9 +26,9 @@ function slugify($string) {
 	return $result;
 }
 
-function get_countries() {
+function get_countries($order = 'c.name') {
 	global $em;
-	$q = $em->createQuery('SELECT c FROM Country c ORDER by c.name');
+	$q = $em->createQuery("SELECT c FROM Country c ORDER BY {$order}");
 	return $q->getResult();
 }
 

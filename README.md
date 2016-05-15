@@ -1,17 +1,19 @@
 About
 =====
 
-Comprehensive data set with world countries in popular formats to easily use in different programming languages.
+Data set with world countries (names, flags, coordinates) in popular formats to easily integrate in your projects.
 
 Features:
 
-* Comprehensive list of world countries
-* Common formats: SQL (MySQL), JSON, CSV
+* Full list of world countries
+* MySQL tables containing countries and attributes
+* JSON array of objects with country attributes
+* CSV table with countries
+* CSS sprite with country flags for HTML
 * Hi-quality flags (PNG file) available in two sizes: 128 x 64, and 32 x 16.
 * ISO codes 3166-1 / 3166-2 (ie. RO, ROU for Romania)
-* Country 'center' coordinates & zoom hand-picked to optimally fit into a square Google map viewport
+* Country 'center' coordinates & zoom hand-picked to optimally fit into a square Google Maps viewport
 * List of official UN Regions & assignment of countries to regions
-
 
 [View Demo](http://cristiroma.github.io/countries)
 
