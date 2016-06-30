@@ -332,7 +332,7 @@ class Country
     /**
      * Set zoom
      *
-     * @param boolean $zoom
+     * @param integer $zoom
      *
      * @return Country
      */
@@ -346,7 +346,7 @@ class Country
     /**
      * Get zoom
      *
-     * @return boolean
+     * @return integer
      */
     public function getZoom()
     {
