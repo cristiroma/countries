@@ -1,4 +1,5 @@
 2016-06-30 Stefan Radu Popescu <radu.popescu@eaudeweb.ro>
+    * Fixed json export. Now uses JsonSerializable and EM
     * Added translations
     * Added table countryname
     * Added mysql foreign keys for all tables where required
@@ -6,7 +7,8 @@
     * Changed metadata configuration to annotation based in bootstrap.php
     * Removed YAML ORM configuration files
     * Changed and added ORM entities. They now contain relationship and constraint
-        annotations as well as one-to-many collections.
+        annotations as well as one-to-many collections. Implement JsonSerializable for
+        json export usage
     * Added function get_countries_full in bootstrap.php
 
 

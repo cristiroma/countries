@@ -10,7 +10,7 @@ use Doctrine\ORM\Mapping as ORM;
  * @ORM\Table(name="country_region", uniqueConstraints={@ORM\UniqueConstraint(name="country_id", columns={"country_id", "region_id"})}, indexes={@ORM\Index(name="fk_country_region__region_idx", columns={"region_id"}), @ORM\Index(name="IDX_4F1A1A05F92F3E70", columns={"country_id"})})
  * @ORM\Entity
  */
-class CountryRegion
+class CountryRegion implements JsonSerializable
 {
     /**
      * @var integer
@@ -99,5 +99,13 @@ class CountryRegion
     public function getRegion()
     {
         return $this->region;
+    }
+    
+    public function jsonSerialize()
+    {
+        return array(
+            'region'=>$this->region->getName(),
+            'isUnep'=>$this->region->getIsUnep()
+        );
     }
 }

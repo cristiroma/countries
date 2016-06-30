@@ -10,7 +10,7 @@ use Doctrine\ORM\Mapping as ORM;
  * @ORM\Table(name="country", uniqueConstraints={@ORM\UniqueConstraint(name="idx_countries_name", columns={"name"}), @ORM\UniqueConstraint(name="idx_countries_code3l", columns={"code3l"}), @ORM\UniqueConstraint(name="idx_countries_code2l", columns={"code2l"})})
  *
  */
-class Country
+class Country implements JsonSerializable
 {
     /**
      * @var integer
@@ -87,7 +87,7 @@ class Country
     /**
      * @var integer
      *
-     * @ORM\Column(name="zoom", type="boolean", nullable=true)
+     * @ORM\Column(name="zoom", type="integer", nullable=true)
      */
     private $zoom;
 
@@ -370,5 +370,37 @@ class Country
      */
     public function getCountryNames(){
         return $this->countryNames;
+    }
+
+
+    public function jsonSerialize()
+    {
+        $countryRegions=$this->countryRegions;
+        $crsArr=array();
+        foreach ($countryRegions as $cr){
+            array_push($crsArr, $cr->jsonSerialize());
+        }
+
+        $countrynames=$this->countryNames;
+        $cns=array();
+        foreach($countrynames as $cn){
+            array_push($cns,$cn->jsonSerialize());
+        }
+
+        return array(
+            'id'=>$this->id,
+            'enabled'=>$this->enabled,
+            'code3l'=>$this->code3l,
+            'code2l'=>$this->code2l,
+            'name'=>$this->name,
+            'nameOfficial'=>$this->nameOfficial,
+            'flag32'=>$this->flag32,
+            'flag128'=>$this->flag128,
+            'latitude'=>$this->latitude,
+            'longitude'=>$this->longitude,
+            'zoom'=>$this->zoom,
+            'countryRegions'=>$crsArr,
+            'countryNames'=>$cns
+        );
     }
 }
