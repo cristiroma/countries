@@ -1,3 +1,15 @@
+2016-06-30 Stefan Radu Popescu <radu.popescu@eaudeweb.ro>
+    * Added translations
+    * Added table countryname
+    * Added mysql foreign keys for all tables where required
+    * Added mysql unique constraint on countryname table (country, language)
+    * Changed metadata configuration to annotation based in bootstrap.php
+    * Removed YAML ORM configuration files
+    * Changed and added ORM entities. They now contain relationship and constraint
+        annotations as well as one-to-many collections.
+    * Added function get_countries_full in bootstrap.php
+
+
 2014-07-07 Cristian Romanescu <cristian@romanescu.ro>
 	* Fixed flag names to use the actual ISO code instead of country name
 	* Streamlined the build process

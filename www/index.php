@@ -1,6 +1,6 @@
 <?php
 require_once __DIR__ . '/../bootstrap.php';
-$countries = get_countries();
+$countries=get_countries_full();
 include_once 'includes/header.inc';
 ?>
 <div class="container">

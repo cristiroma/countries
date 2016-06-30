@@ -2,25 +2,39 @@
 
 
 
+use Doctrine\ORM\Mapping as ORM;
+
 /**
  * Region
+ *
+ * @ORM\Table(name="region")
+ * @ORM\Entity
  */
 class Region
 {
     /**
      * @var integer
+     *
+     * @ORM\Column(name="id", type="integer", nullable=false)
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="IDENTITY")
      */
     private $id;
 
     /**
      * @var string
+     *
+     * @ORM\Column(name="name", type="string", length=32, nullable=true)
      */
     private $name;
 
     /**
      * @var boolean
+     *
+     * @ORM\Column(name="is_unep", type="boolean", nullable=false)
      */
     private $isUnep = '0';
+
 
 
     /**
@@ -81,4 +95,3 @@ class Region
         return $this->isUnep;
     }
 }
-

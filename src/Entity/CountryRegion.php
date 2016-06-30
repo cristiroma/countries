@@ -2,25 +2,45 @@
 
 
 
+use Doctrine\ORM\Mapping as ORM;
+
 /**
  * CountryRegion
+ *
+ * @ORM\Table(name="country_region", uniqueConstraints={@ORM\UniqueConstraint(name="country_id", columns={"country_id", "region_id"})}, indexes={@ORM\Index(name="fk_country_region__region_idx", columns={"region_id"}), @ORM\Index(name="IDX_4F1A1A05F92F3E70", columns={"country_id"})})
+ * @ORM\Entity
  */
 class CountryRegion
 {
     /**
      * @var integer
+     *
+     * @ORM\Column(name="id", type="integer", nullable=false)
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="IDENTITY")
      */
     private $id;
 
     /**
-     * @var integer
+     * @var \Country
+     *
+     * @ORM\ManyToOne(targetEntity="Country", inversedBy="countryRegions")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="country_id", referencedColumnName="id")
+     * })
      */
-    private $countryId;
+    private $country;
 
     /**
-     * @var integer
+     * @var \Region
+     *
+     * @ORM\ManyToOne(targetEntity="Region")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="region_id", referencedColumnName="id")
+     * })
      */
-    private $regionId;
+    private $region;
+
 
 
     /**
@@ -34,51 +54,50 @@ class CountryRegion
     }
 
     /**
-     * Set countryId
+     * Set country
      *
-     * @param integer $countryId
+     * @param \Country $country
      *
      * @return CountryRegion
      */
-    public function setCountryId($countryId)
+    public function setCountry(\Country $country = null)
     {
-        $this->countryId = $countryId;
+        $this->country = $country;
 
         return $this;
     }
 
     /**
-     * Get countryId
+     * Get country
      *
-     * @return integer
+     * @return \Country
      */
-    public function getCountryId()
+    public function getCountry()
     {
-        return $this->countryId;
+        return $this->country;
     }
 
     /**
-     * Set regionId
+     * Set region
      *
-     * @param integer $regionId
+     * @param \Region $region
      *
      * @return CountryRegion
      */
-    public function setRegionId($regionId)
+    public function setRegion(\Region $region = null)
     {
-        $this->regionId = $regionId;
+        $this->region = $region;
 
         return $this;
     }
 
     /**
-     * Get regionId
+     * Get region
      *
-     * @return integer
+     * @return \Region
      */
-    public function getRegionId()
+    public function getRegion()
     {
-        return $this->regionId;
+        return $this->region;
     }
 }
-
