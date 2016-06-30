@@ -5,8 +5,12 @@ if (empty($_GET['code']) || strlen($_GET['code']) != 3) {
 }
 /** @var Country $country */
 $country = get_country_by_code3l($_GET['code']);
+/*
 $regions = get_country_regions($country->getId());
+*/
 $page_title = $country->getNameOfficial();
+$cNames = $country->getCountryNames();
+$regions=$country->getCountryRegions();
 require_once __DIR__ . '/includes/header.inc';
 ?>
 <div class="container">
@@ -32,7 +36,9 @@ require_once __DIR__ . '/includes/header.inc';
       <?php if (!empty($regions)): ?>
         <dt>Regions</dt>
         <dd>
-      <?php foreach($regions as $region): ?>
+      <?php foreach($regions as $region):
+          $region = $region->getRegion()
+          ?>
         <?php print $region->getName(); ?>,
       <?php endforeach; ?>
         </dd>
@@ -53,7 +59,9 @@ require_once __DIR__ . '/includes/header.inc';
       <?php if (!empty($regions)): ?>
         <dt>Regions</dt>
         <dd>
-          <?php foreach($regions as $region): ?>
+          <?php foreach($regions as $region):
+              $region=$region->getRegion();
+              ?>
             <?php print $region->getName(); ?>,
           <?php endforeach; ?>
         </dd>
@@ -78,5 +86,35 @@ require_once __DIR__ . '/includes/header.inc';
       </script>
     </div>
   </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">Translations</h3>
+        </div>
+        <div class="panel-body">
+            <dd>
+                <table>
+                    <tr>
+                        <th>Language</th>
+                        <?php foreach ($cNames as $cName): ?>
+                            <th><?php echo $cName->getLanguage();?></th>
+                        <?php endforeach; ?>
+                    </tr>
+                    <tr>
+                        <td>Name</td>
+                        <?php foreach ($cNames as $cName): ?>
+                            <td><?php echo $cName->getName();?></td>
+                        <?php endforeach; ?>
+                    </tr>
+                    <tr>
+                        <td>Official Name</td>
+                        <?php foreach ($cNames as $cName): ?>
+                            <td><?php echo $cName->getNameOfficial();?></td>
+                        <?php endforeach; ?>
+                    </tr>
+                </table>
+            </dd>
+        </div>
+    </div>
 </div>
 <?php require_once __DIR__ . '/includes/footer.inc'; ?>
