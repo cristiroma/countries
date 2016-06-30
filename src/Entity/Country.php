@@ -85,7 +85,7 @@ class Country
     private $longitude;
 
     /**
-     * @var boolean
+     * @var integer
      *
      * @ORM\Column(name="zoom", type="boolean", nullable=true)
      */
