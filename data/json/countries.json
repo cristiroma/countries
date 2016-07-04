@@ -10,7 +10,7 @@
         "flag128": "AW-128.png",
         "latitude": "12.52109661",
         "longitude": "-69.96833800",
-        "zoom": true,
+        "zoom": 12,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -18,7 +18,11 @@
             }
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "Aruba",
+                "nameOfficial": "Aruba of the Kingdom of the Netherlands"
+            }
         ]
     },
     {
@@ -32,7 +36,7 @@
         "flag128": "AF-128.png",
         "latitude": "33.98299275",
         "longitude": "66.39159363",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -43,7 +47,7 @@
             {
                 "language": "ar",
                 "name": "أفغانستان",
-                "nameOfficial": "جمهورية أفغانستان الإسلامية "
+                "nameOfficial": "جمهورية أفغانستان الإسلامية"
             },
             {
                 "language": "en",
@@ -63,7 +67,7 @@
             {
                 "language": "it",
                 "name": "Afghanistan",
-                "nameOfficial": "Repubblica Islamica di Afghanistan  "
+                "nameOfficial": "Repubblica Islamica di Afghanistan"
             },
             {
                 "language": "ru",
@@ -88,7 +92,7 @@
         "flag128": "AO-128.png",
         "latitude": "-12.16469683",
         "longitude": "16.70933622",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -99,7 +103,7 @@
             {
                 "language": "ar",
                 "name": "أنغولا",
-                "nameOfficial": "أنغولا جمهورية "
+                "nameOfficial": "أنغولا جمهورية"
             },
             {
                 "language": "en",
@@ -144,7 +148,7 @@
         "flag128": "AI-128.png",
         "latitude": "18.22053521",
         "longitude": "-63.06861300",
-        "zoom": true,
+        "zoom": 12,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -152,7 +156,11 @@
             }
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "Anguilla",
+                "nameOfficial": "Anguilla"
+            }
         ]
     },
     {
@@ -166,7 +174,7 @@
         "flag128": "AX-128.png",
         "latitude": "60.25403213",
         "longitude": "20.35918350",
-        "zoom": true,
+        "zoom": 9,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -174,7 +182,11 @@
             }
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "Åland Islands",
+                "nameOfficial": "Åland Islands"
+            }
         ]
     },
     {
@@ -188,7 +200,7 @@
         "flag128": "AL-128.png",
         "latitude": "41.00017358",
         "longitude": "19.87170014",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -199,7 +211,7 @@
             {
                 "language": "ar",
                 "name": "ألبانيا",
-                "nameOfficial": "ألبانيا جمهورية "
+                "nameOfficial": "ألبانيا جمهورية"
             },
             {
                 "language": "en",
@@ -244,7 +256,7 @@
         "flag128": "AD-128.png",
         "latitude": "42.54057088",
         "longitude": "1.55201340",
-        "zoom": true,
+        "zoom": 11,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -255,7 +267,7 @@
             {
                 "language": "ar",
                 "name": "أندورا",
-                "nameOfficial": "أندورا إمارة "
+                "nameOfficial": "أندورا إمارة"
             },
             {
                 "language": "en",
@@ -300,7 +312,7 @@
         "flag128": "AE-128.png",
         "latitude": "24.64324405",
         "longitude": "53.62261227",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "West Asia",
@@ -310,8 +322,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "المتحدة العربية الإمارات ",
-                "nameOfficial": "المتحدة العربية الإمارات "
+                "name": "المتحدة العربية الإمارات",
+                "nameOfficial": "المتحدة العربية الإمارات"
             },
             {
                 "language": "en",
@@ -356,7 +368,7 @@
         "flag128": "AR-128.png",
         "latitude": "-38.01529308",
         "longitude": "-64.97897469",
-        "zoom": true,
+        "zoom": 4,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -367,7 +379,7 @@
             {
                 "language": "ar",
                 "name": "الأرجنتين",
-                "nameOfficial": "جمهورية الأرجنتين "
+                "nameOfficial": "جمهورية الأرجنتين"
             },
             {
                 "language": "en",
@@ -412,7 +424,7 @@
         "flag128": "AM-128.png",
         "latitude": "40.13475528",
         "longitude": "45.01072318",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -423,7 +435,7 @@
             {
                 "language": "ar",
                 "name": "أرمينيا",
-                "nameOfficial": "أرمينيا جمهورية "
+                "nameOfficial": "أرمينيا جمهورية"
             },
             {
                 "language": "en",
@@ -468,7 +480,7 @@
         "flag128": "AS-128.png",
         "latitude": "-14.30634641",
         "longitude": "-170.69501750",
-        "zoom": true,
+        "zoom": 11,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -476,7 +488,11 @@
             }
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "American Samoa",
+                "nameOfficial": "The United States Territory of American Samoa"
+            }
         ]
     },
     {
@@ -490,12 +506,16 @@
         "flag128": "AQ-128.png",
         "latitude": "-45.13806295",
         "longitude": "10.48095703",
-        "zoom": true,
+        "zoom": 2,
         "countryRegions": [
 
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "Antarctica",
+                "nameOfficial": "Antarctica"
+            }
         ]
     },
     {
@@ -509,12 +529,16 @@
         "flag128": "TF-128.png",
         "latitude": "-49.27235903",
         "longitude": "69.34856300",
-        "zoom": true,
+        "zoom": 8,
         "countryRegions": [
 
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "French Southern and Antarctic Lands",
+                "nameOfficial": "Territory of the French Southern and Antarctic Lands"
+            }
         ]
     },
     {
@@ -528,7 +552,7 @@
         "flag128": "AG-128.png",
         "latitude": "17.48060423",
         "longitude": "-61.42014426",
-        "zoom": true,
+        "zoom": 9,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -538,8 +562,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "أنتيغوا وبربودا ",
-                "nameOfficial": "أنتيغوا وبربودا "
+                "name": "أنتيغوا وبربودا",
+                "nameOfficial": "أنتيغوا وبربودا"
             },
             {
                 "language": "en",
@@ -584,7 +608,7 @@
         "flag128": "AU-128.png",
         "latitude": "-26.29594646",
         "longitude": "133.55540944",
-        "zoom": true,
+        "zoom": 4,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -640,7 +664,7 @@
         "flag128": "AT-128.png",
         "latitude": "47.63125476",
         "longitude": "13.18776731",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -651,7 +675,7 @@
             {
                 "language": "ar",
                 "name": "النمسا",
-                "nameOfficial": "النمسا جمهورية "
+                "nameOfficial": "النمسا جمهورية"
             },
             {
                 "language": "en",
@@ -696,7 +720,7 @@
         "flag128": "AZ-128.png",
         "latitude": "40.35321757",
         "longitude": "47.46706372",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -707,7 +731,7 @@
             {
                 "language": "ar",
                 "name": "أذربيجان",
-                "nameOfficial": "الجمهورية الأذربيجانية "
+                "nameOfficial": "الجمهورية الأذربيجانية"
             },
             {
                 "language": "en",
@@ -752,7 +776,7 @@
         "flag128": "BI-128.png",
         "latitude": "-3.40499707",
         "longitude": "29.88592902",
-        "zoom": true,
+        "zoom": 8,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -763,7 +787,7 @@
             {
                 "language": "ar",
                 "name": "بوروندي",
-                "nameOfficial": "جمهورية بوروندي "
+                "nameOfficial": "جمهورية بوروندي"
             },
             {
                 "language": "en",
@@ -808,7 +832,7 @@
         "flag128": "BE-128.png",
         "latitude": "50.49593874",
         "longitude": "4.46993600",
-        "zoom": true,
+        "zoom": 8,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -819,7 +843,7 @@
             {
                 "language": "ar",
                 "name": "بلجيكا",
-                "nameOfficial": "بلجيكا مملكة "
+                "nameOfficial": "بلجيكا مملكة"
             },
             {
                 "language": "en",
@@ -864,7 +888,7 @@
         "flag128": "BJ-128.png",
         "latitude": "9.37180859",
         "longitude": "2.29386134",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -875,7 +899,7 @@
             {
                 "language": "ar",
                 "name": "بنن",
-                "nameOfficial": "جمهورية بنن "
+                "nameOfficial": "جمهورية بنن"
             },
             {
                 "language": "en",
@@ -920,7 +944,7 @@
         "flag128": "BQ-128.png",
         "latitude": "12.17229702",
         "longitude": "-68.28831170",
-        "zoom": true,
+        "zoom": 11,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -928,7 +952,11 @@
             }
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "Bonaire, Saint Eustatius And Saba",
+                "nameOfficial": "Bonaire, Saint Eustatius and Saba"
+            }
         ]
     },
     {
@@ -942,7 +970,7 @@
         "flag128": "BF-128.png",
         "latitude": "12.22492458",
         "longitude": "-1.56159100",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -952,8 +980,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "بوركينا فاسو ",
-                "nameOfficial": "بوركينا فاسو "
+                "name": "بوركينا فاسو",
+                "nameOfficial": "بوركينا فاسو"
             },
             {
                 "language": "en",
@@ -998,7 +1026,7 @@
         "flag128": "BD-128.png",
         "latitude": "24.08273251",
         "longitude": "90.49915527",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -1009,7 +1037,7 @@
             {
                 "language": "ar",
                 "name": "بنغلاديش",
-                "nameOfficial": "الشعبية بنغلاديش جمهورية "
+                "nameOfficial": "الشعبية بنغلاديش جمهورية"
             },
             {
                 "language": "en",
@@ -1054,7 +1082,7 @@
         "flag128": "BG-128.png",
         "latitude": "42.70160678",
         "longitude": "25.48583200",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -1065,7 +1093,7 @@
             {
                 "language": "ar",
                 "name": "بلغاريا",
-                "nameOfficial": "جمهورية بلغاريا "
+                "nameOfficial": "جمهورية بلغاريا"
             },
             {
                 "language": "en",
@@ -1110,7 +1138,7 @@
         "flag128": "BH-128.png",
         "latitude": "25.90740996",
         "longitude": "50.65932354",
-        "zoom": true,
+        "zoom": 9,
         "countryRegions": [
             {
                 "region": "West Asia",
@@ -1121,7 +1149,7 @@
             {
                 "language": "ar",
                 "name": "البحرين",
-                "nameOfficial": "مملكة البحرين "
+                "nameOfficial": "مملكة البحرين"
             },
             {
                 "language": "en",
@@ -1166,7 +1194,7 @@
         "flag128": "BS-128.png",
         "latitude": "24.45991732",
         "longitude": "-77.68192453",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -1176,8 +1204,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "البهاما جزر ",
-                "nameOfficial": "البهاما جزر كمنولث "
+                "name": "البهاما جزر",
+                "nameOfficial": "البهاما جزر كمنولث"
             },
             {
                 "language": "en",
@@ -1222,7 +1250,7 @@
         "flag128": "BA-128.png",
         "latitude": "44.00040856",
         "longitude": "17.81640910",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -1232,8 +1260,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "والهرسك البوسنة ",
-                "nameOfficial": "والهرسك البوسنة "
+                "name": "والهرسك البوسنة",
+                "nameOfficial": "والهرسك البوسنة"
             },
             {
                 "language": "en",
@@ -1278,7 +1306,7 @@
         "flag128": "BL-128.png",
         "latitude": "17.90042417",
         "longitude": "-62.83376215",
-        "zoom": true,
+        "zoom": 13,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -1286,7 +1314,11 @@
             }
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "Saint Barthélemy",
+                "nameOfficial": "Territorial collectivity of Saint Barthélemy"
+            }
         ]
     },
     {
@@ -1300,7 +1332,7 @@
         "flag128": "BY-128.png",
         "latitude": "53.58628747",
         "longitude": "27.95338900",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -1311,7 +1343,7 @@
             {
                 "language": "ar",
                 "name": "بيلاروس",
-                "nameOfficial": "بيلاروس جمهورية "
+                "nameOfficial": "بيلاروس جمهورية"
             },
             {
                 "language": "en",
@@ -1356,7 +1388,7 @@
         "flag128": "BZ-128.png",
         "latitude": "17.21153631",
         "longitude": "-88.01424956",
-        "zoom": true,
+        "zoom": 8,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -1412,7 +1444,7 @@
         "flag128": "BM-128.png",
         "latitude": "32.31995785",
         "longitude": "-64.76182765",
-        "zoom": true,
+        "zoom": 12,
         "countryRegions": [
             {
                 "region": "North America",
@@ -1420,7 +1452,11 @@
             }
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "Bermuda",
+                "nameOfficial": "the Bermudas"
+            }
         ]
     },
     {
@@ -1434,7 +1470,7 @@
         "flag128": "BO-128.png",
         "latitude": "-16.74518128",
         "longitude": "-65.19265691",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -1444,8 +1480,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "بوليفيا - دولة - المتعددة القوميات ",
-                "nameOfficial": "دولة بوليفيا المتعددة القوميات "
+                "name": "بوليفيا - دولة - المتعددة القوميات",
+                "nameOfficial": "دولة بوليفيا المتعددة القوميات"
             },
             {
                 "language": "en",
@@ -1490,7 +1526,7 @@
         "flag128": "BR-128.png",
         "latitude": "-11.80965046",
         "longitude": "-53.33152600",
-        "zoom": true,
+        "zoom": 4,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -1501,7 +1537,7 @@
             {
                 "language": "ar",
                 "name": "البرازيل",
-                "nameOfficial": "الجمهورية الاتحادية البرازيلية "
+                "nameOfficial": "الجمهورية الاتحادية البرازيلية"
             },
             {
                 "language": "en",
@@ -1546,7 +1582,7 @@
         "flag128": "BB-128.png",
         "latitude": "13.19383077",
         "longitude": "-59.54319600",
-        "zoom": true,
+        "zoom": 11,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -1602,7 +1638,7 @@
         "flag128": "BN-128.png",
         "latitude": "4.54189364",
         "longitude": "114.60132823",
-        "zoom": true,
+        "zoom": 9,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -1612,8 +1648,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "السلام دار برونى ",
-                "nameOfficial": "السلام دار بروني "
+                "name": "السلام دار برونى",
+                "nameOfficial": "السلام دار بروني"
             },
             {
                 "language": "en",
@@ -1658,7 +1694,7 @@
         "flag128": "BT-128.png",
         "latitude": "27.50752756",
         "longitude": "90.43360300",
-        "zoom": true,
+        "zoom": 8,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -1669,7 +1705,7 @@
             {
                 "language": "ar",
                 "name": "بوتان",
-                "nameOfficial": "بوتان مملكة "
+                "nameOfficial": "بوتان مملكة"
             },
             {
                 "language": "en",
@@ -1714,12 +1750,16 @@
         "flag128": "BV-128.png",
         "latitude": "-54.42316906",
         "longitude": "3.41319600",
-        "zoom": true,
+        "zoom": 12,
         "countryRegions": [
 
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "Bouvet Island",
+                "nameOfficial": "Bouvet Island"
+            }
         ]
     },
     {
@@ -1733,7 +1773,7 @@
         "flag128": "BW-128.png",
         "latitude": "-22.18279485",
         "longitude": "24.22344422",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -1744,7 +1784,7 @@
             {
                 "language": "ar",
                 "name": "بوتسوانا",
-                "nameOfficial": "بوتسوانا جمهورية "
+                "nameOfficial": "بوتسوانا جمهورية"
             },
             {
                 "language": "en",
@@ -1789,7 +1829,7 @@
         "flag128": "CF-128.png",
         "latitude": "6.82541830",
         "longitude": "20.64281514",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -1799,8 +1839,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "الوسطى أفريقيا جمهورية ",
-                "nameOfficial": "الوسطى أفريقيا جمهورية "
+                "name": "الوسطى أفريقيا جمهورية",
+                "nameOfficial": "الوسطى أفريقيا جمهورية"
             },
             {
                 "language": "en",
@@ -1845,7 +1885,7 @@
         "flag128": "CA-128.png",
         "latitude": "60.36196817",
         "longitude": "-106.69833150",
-        "zoom": true,
+        "zoom": 4,
         "countryRegions": [
             {
                 "region": "North America",
@@ -1905,12 +1945,16 @@
         "flag128": "CC-128.png",
         "latitude": "-12.12890685",
         "longitude": "96.84689104",
-        "zoom": true,
+        "zoom": 12,
         "countryRegions": [
 
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "Cocos (Keeling) Islands",
+                "nameOfficial": "Territory of Cocos (Keeling) Islands"
+            }
         ]
     },
     {
@@ -1924,7 +1968,7 @@
         "flag128": "CH-128.png",
         "latitude": "46.81010721",
         "longitude": "8.22751200",
-        "zoom": true,
+        "zoom": 8,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -1935,7 +1979,7 @@
             {
                 "language": "ar",
                 "name": "سويسرا",
-                "nameOfficial": "الاتحاد السويسري "
+                "nameOfficial": "الاتحاد السويسري"
             },
             {
                 "language": "en",
@@ -1980,7 +2024,7 @@
         "flag128": "CL-128.png",
         "latitude": "-38.01760790",
         "longitude": "-71.40014474",
-        "zoom": true,
+        "zoom": 4,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -1991,7 +2035,7 @@
             {
                 "language": "ar",
                 "name": "شيلى",
-                "nameOfficial": "جمهورية شيلى "
+                "nameOfficial": "جمهورية شيلى"
             },
             {
                 "language": "en",
@@ -2036,7 +2080,7 @@
         "flag128": "CN-128.png",
         "latitude": "36.71457440",
         "longitude": "103.55819197",
-        "zoom": true,
+        "zoom": 4,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -2047,7 +2091,7 @@
             {
                 "language": "ar",
                 "name": "الصين",
-                "nameOfficial": "الشعبية الصين جمهورية "
+                "nameOfficial": "الشعبية الصين جمهورية"
             },
             {
                 "language": "en",
@@ -2092,7 +2136,7 @@
         "flag128": "CI-128.png",
         "latitude": "7.59684148",
         "longitude": "-5.49214636",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -2102,8 +2146,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "ديفوار كوت ",
-                "nameOfficial": "ديفوار كوت جمهورية "
+                "name": "ديفوار كوت",
+                "nameOfficial": "ديفوار كوت جمهورية"
             },
             {
                 "language": "en",
@@ -2148,7 +2192,7 @@
         "flag128": "CM-128.png",
         "latitude": "7.38622543",
         "longitude": "12.72825915",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -2159,7 +2203,7 @@
             {
                 "language": "ar",
                 "name": "الكاميرون",
-                "nameOfficial": "جمهورية الكاميرون "
+                "nameOfficial": "جمهورية الكاميرون"
             },
             {
                 "language": "en",
@@ -2204,7 +2248,7 @@
         "flag128": "CD-128.png",
         "latitude": "-4.05373938",
         "longitude": "23.01110741",
-        "zoom": true,
+        "zoom": 5,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -2214,8 +2258,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "الديمقراطية الكونغو جمهورية ",
-                "nameOfficial": "الديمقراطية الكونغو جمهورية "
+                "name": "الديمقراطية الكونغو جمهورية",
+                "nameOfficial": "الديمقراطية الكونغو جمهورية"
             },
             {
                 "language": "en",
@@ -2260,7 +2304,7 @@
         "flag128": "CG-128.png",
         "latitude": "-0.68967806",
         "longitude": "15.69033190",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -2271,7 +2315,7 @@
             {
                 "language": "ar",
                 "name": "الكونغو",
-                "nameOfficial": "الكونغو جمهورية "
+                "nameOfficial": "الكونغو جمهورية"
             },
             {
                 "language": "en",
@@ -2316,7 +2360,7 @@
         "flag128": "CK-128.png",
         "latitude": "-21.23673066",
         "longitude": "-159.77766900",
-        "zoom": true,
+        "zoom": 13,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -2326,8 +2370,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "كوك جزر ",
-                "nameOfficial": "كوك جزر "
+                "name": "كوك جزر",
+                "nameOfficial": "كوك جزر"
             },
             {
                 "language": "en",
@@ -2372,7 +2416,7 @@
         "flag128": "CO-128.png",
         "latitude": "3.68182320",
         "longitude": "-73.53927436",
-        "zoom": true,
+        "zoom": 5,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -2383,7 +2427,7 @@
             {
                 "language": "ar",
                 "name": "كولومبيا",
-                "nameOfficial": "جمهورية كولومبيا "
+                "nameOfficial": "جمهورية كولومبيا"
             },
             {
                 "language": "en",
@@ -2428,7 +2472,7 @@
         "flag128": "KM-128.png",
         "latitude": "-11.64529989",
         "longitude": "43.33330200",
-        "zoom": true,
+        "zoom": 10,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -2438,8 +2482,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "جزر القمر ",
-                "nameOfficial": "اتحاد جزر القمر "
+                "name": "جزر القمر",
+                "nameOfficial": "اتحاد جزر القمر"
             },
             {
                 "language": "en",
@@ -2484,7 +2528,7 @@
         "flag128": "CV-128.png",
         "latitude": "15.11988711",
         "longitude": "-23.60517010",
-        "zoom": true,
+        "zoom": 10,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -2494,8 +2538,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "كابو فيردي ",
-                "nameOfficial": "جمهورية كابو فيردي "
+                "name": "كابو فيردي",
+                "nameOfficial": "جمهورية كابو فيردي"
             },
             {
                 "language": "en",
@@ -2540,7 +2584,7 @@
         "flag128": "CR-128.png",
         "latitude": "9.98427463",
         "longitude": "-84.09949534",
-        "zoom": true,
+        "zoom": 8,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -2551,7 +2595,7 @@
             {
                 "language": "ar",
                 "name": "كوستاريكا",
-                "nameOfficial": "جمهورية كوستاريكا "
+                "nameOfficial": "جمهورية كوستاريكا"
             },
             {
                 "language": "en",
@@ -2596,7 +2640,7 @@
         "flag128": "CU-128.png",
         "latitude": "21.54513189",
         "longitude": "-79.00064743",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -2607,7 +2651,7 @@
             {
                 "language": "ar",
                 "name": "كوبا",
-                "nameOfficial": "جمهورية كوبا "
+                "nameOfficial": "جمهورية كوبا"
             },
             {
                 "language": "en",
@@ -2652,7 +2696,7 @@
         "flag128": "CW-128.png",
         "latitude": "12.20710309",
         "longitude": "-69.02160369",
-        "zoom": true,
+        "zoom": 11,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -2660,7 +2704,11 @@
             }
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "Curaçao",
+                "nameOfficial": "Curaçao"
+            }
         ]
     },
     {
@@ -2674,12 +2722,16 @@
         "flag128": "CX-128.png",
         "latitude": "-10.49170619",
         "longitude": "105.68083796",
-        "zoom": true,
+        "zoom": 11,
         "countryRegions": [
 
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "Christmas Island",
+                "nameOfficial": "Territory of Christmas Island"
+            }
         ]
     },
     {
@@ -2693,7 +2745,7 @@
         "flag128": "KY-128.png",
         "latitude": "19.31322102",
         "longitude": "-81.25459800",
-        "zoom": true,
+        "zoom": 11,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -2701,7 +2753,11 @@
             }
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "Cayman Islands",
+                "nameOfficial": "The Cayman Islands"
+            }
         ]
     },
     {
@@ -2715,7 +2771,7 @@
         "flag128": "CY-128.png",
         "latitude": "35.12450768",
         "longitude": "33.42986100",
-        "zoom": true,
+        "zoom": 9,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -2726,7 +2782,7 @@
             {
                 "language": "ar",
                 "name": "قبرص",
-                "nameOfficial": "جمهورية قبرص "
+                "nameOfficial": "جمهورية قبرص"
             },
             {
                 "language": "en",
@@ -2771,7 +2827,7 @@
         "flag128": "CZ-128.png",
         "latitude": "49.76026136",
         "longitude": "15.53888197",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -2781,8 +2837,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "التشيكية الجمهورية ",
-                "nameOfficial": "التشيكية الجمهورية "
+                "name": "التشيكية الجمهورية",
+                "nameOfficial": "التشيكية الجمهورية"
             },
             {
                 "language": "en",
@@ -2827,7 +2883,7 @@
         "flag128": "DE-128.png",
         "latitude": "50.82871201",
         "longitude": "10.97887975",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -2838,7 +2894,7 @@
             {
                 "language": "ar",
                 "name": "ألمانيا",
-                "nameOfficial": "الاتحادية ألمانيا جمهورية "
+                "nameOfficial": "الاتحادية ألمانيا جمهورية"
             },
             {
                 "language": "en",
@@ -2883,7 +2939,7 @@
         "flag128": "DJ-128.png",
         "latitude": "11.75959257",
         "longitude": "42.65344839",
-        "zoom": true,
+        "zoom": 8,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -2894,7 +2950,7 @@
             {
                 "language": "ar",
                 "name": "جيبوتي",
-                "nameOfficial": "جيبوتي جمهورية "
+                "nameOfficial": "جيبوتي جمهورية"
             },
             {
                 "language": "en",
@@ -2939,7 +2995,7 @@
         "flag128": "DM-128.png",
         "latitude": "15.41473963",
         "longitude": "-61.37097400",
-        "zoom": true,
+        "zoom": 10,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -2950,7 +3006,7 @@
             {
                 "language": "ar",
                 "name": "دومينيكا",
-                "nameOfficial": "كمنولث دومينيكا "
+                "nameOfficial": "كمنولث دومينيكا"
             },
             {
                 "language": "en",
@@ -2995,7 +3051,7 @@
         "flag128": "DK-128.png",
         "latitude": "54.71794021",
         "longitude": "9.41938953",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -3010,7 +3066,7 @@
             {
                 "language": "ar",
                 "name": "الدانمرك",
-                "nameOfficial": "مملكة الدانمرك "
+                "nameOfficial": "مملكة الدانمرك"
             },
             {
                 "language": "en",
@@ -3055,7 +3111,7 @@
         "flag128": "DO-128.png",
         "latitude": "18.73076761",
         "longitude": "-70.16264900",
-        "zoom": true,
+        "zoom": 8,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -3065,8 +3121,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "الجمهورية الدومينيكية ",
-                "nameOfficial": "الجمهورية الدومينيكية "
+                "name": "الجمهورية الدومينيكية",
+                "nameOfficial": "الجمهورية الدومينيكية"
             },
             {
                 "language": "en",
@@ -3111,7 +3167,7 @@
         "flag128": "DZ-128.png",
         "latitude": "27.89861690",
         "longitude": "3.19771194",
-        "zoom": true,
+        "zoom": 5,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -3122,7 +3178,7 @@
             {
                 "language": "ar",
                 "name": "الجزائر",
-                "nameOfficial": "الجمهورية الجزائرية الديمقراطية الشعبية "
+                "nameOfficial": "الجمهورية الجزائرية الديمقراطية الشعبية"
             },
             {
                 "language": "en",
@@ -3167,7 +3223,7 @@
         "flag128": "EC-128.png",
         "latitude": "-1.22919037",
         "longitude": "-78.55693916",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -3178,7 +3234,7 @@
             {
                 "language": "ar",
                 "name": "إكوادور",
-                "nameOfficial": "إكوادور جمهورية "
+                "nameOfficial": "إكوادور جمهورية"
             },
             {
                 "language": "en",
@@ -3223,7 +3279,7 @@
         "flag128": "EG-128.png",
         "latitude": "26.71650873",
         "longitude": "30.80250000",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -3234,7 +3290,7 @@
             {
                 "language": "ar",
                 "name": "مصر",
-                "nameOfficial": "العربية مصر جمهورية "
+                "nameOfficial": "العربية مصر جمهورية"
             },
             {
                 "language": "en",
@@ -3279,7 +3335,7 @@
         "flag128": "ER-128.png",
         "latitude": "15.21227764",
         "longitude": "39.61204792",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -3290,7 +3346,7 @@
             {
                 "language": "ar",
                 "name": "إريتريا",
-                "nameOfficial": "إريتريا دولة "
+                "nameOfficial": "إريتريا دولة"
             },
             {
                 "language": "en",
@@ -3335,7 +3391,7 @@
         "flag128": "EH-128.png",
         "latitude": "24.79324356",
         "longitude": "-13.67683563",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -3343,7 +3399,11 @@
             }
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "Western Sahara",
+                "nameOfficial": "Western Sahara"
+            }
         ]
     },
     {
@@ -3357,7 +3417,7 @@
         "flag128": "ES-128.png",
         "latitude": "39.87299401",
         "longitude": "-3.67089492",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -3368,7 +3428,7 @@
             {
                 "language": "ar",
                 "name": "إسبانيا",
-                "nameOfficial": "إسبانيا مملكة "
+                "nameOfficial": "إسبانيا مملكة"
             },
             {
                 "language": "en",
@@ -3413,7 +3473,7 @@
         "flag128": "EE-128.png",
         "latitude": "58.74041141",
         "longitude": "25.38165099",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -3424,7 +3484,7 @@
             {
                 "language": "ar",
                 "name": "إستونيا",
-                "nameOfficial": "جمهورية إستونيا "
+                "nameOfficial": "جمهورية إستونيا"
             },
             {
                 "language": "en",
@@ -3469,7 +3529,7 @@
         "flag128": "ET-128.png",
         "latitude": "9.10727589",
         "longitude": "39.84148164",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -3480,7 +3540,7 @@
             {
                 "language": "ar",
                 "name": "إثيوبيا",
-                "nameOfficial": "جمهورية إثيوبيا الديمقراطية الاتحادية "
+                "nameOfficial": "جمهورية إثيوبيا الديمقراطية الاتحادية"
             },
             {
                 "language": "en",
@@ -3525,7 +3585,7 @@
         "flag128": "EU-128.png",
         "latitude": "48.76380654",
         "longitude": "14.26843140",
-        "zoom": true,
+        "zoom": 3,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -3535,8 +3595,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "عضو منظمة - الأوروبي الإتحاد ",
-                "nameOfficial": "عضو منظمة - الأوروبي الإتحاد "
+                "name": "عضو منظمة - الأوروبي الإتحاد",
+                "nameOfficial": "عضو منظمة - الأوروبي الإتحاد"
             },
             {
                 "language": "en",
@@ -3581,7 +3641,7 @@
         "flag128": "FI-128.png",
         "latitude": "64.69610892",
         "longitude": "26.36339137",
-        "zoom": true,
+        "zoom": 5,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -3596,7 +3656,7 @@
             {
                 "language": "ar",
                 "name": "فنلندا",
-                "nameOfficial": "فنلندا جمهورية "
+                "nameOfficial": "فنلندا جمهورية"
             },
             {
                 "language": "en",
@@ -3641,7 +3701,7 @@
         "flag128": "FJ-128.png",
         "latitude": "-17.71219757",
         "longitude": "178.06503600",
-        "zoom": true,
+        "zoom": 9,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -3652,7 +3712,7 @@
             {
                 "language": "ar",
                 "name": "فيجي",
-                "nameOfficial": "جمهورية فيجي "
+                "nameOfficial": "جمهورية فيجي"
             },
             {
                 "language": "en",
@@ -3697,7 +3757,7 @@
         "flag128": "FK-128.png",
         "latitude": "-51.78838251",
         "longitude": "-59.52361100",
-        "zoom": true,
+        "zoom": 8,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -3705,7 +3765,11 @@
             }
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "Falkland Islands (Malvinas)",
+                "nameOfficial": "Falkland Islands"
+            }
         ]
     },
     {
@@ -3719,7 +3783,7 @@
         "flag128": "FR-128.png",
         "latitude": "46.48372145",
         "longitude": "2.60926281",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -3730,7 +3794,7 @@
             {
                 "language": "ar",
                 "name": "فرنسا",
-                "nameOfficial": "الفرنسية الجمهورية "
+                "nameOfficial": "الفرنسية الجمهورية"
             },
             {
                 "language": "en",
@@ -3775,7 +3839,7 @@
         "flag128": "FO-128.png",
         "latitude": "61.88590482",
         "longitude": "-6.91180400",
-        "zoom": true,
+        "zoom": 8,
         "countryRegions": [
             {
                 "region": "Polar: Arctic",
@@ -3785,8 +3849,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "جزر فيرويه ",
-                "nameOfficial": "جزر فيرويه "
+                "name": "جزر فيرويه",
+                "nameOfficial": "جزر فيرويه"
             },
             {
                 "language": "en",
@@ -3831,7 +3895,7 @@
         "flag128": "FM-128.png",
         "latitude": "6.88747377",
         "longitude": "158.21507170",
-        "zoom": true,
+        "zoom": 12,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -3842,7 +3906,7 @@
             {
                 "language": "ar",
                 "name": "ميكرونيزيا",
-                "nameOfficial": "الموحدة ميكرونيزيا ولايات "
+                "nameOfficial": "الموحدة ميكرونيزيا ولايات"
             },
             {
                 "language": "en",
@@ -3887,7 +3951,7 @@
         "flag128": "GA-128.png",
         "latitude": "-0.43426435",
         "longitude": "11.43916591",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -3898,7 +3962,7 @@
             {
                 "language": "ar",
                 "name": "غابون",
-                "nameOfficial": "الجمهورية الغابونية "
+                "nameOfficial": "الجمهورية الغابونية"
             },
             {
                 "language": "en",
@@ -3943,7 +4007,7 @@
         "flag128": "GB-128.png",
         "latitude": "53.36540813",
         "longitude": "-2.72184767",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -3953,8 +4017,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "المملكة المتحدة ",
-                "nameOfficial": "المملكة المتحدة لبريطانيا العظمى وآيرلندا الشمالية "
+                "name": "المملكة المتحدة",
+                "nameOfficial": "المملكة المتحدة لبريطانيا العظمى وآيرلندا الشمالية"
             },
             {
                 "language": "en",
@@ -3999,7 +4063,7 @@
         "flag128": "GE-128.png",
         "latitude": "41.82754301",
         "longitude": "44.17329916",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -4055,7 +4119,7 @@
         "flag128": "GG-128.png",
         "latitude": "49.46565975",
         "longitude": "-2.58527200",
-        "zoom": true,
+        "zoom": 12,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -4063,7 +4127,11 @@
             }
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "Guernsey",
+                "nameOfficial": "Bailiwick of Guernsey"
+            }
         ]
     },
     {
@@ -4077,7 +4145,7 @@
         "flag128": "GH-128.png",
         "latitude": "7.69154199",
         "longitude": "-1.29234904",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -4088,7 +4156,7 @@
             {
                 "language": "ar",
                 "name": "غانا",
-                "nameOfficial": "غانا جمهورية "
+                "nameOfficial": "غانا جمهورية"
             },
             {
                 "language": "en",
@@ -4133,7 +4201,7 @@
         "flag128": "GI-128.png",
         "latitude": "36.14864641",
         "longitude": "-5.34404779",
-        "zoom": true,
+        "zoom": 12,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -4141,7 +4209,11 @@
             }
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "Gibraltar",
+                "nameOfficial": "Gibraltar"
+            }
         ]
     },
     {
@@ -4155,7 +4227,7 @@
         "flag128": "GN-128.png",
         "latitude": "9.94301472",
         "longitude": "-11.31711839",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -4166,7 +4238,7 @@
             {
                 "language": "ar",
                 "name": "غينيا",
-                "nameOfficial": "جمهورية غينيا "
+                "nameOfficial": "جمهورية غينيا"
             },
             {
                 "language": "en",
@@ -4211,7 +4283,7 @@
         "flag128": "GP-128.png",
         "latitude": "16.26472785",
         "longitude": "-61.55099400",
-        "zoom": true,
+        "zoom": 10,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -4219,7 +4291,11 @@
             }
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "Guadeloupe",
+                "nameOfficial": "Department of Guadeloupe"
+            }
         ]
     },
     {
@@ -4233,7 +4309,7 @@
         "flag128": "GM-128.png",
         "latitude": "13.15921146",
         "longitude": "-15.35956748",
-        "zoom": true,
+        "zoom": 8,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -4244,7 +4320,7 @@
             {
                 "language": "ar",
                 "name": "غامبيا",
-                "nameOfficial": "الإسلامية غامبيا جمهورية "
+                "nameOfficial": "الإسلامية غامبيا جمهورية"
             },
             {
                 "language": "en",
@@ -4289,7 +4365,7 @@
         "flag128": "GW-128.png",
         "latitude": "11.80050682",
         "longitude": "-15.18040700",
-        "zoom": true,
+        "zoom": 8,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -4299,8 +4375,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "غينيا - بيساو ",
-                "nameOfficial": "جمهورية غينيا بيساو "
+                "name": "غينيا - بيساو",
+                "nameOfficial": "جمهورية غينيا بيساو"
             },
             {
                 "language": "en",
@@ -4345,7 +4421,7 @@
         "flag128": "GQ-128.png",
         "latitude": "1.65068442",
         "longitude": "10.26789700",
-        "zoom": true,
+        "zoom": 9,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -4355,8 +4431,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "الاستوائية غينيا ",
-                "nameOfficial": "الاستوائية غينيا جمهورية "
+                "name": "الاستوائية غينيا",
+                "nameOfficial": "الاستوائية غينيا جمهورية"
             },
             {
                 "language": "en",
@@ -4401,7 +4477,7 @@
         "flag128": "GR-128.png",
         "latitude": "38.52254746",
         "longitude": "24.53794505",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -4412,7 +4488,7 @@
             {
                 "language": "ar",
                 "name": "اليونان",
-                "nameOfficial": "الهيلانية الجمهورية "
+                "nameOfficial": "الهيلانية الجمهورية"
             },
             {
                 "language": "en",
@@ -4457,7 +4533,7 @@
         "flag128": "GD-128.png",
         "latitude": "12.11644807",
         "longitude": "-61.67899400",
-        "zoom": true,
+        "zoom": 11,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -4513,7 +4589,7 @@
         "flag128": "GL-128.png",
         "latitude": "71.42932629",
         "longitude": "-34.38651956",
-        "zoom": true,
+        "zoom": 3,
         "countryRegions": [
             {
                 "region": "Polar: Arctic",
@@ -4521,7 +4597,11 @@
             }
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "Greenland",
+                "nameOfficial": "Greenland"
+            }
         ]
     },
     {
@@ -4535,7 +4615,7 @@
         "flag128": "GT-128.png",
         "latitude": "15.72598421",
         "longitude": "-89.96707712",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -4546,7 +4626,7 @@
             {
                 "language": "ar",
                 "name": "غواتيمالا",
-                "nameOfficial": "جمهورية غواتيمالا "
+                "nameOfficial": "جمهورية غواتيمالا"
             },
             {
                 "language": "en",
@@ -4591,7 +4671,7 @@
         "flag128": "GF-128.png",
         "latitude": "4.01114381",
         "longitude": "-52.97746057",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -4599,7 +4679,11 @@
             }
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "French Guiana",
+                "nameOfficial": "French Guiana"
+            }
         ]
     },
     {
@@ -4613,7 +4697,7 @@
         "flag128": "GU-128.png",
         "latitude": "13.44410137",
         "longitude": "144.80747791",
-        "zoom": true,
+        "zoom": 10,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -4621,7 +4705,11 @@
             }
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "Guam",
+                "nameOfficial": "Territory of Guam"
+            }
         ]
     },
     {
@@ -4635,7 +4723,7 @@
         "flag128": "GY-128.png",
         "latitude": "4.47957059",
         "longitude": "-58.72692293",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -4646,7 +4734,7 @@
             {
                 "language": "ar",
                 "name": "غيانا",
-                "nameOfficial": "جمهورية غيانا "
+                "nameOfficial": "جمهورية غيانا"
             },
             {
                 "language": "en",
@@ -4691,7 +4779,7 @@
         "flag128": "HK-128.png",
         "latitude": "22.33728531",
         "longitude": "114.14657786",
-        "zoom": true,
+        "zoom": 11,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -4699,7 +4787,11 @@
             }
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "Hong Kong",
+                "nameOfficial": "Hong Kong Special Administrative Region of the People's Republic"
+            }
         ]
     },
     {
@@ -4713,12 +4805,16 @@
         "flag128": "HM-128.png",
         "latitude": "-53.08168847",
         "longitude": "73.50415800",
-        "zoom": true,
+        "zoom": 11,
         "countryRegions": [
 
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "Heard Island And McDonald Islands",
+                "nameOfficial": "Heard and McDonald Islands"
+            }
         ]
     },
     {
@@ -4732,7 +4828,7 @@
         "flag128": "HN-128.png",
         "latitude": "14.64994423",
         "longitude": "-87.01643713",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -4743,7 +4839,7 @@
             {
                 "language": "ar",
                 "name": "هندوراس",
-                "nameOfficial": "هندوراس جمهورية "
+                "nameOfficial": "هندوراس جمهورية"
             },
             {
                 "language": "en",
@@ -4788,7 +4884,7 @@
         "flag128": "HR-128.png",
         "latitude": "44.81372482",
         "longitude": "16.29039507",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -4799,7 +4895,7 @@
             {
                 "language": "ar",
                 "name": "كرواتيا",
-                "nameOfficial": "جمهورية كرواتيا "
+                "nameOfficial": "جمهورية كرواتيا"
             },
             {
                 "language": "en",
@@ -4844,7 +4940,7 @@
         "flag128": "HT-128.png",
         "latitude": "19.07430861",
         "longitude": "-72.79607526",
-        "zoom": true,
+        "zoom": 8,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -4855,7 +4951,7 @@
             {
                 "language": "ar",
                 "name": "هايتي",
-                "nameOfficial": "جمهورية هايتي "
+                "nameOfficial": "جمهورية هايتي"
             },
             {
                 "language": "en",
@@ -4900,7 +4996,7 @@
         "flag128": "HU-128.png",
         "latitude": "46.97670384",
         "longitude": "19.35499657",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -4956,7 +5052,7 @@
         "flag128": "ID-128.png",
         "latitude": "-2.46229680",
         "longitude": "121.18329789",
-        "zoom": true,
+        "zoom": 4,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -4967,7 +5063,7 @@
             {
                 "language": "ar",
                 "name": "إندونيسيا",
-                "nameOfficial": "جمهورية إندونيسيا "
+                "nameOfficial": "جمهورية إندونيسيا"
             },
             {
                 "language": "en",
@@ -5012,7 +5108,7 @@
         "flag128": "IM-128.png",
         "latitude": "54.23562697",
         "longitude": "-4.54805400",
-        "zoom": true,
+        "zoom": 10,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -5020,7 +5116,11 @@
             }
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "Isle of Man",
+                "nameOfficial": "The Isle of Man"
+            }
         ]
     },
     {
@@ -5034,7 +5134,7 @@
         "flag128": "IN-128.png",
         "latitude": "20.46549519",
         "longitude": "78.50146222",
-        "zoom": true,
+        "zoom": 4,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -5045,7 +5145,7 @@
             {
                 "language": "ar",
                 "name": "الهند",
-                "nameOfficial": "جمهورية الهند "
+                "nameOfficial": "جمهورية الهند"
             },
             {
                 "language": "en",
@@ -5090,12 +5190,16 @@
         "flag128": "IO-128.png",
         "latitude": "-7.33461519",
         "longitude": "72.42425280",
-        "zoom": true,
+        "zoom": 12,
         "countryRegions": [
 
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "British Indian Ocean Territory",
+                "nameOfficial": "The British Indian Ocean Territory"
+            }
         ]
     },
     {
@@ -5109,7 +5213,7 @@
         "flag128": "IE-128.png",
         "latitude": "53.10101628",
         "longitude": "-8.21092302",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -5165,7 +5269,7 @@
         "flag128": "IR-128.png",
         "latitude": "31.40240324",
         "longitude": "51.28204814",
-        "zoom": true,
+        "zoom": 5,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -5175,8 +5279,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "الإسلامية - جمهورية - إيران ",
-                "nameOfficial": "الإسلامية إيران جمهورية "
+                "name": "الإسلامية - جمهورية - إيران",
+                "nameOfficial": "الإسلامية إيران جمهورية"
             },
             {
                 "language": "en",
@@ -5221,7 +5325,7 @@
         "flag128": "IQ-128.png",
         "latitude": "32.90170182",
         "longitude": "43.19590056",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "West Asia",
@@ -5232,7 +5336,7 @@
             {
                 "language": "ar",
                 "name": "العراق",
-                "nameOfficial": "جمهورية العراق "
+                "nameOfficial": "جمهورية العراق"
             },
             {
                 "language": "en",
@@ -5277,7 +5381,7 @@
         "flag128": "IS-128.png",
         "latitude": "64.99294495",
         "longitude": "-18.57038755",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -5292,7 +5396,7 @@
             {
                 "language": "ar",
                 "name": "آيسلندا",
-                "nameOfficial": "آيسلندا جمهورية "
+                "nameOfficial": "آيسلندا جمهورية"
             },
             {
                 "language": "en",
@@ -5337,7 +5441,7 @@
         "flag128": "IL-128.png",
         "latitude": "30.85883075",
         "longitude": "34.91753797",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -5348,7 +5452,7 @@
             {
                 "language": "ar",
                 "name": "إسرائيل",
-                "nameOfficial": "إسرائيل دولة "
+                "nameOfficial": "إسرائيل دولة"
             },
             {
                 "language": "en",
@@ -5393,7 +5497,7 @@
         "flag128": "IT-128.png",
         "latitude": "41.77810840",
         "longitude": "12.67725128",
-        "zoom": true,
+        "zoom": 5,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -5404,7 +5508,7 @@
             {
                 "language": "ar",
                 "name": "إيطاليا",
-                "nameOfficial": "الإيطالية الجمهورية "
+                "nameOfficial": "الإيطالية الجمهورية"
             },
             {
                 "language": "en",
@@ -5449,7 +5553,7 @@
         "flag128": "JM-128.png",
         "latitude": "18.10838487",
         "longitude": "-77.29750600",
-        "zoom": true,
+        "zoom": 9,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -5505,7 +5609,7 @@
         "flag128": "JE-128.png",
         "latitude": "49.21440771",
         "longitude": "-2.13124600",
-        "zoom": true,
+        "zoom": 12,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -5513,7 +5617,11 @@
             }
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "Jersey",
+                "nameOfficial": "Bailiwick of Jersey"
+            }
         ]
     },
     {
@@ -5527,7 +5635,7 @@
         "flag128": "JO-128.png",
         "latitude": "31.31616588",
         "longitude": "36.37575510",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "West Asia",
@@ -5538,7 +5646,7 @@
             {
                 "language": "ar",
                 "name": "الأردن",
-                "nameOfficial": "الهاشمية الأردنية المملكة "
+                "nameOfficial": "الهاشمية الأردنية المملكة"
             },
             {
                 "language": "en",
@@ -5583,7 +5691,7 @@
         "flag128": "JP-128.png",
         "latitude": "37.51848822",
         "longitude": "137.67066061",
-        "zoom": true,
+        "zoom": 5,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -5639,7 +5747,7 @@
         "flag128": "KZ-128.png",
         "latitude": "45.38592596",
         "longitude": "68.81334444",
-        "zoom": true,
+        "zoom": 4,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -5650,7 +5758,7 @@
             {
                 "language": "ar",
                 "name": "كازاخستان",
-                "nameOfficial": "جمهورية كازاخستان "
+                "nameOfficial": "جمهورية كازاخستان"
             },
             {
                 "language": "en",
@@ -5695,7 +5803,7 @@
         "flag128": "KE-128.png",
         "latitude": "0.19582452",
         "longitude": "37.97212297",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -5706,7 +5814,7 @@
             {
                 "language": "ar",
                 "name": "كينيا",
-                "nameOfficial": "كينيا جمهورية "
+                "nameOfficial": "كينيا جمهورية"
             },
             {
                 "language": "en",
@@ -5751,7 +5859,7 @@
         "flag128": "KG-128.png",
         "latitude": "41.11509878",
         "longitude": "74.25524574",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -5762,7 +5870,7 @@
             {
                 "language": "ar",
                 "name": "قيرغيزستان",
-                "nameOfficial": "جمهورية القيرغيز "
+                "nameOfficial": "جمهورية القيرغيز"
             },
             {
                 "language": "en",
@@ -5807,7 +5915,7 @@
         "flag128": "KH-128.png",
         "latitude": "12.83288883",
         "longitude": "104.84814273",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -5818,7 +5926,7 @@
             {
                 "language": "ar",
                 "name": "كمبوديا",
-                "nameOfficial": "مملكة كمبوديا "
+                "nameOfficial": "مملكة كمبوديا"
             },
             {
                 "language": "en",
@@ -5863,7 +5971,7 @@
         "flag128": "KI-128.png",
         "latitude": "1.87085244",
         "longitude": "-157.36259310",
-        "zoom": true,
+        "zoom": 10,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -5874,7 +5982,7 @@
             {
                 "language": "ar",
                 "name": "كيريباس",
-                "nameOfficial": "كيريباس  جمهورية "
+                "nameOfficial": "كيريباس  جمهورية"
             },
             {
                 "language": "en",
@@ -5919,7 +6027,7 @@
         "flag128": "KN-128.png",
         "latitude": "17.33453669",
         "longitude": "-62.76411725",
-        "zoom": true,
+        "zoom": 12,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -5929,8 +6037,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "ونيفيس كيتس سانت ",
-                "nameOfficial": "ونيفيس كيتس سانت "
+                "name": "ونيفيس كيتس سانت",
+                "nameOfficial": "ونيفيس كيتس سانت"
             },
             {
                 "language": "en",
@@ -5975,7 +6083,7 @@
         "flag128": "KR-128.png",
         "latitude": "36.56344139",
         "longitude": "127.51424646",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -5985,8 +6093,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "جمهورية كوريا ",
-                "nameOfficial": "جمهورية كوريا "
+                "name": "جمهورية كوريا",
+                "nameOfficial": "جمهورية كوريا"
             },
             {
                 "language": "en",
@@ -6031,7 +6139,7 @@
         "flag128": "KW-128.png",
         "latitude": "29.43253341",
         "longitude": "47.71798405",
-        "zoom": true,
+        "zoom": 8,
         "countryRegions": [
             {
                 "region": "West Asia",
@@ -6042,7 +6150,7 @@
             {
                 "language": "ar",
                 "name": "الكويت",
-                "nameOfficial": "الكويت دولة "
+                "nameOfficial": "الكويت دولة"
             },
             {
                 "language": "en",
@@ -6087,7 +6195,7 @@
         "flag128": "LA-128.png",
         "latitude": "17.76075593",
         "longitude": "103.61611347",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -6097,8 +6205,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "الشعبية الديمقراطية لاو جمهورية ",
-                "nameOfficial": "الشعبية الديمقراطية لاو جمهورية "
+                "name": "الشعبية الديمقراطية لاو جمهورية",
+                "nameOfficial": "الشعبية الديمقراطية لاو جمهورية"
             },
             {
                 "language": "en",
@@ -6143,7 +6251,7 @@
         "flag128": "LB-128.png",
         "latitude": "34.08249284",
         "longitude": "35.66454309",
-        "zoom": true,
+        "zoom": 8,
         "countryRegions": [
             {
                 "region": "West Asia",
@@ -6154,7 +6262,7 @@
             {
                 "language": "ar",
                 "name": "لبنان",
-                "nameOfficial": "اللبنانية الجمهورية "
+                "nameOfficial": "اللبنانية الجمهورية"
             },
             {
                 "language": "en",
@@ -6199,7 +6307,7 @@
         "flag128": "LR-128.png",
         "latitude": "6.44154681",
         "longitude": "-9.39103485",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -6210,7 +6318,7 @@
             {
                 "language": "ar",
                 "name": "ليبريا",
-                "nameOfficial": "جمهورية ليبريا "
+                "nameOfficial": "جمهورية ليبريا"
             },
             {
                 "language": "en",
@@ -6255,7 +6363,7 @@
         "flag128": "LY-128.png",
         "latitude": "27.06902914",
         "longitude": "18.19513987",
-        "zoom": true,
+        "zoom": 5,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -6311,7 +6419,7 @@
         "flag128": "LC-128.png",
         "latitude": "13.90938495",
         "longitude": "-60.97889500",
-        "zoom": true,
+        "zoom": 11,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -6321,8 +6429,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "لوسيا سانت ",
-                "nameOfficial": "لوسيا سانت "
+                "name": "لوسيا سانت",
+                "nameOfficial": "لوسيا سانت"
             },
             {
                 "language": "en",
@@ -6341,8 +6449,8 @@
             },
             {
                 "language": "it",
-                "name": "Santa Lucia  ",
-                "nameOfficial": "Santa Lucia  "
+                "name": "Santa Lucia",
+                "nameOfficial": "Santa Lucia"
             },
             {
                 "language": "ru",
@@ -6367,7 +6475,7 @@
         "flag128": "LI-128.png",
         "latitude": "47.16587383",
         "longitude": "9.55537700",
-        "zoom": true,
+        "zoom": 11,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -6378,7 +6486,7 @@
             {
                 "language": "ar",
                 "name": "لختنشتاين",
-                "nameOfficial": "إمارة لختنشتاين "
+                "nameOfficial": "إمارة لختنشتاين"
             },
             {
                 "language": "en",
@@ -6423,7 +6531,7 @@
         "flag128": "LK-128.png",
         "latitude": "7.61264985",
         "longitude": "80.83772497",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -6433,8 +6541,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "سري لانكا ",
-                "nameOfficial": "جمهورية سري لانكا الاشتراكية الديمقراطية "
+                "name": "سري لانكا",
+                "nameOfficial": "جمهورية سري لانكا الاشتراكية الديمقراطية"
             },
             {
                 "language": "en",
@@ -6479,7 +6587,7 @@
         "flag128": "LS-128.png",
         "latitude": "-29.60303205",
         "longitude": "28.23361200",
-        "zoom": true,
+        "zoom": 8,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -6490,7 +6598,7 @@
             {
                 "language": "ar",
                 "name": "ليسوتو",
-                "nameOfficial": "ليسوتو مملكة "
+                "nameOfficial": "ليسوتو مملكة"
             },
             {
                 "language": "en",
@@ -6535,7 +6643,7 @@
         "flag128": "LT-128.png",
         "latitude": "55.25095948",
         "longitude": "23.80987587",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -6546,7 +6654,7 @@
             {
                 "language": "ar",
                 "name": "ليتوانيا",
-                "nameOfficial": "جمهورية ليتوانيا "
+                "nameOfficial": "جمهورية ليتوانيا"
             },
             {
                 "language": "en",
@@ -6591,7 +6699,7 @@
         "flag128": "LU-128.png",
         "latitude": "49.81327712",
         "longitude": "6.12958700",
-        "zoom": true,
+        "zoom": 9,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -6602,7 +6710,7 @@
             {
                 "language": "ar",
                 "name": "لكسمبرغ",
-                "nameOfficial": "الكبرى لكسمبرغ دوقية "
+                "nameOfficial": "الكبرى لكسمبرغ دوقية"
             },
             {
                 "language": "en",
@@ -6647,7 +6755,7 @@
         "flag128": "LV-128.png",
         "latitude": "56.86697515",
         "longitude": "24.54826936",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -6658,7 +6766,7 @@
             {
                 "language": "ar",
                 "name": "لاتفيا",
-                "nameOfficial": "جمهورية لاتفيا "
+                "nameOfficial": "جمهورية لاتفيا"
             },
             {
                 "language": "en",
@@ -6703,7 +6811,7 @@
         "flag128": "MO-128.png",
         "latitude": "22.19872287",
         "longitude": "113.54387700",
-        "zoom": true,
+        "zoom": 12,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -6711,7 +6819,11 @@
             }
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "Macao",
+                "nameOfficial": "Macau Special Administrative Region"
+            }
         ]
     },
     {
@@ -6725,7 +6837,7 @@
         "flag128": "MF-128.png",
         "latitude": "18.07637107",
         "longitude": "-63.05019106",
-        "zoom": true,
+        "zoom": 12,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -6733,7 +6845,11 @@
             }
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "Saint Martin",
+                "nameOfficial": "Saint Martin"
+            }
         ]
     },
     {
@@ -6747,7 +6863,7 @@
         "flag128": "MA-128.png",
         "latitude": "31.95441758",
         "longitude": "-7.26839325",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -6758,7 +6874,7 @@
             {
                 "language": "ar",
                 "name": "المغرب",
-                "nameOfficial": "المملكة المغربية "
+                "nameOfficial": "المملكة المغربية"
             },
             {
                 "language": "en",
@@ -6803,7 +6919,7 @@
         "flag128": "MC-128.png",
         "latitude": "43.70463620",
         "longitude": "6.75444978",
-        "zoom": true,
+        "zoom": 9,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -6814,7 +6930,7 @@
             {
                 "language": "ar",
                 "name": "موناكو",
-                "nameOfficial": "إمارة موناكو "
+                "nameOfficial": "إمارة موناكو"
             },
             {
                 "language": "en",
@@ -6859,7 +6975,7 @@
         "flag128": "MD-128.png",
         "latitude": "47.10710437",
         "longitude": "28.54018109",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -6869,8 +6985,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "جمهورية مولدوفا ",
-                "nameOfficial": "جمهورية مولدوفا "
+                "name": "جمهورية مولدوفا",
+                "nameOfficial": "جمهورية مولدوفا"
             },
             {
                 "language": "en",
@@ -6915,7 +7031,7 @@
         "flag128": "MG-128.png",
         "latitude": "-19.79858543",
         "longitude": "46.97898228",
-        "zoom": true,
+        "zoom": 5,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -6926,7 +7042,7 @@
             {
                 "language": "ar",
                 "name": "مدغشقر",
-                "nameOfficial": "جمهورية مدغشقر "
+                "nameOfficial": "جمهورية مدغشقر"
             },
             {
                 "language": "en",
@@ -6971,7 +7087,7 @@
         "flag128": "MV-128.png",
         "latitude": "-0.64224221",
         "longitude": "73.13373313",
-        "zoom": true,
+        "zoom": 12,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -6982,7 +7098,7 @@
             {
                 "language": "ar",
                 "name": "ملديف",
-                "nameOfficial": "جمهورية ملديف "
+                "nameOfficial": "جمهورية ملديف"
             },
             {
                 "language": "en",
@@ -7027,7 +7143,7 @@
         "flag128": "MX-128.png",
         "latitude": "22.92036676",
         "longitude": "-102.33305344",
-        "zoom": true,
+        "zoom": 5,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -7038,7 +7154,7 @@
             {
                 "language": "ar",
                 "name": "المكسيك",
-                "nameOfficial": "المكسيكية المتحدة الولايات "
+                "nameOfficial": "المكسيكية المتحدة الولايات"
             },
             {
                 "language": "en",
@@ -7083,7 +7199,7 @@
         "flag128": "MH-128.png",
         "latitude": "7.30130732",
         "longitude": "168.75512619",
-        "zoom": true,
+        "zoom": 10,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -7093,8 +7209,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "جزر مارشال ",
-                "nameOfficial": "جمهورية جزر مارشال "
+                "name": "جزر مارشال",
+                "nameOfficial": "جمهورية جزر مارشال"
             },
             {
                 "language": "en",
@@ -7139,7 +7255,7 @@
         "flag128": "MK-128.png",
         "latitude": "41.60059479",
         "longitude": "21.74527900",
-        "zoom": true,
+        "zoom": 8,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -7149,8 +7265,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "جمهورية مقدونيا اليوغوسلافية السابقة ",
-                "nameOfficial": "جمهورية مقدونيا اليوغوسلافية السابقة "
+                "name": "جمهورية مقدونيا اليوغوسلافية السابقة",
+                "nameOfficial": "جمهورية مقدونيا اليوغوسلافية السابقة"
             },
             {
                 "language": "en",
@@ -7195,7 +7311,7 @@
         "flag128": "ML-128.png",
         "latitude": "17.69385811",
         "longitude": "-1.96368730",
-        "zoom": true,
+        "zoom": 5,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -7206,7 +7322,7 @@
             {
                 "language": "ar",
                 "name": "مالي",
-                "nameOfficial": "مالي جمهورية "
+                "nameOfficial": "مالي جمهورية"
             },
             {
                 "language": "en",
@@ -7251,7 +7367,7 @@
         "flag128": "MT-128.png",
         "latitude": "35.89706403",
         "longitude": "14.43687877",
-        "zoom": true,
+        "zoom": 11,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -7262,7 +7378,7 @@
             {
                 "language": "ar",
                 "name": "مالطة",
-                "nameOfficial": "جمهورية مالطة "
+                "nameOfficial": "جمهورية مالطة"
             },
             {
                 "language": "en",
@@ -7307,7 +7423,7 @@
         "flag128": "MM-128.png",
         "latitude": "19.20985380",
         "longitude": "96.54949272",
-        "zoom": true,
+        "zoom": 5,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -7318,7 +7434,7 @@
             {
                 "language": "ar",
                 "name": "ميانمار",
-                "nameOfficial": "ميانمار اتحاد جمهورية "
+                "nameOfficial": "ميانمار اتحاد جمهورية"
             },
             {
                 "language": "en",
@@ -7363,7 +7479,7 @@
         "flag128": "ME-128.png",
         "latitude": "42.71699590",
         "longitude": "19.09699321",
-        "zoom": true,
+        "zoom": 8,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -7373,8 +7489,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "الأسود الجبل ",
-                "nameOfficial": "الأسود الجبل "
+                "name": "الأسود الجبل",
+                "nameOfficial": "الأسود الجبل"
             },
             {
                 "language": "en",
@@ -7419,7 +7535,7 @@
         "flag128": "MN-128.png",
         "latitude": "46.80556270",
         "longitude": "104.30808978",
-        "zoom": true,
+        "zoom": 5,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -7475,7 +7591,7 @@
         "flag128": "MP-128.png",
         "latitude": "15.09783636",
         "longitude": "145.67390000",
-        "zoom": true,
+        "zoom": 11,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -7483,7 +7599,11 @@
             }
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "Northern Mariana Islands",
+                "nameOfficial": "Commonwealth of the Northern Mariana Islands"
+            }
         ]
     },
     {
@@ -7497,7 +7617,7 @@
         "flag128": "MZ-128.png",
         "latitude": "-19.07617816",
         "longitude": "33.81570282",
-        "zoom": true,
+        "zoom": 5,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -7508,7 +7628,7 @@
             {
                 "language": "ar",
                 "name": "موزامبيق",
-                "nameOfficial": "جمهورية موزامبيق "
+                "nameOfficial": "جمهورية موزامبيق"
             },
             {
                 "language": "en",
@@ -7553,7 +7673,7 @@
         "flag128": "MR-128.png",
         "latitude": "20.28331239",
         "longitude": "-10.21573334",
-        "zoom": true,
+        "zoom": 5,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -7564,7 +7684,7 @@
             {
                 "language": "ar",
                 "name": "موريتانيا",
-                "nameOfficial": "الجمهورية الإسلامية الموريتانية "
+                "nameOfficial": "الجمهورية الإسلامية الموريتانية"
             },
             {
                 "language": "en",
@@ -7609,7 +7729,7 @@
         "flag128": "MS-128.png",
         "latitude": "16.74774077",
         "longitude": "-62.18736600",
-        "zoom": true,
+        "zoom": 12,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -7617,7 +7737,11 @@
             }
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "Montserrat",
+                "nameOfficial": "Montserrat"
+            }
         ]
     },
     {
@@ -7631,7 +7755,7 @@
         "flag128": "MQ-128.png",
         "latitude": "14.64128045",
         "longitude": "-61.02417600",
-        "zoom": true,
+        "zoom": 10,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -7639,7 +7763,11 @@
             }
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "Martinique",
+                "nameOfficial": "Department of Martinique"
+            }
         ]
     },
     {
@@ -7653,7 +7781,7 @@
         "flag128": "MU-128.png",
         "latitude": "-20.28368188",
         "longitude": "57.56588291",
-        "zoom": true,
+        "zoom": 10,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -7664,7 +7792,7 @@
             {
                 "language": "ar",
                 "name": "موريشيوس",
-                "nameOfficial": "موريشيوس جمهورية "
+                "nameOfficial": "موريشيوس جمهورية"
             },
             {
                 "language": "en",
@@ -7709,7 +7837,7 @@
         "flag128": "MW-128.png",
         "latitude": "-12.48684092",
         "longitude": "34.14223524",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -7720,7 +7848,7 @@
             {
                 "language": "ar",
                 "name": "ملاوي",
-                "nameOfficial": "جمهورية ملاوي "
+                "nameOfficial": "جمهورية ملاوي"
             },
             {
                 "language": "en",
@@ -7765,7 +7893,7 @@
         "flag128": "MY-128.png",
         "latitude": "4.97345793",
         "longitude": "106.54609050",
-        "zoom": true,
+        "zoom": 5,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -7821,7 +7949,7 @@
         "flag128": "YT-128.png",
         "latitude": "-12.82744522",
         "longitude": "45.16624200",
-        "zoom": true,
+        "zoom": 11,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -7829,7 +7957,11 @@
             }
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "Mayotte",
+                "nameOfficial": "Overseas Department of Mayotte"
+            }
         ]
     },
     {
@@ -7843,7 +7975,7 @@
         "flag128": "NA-128.png",
         "latitude": "-22.70965620",
         "longitude": "16.72161918",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -7854,7 +7986,7 @@
             {
                 "language": "ar",
                 "name": "ناميبيا",
-                "nameOfficial": "جمهورية ناميبيا "
+                "nameOfficial": "جمهورية ناميبيا"
             },
             {
                 "language": "en",
@@ -7899,7 +8031,7 @@
         "flag128": "NC-128.png",
         "latitude": "-21.26104020",
         "longitude": "165.58783760",
-        "zoom": true,
+        "zoom": 8,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -7907,7 +8039,11 @@
             }
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "New Caledonia",
+                "nameOfficial": "Territory of New Caledonia and Dependencies"
+            }
         ]
     },
     {
@@ -7921,7 +8057,7 @@
         "flag128": "NE-128.png",
         "latitude": "17.23446679",
         "longitude": "8.23547860",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -7932,7 +8068,7 @@
             {
                 "language": "ar",
                 "name": "النيجر",
-                "nameOfficial": "جمهورية النيجر "
+                "nameOfficial": "جمهورية النيجر"
             },
             {
                 "language": "en",
@@ -7977,7 +8113,7 @@
         "flag128": "NF-128.png",
         "latitude": "-29.02801043",
         "longitude": "167.94303023",
-        "zoom": true,
+        "zoom": 13,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -7985,7 +8121,11 @@
             }
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "Norfolk Island",
+                "nameOfficial": "Norfolk Islands"
+            }
         ]
     },
     {
@@ -7999,7 +8139,7 @@
         "flag128": "NG-128.png",
         "latitude": "9.02165273",
         "longitude": "7.82933373",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -8010,7 +8150,7 @@
             {
                 "language": "ar",
                 "name": "نيجيريا",
-                "nameOfficial": "الاتحادية نيجيريا جمهورية "
+                "nameOfficial": "الاتحادية نيجيريا جمهورية"
             },
             {
                 "language": "en",
@@ -8055,7 +8195,7 @@
         "flag128": "NI-128.png",
         "latitude": "12.91806226",
         "longitude": "-84.82270352",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -8066,7 +8206,7 @@
             {
                 "language": "ar",
                 "name": "نيكاراغوا",
-                "nameOfficial": "جمهورية  نيكاراغوا "
+                "nameOfficial": "جمهورية  نيكاراغوا"
             },
             {
                 "language": "en",
@@ -8111,7 +8251,7 @@
         "flag128": "NU-128.png",
         "latitude": "-19.04976362",
         "longitude": "-169.86585571",
-        "zoom": true,
+        "zoom": 11,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -8167,7 +8307,7 @@
         "flag128": "NL-128.png",
         "latitude": "52.33939951",
         "longitude": "4.98914998",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -8178,7 +8318,7 @@
             {
                 "language": "ar",
                 "name": "هولندا",
-                "nameOfficial": "هولندا مملكة "
+                "nameOfficial": "هولندا مملكة"
             },
             {
                 "language": "en",
@@ -8223,7 +8363,7 @@
         "flag128": "NO-128.png",
         "latitude": "65.04680297",
         "longitude": "13.50069228",
-        "zoom": true,
+        "zoom": 4,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -8238,7 +8378,7 @@
             {
                 "language": "ar",
                 "name": "النرويج",
-                "nameOfficial": "النرويج مملكة "
+                "nameOfficial": "النرويج مملكة"
             },
             {
                 "language": "en",
@@ -8283,7 +8423,7 @@
         "flag128": "NP-128.png",
         "latitude": "28.28430770",
         "longitude": "83.98119373",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -8294,7 +8434,7 @@
             {
                 "language": "ar",
                 "name": "نيبال",
-                "nameOfficial": "الاتحادية الديمقراطية نيبال جمهورية "
+                "nameOfficial": "الاتحادية الديمقراطية نيبال جمهورية"
             },
             {
                 "language": "en",
@@ -8339,7 +8479,7 @@
         "flag128": "NR-128.png",
         "latitude": "-0.52586763",
         "longitude": "166.93270463",
-        "zoom": true,
+        "zoom": 13,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -8350,7 +8490,7 @@
             {
                 "language": "ar",
                 "name": "ناورو",
-                "nameOfficial": "ناورو جمهورية "
+                "nameOfficial": "ناورو جمهورية"
             },
             {
                 "language": "en",
@@ -8395,7 +8535,7 @@
         "flag128": "NZ-128.png",
         "latitude": "-40.95025298",
         "longitude": "171.76586181",
-        "zoom": true,
+        "zoom": 5,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -8451,7 +8591,7 @@
         "flag128": "OM-128.png",
         "latitude": "20.69906846",
         "longitude": "56.69230596",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "West Asia",
@@ -8462,7 +8602,7 @@
             {
                 "language": "ar",
                 "name": "عمان",
-                "nameOfficial": "سلطنة عمان "
+                "nameOfficial": "سلطنة عمان"
             },
             {
                 "language": "en",
@@ -8507,7 +8647,7 @@
         "flag128": "PK-128.png",
         "latitude": "29.90335974",
         "longitude": "70.34487986",
-        "zoom": true,
+        "zoom": 5,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -8518,7 +8658,7 @@
             {
                 "language": "ar",
                 "name": "باكستان",
-                "nameOfficial": "الإسلامية باكستان جمهورية "
+                "nameOfficial": "الإسلامية باكستان جمهورية"
             },
             {
                 "language": "en",
@@ -8563,7 +8703,7 @@
         "flag128": "PA-128.png",
         "latitude": "8.52135102",
         "longitude": "-80.04603702",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -8574,7 +8714,7 @@
             {
                 "language": "ar",
                 "name": "بنما",
-                "nameOfficial": "بنما جمهورية "
+                "nameOfficial": "بنما جمهورية"
             },
             {
                 "language": "en",
@@ -8619,7 +8759,7 @@
         "flag128": "PN-128.png",
         "latitude": "-24.37673925",
         "longitude": "-128.32423730",
-        "zoom": true,
+        "zoom": 13,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -8627,7 +8767,11 @@
             }
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "Pitcairn Islands",
+                "nameOfficial": "Pitcairn Group of Islands"
+            }
         ]
     },
     {
@@ -8641,7 +8785,7 @@
         "flag128": "PE-128.png",
         "latitude": "-8.50205247",
         "longitude": "-76.15772412",
-        "zoom": true,
+        "zoom": 5,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -8652,7 +8796,7 @@
             {
                 "language": "ar",
                 "name": "بيرو",
-                "nameOfficial": "بيرو جمهورية "
+                "nameOfficial": "بيرو جمهورية"
             },
             {
                 "language": "en",
@@ -8697,7 +8841,7 @@
         "flag128": "PH-128.png",
         "latitude": "12.82361200",
         "longitude": "121.77401700",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -8708,7 +8852,7 @@
             {
                 "language": "ar",
                 "name": "الفلبين",
-                "nameOfficial": "الفلبين جمهورية "
+                "nameOfficial": "الفلبين جمهورية"
             },
             {
                 "language": "en",
@@ -8753,7 +8897,7 @@
         "flag128": "PW-128.png",
         "latitude": "7.49856307",
         "longitude": "134.57291496",
-        "zoom": true,
+        "zoom": 10,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -8764,7 +8908,7 @@
             {
                 "language": "ar",
                 "name": "بالاو",
-                "nameOfficial": "جمهورية بالاو "
+                "nameOfficial": "جمهورية بالاو"
             },
             {
                 "language": "en",
@@ -8809,7 +8953,7 @@
         "flag128": "PG-128.png",
         "latitude": "-6.62414046",
         "longitude": "144.44993477",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -8819,8 +8963,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "الجديدة غينيا بابوا ",
-                "nameOfficial": "المستقلة الجديدة غينيا بابوا دولة "
+                "name": "الجديدة غينيا بابوا",
+                "nameOfficial": "المستقلة الجديدة غينيا بابوا دولة"
             },
             {
                 "language": "en",
@@ -8865,7 +9009,7 @@
         "flag128": "PL-128.png",
         "latitude": "52.10117636",
         "longitude": "19.33190957",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -8876,7 +9020,7 @@
             {
                 "language": "ar",
                 "name": "بولندا",
-                "nameOfficial": "جمهورية بولندا "
+                "nameOfficial": "جمهورية بولندا"
             },
             {
                 "language": "en",
@@ -8921,7 +9065,7 @@
         "flag128": "PR-128.png",
         "latitude": "18.21963053",
         "longitude": "-66.59015100",
-        "zoom": true,
+        "zoom": 9,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -8929,7 +9073,11 @@
             }
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "Puerto Rico",
+                "nameOfficial": "Commonwealth of Puerto Rico"
+            }
         ]
     },
     {
@@ -8943,7 +9091,7 @@
         "flag128": "KP-128.png",
         "latitude": "40.00785500",
         "longitude": "127.48812834",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -8953,8 +9101,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "الديمقراطية الشعبية كوريا جمهورية ",
-                "nameOfficial": "الديمقراطية الشعبية كوريا جمهورية "
+                "name": "الديمقراطية الشعبية كوريا جمهورية",
+                "nameOfficial": "الديمقراطية الشعبية كوريا جمهورية"
             },
             {
                 "language": "en",
@@ -8999,7 +9147,7 @@
         "flag128": "PT-128.png",
         "latitude": "39.44879136",
         "longitude": "-8.03768042",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -9010,7 +9158,7 @@
             {
                 "language": "ar",
                 "name": "البرتغال",
-                "nameOfficial": "البرتغال جمهورية "
+                "nameOfficial": "البرتغال جمهورية"
             },
             {
                 "language": "en",
@@ -9055,7 +9203,7 @@
         "flag128": "PY-128.png",
         "latitude": "-23.38564782",
         "longitude": "-58.29551057",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -9066,7 +9214,7 @@
             {
                 "language": "ar",
                 "name": "باراغواي",
-                "nameOfficial": "باراغواي جمهورية "
+                "nameOfficial": "باراغواي جمهورية"
             },
             {
                 "language": "en",
@@ -9111,7 +9259,7 @@
         "flag128": "PS-128.png",
         "latitude": "32.26367103",
         "longitude": "35.21936714",
-        "zoom": true,
+        "zoom": 8,
         "countryRegions": [
             {
                 "region": "West Asia",
@@ -9119,7 +9267,11 @@
             }
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "Palestinian Territory, Occupied",
+                "nameOfficial": "the Occupied Palestinian Territory"
+            }
         ]
     },
     {
@@ -9133,7 +9285,7 @@
         "flag128": "PF-128.png",
         "latitude": "-17.66243898",
         "longitude": "-149.40683900",
-        "zoom": true,
+        "zoom": 10,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -9141,7 +9293,11 @@
             }
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "French Polynesia",
+                "nameOfficial": "Territory of French Polynesia"
+            }
         ]
     },
     {
@@ -9155,7 +9311,7 @@
         "flag128": "QA-128.png",
         "latitude": "25.24551555",
         "longitude": "51.24431480",
-        "zoom": true,
+        "zoom": 8,
         "countryRegions": [
             {
                 "region": "West Asia",
@@ -9166,7 +9322,7 @@
             {
                 "language": "ar",
                 "name": "قطر",
-                "nameOfficial": "قطر دولة "
+                "nameOfficial": "قطر دولة"
             },
             {
                 "language": "en",
@@ -9211,7 +9367,7 @@
         "flag128": "RE-128.png",
         "latitude": "-21.11480084",
         "longitude": "55.53638200",
-        "zoom": true,
+        "zoom": 10,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -9219,7 +9375,11 @@
             }
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "Réunion",
+                "nameOfficial": "Department of Reunion"
+            }
         ]
     },
     {
@@ -9233,7 +9393,7 @@
         "flag128": "RO-128.png",
         "latitude": "45.56450023",
         "longitude": "25.21945155",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -9289,7 +9449,7 @@
         "flag128": "RU-128.png",
         "latitude": "57.96812298",
         "longitude": "102.41837137",
-        "zoom": true,
+        "zoom": 3,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -9303,8 +9463,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "الاتحاد الروسي ",
-                "nameOfficial": "الاتحاد الروسي "
+                "name": "الاتحاد الروسي",
+                "nameOfficial": "الاتحاد الروسي"
             },
             {
                 "language": "en",
@@ -9349,7 +9509,7 @@
         "flag128": "RW-128.png",
         "latitude": "-1.98589079",
         "longitude": "29.94255855",
-        "zoom": true,
+        "zoom": 8,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -9360,7 +9520,7 @@
             {
                 "language": "ar",
                 "name": "رواندا",
-                "nameOfficial": "رواندا  جمهورية "
+                "nameOfficial": "رواندا  جمهورية"
             },
             {
                 "language": "en",
@@ -9405,7 +9565,7 @@
         "flag128": "SA-128.png",
         "latitude": "24.16687314",
         "longitude": "42.88190638",
-        "zoom": true,
+        "zoom": 5,
         "countryRegions": [
             {
                 "region": "West Asia",
@@ -9415,8 +9575,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "السعودية العربية المملكة ",
-                "nameOfficial": "السعودية العربية المملكة "
+                "name": "السعودية العربية المملكة",
+                "nameOfficial": "السعودية العربية المملكة"
             },
             {
                 "language": "en",
@@ -9461,7 +9621,7 @@
         "flag128": "SD-128.png",
         "latitude": "15.96646839",
         "longitude": "30.37145459",
-        "zoom": true,
+        "zoom": 5,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -9472,7 +9632,7 @@
             {
                 "language": "ar",
                 "name": "السودان",
-                "nameOfficial": "السودان جمهورية "
+                "nameOfficial": "السودان جمهورية"
             },
             {
                 "language": "en",
@@ -9517,7 +9677,7 @@
         "flag128": "SN-128.png",
         "latitude": "14.43579003",
         "longitude": "-14.68306489",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -9528,7 +9688,7 @@
             {
                 "language": "ar",
                 "name": "السنغال",
-                "nameOfficial": "السنغال جمهورية "
+                "nameOfficial": "السنغال جمهورية"
             },
             {
                 "language": "en",
@@ -9573,7 +9733,7 @@
         "flag128": "SG-128.png",
         "latitude": "1.33873261",
         "longitude": "103.83323559",
-        "zoom": true,
+        "zoom": 11,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -9584,7 +9744,7 @@
             {
                 "language": "ar",
                 "name": "سنغافورة",
-                "nameOfficial": "جمهورية سنغافورة "
+                "nameOfficial": "جمهورية سنغافورة"
             },
             {
                 "language": "en",
@@ -9629,12 +9789,16 @@
         "flag128": "GS-128.png",
         "latitude": "-54.38130284",
         "longitude": "-36.67305304",
-        "zoom": true,
+        "zoom": 9,
         "countryRegions": [
 
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "South Georgia and the South Sandwich Islands",
+                "nameOfficial": "South Georgia and the South Sandwich Islands"
+            }
         ]
     },
     {
@@ -9648,7 +9812,7 @@
         "flag128": "SH-128.png",
         "latitude": "-37.10521846",
         "longitude": "-12.27768580",
-        "zoom": true,
+        "zoom": 12,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -9656,7 +9820,11 @@
             }
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "Saint Helena, Ascension and Tristan da Cunha",
+                "nameOfficial": "Saint Helena, Ascension and Tristan da Cunha"
+            }
         ]
     },
     {
@@ -9670,7 +9838,7 @@
         "flag128": "SJ-128.png",
         "latitude": "77.92215764",
         "longitude": "18.99010622",
-        "zoom": true,
+        "zoom": 4,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -9678,7 +9846,11 @@
             }
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "Svalbard and Jan Mayen",
+                "nameOfficial": "Svalbard and Jan Mayen"
+            }
         ]
     },
     {
@@ -9692,7 +9864,7 @@
         "flag128": "SB-128.png",
         "latitude": "-9.64554280",
         "longitude": "160.15619400",
-        "zoom": true,
+        "zoom": 10,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -9702,8 +9874,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "جزر سليمان ",
-                "nameOfficial": "جزر سليمان "
+                "name": "جزر سليمان",
+                "nameOfficial": "جزر سليمان"
             },
             {
                 "language": "en",
@@ -9748,7 +9920,7 @@
         "flag128": "SL-128.png",
         "latitude": "8.45575589",
         "longitude": "-11.93368759",
-        "zoom": true,
+        "zoom": 8,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -9759,7 +9931,7 @@
             {
                 "language": "ar",
                 "name": "سيراليون",
-                "nameOfficial": "جمهورية سيراليون "
+                "nameOfficial": "جمهورية سيراليون"
             },
             {
                 "language": "en",
@@ -9804,7 +9976,7 @@
         "flag128": "SV-128.png",
         "latitude": "13.79043561",
         "longitude": "-88.89652800",
-        "zoom": true,
+        "zoom": 8,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -9815,7 +9987,7 @@
             {
                 "language": "ar",
                 "name": "السلفادور",
-                "nameOfficial": "السلفادور جمهورية "
+                "nameOfficial": "السلفادور جمهورية"
             },
             {
                 "language": "en",
@@ -9860,7 +10032,7 @@
         "flag128": "SM-128.png",
         "latitude": "43.94223356",
         "longitude": "12.45777700",
-        "zoom": true,
+        "zoom": 11,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -9870,8 +10042,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "مارينو سان ",
-                "nameOfficial": "مارينو سان جمهورية "
+                "name": "مارينو سان",
+                "nameOfficial": "مارينو سان جمهورية"
             },
             {
                 "language": "en",
@@ -9916,7 +10088,7 @@
         "flag128": "SO-128.png",
         "latitude": "2.87224619",
         "longitude": "45.27676444",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -9927,7 +10099,7 @@
             {
                 "language": "ar",
                 "name": "الصومال",
-                "nameOfficial": "جمهورية الصومال الإتحادية "
+                "nameOfficial": "جمهورية الصومال الإتحادية"
             },
             {
                 "language": "en",
@@ -9972,7 +10144,7 @@
         "flag128": "PM-128.png",
         "latitude": "46.88469499",
         "longitude": "-56.31590200",
-        "zoom": true,
+        "zoom": 10,
         "countryRegions": [
             {
                 "region": "North America",
@@ -9980,7 +10152,11 @@
             }
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "Saint Pierre and Miquelon",
+                "nameOfficial": "Saint Pierre and Miquelon"
+            }
         ]
     },
     {
@@ -9994,7 +10170,7 @@
         "flag128": "RS-128.png",
         "latitude": "44.06736041",
         "longitude": "20.29725084",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -10005,7 +10181,7 @@
             {
                 "language": "ar",
                 "name": "صربيا",
-                "nameOfficial": "جمهورية صربيا "
+                "nameOfficial": "جمهورية صربيا"
             },
             {
                 "language": "en",
@@ -10050,7 +10226,7 @@
         "flag128": "SS-128.png",
         "latitude": "7.91320803",
         "longitude": "30.15342434",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -10060,8 +10236,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "السودان جنوب ",
-                "nameOfficial": "السودان جنوب جمهورية "
+                "name": "السودان جنوب",
+                "nameOfficial": "السودان جنوب جمهورية"
             },
             {
                 "language": "en",
@@ -10106,7 +10282,7 @@
         "flag128": "ST-128.png",
         "latitude": "0.23381910",
         "longitude": "6.59935809",
-        "zoom": true,
+        "zoom": 10,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -10116,8 +10292,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "وبرنسيبي تومي سان ",
-                "nameOfficial": "الديمقراطية وبرنسيبي تومي سان جمهورية "
+                "name": "وبرنسيبي تومي سان",
+                "nameOfficial": "الديمقراطية وبرنسيبي تومي سان جمهورية"
             },
             {
                 "language": "en",
@@ -10162,7 +10338,7 @@
         "flag128": "SR-128.png",
         "latitude": "4.26470865",
         "longitude": "-55.93988238",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -10173,7 +10349,7 @@
             {
                 "language": "ar",
                 "name": "سورينام",
-                "nameOfficial": "جمهورية سورينام "
+                "nameOfficial": "جمهورية سورينام"
             },
             {
                 "language": "en",
@@ -10218,7 +10394,7 @@
         "flag128": "SK-128.png",
         "latitude": "48.66923253",
         "longitude": "19.75396564",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -10229,7 +10405,7 @@
             {
                 "language": "ar",
                 "name": "سلوفاكيا",
-                "nameOfficial": "السلوفاكية الجمهورية "
+                "nameOfficial": "السلوفاكية الجمهورية"
             },
             {
                 "language": "en",
@@ -10274,7 +10450,7 @@
         "flag128": "SI-128.png",
         "latitude": "46.14315048",
         "longitude": "14.99546300",
-        "zoom": true,
+        "zoom": 8,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -10285,7 +10461,7 @@
             {
                 "language": "ar",
                 "name": "سلوفينيا",
-                "nameOfficial": "جمهورية سلوفينيا "
+                "nameOfficial": "جمهورية سلوفينيا"
             },
             {
                 "language": "en",
@@ -10330,7 +10506,7 @@
         "flag128": "SE-128.png",
         "latitude": "61.42370427",
         "longitude": "16.73188991",
-        "zoom": true,
+        "zoom": 4,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -10345,7 +10521,7 @@
             {
                 "language": "ar",
                 "name": "السويد",
-                "nameOfficial": "مملكة السويد "
+                "nameOfficial": "مملكة السويد"
             },
             {
                 "language": "en",
@@ -10390,7 +10566,7 @@
         "flag128": "SZ-128.png",
         "latitude": "-26.53892570",
         "longitude": "31.47960891",
-        "zoom": true,
+        "zoom": 9,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -10401,7 +10577,7 @@
             {
                 "language": "ar",
                 "name": "سوازيلند",
-                "nameOfficial": "سوازيلند مملكة "
+                "nameOfficial": "سوازيلند مملكة"
             },
             {
                 "language": "en",
@@ -10446,7 +10622,7 @@
         "flag128": "SX-128.png",
         "latitude": "18.04433885",
         "longitude": "-63.05616320",
-        "zoom": true,
+        "zoom": 12,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -10454,7 +10630,11 @@
             }
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "Sint Maarten",
+                "nameOfficial": "Sint Maarten"
+            }
         ]
     },
     {
@@ -10468,7 +10648,7 @@
         "flag128": "SC-128.png",
         "latitude": "-4.68053204",
         "longitude": "55.49061371",
-        "zoom": true,
+        "zoom": 11,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -10479,7 +10659,7 @@
             {
                 "language": "ar",
                 "name": "سيشيل",
-                "nameOfficial": "جمهورية سيشيل "
+                "nameOfficial": "جمهورية سيشيل"
             },
             {
                 "language": "en",
@@ -10499,7 +10679,7 @@
             {
                 "language": "it",
                 "name": "Seychelles",
-                "nameOfficial": "Repubblica delle Seychelles  "
+                "nameOfficial": "Repubblica delle Seychelles"
             },
             {
                 "language": "ru",
@@ -10524,7 +10704,7 @@
         "flag128": "SY-128.png",
         "latitude": "34.71097430",
         "longitude": "38.66723516",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "West Asia",
@@ -10534,8 +10714,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "الجمهورية العربية السورية ",
-                "nameOfficial": "الجمهورية العربية السورية "
+                "name": "الجمهورية العربية السورية",
+                "nameOfficial": "الجمهورية العربية السورية"
             },
             {
                 "language": "en",
@@ -10580,7 +10760,7 @@
         "flag128": "TC-128.png",
         "latitude": "21.72816866",
         "longitude": "-71.79654471",
-        "zoom": true,
+        "zoom": 9,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -10588,7 +10768,11 @@
             }
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "Turks and Caicos Islands",
+                "nameOfficial": "Turks and Caicos Islands"
+            }
         ]
     },
     {
@@ -10602,7 +10786,7 @@
         "flag128": "TD-128.png",
         "latitude": "14.80342407",
         "longitude": "18.78714064",
-        "zoom": true,
+        "zoom": 5,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -10613,7 +10797,7 @@
             {
                 "language": "ar",
                 "name": "تشاد",
-                "nameOfficial": "تشاد جمهورية "
+                "nameOfficial": "تشاد جمهورية"
             },
             {
                 "language": "en",
@@ -10658,7 +10842,7 @@
         "flag128": "TG-128.png",
         "latitude": "8.68089206",
         "longitude": "0.86049757",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -10669,7 +10853,7 @@
             {
                 "language": "ar",
                 "name": "توغو",
-                "nameOfficial": "توغو جمهورية "
+                "nameOfficial": "توغو جمهورية"
             },
             {
                 "language": "en",
@@ -10714,7 +10898,7 @@
         "flag128": "TH-128.png",
         "latitude": "14.60009810",
         "longitude": "101.38805881",
-        "zoom": true,
+        "zoom": 5,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -10725,7 +10909,7 @@
             {
                 "language": "ar",
                 "name": "تايلند",
-                "nameOfficial": "تايلند مملكة "
+                "nameOfficial": "تايلند مملكة"
             },
             {
                 "language": "en",
@@ -10770,7 +10954,7 @@
         "flag128": "TJ-128.png",
         "latitude": "38.68075124",
         "longitude": "71.23215769",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -10781,7 +10965,7 @@
             {
                 "language": "ar",
                 "name": "طاجيكستان",
-                "nameOfficial": "جمهورية طاجيكستان "
+                "nameOfficial": "جمهورية طاجيكستان"
             },
             {
                 "language": "en",
@@ -10826,7 +11010,7 @@
         "flag128": "TK-128.png",
         "latitude": "-9.16682644",
         "longitude": "-171.83981693",
-        "zoom": true,
+        "zoom": 10,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -10836,7 +11020,7 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "منتسب عضو - توكيلاو ",
+                "name": "منتسب عضو - توكيلاو",
                 "nameOfficial": "توكيلاو"
             },
             {
@@ -10882,7 +11066,7 @@
         "flag128": "TM-128.png",
         "latitude": "38.94915421",
         "longitude": "59.06190323",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -10938,7 +11122,7 @@
         "flag128": "TL-128.png",
         "latitude": "-8.88926365",
         "longitude": "125.99671404",
-        "zoom": true,
+        "zoom": 9,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -10948,8 +11132,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "ليشتى تيمور- ",
-                "nameOfficial": "الديمقراطية ليشتى تيمور- جمهورية "
+                "name": "ليشتى تيمور-",
+                "nameOfficial": "الديمقراطية ليشتى تيمور- جمهورية"
             },
             {
                 "language": "en",
@@ -10994,7 +11178,7 @@
         "flag128": "TO-128.png",
         "latitude": "-21.17890075",
         "longitude": "-175.19824200",
-        "zoom": true,
+        "zoom": 11,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -11005,7 +11189,7 @@
             {
                 "language": "ar",
                 "name": "تونغا",
-                "nameOfficial": "تونغا مملكة "
+                "nameOfficial": "تونغا مملكة"
             },
             {
                 "language": "en",
@@ -11050,7 +11234,7 @@
         "flag128": "TT-128.png",
         "latitude": "10.43241863",
         "longitude": "-61.22250300",
-        "zoom": true,
+        "zoom": 10,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -11060,8 +11244,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "وتوباغو ترينيداد ",
-                "nameOfficial": "وتوباغو ترينيداد جمهورية "
+                "name": "وتوباغو ترينيداد",
+                "nameOfficial": "وتوباغو ترينيداد جمهورية"
             },
             {
                 "language": "en",
@@ -11106,7 +11290,7 @@
         "flag128": "TN-128.png",
         "latitude": "33.88431940",
         "longitude": "9.71878341",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -11117,7 +11301,7 @@
             {
                 "language": "ar",
                 "name": "تونس",
-                "nameOfficial": "الجمهورية التونسية "
+                "nameOfficial": "الجمهورية التونسية"
             },
             {
                 "language": "en",
@@ -11162,7 +11346,7 @@
         "flag128": "TR-128.png",
         "latitude": "38.27069555",
         "longitude": "36.28703317",
-        "zoom": true,
+        "zoom": 5,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -11173,7 +11357,7 @@
             {
                 "language": "ar",
                 "name": "تركيا",
-                "nameOfficial": "الجمهورية التركية "
+                "nameOfficial": "الجمهورية التركية"
             },
             {
                 "language": "en",
@@ -11218,7 +11402,7 @@
         "flag128": "TV-128.png",
         "latitude": "-8.45968122",
         "longitude": "179.13310944",
-        "zoom": true,
+        "zoom": 12,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -11274,12 +11458,16 @@
         "flag128": "TW-128.png",
         "latitude": "23.71891402",
         "longitude": "121.10884043",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
 
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "Taiwan",
+                "nameOfficial": "Republic of China"
+            }
         ]
     },
     {
@@ -11293,7 +11481,7 @@
         "flag128": "TZ-128.png",
         "latitude": "-6.37551085",
         "longitude": "34.85587302",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -11303,8 +11491,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "جمهورية تنزانيا المتحدة ",
-                "nameOfficial": "جمهورية تنزانيا المتحدة "
+                "name": "جمهورية تنزانيا المتحدة",
+                "nameOfficial": "جمهورية تنزانيا المتحدة"
             },
             {
                 "language": "en",
@@ -11349,7 +11537,7 @@
         "flag128": "UG-128.png",
         "latitude": "1.54760620",
         "longitude": "32.44409759",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -11360,7 +11548,7 @@
             {
                 "language": "ar",
                 "name": "أوغندا",
-                "nameOfficial": "جمهورية أوغندا "
+                "nameOfficial": "جمهورية أوغندا"
             },
             {
                 "language": "en",
@@ -11405,7 +11593,7 @@
         "flag128": "UA-128.png",
         "latitude": "48.89358596",
         "longitude": "31.10516920",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -11461,12 +11649,16 @@
         "flag128": "UM-128.png",
         "latitude": "19.46305694",
         "longitude": "177.98631092",
-        "zoom": true,
+        "zoom": 5,
         "countryRegions": [
 
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "United States Minor Outlying Islands",
+                "nameOfficial": "United States Minor Outlying Islands"
+            }
         ]
     },
     {
@@ -11480,7 +11672,7 @@
         "flag128": "UY-128.png",
         "latitude": "-32.49342987",
         "longitude": "-55.76583300",
-        "zoom": true,
+        "zoom": 7,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -11491,7 +11683,7 @@
             {
                 "language": "ar",
                 "name": "أوروغواي",
-                "nameOfficial": "الشرقية أوروغواي جمهورية "
+                "nameOfficial": "الشرقية أوروغواي جمهورية"
             },
             {
                 "language": "en",
@@ -11536,7 +11728,7 @@
         "flag128": "US-128.png",
         "latitude": "37.66895362",
         "longitude": "-102.39256450",
-        "zoom": true,
+        "zoom": 4,
         "countryRegions": [
             {
                 "region": "North America",
@@ -11550,8 +11742,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "الأمريكية المتحدة الولايات ",
-                "nameOfficial": "الأمريكية المتحدة الولايات "
+                "name": "الأمريكية المتحدة الولايات",
+                "nameOfficial": "الأمريكية المتحدة الولايات"
             },
             {
                 "language": "en",
@@ -11596,7 +11788,7 @@
         "flag128": "UZ-128.png",
         "latitude": "41.30829147",
         "longitude": "62.62970960",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Europe",
@@ -11607,7 +11799,7 @@
             {
                 "language": "ar",
                 "name": "أوزبكستان",
-                "nameOfficial": "جمهورية أوزبكستان "
+                "nameOfficial": "جمهورية أوزبكستان"
             },
             {
                 "language": "en",
@@ -11652,7 +11844,7 @@
         "flag128": "VA-128.png",
         "latitude": "41.90377810",
         "longitude": "12.45340142",
-        "zoom": true,
+        "zoom": 16,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -11662,8 +11854,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "الكرسي الرسولي ",
-                "nameOfficial": "الكرسي الرسولي "
+                "name": "الكرسي الرسولي",
+                "nameOfficial": "الكرسي الرسولي"
             },
             {
                 "language": "en",
@@ -11708,7 +11900,7 @@
         "flag128": "VC-128.png",
         "latitude": "13.25276143",
         "longitude": "-61.19709800",
-        "zoom": true,
+        "zoom": 11,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -11718,8 +11910,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "سانت فنسنت وجزر غرينادين ",
-                "nameOfficial": "سانت فنسنت وجزر غرينادين "
+                "name": "سانت فنسنت وجزر غرينادين",
+                "nameOfficial": "سانت فنسنت وجزر غرينادين"
             },
             {
                 "language": "en",
@@ -11764,7 +11956,7 @@
         "flag128": "VE-128.png",
         "latitude": "5.98477766",
         "longitude": "-65.94152264",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -11774,8 +11966,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "البوليفارية - جمهورية - فنزويلا ",
-                "nameOfficial": "البوليفارية فنزويلا جمهورية "
+                "name": "البوليفارية - جمهورية - فنزويلا",
+                "nameOfficial": "البوليفارية فنزويلا جمهورية"
             },
             {
                 "language": "en",
@@ -11820,7 +12012,7 @@
         "flag128": "VG-128.png",
         "latitude": "17.67004187",
         "longitude": "-64.77411010",
-        "zoom": true,
+        "zoom": 10,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -11828,7 +12020,11 @@
             }
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "Virgin Islands",
+                "nameOfficial": "British Virgin Islands"
+            }
         ]
     },
     {
@@ -11842,7 +12038,7 @@
         "flag128": "VI-128.png",
         "latitude": "18.01000938",
         "longitude": "-64.77411410",
-        "zoom": true,
+        "zoom": 9,
         "countryRegions": [
             {
                 "region": "Latin America and the Caribbean",
@@ -11850,7 +12046,11 @@
             }
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "United States Virgin Islands",
+                "nameOfficial": "Virgin Islands of the United States"
+            }
         ]
     },
     {
@@ -11864,7 +12064,7 @@
         "flag128": "VN-128.png",
         "latitude": "17.19931699",
         "longitude": "107.14012804",
-        "zoom": true,
+        "zoom": 5,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -11874,8 +12074,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "فييت نام ",
-                "nameOfficial": "جمهورية فييت نام الاشتراكية "
+                "name": "فييت نام",
+                "nameOfficial": "جمهورية فييت نام الاشتراكية"
             },
             {
                 "language": "en",
@@ -11920,7 +12120,7 @@
         "flag128": "VU-128.png",
         "latitude": "-15.37256614",
         "longitude": "166.95916000",
-        "zoom": true,
+        "zoom": 8,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -11931,7 +12131,7 @@
             {
                 "language": "ar",
                 "name": "فانواتو",
-                "nameOfficial": "جمهورية فانواتو "
+                "nameOfficial": "جمهورية فانواتو"
             },
             {
                 "language": "en",
@@ -11976,7 +12176,7 @@
         "flag128": "WF-128.png",
         "latitude": "-14.29378486",
         "longitude": "-178.11649800",
-        "zoom": true,
+        "zoom": 12,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -11984,7 +12184,11 @@
             }
         ],
         "countryNames": [
-
+            {
+                "language": "en",
+                "name": "Wallis and Futuna",
+                "nameOfficial": "Territory of the Wallis and Futuna Islands"
+            }
         ]
     },
     {
@@ -11998,7 +12202,7 @@
         "flag128": "WS-128.png",
         "latitude": "-13.57998954",
         "longitude": "-172.45207363",
-        "zoom": true,
+        "zoom": 10,
         "countryRegions": [
             {
                 "region": "Asia and the Pacific",
@@ -12009,7 +12213,7 @@
             {
                 "language": "ar",
                 "name": "ساموا",
-                "nameOfficial": "المستقلة ساموا دولة "
+                "nameOfficial": "المستقلة ساموا دولة"
             },
             {
                 "language": "en",
@@ -12054,7 +12258,7 @@
         "flag128": "YE-128.png",
         "latitude": "15.60865453",
         "longitude": "47.60453676",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "West Asia",
@@ -12065,7 +12269,7 @@
             {
                 "language": "ar",
                 "name": "اليمن",
-                "nameOfficial": "الجمهورية اليمنية "
+                "nameOfficial": "الجمهورية اليمنية"
             },
             {
                 "language": "en",
@@ -12110,7 +12314,7 @@
         "flag128": "ZA-128.png",
         "latitude": "-27.17706863",
         "longitude": "24.50856092",
-        "zoom": true,
+        "zoom": 5,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -12120,8 +12324,8 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "أفريقيا جنوب ",
-                "nameOfficial": "أفريقيا جنوب جمهورية "
+                "name": "أفريقيا جنوب",
+                "nameOfficial": "أفريقيا جنوب جمهورية"
             },
             {
                 "language": "en",
@@ -12166,7 +12370,7 @@
         "flag128": "ZM-128.png",
         "latitude": "-13.01812188",
         "longitude": "28.33274444",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -12177,7 +12381,7 @@
             {
                 "language": "ar",
                 "name": "زامبيا",
-                "nameOfficial": "جمهورية زامبيا "
+                "nameOfficial": "جمهورية زامبيا"
             },
             {
                 "language": "en",
@@ -12222,7 +12426,7 @@
         "flag128": "ZW-128.png",
         "latitude": "-19.00784952",
         "longitude": "30.18758584",
-        "zoom": true,
+        "zoom": 6,
         "countryRegions": [
             {
                 "region": "Africa",
@@ -12233,7 +12437,7 @@
             {
                 "language": "ar",
                 "name": "زمبابوي",
-                "nameOfficial": "جمهورية زمبابوي "
+                "nameOfficial": "جمهورية زمبابوي"
             },
             {
                 "language": "en",
