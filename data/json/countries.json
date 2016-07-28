@@ -928,7 +928,7 @@
             },
             {
                 "language": "zh",
-                "name": "贝 宁",
+                "name": "贝宁",
                 "nameOfficial": "贝宁共和国"
             }
         ]
@@ -1178,7 +1178,7 @@
             },
             {
                 "language": "zh",
-                "name": "巴 林",
+                "name": "巴林",
                 "nameOfficial": "巴林王国"
             }
         ]
@@ -1464,7 +1464,7 @@
         "enabled": true,
         "code3l": "BOL",
         "code2l": "BO",
-        "name": "Bolivia (Plurinational State of)",
+        "name": "Bolivia",
         "nameOfficial": "the Plurinational State of Bolivia",
         "flag32": "BO-32.png",
         "flag128": "BO-128.png",
@@ -1480,37 +1480,37 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "بوليفيا - دولة - المتعددة القوميات",
+                "name": "بوليفيا",
                 "nameOfficial": "دولة بوليفيا المتعددة القوميات"
             },
             {
                 "language": "en",
-                "name": "Bolivia (Plurinational State of)",
+                "name": "Bolivia",
                 "nameOfficial": "the Plurinational State of Bolivia"
             },
             {
                 "language": "es",
-                "name": "Bolivia (Estado Plurinacional de)",
+                "name": "Bolivia",
                 "nameOfficial": "Estado Plurinacional de Bolivia"
             },
             {
                 "language": "fr",
-                "name": "Bolivie (État plurinational de)",
+                "name": "Bolivie",
                 "nameOfficial": "l'État plurinational de Bolivie"
             },
             {
                 "language": "it",
-                "name": "Bolivia (Stato plurinazionale della)",
+                "name": "Bolivia",
                 "nameOfficial": "Stato plurinazionale della Bolivia"
             },
             {
                 "language": "ru",
-                "name": "Боливия (Многонациональное Государство)",
+                "name": "Боливия",
                 "nameOfficial": "Многонациональное Государство Боливия"
             },
             {
                 "language": "zh",
-                "name": "玻利维亚（多民族国）",
+                "name": "玻利维亚",
                 "nameOfficial": "玻利维亚多民族国"
             }
         ]
@@ -1566,7 +1566,7 @@
             },
             {
                 "language": "zh",
-                "name": "巴 西",
+                "name": "巴西",
                 "nameOfficial": "巴西联邦共和国"
             }
         ]
@@ -1632,7 +1632,7 @@
         "enabled": true,
         "code3l": "BRN",
         "code2l": "BN",
-        "name": "Brunei Darussalam",
+        "name": "Brunei",
         "nameOfficial": "Brunei Darussalam",
         "flag32": "BN-32.png",
         "flag128": "BN-128.png",
@@ -1648,22 +1648,22 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "السلام دار برونى",
+                "name": "بروناي",
                 "nameOfficial": "السلام دار بروني"
             },
             {
                 "language": "en",
-                "name": "Brunei Darussalam",
+                "name": "Brunei",
                 "nameOfficial": "Brunei Darussalam"
             },
             {
                 "language": "es",
-                "name": "Brunei Darussalam",
+                "name": "Brunei",
                 "nameOfficial": "Brunei Darussalam"
             },
             {
                 "language": "fr",
-                "name": "Brunéi Darussalam",
+                "name": "Brunéi",
                 "nameOfficial": "le Brunéi Darussalam"
             },
             {
@@ -1673,12 +1673,12 @@
             },
             {
                 "language": "ru",
-                "name": "Бруней-Даруссалам",
+                "name": "Бруне́й",
                 "nameOfficial": "Бруней-Даруссалам"
             },
             {
                 "language": "zh",
-                "name": "文莱达鲁萨兰国",
+                "name": "汶莱",
                 "nameOfficial": "文莱达鲁萨兰国"
             }
         ]
@@ -1734,7 +1734,7 @@
             },
             {
                 "language": "zh",
-                "name": "不 丹",
+                "name": "不丹",
                 "nameOfficial": "不丹王国"
             }
         ]
@@ -2008,7 +2008,7 @@
             },
             {
                 "language": "zh",
-                "name": "瑞 士",
+                "name": "瑞士",
                 "nameOfficial": "瑞士联邦"
             }
         ]
@@ -2064,7 +2064,7 @@
             },
             {
                 "language": "zh",
-                "name": "智 利",
+                "name": "智利",
                 "nameOfficial": "智利共和国"
             }
         ]
@@ -2120,7 +2120,7 @@
             },
             {
                 "language": "zh",
-                "name": "中 国",
+                "name": "中国",
                 "nameOfficial": "中华人民共和国"
             }
         ]
@@ -2166,13 +2166,13 @@
             },
             {
                 "language": "it",
-                "name": "Côte d`Ivoire",
+                "name": "Côte d'Ivoire",
                 "nameOfficial": "Repubblica della Côte d'Ivoire"
             },
             {
                 "language": "ru",
-                "name": "Кот-д`Ивуар",
-                "nameOfficial": "Республика Кот-д`Ивуар"
+                "name": "Кот-д’Ивуа́р",
+                "nameOfficial": "Республика Кот-д'Ивуар"
             },
             {
                 "language": "zh",
@@ -2344,7 +2344,7 @@
             },
             {
                 "language": "zh",
-                "name": "刚 果",
+                "name": "刚果",
                 "nameOfficial": "刚果共和国"
             }
         ]
@@ -2538,7 +2538,7 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "كابو فيردي",
+                "name": "الرأس الأخضر",
                 "nameOfficial": "جمهورية كابو فيردي"
             },
             {
@@ -2553,7 +2553,7 @@
             },
             {
                 "language": "fr",
-                "name": "Cabo Verde",
+                "name": "Cap-Vert",
                 "nameOfficial": "la République de Cabo Verde"
             },
             {
@@ -2923,7 +2923,7 @@
             },
             {
                 "language": "zh",
-                "name": "德 国",
+                "name": "德国",
                 "nameOfficial": "德意志联邦共和国"
             }
         ]
@@ -3095,7 +3095,7 @@
             },
             {
                 "language": "zh",
-                "name": "丹 麦",
+                "name": "丹麦",
                 "nameOfficial": "丹麦王国"
             }
         ]
@@ -3319,7 +3319,7 @@
             },
             {
                 "language": "zh",
-                "name": "埃 及",
+                "name": "埃及",
                 "nameOfficial": "阿拉伯埃及共和国"
             }
         ]
@@ -3595,38 +3595,38 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "عضو منظمة - الأوروبي الإتحاد",
-                "nameOfficial": "عضو منظمة - الأوروبي الإتحاد"
+                "name": "الاتحاد الأوروبي",
+                "nameOfficial": "الاتحاد الأوروبي"
             },
             {
                 "language": "en",
-                "name": "European Union (Member Organization)",
-                "nameOfficial": "European Union (Member Organization)"
+                "name": "European Union",
+                "nameOfficial": "European Union"
             },
             {
                 "language": "es",
-                "name": "Unión Europea (Organización Miembro)",
-                "nameOfficial": "Unión Europea (Organización Miembro)"
+                "name": "Unión Europea",
+                "nameOfficial": "Unión Europea"
             },
             {
                 "language": "fr",
-                "name": "Union européenne (Organisation membre)",
-                "nameOfficial": "l'Union européenne (Organisation membre)"
+                "name": "Union européenne",
+                "nameOfficial": "l'Union européenne"
             },
             {
                 "language": "it",
-                "name": "Unione europea (Organizzazione membro)",
-                "nameOfficial": "Unione europea (Organizzazione membro)"
+                "name": "Unione europea",
+                "nameOfficial": "Unione europea"
             },
             {
                 "language": "ru",
-                "name": "Европейский союз (организация-член)",
-                "nameOfficial": "Европейский союз (организация-член)"
+                "name": "Европейский союз",
+                "nameOfficial": "Европейский союз"
             },
             {
                 "language": "zh",
-                "name": "欧洲联盟 （成员组织）",
-                "nameOfficial": "欧洲联盟（成员组织）"
+                "name": "欧洲联盟",
+                "nameOfficial": "欧洲联盟"
             }
         ]
     },
@@ -3685,7 +3685,7 @@
             },
             {
                 "language": "zh",
-                "name": "芬 兰",
+                "name": "芬兰",
                 "nameOfficial": "芬兰共和国"
             }
         ]
@@ -3823,7 +3823,7 @@
             },
             {
                 "language": "zh",
-                "name": "法  国",
+                "name": "法国",
                 "nameOfficial": "法兰西共和国"
             }
         ]
@@ -3833,7 +3833,7 @@
         "enabled": true,
         "code3l": "FRO",
         "code2l": "FO",
-        "name": "Faroe Islands (Associate Member)",
+        "name": "Faroe Islands",
         "nameOfficial": "Faroe Islands",
         "flag32": "FO-32.png",
         "flag128": "FO-128.png",
@@ -3849,37 +3849,37 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "جزر فيرويه",
-                "nameOfficial": "جزر فيرويه"
+                "name": "جزر فارو",
+                "nameOfficial": "جزر فارو"
             },
             {
                 "language": "en",
-                "name": "Faroe Islands (Associate Member)",
+                "name": "Faroe Islands",
                 "nameOfficial": "Faroe Islands"
             },
             {
                 "language": "es",
-                "name": "Islas Feroe (Miembro Asociado)",
+                "name": "Islas Feroe",
                 "nameOfficial": "las Islas Feroe"
             },
             {
                 "language": "fr",
-                "name": "Îles Féroé (Membre associé)",
+                "name": "Îles Féroé",
                 "nameOfficial": "les Îles Féroé"
             },
             {
                 "language": "it",
-                "name": "Isole Faer øer",
-                "nameOfficial": "Isole Faer øer"
+                "name": "Fær Øer",
+                "nameOfficial": "Fær Øer"
             },
             {
                 "language": "ru",
-                "name": "Фарерские Острова (ассоциированный член)",
+                "name": "Фарерские Острова",
                 "nameOfficial": "Фарерские Острова"
             },
             {
                 "language": "zh",
-                "name": "法罗群岛 (准成员)",
+                "name": "法罗群岛",
                 "nameOfficial": "法罗群岛"
             }
         ]
@@ -3889,7 +3889,7 @@
         "enabled": true,
         "code3l": "FSM",
         "code2l": "FM",
-        "name": "Micronesia (Federated States of)",
+        "name": "Micronesia",
         "nameOfficial": "the Federated States of Micronesia",
         "flag32": "FM-32.png",
         "flag128": "FM-128.png",
@@ -3910,32 +3910,32 @@
             },
             {
                 "language": "en",
-                "name": "Micronesia (Federated States of)",
+                "name": "Micronesia",
                 "nameOfficial": "the Federated States of Micronesia"
             },
             {
                 "language": "es",
-                "name": "Micronesia (Estados Federados de)",
+                "name": "Micronesia",
                 "nameOfficial": "los Estados Federados de Micronesia"
             },
             {
                 "language": "fr",
-                "name": "Micronésie (États fédérés de)",
+                "name": "Micronésie",
                 "nameOfficial": "les États fédérés de Micronésie"
             },
             {
                 "language": "it",
-                "name": "Micronesia (Stati federati di)",
+                "name": "Micronesia",
                 "nameOfficial": "Stati federati di Micronesia"
             },
             {
                 "language": "ru",
-                "name": "Микронезия (Федеративные Штаты)",
+                "name": "Микронезия",
                 "nameOfficial": "Федеративные Штаты Микронезии"
             },
             {
                 "language": "zh",
-                "name": "密克罗尼西亚(联邦)",
+                "name": "密克罗尼西亚",
                 "nameOfficial": "密克罗尼西亚联邦"
             }
         ]
@@ -3991,7 +3991,7 @@
             },
             {
                 "language": "zh",
-                "name": "加 蓬",
+                "name": "加蓬",
                 "nameOfficial": "加蓬共和国"
             }
         ]
@@ -4324,7 +4324,7 @@
             },
             {
                 "language": "en",
-                "name": "Gambia",
+                "name": "The Gambia",
                 "nameOfficial": "Islamic Republic of the Gambia"
             },
             {
@@ -4517,7 +4517,7 @@
             },
             {
                 "language": "zh",
-                "name": "希 腊",
+                "name": "希腊",
                 "nameOfficial": "希腊共和国"
             }
         ]
@@ -4980,7 +4980,7 @@
             },
             {
                 "language": "zh",
-                "name": "海 地",
+                "name": "海地",
                 "nameOfficial": "海地共和国"
             }
         ]
@@ -5174,7 +5174,7 @@
             },
             {
                 "language": "zh",
-                "name": "印 度",
+                "name": "印度",
                 "nameOfficial": "印度共和国"
             }
         ]
@@ -5263,7 +5263,7 @@
         "enabled": true,
         "code3l": "IRN",
         "code2l": "IR",
-        "name": "Iran (Islamic Republic of)",
+        "name": "Iran",
         "nameOfficial": "the Islamic Republic of Iran",
         "flag32": "IR-32.png",
         "flag128": "IR-128.png",
@@ -5279,7 +5279,7 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "الإسلامية - جمهورية - إيران",
+                "name": "إيران",
                 "nameOfficial": "الإسلامية إيران جمهورية"
             },
             {
@@ -5304,12 +5304,12 @@
             },
             {
                 "language": "ru",
-                "name": "Иран (Исламская Республика)",
+                "name": "Иран",
                 "nameOfficial": "Исламская Республика Иран"
             },
             {
                 "language": "zh",
-                "name": "伊 朗(伊斯兰共和国)",
+                "name": "伊朗",
                 "nameOfficial": "伊朗伊斯兰共和国"
             }
         ]
@@ -5425,7 +5425,7 @@
             },
             {
                 "language": "zh",
-                "name": "冰 岛",
+                "name": "冰岛",
                 "nameOfficial": "冰岛共和国"
             }
         ]
@@ -5675,7 +5675,7 @@
             },
             {
                 "language": "zh",
-                "name": "约 旦",
+                "name": "约旦",
                 "nameOfficial": "约旦哈希姆王国"
             }
         ]
@@ -5731,7 +5731,7 @@
             },
             {
                 "language": "zh",
-                "name": "日 本",
+                "name": "日本",
                 "nameOfficial": "日本国"
             }
         ]
@@ -6077,7 +6077,7 @@
         "enabled": true,
         "code3l": "KOR",
         "code2l": "KR",
-        "name": "Republic of Korea",
+        "name": "South Korea",
         "nameOfficial": "the Republic of Korea",
         "flag32": "KR-32.png",
         "flag128": "KR-128.png",
@@ -6098,32 +6098,32 @@
             },
             {
                 "language": "en",
-                "name": "Republic of Korea",
+                "name": "South Korea",
                 "nameOfficial": "the Republic of Korea"
             },
             {
                 "language": "es",
-                "name": "República de Corea",
+                "name": "Corea del Sur",
                 "nameOfficial": "la República de Corea"
             },
             {
                 "language": "fr",
-                "name": "République de Corée",
+                "name": "Corée du Sud",
                 "nameOfficial": "la République de Corée"
             },
             {
                 "language": "it",
-                "name": "Repubblica di Corea",
+                "name": "Corea del Sud",
                 "nameOfficial": "Repubblica di Corea"
             },
             {
                 "language": "ru",
-                "name": "Республика Корея",
+                "name": "Ю́жная Коре́я",
                 "nameOfficial": "Республика Корея"
             },
             {
                 "language": "zh",
-                "name": "大韩民国",
+                "name": "韩国",
                 "nameOfficial": "大韩民国"
             }
         ]
@@ -6189,7 +6189,7 @@
         "enabled": true,
         "code3l": "LAO",
         "code2l": "LA",
-        "name": "Lao People's Democratic Republic",
+        "name": "Laos",
         "nameOfficial": "the Lao People's Democratic Republic",
         "flag32": "LA-32.png",
         "flag128": "LA-128.png",
@@ -6205,37 +6205,37 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "الشعبية الديمقراطية لاو جمهورية",
+                "name": "لاوس",
                 "nameOfficial": "الشعبية الديمقراطية لاو جمهورية"
             },
             {
                 "language": "en",
-                "name": "Lao People's Democratic Republic",
+                "name": "Laos",
                 "nameOfficial": "the Lao People's Democratic Republic"
             },
             {
                 "language": "es",
-                "name": "República Democrática Popular Lao",
+                "name": "Laos",
                 "nameOfficial": "la República Democrática Popular Lao"
             },
             {
                 "language": "fr",
-                "name": "République démocratique populaire lao",
+                "name": "Laos",
                 "nameOfficial": "la République démocratique populaire lao"
             },
             {
                 "language": "it",
-                "name": "Repubblica democratica popolare del Laos",
+                "name": "Laos",
                 "nameOfficial": "Repubblica democratica popolare del Laos"
             },
             {
                 "language": "ru",
-                "name": "Лаосская Народно-Демократическая Республика",
+                "name": "Лао́с",
                 "nameOfficial": "Лаосская Народно-Демократическая Республика"
             },
             {
                 "language": "zh",
-                "name": "老挝人民民主共和国",
+                "name": "老挝",
                 "nameOfficial": "老挝人民民主共和国"
             }
         ]
@@ -6374,37 +6374,37 @@
             {
                 "language": "ar",
                 "name": "ليبيا",
-                "nameOfficial": "ليبيا"
+                "nameOfficial": "دولة ليبيا"
             },
             {
                 "language": "en",
                 "name": "Libya",
-                "nameOfficial": "Libya"
+                "nameOfficial": "the State of Libya "
             },
             {
                 "language": "es",
                 "name": "Libia",
-                "nameOfficial": "Libia"
+                "nameOfficial": "el Estado de Libia"
             },
             {
                 "language": "fr",
                 "name": "Libye",
-                "nameOfficial": "la Libye"
+                "nameOfficial": "l'État de Libye"
             },
             {
                 "language": "it",
                 "name": "Libia",
-                "nameOfficial": "Libia"
+                "nameOfficial": "il Stato della Libia"
             },
             {
                 "language": "ru",
                 "name": "Ливия",
-                "nameOfficial": "Ливия"
+                "nameOfficial": "Госуда́рство Ли́вия"
             },
             {
                 "language": "zh",
                 "name": "利比亚",
-                "nameOfficial": "利比亚"
+                "nameOfficial": "利比亚国家"
             }
         ]
     },
@@ -6969,7 +6969,7 @@
         "enabled": true,
         "code3l": "MDA",
         "code2l": "MD",
-        "name": "Republic of Moldova",
+        "name": "Moldova",
         "nameOfficial": "the Republic of Moldova",
         "flag32": "MD-32.png",
         "flag128": "MD-128.png",
@@ -6985,37 +6985,37 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "جمهورية مولدوفا",
+                "name": "مولدافيا",
                 "nameOfficial": "جمهورية مولدوفا"
             },
             {
                 "language": "en",
-                "name": "Republic of Moldova",
+                "name": "Moldova",
                 "nameOfficial": "the Republic of Moldova"
             },
             {
                 "language": "es",
-                "name": "República de Moldova",
+                "name": "Moldavia",
                 "nameOfficial": "la República de Moldova"
             },
             {
                 "language": "fr",
-                "name": "République de Moldova",
+                "name": "Moldavie",
                 "nameOfficial": "la République de Moldova"
             },
             {
                 "language": "it",
-                "name": "Repubblica di Moldova",
+                "name": "Moldavia",
                 "nameOfficial": "Repubblica di Moldova"
             },
             {
                 "language": "ru",
-                "name": "Республика Молдова",
+                "name": "Молдова",
                 "nameOfficial": "Республика Молдова"
             },
             {
                 "language": "zh",
-                "name": "摩尔多瓦共和国",
+                "name": "摩尔多瓦",
                 "nameOfficial": "摩尔多瓦共和国"
             }
         ]
@@ -7249,7 +7249,7 @@
         "enabled": true,
         "code3l": "MKD",
         "code2l": "MK",
-        "name": "The former Yugoslav Republic of Macedonia",
+        "name": "Macedonia",
         "nameOfficial": "The former Yugoslav Republic of Macedonia",
         "flag32": "MK-32.png",
         "flag128": "MK-128.png",
@@ -7265,37 +7265,37 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "جمهورية مقدونيا اليوغوسلافية السابقة",
+                "name": "مقدونيا",
                 "nameOfficial": "جمهورية مقدونيا اليوغوسلافية السابقة"
             },
             {
                 "language": "en",
-                "name": "The former Yugoslav Republic of Macedonia",
+                "name": "Macedonia",
                 "nameOfficial": "The former Yugoslav Republic of Macedonia"
             },
             {
                 "language": "es",
-                "name": "ex República Yugoslava de Macedonia",
+                "name": "Macedonia",
                 "nameOfficial": "la ex República Yugoslava de Macedonia"
             },
             {
                 "language": "fr",
-                "name": "ex-République yougoslave de Macédoine",
+                "name": "Macédoine",
                 "nameOfficial": "l'ex-République yougoslave de Macédoine"
             },
             {
                 "language": "it",
-                "name": "ex Repubblica jugoslava di Macedonia",
+                "name": "Macedonia",
                 "nameOfficial": "L'ex Repubblica jugoslava di Macedonia"
             },
             {
                 "language": "ru",
-                "name": "бывшая югославская Республика Македония",
+                "name": "Македония",
                 "nameOfficial": "бывшая югославская Республика Македония"
             },
             {
                 "language": "zh",
-                "name": "前南斯拉夫的马其顿共和国",
+                "name": "马其顿",
                 "nameOfficial": "前南斯拉夫的马其顿共和国"
             }
         ]
@@ -7351,7 +7351,7 @@
             },
             {
                 "language": "zh",
-                "name": "马 里",
+                "name": "马里",
                 "nameOfficial": "马里共和国"
             }
         ]
@@ -7463,7 +7463,7 @@
             },
             {
                 "language": "zh",
-                "name": "缅 甸",
+                "name": "缅甸",
                 "nameOfficial": "缅甸联邦共和国"
             }
         ]
@@ -7575,7 +7575,7 @@
             },
             {
                 "language": "zh",
-                "name": "蒙 古",
+                "name": "蒙古",
                 "nameOfficial": "蒙古国"
             }
         ]
@@ -8347,7 +8347,7 @@
             },
             {
                 "language": "zh",
-                "name": "荷 兰",
+                "name": "荷兰",
                 "nameOfficial": "荷兰王国"
             }
         ]
@@ -8407,7 +8407,7 @@
             },
             {
                 "language": "zh",
-                "name": "挪 威",
+                "name": "挪威",
                 "nameOfficial": "挪威王国"
             }
         ]
@@ -8519,7 +8519,7 @@
             },
             {
                 "language": "zh",
-                "name": "瑙 鲁",
+                "name": "瑙鲁",
                 "nameOfficial": "瑙鲁共和国"
             }
         ]
@@ -8631,7 +8631,7 @@
             },
             {
                 "language": "zh",
-                "name": "阿 曼",
+                "name": "阿曼",
                 "nameOfficial": "阿曼苏丹国"
             }
         ]
@@ -8825,7 +8825,7 @@
             },
             {
                 "language": "zh",
-                "name": "秘 鲁",
+                "name": "秘鲁",
                 "nameOfficial": "秘鲁共和国"
             }
         ]
@@ -9049,7 +9049,7 @@
             },
             {
                 "language": "zh",
-                "name": "波 兰",
+                "name": "波兰",
                 "nameOfficial": "波兰共和国"
             }
         ]
@@ -9085,7 +9085,7 @@
         "enabled": true,
         "code3l": "PRK",
         "code2l": "KP",
-        "name": "Democratic People's Republic of Korea",
+        "name": "North Korea",
         "nameOfficial": "the Democratic People's Republic of Korea",
         "flag32": "KP-32.png",
         "flag128": "KP-128.png",
@@ -9101,37 +9101,37 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "الديمقراطية الشعبية كوريا جمهورية",
+                "name": "كوريا الشمالية",
                 "nameOfficial": "الديمقراطية الشعبية كوريا جمهورية"
             },
             {
                 "language": "en",
-                "name": "Democratic People's Republic of Korea",
+                "name": "North Korea",
                 "nameOfficial": "the Democratic People's Republic of Korea"
             },
             {
                 "language": "es",
-                "name": "República Popular Democrática de Corea",
+                "name": "Corea del Norte",
                 "nameOfficial": "la República Popular Democrática de Corea"
             },
             {
                 "language": "fr",
-                "name": "République populaire démocratique de Corée",
+                "name": "Corée du Nord",
                 "nameOfficial": "la République populaire démocratique de Corée"
             },
             {
                 "language": "it",
-                "name": "Repubblica popolare democratica di Corea",
+                "name": "Corea del Nord",
                 "nameOfficial": "Repubblica popolare democratica di Corea"
             },
             {
                 "language": "ru",
-                "name": "Корейская Народно-Демократическая Республика",
+                "name": "Се́верная Коре́я",
                 "nameOfficial": "Корейская Народно-Демократическая Республика"
             },
             {
                 "language": "zh",
-                "name": "朝鲜民主主义人民共和国",
+                "name": "北朝鲜",
                 "nameOfficial": "朝鲜民主主义人民共和国"
             }
         ]
@@ -9443,7 +9443,7 @@
         "enabled": true,
         "code3l": "RUS",
         "code2l": "RU",
-        "name": "Russian Federation",
+        "name": "Russia",
         "nameOfficial": "the Russian Federation",
         "flag32": "RU-32.png",
         "flag128": "RU-128.png",
@@ -9463,22 +9463,22 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "الاتحاد الروسي",
+                "name": "روسيا",
                 "nameOfficial": "الاتحاد الروسي"
             },
             {
                 "language": "en",
-                "name": "Russian Federation",
+                "name": "Russia",
                 "nameOfficial": "the Russian Federation"
             },
             {
                 "language": "es",
-                "name": "Federación de Rusia",
+                "name": "Rusia",
                 "nameOfficial": "la Federación de Rusia"
             },
             {
                 "language": "fr",
-                "name": "Fédération de Russie",
+                "name": "Russie",
                 "nameOfficial": "la Fédération de Russie"
             },
             {
@@ -9488,7 +9488,7 @@
             },
             {
                 "language": "ru",
-                "name": "Российская Федерация",
+                "name": "Росси́я",
                 "nameOfficial": "Российская Федерация"
             },
             {
@@ -9661,7 +9661,7 @@
             },
             {
                 "language": "zh",
-                "name": "苏 丹",
+                "name": "苏丹",
                 "nameOfficial": "苏丹共和国"
             }
         ]
@@ -10550,7 +10550,7 @@
             },
             {
                 "language": "zh",
-                "name": "瑞 典",
+                "name": "瑞典",
                 "nameOfficial": "瑞典王国"
             }
         ]
@@ -10698,7 +10698,7 @@
         "enabled": true,
         "code3l": "SYR",
         "code2l": "SY",
-        "name": "Syrian Arab Republic",
+        "name": "Syria",
         "nameOfficial": "the Syrian Arab Republic",
         "flag32": "SY-32.png",
         "flag128": "SY-128.png",
@@ -10714,22 +10714,22 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "الجمهورية العربية السورية",
+                "name": "سوريا",
                 "nameOfficial": "الجمهورية العربية السورية"
             },
             {
                 "language": "en",
-                "name": "Syrian Arab Republic",
+                "name": "Syria",
                 "nameOfficial": "the Syrian Arab Republic"
             },
             {
                 "language": "es",
-                "name": "República Árabe Siria",
+                "name": "Siria",
                 "nameOfficial": "la República Árabe Siria"
             },
             {
                 "language": "fr",
-                "name": "République arabe syrienne",
+                "name": "Syrie",
                 "nameOfficial": "la République arabe syrienne"
             },
             {
@@ -10739,12 +10739,12 @@
             },
             {
                 "language": "ru",
-                "name": "Сирийская Арабская Республика",
+                "name": "Сирия",
                 "nameOfficial": "Сирийская Арабская Республика"
             },
             {
                 "language": "zh",
-                "name": "阿拉伯叙利亚共和国",
+                "name": "叙利亚",
                 "nameOfficial": "阿拉伯叙利亚共和国"
             }
         ]
@@ -10826,7 +10826,7 @@
             },
             {
                 "language": "zh",
-                "name": "乍 得",
+                "name": "乍得",
                 "nameOfficial": "乍得共和国"
             }
         ]
@@ -10882,7 +10882,7 @@
             },
             {
                 "language": "zh",
-                "name": "多 哥",
+                "name": "多哥",
                 "nameOfficial": "多哥共和国"
             }
         ]
@@ -10938,7 +10938,7 @@
             },
             {
                 "language": "zh",
-                "name": "泰 国",
+                "name": "泰国",
                 "nameOfficial": "泰王国"
             }
         ]
@@ -11004,7 +11004,7 @@
         "enabled": true,
         "code3l": "TKL",
         "code2l": "TK",
-        "name": "Tokelau (Associate Member)",
+        "name": "Tokelau",
         "nameOfficial": "Tokelau",
         "flag32": "TK-32.png",
         "flag128": "TK-128.png",
@@ -11025,32 +11025,32 @@
             },
             {
                 "language": "en",
-                "name": "Tokelau (Associate Member)",
+                "name": "Tokelau",
                 "nameOfficial": "Tokelau"
             },
             {
                 "language": "es",
-                "name": "Tokelau (Miembro Asociado)",
+                "name": "Tokelau",
                 "nameOfficial": "Tokelau"
             },
             {
                 "language": "fr",
-                "name": "Tokélaou (Membre associé)",
+                "name": "Tokélaou",
                 "nameOfficial": "les Tokélaou"
             },
             {
                 "language": "it",
-                "name": "Tokelau (Membro associato)",
+                "name": "Tokelau",
                 "nameOfficial": "Tokelau"
             },
             {
                 "language": "ru",
-                "name": "Токелау (ассоциированный член)",
+                "name": "Токелау",
                 "nameOfficial": "Токелау"
             },
             {
                 "language": "zh",
-                "name": "托克劳（准成员）",
+                "name": "托克劳",
                 "nameOfficial": "托克劳"
             }
         ]
@@ -11218,7 +11218,7 @@
             },
             {
                 "language": "zh",
-                "name": "汤 加",
+                "name": "汤加",
                 "nameOfficial": "汤加王国"
             }
         ]
@@ -11475,7 +11475,7 @@
         "enabled": true,
         "code3l": "TZA",
         "code2l": "TZ",
-        "name": "United Republic of Tanzania",
+        "name": "Tanzania",
         "nameOfficial": "the United Republic of Tanzania",
         "flag32": "TZ-32.png",
         "flag128": "TZ-128.png",
@@ -11491,37 +11491,37 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "جمهورية تنزانيا المتحدة",
+                "name": "تنزانيا",
                 "nameOfficial": "جمهورية تنزانيا المتحدة"
             },
             {
                 "language": "en",
-                "name": "United Republic of Tanzania",
+                "name": "Tanzania",
                 "nameOfficial": "the United Republic of Tanzania"
             },
             {
                 "language": "es",
-                "name": "República Unida de Tanzanía",
+                "name": "Tanzanía",
                 "nameOfficial": "la República Unida de Tanzanía"
             },
             {
                 "language": "fr",
-                "name": "République-Unie de Tanzanie",
+                "name": "Tanzanie",
                 "nameOfficial": "la République-Unie de Tanzanie"
             },
             {
                 "language": "it",
-                "name": "Repubblica unita di Tanzania",
+                "name": "Tanzania",
                 "nameOfficial": "Repubblica unita di Tanzania"
             },
             {
                 "language": "ru",
-                "name": "Объединенная Республика Танзания",
+                "name": "Танзания",
                 "nameOfficial": "Объединенная Республика Танзания"
             },
             {
                 "language": "zh",
-                "name": "坦桑尼亚联合共和国",
+                "name": "坦桑尼亚",
                 "nameOfficial": "坦桑尼亚联合共和国"
             }
         ]
@@ -11722,7 +11722,7 @@
         "enabled": true,
         "code3l": "USA",
         "code2l": "US",
-        "name": "United States of America",
+        "name": "United States",
         "nameOfficial": "the United States of America",
         "flag32": "US-32.png",
         "flag128": "US-128.png",
@@ -11742,37 +11742,37 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "الأمريكية المتحدة الولايات",
+                "name": "الولايات المتحدة",
                 "nameOfficial": "الأمريكية المتحدة الولايات"
             },
             {
                 "language": "en",
-                "name": "United States of America",
+                "name": "United States",
                 "nameOfficial": "the United States of America"
             },
             {
                 "language": "es",
-                "name": "Estados Unidos de América",
+                "name": "Estados Unidos",
                 "nameOfficial": "los Estados Unidos de América"
             },
             {
                 "language": "fr",
-                "name": "États-Unis d'Amérique",
+                "name": "États-Unis",
                 "nameOfficial": "les États-Unis d'Amérique"
             },
             {
                 "language": "it",
-                "name": "Stati Uniti d`America",
+                "name": "Stati Uniti",
                 "nameOfficial": "Stati Uniti d'America"
             },
             {
                 "language": "ru",
-                "name": "Соединенные Штаты Америки",
+                "name": "Соединенные Штаты",
                 "nameOfficial": "Соединенные Штаты Америки"
             },
             {
                 "language": "zh",
-                "name": "美 国",
+                "name": "美国",
                 "nameOfficial": "美利坚合众国"
             }
         ]
@@ -11950,7 +11950,7 @@
         "enabled": true,
         "code3l": "VEN",
         "code2l": "VE",
-        "name": "Venezuela (Bolivarian Republic of)",
+        "name": "Venezuela",
         "nameOfficial": "the Bolivarian Republic of Venezuela",
         "flag32": "VE-32.png",
         "flag128": "VE-128.png",
@@ -11966,37 +11966,37 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "البوليفارية - جمهورية - فنزويلا",
+                "name": "فنزويلا",
                 "nameOfficial": "البوليفارية فنزويلا جمهورية"
             },
             {
                 "language": "en",
-                "name": "Venezuela (Bolivarian Republic of)",
+                "name": "Venezuela",
                 "nameOfficial": "the Bolivarian Republic of Venezuela"
             },
             {
                 "language": "es",
-                "name": "Venezuela (República Bolivariana de)",
+                "name": "Venezuela",
                 "nameOfficial": "la República Bolivariana de Venezuela"
             },
             {
                 "language": "fr",
-                "name": "Venezuela (République bolivarienne du)",
+                "name": "Venezuela",
                 "nameOfficial": "la République bolivarienne du Venezuela"
             },
             {
                 "language": "it",
-                "name": "Venezuela (Repubblica bolivariana di)",
+                "name": "Venezuela",
                 "nameOfficial": "Repubblica bolivariana di Venezuela"
             },
             {
                 "language": "ru",
-                "name": "Венесуэла (Боливарианская Республика)",
+                "name": "Венесуэла",
                 "nameOfficial": "Боливарианская Республика Венесуэла"
             },
             {
                 "language": "zh",
-                "name": "委内瑞拉 (玻利瓦尔共和国)",
+                "name": "委内瑞拉",
                 "nameOfficial": "委内瑞拉玻利瓦尔共和国"
             }
         ]
@@ -12058,8 +12058,8 @@
         "enabled": true,
         "code3l": "VNM",
         "code2l": "VN",
-        "name": "Viet Nam",
-        "nameOfficial": "the Socialist Republic of Viet Nam",
+        "name": "Vietnam",
+        "nameOfficial": "the Socialist Republic of Vietnam",
         "flag32": "VN-32.png",
         "flag128": "VN-128.png",
         "latitude": "17.19931699",
@@ -12074,23 +12074,23 @@
         "countryNames": [
             {
                 "language": "ar",
-                "name": "فييت نام",
-                "nameOfficial": "جمهورية فييت نام الاشتراكية"
+                "name": "فيتنام",
+                "nameOfficial": "جمهورية فيتنام الاشتراكية"
             },
             {
                 "language": "en",
-                "name": "Viet Nam",
-                "nameOfficial": "the Socialist Republic of Viet Nam"
+                "name": "Vietnam",
+                "nameOfficial": "the Socialist Republic of Vietnam"
             },
             {
                 "language": "es",
-                "name": "Viet Nam",
-                "nameOfficial": "la República Socialista de Viet Nam"
+                "name": "Vietnam",
+                "nameOfficial": "la República Socialista de Vietnam"
             },
             {
                 "language": "fr",
-                "name": "Viet Nam",
-                "nameOfficial": "la République socialiste du Viet Nam"
+                "name": "Vietnam",
+                "nameOfficial": "la République socialiste du Vietnam"
             },
             {
                 "language": "it",
@@ -12104,7 +12104,7 @@
             },
             {
                 "language": "zh",
-                "name": "越 南",
+                "name": "越南",
                 "nameOfficial": "越南社会主义共和国"
             }
         ]
@@ -12298,7 +12298,7 @@
             },
             {
                 "language": "zh",
-                "name": "也 门",
+                "name": "也门",
                 "nameOfficial": "也门共和国"
             }
         ]
@@ -12354,7 +12354,7 @@
             },
             {
                 "language": "zh",
-                "name": "南 非",
+                "name": "南非",
                 "nameOfficial": "南非共和国"
             }
         ]
