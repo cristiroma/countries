@@ -1,8 +1,4 @@
-CREATE DATABASE  IF NOT EXISTS `randomwork` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
-USE `randomwork`;
 -- MySQL dump 10.13  Distrib 5.5.49, for debian-linux-gnu (x86_64)
---
--- Host: 127.0.0.1    Database: randomwork
 -- ------------------------------------------------------
 -- Server version	5.5.49-0ubuntu0.14.04.1
 
