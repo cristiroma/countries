@@ -7,7 +7,7 @@
         "db"   : "MYSQL_DATABASE"
     },
     "host"       : "localhost",
-    "mysql_dump" : "./data/countries.sql",
-    "json_dump"  : "./data/json/countries.json",
-    "csv_dump"   : "./data/csv/countries.csv"
+    "mysql_dump" : "../data/countries.sql",
+    "json_dump"  : "../data/json/countries.json",
+    "csv_dump"   : "../data/csv/countries.csv"
 }
