@@ -9,5 +9,6 @@
     "host"       : "localhost",
     "mysql_dump" : "../data/countries.sql",
     "json_dump"  : "../data/json/countries.json",
-    "csv_dump"   : "../data/csv/countries.csv"
+    "csv_dump"   : "../data/csv/countries.csv",
+    "css_sprite" : "../data/css/countries.css"
 }
