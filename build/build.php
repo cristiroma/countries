@@ -60,22 +60,26 @@ function exec_validate_flags() {
     $flag_32 = $country['flag_32'];
     $flag_128 = $country['flag_128'];
     if (empty($flag_32)) {
-      echo "WARN:  32-pixel flag not set for: {$name}\n";
+      echo "WARN: PNG 32px flag not set for: {$name}\n";
     }
     else {
-      $f32 = "../data/flags/{$flag_32}";
+      $f32 = "../data/flags/PNG-32/{$flag_32}";
       if (!is_file($f32)) {
-        echo "ERR :  missing  32-pixel flag on disk for: {$name}\n";
+        echo "ERR : Missing PNG 32px flag on disk for: {$name}\n";
       }
     }
     if (empty($flag_128)) {
-      echo "WARN: 128-pixel flag not set for: {$name} ({$f32})\n";
+      echo "WARN: PNG 128px flag not set for: {$name} ({$f32})\n";
     }
     else {
-      $f128 = "../data/flags/{$flag_128}";
+      $f128 = "../data/flags/PNG-128/{$flag_128}";
       if (!is_file($f128)) {
-        echo "ERR :  missing 128-pixel flag on disk for: {$name} ({$f128})\n";
+        echo "ERR : Missing 128px flag on disk for: {$name} ({$f128})\n";
       }
+    }
+    $svg = '../data/flags/svg/' . $country['code2l'] . '.svg';
+    if (!is_file($svg)) {
+      echo "ERR : Missing SVG flag on disk for: {$name} ({$f128})\n";
     }
   }
   echo "No output above means everything is OK\n";
