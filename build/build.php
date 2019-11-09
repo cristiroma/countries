@@ -19,30 +19,32 @@ call_user_func("exec_$cmd");
 
 /** Export SQL data in JSON */
 function exec_json() {
-  global $config;
-  $countries = db_query('SELECT * FROM country ORDER BY name');
-  $v = json_encode($countries, JSON_PRETTY_PRINT);
-  file_put_contents($config->json_dump, $v);
+  global $cfg, $em;
+  $q = $em->createQuery("SELECT c FROM Country c ORDER BY c.name");
+  $data = $q->getResult(\Doctrine\ORM\Query::HYDRATE_ARRAY);
+  $v = json_encode($data, JSON_PRETTY_PRINT);
+  file_put_contents($cfg->json_dump, $v);
 }
 
 /** Export SQL data in CSV */
 function exec_csv() {
-  global $config;
-  $countries = db_query('SELECT * FROM country ORDER BY name');
+  global $cfg, $em;
+  $q = $em->createQuery("SELECT c FROM Country c ORDER BY c.name");
+  $data = $q->getResult(\Doctrine\ORM\Query::HYDRATE_ARRAY);
 
-  $fp = fopen($config->csv_dump, 'w');
+  $fp = fopen($cfg->csv_dump, 'w');
   fprintf($fp, chr(0xEF) . chr(0xBB) . chr(0xBF));
-  foreach ($countries as $country) {
+  foreach ($data as $country) {
     $row = array();
-    $row[0] = $country->name;
-    $row[1] = $country->name_official;
-    $row[2] = $country->code2l;
-    $row[3] = $country->code3l;
-    $row[4] = $country->flag_32;
-    $row[5] = $country->flag_128;
-    $row[6] = $country->latitude;
-    $row[7] = $country->longitude;
-    $row[8] = $country->zoom;
+    $row[0] = $country['name'];
+    $row[1] = $country['name_official'];
+    $row[2] = $country['code2l'];
+    $row[3] = $country['code3l'];
+    $row[4] = $country['flag_32'];
+    $row[5] = $country['flag_128'];
+    $row[6] = $country['latitude'];
+    $row[7] = $country['longitude'];
+    $row[8] = $country['zoom'];
     fputcsv($fp, $row);
   }
   fclose($fp);
@@ -50,24 +52,29 @@ function exec_csv() {
 
 /** Validate flag files exist on disk */
 function exec_validate_flags() {
-  $countries = db_query('SELECT * FROM country ORDER BY name');
-  foreach ($countries as $country) {
-    if (empty($country->flag_32)) {
-      echo "WARN:  32-pixel flag not set for: {$country->name}\n";
+  global $em;
+  $q = $em->createQuery("SELECT c FROM Country c ORDER BY c.name");
+  $data = $q->getResult(\Doctrine\ORM\Query::HYDRATE_ARRAY);
+  foreach ($data as $country) {
+    $name = $country['name'];
+    $flag_32 = $country['flag_32'];
+    $flag_128 = $country['flag_128'];
+    if (empty($flag_32)) {
+      echo "WARN:  32-pixel flag not set for: {$name}\n";
     }
     else {
-      $f32 = "data/flags/{$country->flag_32}";
+      $f32 = "../data/flags/{$flag_32}";
       if (!is_file($f32)) {
-        echo "ERR :  missing  32-pixel flag on disk for: {$country->name}\n";
+        echo "ERR :  missing  32-pixel flag on disk for: {$name}\n";
       }
     }
-    if (empty($country->flag_128)) {
-      echo "WARN: 128-pixel flag not set for: {$country->name}\n";
+    if (empty($flag_128)) {
+      echo "WARN: 128-pixel flag not set for: {$name} ({$f32})\n";
     }
     else {
-      $f128 = "data/flags/{$country->flag_128}";
+      $f128 = "../data/flags/{$flag_128}";
       if (!is_file($f128)) {
-        echo "ERR :  missing 128-pixel flag on disk for: {$country->name}\n";
+        echo "ERR :  missing 128-pixel flag on disk for: {$name} ({$f128})\n";
       }
     }
   }

@@ -54,21 +54,21 @@ class Country
      *
      * @ORM\Column(name="name_official", type="string", length=128, nullable=true)
      */
-    private $nameOfficial;
+    private $name_official;
 
     /**
      * @var string
      *
      * @ORM\Column(name="flag_32", type="string", length=255, nullable=true)
      */
-    private $flag32;
+    private $flag_32;
 
     /**
      * @var string
      *
      * @ORM\Column(name="flag_128", type="string", length=255, nullable=true)
      */
-    private $flag128;
+    private $flag_128;
 
     /**
      * @var string
@@ -87,7 +87,7 @@ class Country
     /**
      * @var integer
      *
-     * @ORM\Column(name="zoom", type="boolean", nullable=true)
+     * @ORM\Column(name="zoom", type="integer", nullable=true)
      */
     private $zoom;
 
@@ -218,7 +218,7 @@ class Country
      */
     public function setNameOfficial($nameOfficial)
     {
-        $this->nameOfficial = $nameOfficial;
+        $this->name_official = $nameOfficial;
 
         return $this;
     }
@@ -230,7 +230,7 @@ class Country
      */
     public function getNameOfficial()
     {
-        return $this->nameOfficial;
+        return $this->name_official;
     }
 
     /**
@@ -242,7 +242,7 @@ class Country
      */
     public function setFlag32($flag32)
     {
-        $this->flag32 = $flag32;
+        $this->flag_32 = $flag32;
 
         return $this;
     }
@@ -254,7 +254,7 @@ class Country
      */
     public function getFlag32()
     {
-        return $this->flag32;
+        return $this->flag_32;
     }
 
     /**
@@ -266,7 +266,7 @@ class Country
      */
     public function setFlag128($flag128)
     {
-        $this->flag128 = $flag128;
+        $this->flag_128 = $flag128;
 
         return $this;
     }
@@ -278,7 +278,7 @@ class Country
      */
     public function getFlag128()
     {
-        return $this->flag128;
+        return $this->flag_128;
     }
 
     /**
