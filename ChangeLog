@@ -1,3 +1,6 @@
+2019-11-09 @sekhargullapalli
+    * Add support for SQLite format for countries table
+
 2016-06-30 Stefan Radu Popescu <radu.popescu@eaudeweb.ro>
     * Added translations
     * Added table countryname
