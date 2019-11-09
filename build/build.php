@@ -9,7 +9,7 @@ require_once 'bootstrap.php';
 global $argv;
 
 if (count($argv) < 2) {
-  echo "Usage: php build.php <css|json|csv|validate_flags|gh_pages>\n";
+  echo "Usage: php build.php <css|json|csv|validate_flags|gh_pages|test_html>\n";
   exit(-1);
 }
 
@@ -147,4 +147,89 @@ EOT;
     $i++;
   }
   file_put_contents($cfg->css_sprite, $content);
+}
+
+
+function exec_test_html() {
+  global $em;
+  $q = $em->createQuery("SELECT c FROM Country c ORDER BY c.name");
+  $data = $q->getResult();
+
+  $content = <<<EOT
+<html>
+  <table border="1" cellpadding="10" cellspacing="0">
+      <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Code</th>
+        <th>Code 3</th>
+        <th>SVG</th>
+        <th>PNG 32</th>
+        <th>PNG 128</th>
+        <th>Latitude</th>
+        <th>Longitude</th>
+        <th>Zoom</th>
+        <th>Official Name</th>
+        <th>Region(s)</th>
+      </tr>
+
+\n
+EOT;
+
+  $languages = [
+    'ar' => 'Arabic',
+    'en' => 'English',
+    'es' => 'Spanish',
+    'fr' => 'French',
+    'it' => 'Italian',
+    'zh' => 'Chinese',
+    'ru' => 'Russian',
+  ];
+
+  /**
+   * @var int $i
+   * @var \Country $country
+   */
+  foreach ($data as $i => $country) {
+    $iso2 = $country->getCode2l();
+
+    $names = $country->getCountryNames();
+    $name_str = '<ul>';
+    /** @var \CountryName $name */
+    foreach($names as $name) {
+      $name_str .= '<li>' . $languages[$name->getLanguage()] . ': ' . $name->getName() . '</li>';
+    }
+    $name_str .= '</ul>';
+
+    $regions = $country->getCountryRegions();
+    $region_str = '<ul>';
+    /** @var \CountryRegion $name */
+    foreach($regions as $region) {
+      $region_str .= '<li>' . $region->getRegion()->getName() . '</li>';
+    }
+    $region_str .= '</ul>';
+
+    $content .= <<<EOT
+      <tr>
+        <td>{$i}</td>
+        <td>{$country->getName()}</td>
+        <td>{$country->getCode2l()}</td>
+        <td>{$country->getCode3l()}</td>
+        <td align="left"><img src="data/flags/SVG/{$iso2}.svg" width="180" height="100" /></td>
+        <td align="left"><img src="data/flags/PNG-32/{$iso2}-32.png" width="32" height="16" /></td>
+        <td align="left"><img src="data/flags/PNG-128/{$iso2}-128.png" width="128" height="64" /></td>
+        <td align="right">{$country->getLatitude()}</td>
+        <td align="righ">{$country->getLongitude()}</td>
+        <td align="right">{$country->getZoom()}</td>
+        <td>{$name_str}</td>
+        <td style="white-space: nowrap">{$region_str}</td>
+      </tr>
+EOT;
+  }
+
+  $content .= <<<EOT
+  </table>
+</html>
+EOT;
+  file_put_contents('../flags.html', $content);
 }
