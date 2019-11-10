@@ -1,3 +1,8 @@
+2019-11-10 Cristian Romanescu <cristian@romanescu.ro>
+    * New build system to generate the Github pages based on Twig
+    * Remove redundant PNG-32, PNG-128 columns from MySQL
+    * Add SVG flags
+
 2019-11-09 @sekhargullapalli
     * Add support for SQLite format for countries table
 
