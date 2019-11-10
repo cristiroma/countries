@@ -21,7 +21,7 @@ Look into the ```data/``` directory for various formats.
 MySQL: `$> cat data/mysql/country.sql | mysql -u username -p database`
 
 
-# Related projects
+# Similar projects
 
 - https://github.com/hjnilsson/country-flags
 - https://github.com/mledoze/countries
