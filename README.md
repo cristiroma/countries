@@ -1,5 +1,6 @@
-About
-=====
+# About
+
+[View the list of countries](http://cristiroma.github.io/countries)
 
 Data set with world countries (multilingual names, flags, coordinates) in popular formats to integrate in projects.
 
@@ -13,22 +14,20 @@ Features:
 * List of official UN Regions & assignment of countries to regions
 * Country codes from ISO 3166-1 / 3166-2 (ie. RO, ROU for România)
 
-[View Demo](http://cristiroma.github.io/countries)
 
-How to use
-==========
+# How to use
 
-Look into the ```data/``` directory for your preffered format. 
+Look into the ```data/``` directory for various formats.
+MySQL: `$> cat data/mysql/country.sql | mysql -u username -p database`
 
-MySQL
-----
 
-Open a console and load the countries:
-```
-	$> cat data/mysql/country.sql | mysql -u username -p database
-```
+# Related projects
 
-License
-=======
+- https://github.com/hjnilsson/country-flags
+- https://github.com/mledoze/countries
+- https://github.com/umpirsky/country-list
 
-The national flags do not bear any copyright, while other parts are licensed as GPL v3 or newer.
+
+# License
+
+The national flags images cannot be copyrighted, while other parts are licensed as GPL v3 or newer.
