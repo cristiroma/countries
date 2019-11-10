@@ -1,7 +1,8 @@
 {
     "require": {
         "doctrine/orm": "*",
-        "symfony/yaml": "2.*"
+        "symfony/yaml": "2.*",
+        "twig/twig": "^2.12"
     },
     "autoload": {
       "psr-0": {"": "src/Entity"}

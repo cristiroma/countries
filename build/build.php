@@ -9,7 +9,7 @@ require_once 'bootstrap.php';
 global $argv;
 
 if (count($argv) < 2) {
-  echo "Usage: php build.php <css|json|csv|validate_flags|gh_pages|test_html>\n";
+  echo "Usage: php build.php <css|json|csv|validate_flags|gh_pages>\n";
   exit(-1);
 }
 
@@ -86,31 +86,67 @@ function exec_validate_flags() {
 }
 
 function exec_gh_pages() {
-  ob_start();
-  require_once 'www/gh-index.php';
+  global $em;
+  $q = $em->createQuery("SELECT c FROM Country c ORDER BY c.name");
+  $data = $q->getResult();
 
-  mkdir('gh-pages');
-  $data = ob_get_clean();
-  if ($f = fopen('gh-pages/index.html', 'w+')) {
-    fwrite($f, $data);
-    fclose($f);
-  }
-  $countries = get_countries();
-  /** @var Country $country */
-  foreach ($countries as $country) {
-    $filename = slugify($country->getCode3l()) . '.html';
-    if ($f = fopen('gh-pages/' . $filename, 'w+')) {
-      $_GET['code'] = $country->getCode3l();
-      ob_start();
-      $page_title = $country->getNameOfficial();
-      require 'www/includes/header.inc';
-      require 'www/detail.php';
-      require 'www/includes/footer.inc';
-      $data = ob_get_clean();
-      fwrite($f, $data);
-      fclose($f);
+  $loader = new \Twig\Loader\FilesystemLoader('./templates');
+  $twig = new \Twig\Environment($loader, []);
+  $index_tpl = $twig->load('index.html');
+  $languages = [
+    'ar' => 'Arabic',
+    'en' => 'English',
+    'es' => 'Spanish',
+    'fr' => 'French',
+    'it' => 'Italian',
+    'zh' => 'Chinese',
+    'ru' => 'Russian',
+  ];
+
+  $countries = [];
+  /**
+   * @var int $i
+   * @var \Country $country
+   */
+  foreach ($data as $i => $country) {
+    $row = new stdClass();
+    $row->name = $country->getName();
+    $row->official_name = $country->getNameOfficial();
+    $row->code2l = $country->getCode2l();
+    $row->code3l = $country->getCode3l();
+    $row->zoom = $country->getZoom();
+    $row->latitude = $country->getLatitude();
+    $row->longitude = $country->getLongitude();
+    $row->svg = sprintf('https://raw.githubusercontent.com/cristiroma/countries/master/data/flags/SVG/%s.svg?sanitize=true', strtoupper($row->code2l));
+    $row->png32 = sprintf('https://raw.githubusercontent.com/cristiroma/countries/master/data/flags/PNG-32/%s-32.png', strtoupper($row->code2l));
+    $row->png128 = sprintf('https://raw.githubusercontent.com/cristiroma/countries/master/data/flags/PNG-128/%s-128.png', strtoupper($row->code2l));
+
+    $country_names = $country->getCountryNames();
+    $names = [];
+    /** @var \CountryName $name */
+    foreach($country_names as $name) {
+      $names[$languages[$name->getLanguage()]] = $name->getName();
     }
+    $row->names = $names;
+
+    $country_regions = $country->getCountryRegions();
+    $regions = [];
+    /** @var \CountryRegion $name */
+    foreach($country_regions as $region) {
+      $regions[] = $region->getRegion()->getName();
+    }
+    $row->regions = $regions;
+    $countries[$i] = $row;
+
+    $out = sprintf('gh-pages/%s.html', $row->code2l);
+    var_dump($out);
+    file_put_contents($out, $twig->load('country.html')->render(['country' => $row]));
   }
+  $content = $index_tpl->render(['countries' => $countries]);
+  if (!is_dir('gh-pages')) {
+    mkdir('gh-pages');
+  }
+  file_put_contents('gh-pages/index.html', $content);
 }
 
 /** Generate the CSS sprite */
@@ -147,89 +183,4 @@ EOT;
     $i++;
   }
   file_put_contents($cfg->css_sprite, $content);
-}
-
-
-function exec_test_html() {
-  global $em;
-  $q = $em->createQuery("SELECT c FROM Country c ORDER BY c.name");
-  $data = $q->getResult();
-
-  $content = <<<EOT
-<html>
-  <table border="1" cellpadding="10" cellspacing="0">
-      <tr>
-        <th>#</th>
-        <th>Name</th>
-        <th>Code</th>
-        <th>Code 3</th>
-        <th>SVG</th>
-        <th>PNG 32</th>
-        <th>PNG 128</th>
-        <th>Latitude</th>
-        <th>Longitude</th>
-        <th>Zoom</th>
-        <th>Official Name</th>
-        <th>Region(s)</th>
-      </tr>
-
-\n
-EOT;
-
-  $languages = [
-    'ar' => 'Arabic',
-    'en' => 'English',
-    'es' => 'Spanish',
-    'fr' => 'French',
-    'it' => 'Italian',
-    'zh' => 'Chinese',
-    'ru' => 'Russian',
-  ];
-
-  /**
-   * @var int $i
-   * @var \Country $country
-   */
-  foreach ($data as $i => $country) {
-    $iso2 = $country->getCode2l();
-
-    $names = $country->getCountryNames();
-    $name_str = '<ul>';
-    /** @var \CountryName $name */
-    foreach($names as $name) {
-      $name_str .= '<li>' . $languages[$name->getLanguage()] . ': ' . $name->getName() . '</li>';
-    }
-    $name_str .= '</ul>';
-
-    $regions = $country->getCountryRegions();
-    $region_str = '<ul>';
-    /** @var \CountryRegion $name */
-    foreach($regions as $region) {
-      $region_str .= '<li>' . $region->getRegion()->getName() . '</li>';
-    }
-    $region_str .= '</ul>';
-
-    $content .= <<<EOT
-      <tr>
-        <td>{$i}</td>
-        <td>{$country->getName()}</td>
-        <td>{$country->getCode2l()}</td>
-        <td>{$country->getCode3l()}</td>
-        <td align="left"><img src="data/flags/SVG/{$iso2}.svg" width="180" height="100" /></td>
-        <td align="left"><img src="data/flags/PNG-32/{$iso2}-32.png" width="32" height="16" /></td>
-        <td align="left"><img src="data/flags/PNG-128/{$iso2}-128.png" width="128" height="64" /></td>
-        <td align="right">{$country->getLatitude()}</td>
-        <td align="righ">{$country->getLongitude()}</td>
-        <td align="right">{$country->getZoom()}</td>
-        <td>{$name_str}</td>
-        <td style="white-space: nowrap">{$region_str}</td>
-      </tr>
-EOT;
-  }
-
-  $content .= <<<EOT
-  </table>
-</html>
-EOT;
-  file_put_contents('../flags.html', $content);
 }
