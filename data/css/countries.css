@@ -118,8 +118,8 @@
 .flag.large-CC, .flag.large-CCK { background-position: -1024px -192px; }
 .flag.small-CC, .flag.small-CCK { background-position: -256px -48px; }
 
-.flag.large-CD, .flag.large-ZAR { background-position: -1152px -192px; }
-.flag.small-CD, .flag.small-ZAR { background-position: -288px -48px; }
+.flag.large-CD, .flag.large-COD { background-position: -1152px -192px; }
+.flag.small-CD, .flag.small-COD { background-position: -288px -48px; }
 
 .flag.large-CF, .flag.large-CAF { background-position: 0 -256px; }
 .flag.small-CF, .flag.small-CAF { background-position: 0 -64px; }

@@ -59,20 +59,6 @@ class Country
     /**
      * @var string
      *
-     * @ORM\Column(name="flag_32", type="string", length=255, nullable=true)
-     */
-    private $flag_32;
-
-    /**
-     * @var string
-     *
-     * @ORM\Column(name="flag_128", type="string", length=255, nullable=true)
-     */
-    private $flag_128;
-
-    /**
-     * @var string
-     *
      * @ORM\Column(name="latitude", type="decimal", precision=10, scale=8, nullable=true)
      */
     private $latitude;
@@ -231,54 +217,6 @@ class Country
     public function getNameOfficial()
     {
         return $this->name_official;
-    }
-
-    /**
-     * Set flag32
-     *
-     * @param string $flag32
-     *
-     * @return Country
-     */
-    public function setFlag32($flag32)
-    {
-        $this->flag_32 = $flag32;
-
-        return $this;
-    }
-
-    /**
-     * Get flag32
-     *
-     * @return string
-     */
-    public function getFlag32()
-    {
-        return $this->flag_32;
-    }
-
-    /**
-     * Set flag128
-     *
-     * @param string $flag128
-     *
-     * @return Country
-     */
-    public function setFlag128($flag128)
-    {
-        $this->flag_128 = $flag128;
-
-        return $this;
-    }
-
-    /**
-     * Get flag128
-     *
-     * @return string
-     */
-    public function getFlag128()
-    {
-        return $this->flag_128;
     }
 
     /**

@@ -9,13 +9,20 @@ require_once 'bootstrap.php';
 global $argv;
 
 if (count($argv) < 2) {
-  echo "Usage: php build.php <css|json|csv|validate_flags|gh_pages>\n";
+  echo "Usage: php build.php <export_all|css|json|csv|validate_flags|gh_pages>\n";
   exit(-1);
 }
 
 $cmd = $argv[1];
 
 call_user_func("exec_$cmd");
+
+/** Export all formats */
+function exec_export_all() {
+  exec_css();
+  exec_json();
+  exec_csv();
+}
 
 /** Export SQL data in JSON */
 function exec_json() {
@@ -40,11 +47,9 @@ function exec_csv() {
     $row[1] = $country['name_official'];
     $row[2] = $country['code2l'];
     $row[3] = $country['code3l'];
-    $row[4] = $country['flag_32'];
-    $row[5] = $country['flag_128'];
-    $row[6] = $country['latitude'];
-    $row[7] = $country['longitude'];
-    $row[8] = $country['zoom'];
+    $row[4] = $country['latitude'];
+    $row[5] = $country['longitude'];
+    $row[6] = $country['zoom'];
     fputcsv($fp, $row);
   }
   fclose($fp);
