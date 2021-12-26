@@ -1,0 +1,307 @@
+{
+  "id": "001",
+  "name": "World",
+  "name_es": "Mundo",
+  "name_fr": "Monde",
+  "name_ru": "Весь мир",
+  "name_zh": "世界",
+  "name_r": "العالم",
+  "subregions": [
+    {
+      "id": "002",
+      "name": "Africa",
+      "name_es": "África",
+      "name_fr": "Afrique",
+      "name_ru": "Африка",
+      "name_zh": "非洲",
+      "name_r": "أفريقيا",
+      "subregions": [
+        {
+          "id": "015",
+          "name": "Northern Africa",
+          "name_es": "África septentrional",
+          "name_fr": "Afrique septentrionale",
+          "name_ru": "Северная Африка",
+          "name_zh": "北非",
+          "name_r": "أفريقيا الشمالية"
+        },
+        {
+          "id": "202",
+          "name": "Sub-Saharan Africa",
+          "name_es": "África Subsahariana",
+          "name_fr": "Afrique subsaharienne",
+          "name_ru": "Африка к югу от Сахары",
+          "name_zh": "撒哈拉以南非洲",
+          "name_r": "أفريقيا جنوب الصحراء الكبرى",
+          "subregions": [
+            {
+              "id": "014",
+              "name": "Eastern Africa",
+              "name_es": "África oriental",
+              "name_fr": "Afrique orientale",
+              "name_ru": "Восточная Африка",
+              "name_zh": "东非",
+              "name_r": "شرق أفريقيا"
+            },
+            {
+              "id": "017",
+              "name": "Middle Africa",
+              "name_es": "África central",
+              "name_fr": "Afrique centrale",
+              "name_ru": "Центральная Африка",
+              "name_zh": "中非",
+              "name_r": "وسط أفريقيا"
+            },
+            {
+              "id": "018",
+              "name": "Southern Africa",
+              "name_es": "África meridional",
+              "name_fr": "Afrique australe",
+              "name_ru": "Южная часть Африки",
+              "name_zh": "南部非洲",
+              "name_r": "الجنوب الأفريقي"
+            },
+            {
+              "id": "011",
+              "name": "Western Africa",
+              "name_es": "África occidental",
+              "name_fr": "Afrique occidentale",
+              "name_ru": "Западная Африка",
+              "name_zh": "西非",
+              "name_r": "غرب أفريقيا"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "019",
+      "name": "Americas",
+      "name_es": "Américas",
+      "name_fr": "Amériques",
+      "name_ru": "Северная и Южная Америка",
+      "name_zh": "美洲",
+      "name_r": "الأمريكتان",
+      "subregions": [
+        {
+          "id": "419",
+          "name": "Latin America and the Caribbean",
+          "name_es": "América Latina y el Caribe",
+          "name_fr": "Amérique latine et Caraïbes",
+          "name_ru": "Латинская Америка и Карибский бассейн",
+          "name_zh": "拉丁美洲和加勒比",
+          "name_r": "أمريكا اللاتينية ومنطقة البحر الكاريبي",
+          "subregions": [
+            {
+              "id": "029",
+              "name": "Caribbean",
+              "name_es": "El Caribe",
+              "name_fr": "Caraïbes",
+              "name_ru": "Карибский бассейн",
+              "name_zh": "加勒比",
+              "name_r": "منطقة البحر الكاريبي"
+            },
+            {
+              "id": "013",
+              "name": "Central America",
+              "name_es": "América central",
+              "name_fr": "Amérique centrale",
+              "name_ru": "Центральная Америка",
+              "name_zh": "中美洲",
+              "name_r": "أمريكا الوسطى"
+            },
+            {
+              "id": "005",
+              "name": "South America",
+              "name_es": "América del Sur",
+              "name_fr": "Amérique du Sud",
+              "name_ru": "Южная Америка",
+              "name_zh": "南美洲",
+              "name_r": "أمريكا الجنوبية"
+            }
+          ]
+        },
+        {
+          "id": "021",
+          "name": "Northern America",
+          "name_es": "América septentrional",
+          "name_fr": "Amérique septentrionale",
+          "name_ru": "Северная Америка",
+          "name_zh": "北美",
+          "name_r": "أمريكا الشمالية"
+        }
+      ]
+    },
+    {
+      "id": "010",
+      "name": "Antarctica",
+      "name_es": "Antártida",
+      "name_fr": "Antarctique",
+      "name_ru": "Антарктике",
+      "name_zh": "南极洲",
+      "name_r": "أنتاركتيكا",
+      "iso3l": "ATA"
+    },
+    {
+      "id": "142",
+      "name": "Asia",
+      "name_es": "Asia",
+      "name_fr": "Asie",
+      "name_ru": "Азия",
+      "name_zh": "亚洲",
+      "name_r": "آسيا",
+      "subregions": [
+        {
+          "id": "143",
+          "name": "Central Asia",
+          "name_es": "Asia central",
+          "name_fr": "Asie centrale",
+          "name_ru": "Центральная Азия",
+          "name_zh": "中亚",
+          "name_r": "آسيا الوسطى"
+        },
+        {
+          "id": "030",
+          "name": "Eastern Asia",
+          "name_es": "Asia oriental",
+          "name_fr": "Asie orientale",
+          "name_ru": "Восточная Азия",
+          "name_zh": "东亚",
+          "name_r": "شرقي آسيا"
+        },
+        {
+          "id": "035",
+          "name": "South-eastern Asia",
+          "name_es": "Asia sudoriental",
+          "name_fr": "Asie du Sud-Est",
+          "name_ru": "Юго-Восточная Азия",
+          "name_zh": "东南亚",
+          "name_r": "جنوب شرقي آسيا"
+        },
+        {
+          "id": "034",
+          "name": "Southern Asia",
+          "name_es": "Asia meridional",
+          "name_fr": "Asie méridionale",
+          "name_ru": "Южная Азия",
+          "name_zh": "南亚",
+          "name_r": "جنوب آسيا"
+        },
+        {
+          "id": "145",
+          "name": "Western Asia",
+          "name_es": "Asia occidental",
+          "name_fr": "Asie occidentale",
+          "name_ru": "Западная Азия",
+          "name_zh": "西亚",
+          "name_r": "غربي آسيا"
+        }
+      ]
+    },
+    {
+      "id": "150",
+      "name": "Europe",
+      "name_es": "Europa",
+      "name_fr": "Europe",
+      "name_ru": "Европа",
+      "name_zh": "欧洲",
+      "name_r": "أوروبا",
+      "subregions": [
+        {
+          "id": "151",
+          "name": "Eastern Europe",
+          "name_es": "Europa oriental",
+          "name_fr": "Europe orientale",
+          "name_ru": "Восточная Европа",
+          "name_zh": "东欧",
+          "name_r": "أوروبا الشرقية"
+        },
+        {
+          "id": "154",
+          "name": "Northern Europe",
+          "name_es": "Europa septentrional",
+          "name_fr": "Europe septentrionale",
+          "name_ru": "Северная Европa",
+          "name_zh": "北欧",
+          "name_r": "أوروبا الشمالية",
+          "subregions": [
+            {
+              "id": "830",
+              "name": "Channel Islands",
+              "name_es": "Islas Anglonormandas",
+              "name_fr": "Îles Anglo-Normandes",
+              "name_ru": "Нормандские острова",
+              "name_zh": "海峡群岛",
+              "name_r": "جزر تشانل"
+            }
+          ]
+        },
+        {
+          "id": "039",
+          "name": "Southern Europe",
+          "name_es": "Europa meridional",
+          "name_fr": "Europe méridionale",
+          "name_ru": "Южная Европа",
+          "name_zh": "南欧",
+          "name_r": "أوروبا الجنوبية"
+        },
+        {
+          "id": "155",
+          "name": "Western Europe",
+          "name_es": "Europa occidental",
+          "name_fr": "Europe occidentale",
+          "name_ru": "Западная Европа",
+          "name_zh": "西欧",
+          "name_r": "أوروبا الغربية"
+        }
+      ]
+    },
+    {
+      "id": "009",
+      "name": "Oceania",
+      "name_es": "Oceanía",
+      "name_fr": "Océanie",
+      "name_ru": "Океания",
+      "name_zh": "大洋洲",
+      "name_r": "أوقيانوسيا",
+      "subregions": [
+        {
+          "id": "053",
+          "name": "Australia and New Zealand",
+          "name_es": "Australia y Nueva Zelandia",
+          "name_fr": "Australie et Nouvelle-Zélande",
+          "name_ru": "Австралия и Новая Зеландия",
+          "name_zh": "澳大利亚和新西兰",
+          "name_r": "أستراليا ونيوزيلندا"
+        },
+        {
+          "id": "054",
+          "name": "Melanesia",
+          "name_es": "Melanesia",
+          "name_fr": "Mélanésie",
+          "name_ru": "Меланезия",
+          "name_zh": "美拉尼西亚",
+          "name_r": "ميلانيزيا"
+        },
+        {
+          "id": "057",
+          "name": "Micronesia",
+          "name_es": "Micronesia",
+          "name_fr": "Micronésie",
+          "name_ru": "Микронезия",
+          "name_zh": "密克罗尼西亚",
+          "name_r": "ميكرونيزيا"
+        },
+        {
+          "id": "061",
+          "name": "Polynesia",
+          "name_es": "Polinesia",
+          "name_fr": "Polynésie",
+          "name_ru": "Полинезия",
+          "name_zh": "波利尼西亚",
+          "name_r": "بولينيزيا"
+        }
+      ]
+    }
+  ]
+}
