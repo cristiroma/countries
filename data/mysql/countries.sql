@@ -235,7 +235,7 @@ INSERT INTO `country` VALUES (187,1,'IRN','IR','Iran (Islamic Republic of)','Isl
 INSERT INTO `country` VALUES (188,1,'PRK','KP','Democratic People\'s Republic of Korea','Democratic People\'s Republic of Korea',40.00785500,127.48812834,6);
 INSERT INTO `country` VALUES (189,1,'KOR','KR','Republic of Korea','Republic of Korea',36.56344139,127.51424646,7);
 INSERT INTO `country` VALUES (190,1,'MDA','MD','Republic of Moldova','Republic of Moldova',47.10710437,28.54018109,7);
-INSERT INTO `country` VALUES (191,1,'MKD','MK','The former Yugoslav Republic of Macedonia','The former Yugoslav Republic of Macedonia',41.60059479,21.74527900,8);
+INSERT INTO `country` VALUES (191,1,'MKD','MK','North Macedonia','Republic of North Macedonia',41.60059479,21.74527900,8);
 INSERT INTO `country` VALUES (192,1,'NIU','NU','Niue','Niue',-19.04976362,-169.86585571,11);
 INSERT INTO `country` VALUES (193,1,'TZA','TZ','United Republic of Tanzania','United Republic of Tanzania',-6.37551085,34.85587302,6);
 INSERT INTO `country` VALUES (194,1,'VEN','VE','Venezuela (Bolivarian Republic of)','Bolivarian Republic of Venezuela',5.98477766,-65.94152264,6);
@@ -2039,4 +2039,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-04-06 11:32:08
+-- Dump completed on 2022-04-06 14:26:35

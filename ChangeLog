@@ -1,3 +1,6 @@
+2022-04-06 Cristian Romanescu <cristian@romanescu.ro>
+    * Fix Eswatini and Macedonia country names
+    * Simplify database export and CSV/JSON generation
 2019-11-10 Cristian Romanescu <cristian@romanescu.ro>
     * New build system to generate the Github pages based on Twig
     * Remove redundant PNG-32, PNG-128 columns from MySQL

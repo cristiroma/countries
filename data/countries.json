@@ -5557,6 +5557,45 @@
         "names": []
     },
     {
+        "id": "191",
+        "enabled": false,
+        "code3l": "MKD",
+        "code2l": "MK",
+        "name": "North Macedonia",
+        "name_official": "Republic of North Macedonia",
+        "center": {
+            "latitude": "41.60059479",
+            "longitude": "21.74527900",
+            "zoom": "8"
+        },
+        "names": {
+            "ar": {
+                "name": "جمهورية مقدونيا اليوغوسلافية السابقة ",
+                "name_official": "جمهورية مقدونيا اليوغوسلافية السابقة "
+            },
+            "es": {
+                "name": "ex República Yugoslava de Macedonia",
+                "name_official": "la ex República Yugoslava de Macedonia"
+            },
+            "fr": {
+                "name": "ex-République yougoslave de Macédoine",
+                "name_official": "l'ex-République yougoslave de Macédoine"
+            },
+            "it": {
+                "name": "ex Repubblica jugoslava di Macedonia",
+                "name_official": "L'ex Repubblica jugoslava di Macedonia"
+            },
+            "ru": {
+                "name": "бывшая югославская Республика Македония",
+                "name_official": "бывшая югославская Республика Македония"
+            },
+            "zh": {
+                "name": "前南斯拉夫的马其顿共和国",
+                "name_official": "前南斯拉夫的马其顿共和国"
+            }
+        }
+    },
+    {
         "id": "225",
         "enabled": false,
         "code3l": "MNP",
@@ -7451,45 +7490,6 @@
             "zh": {
                 "name": "泰 国",
                 "name_official": "泰王国"
-            }
-        }
-    },
-    {
-        "id": "191",
-        "enabled": false,
-        "code3l": "MKD",
-        "code2l": "MK",
-        "name": "The former Yugoslav Republic of Macedonia",
-        "name_official": "The former Yugoslav Republic of Macedonia",
-        "center": {
-            "latitude": "41.60059479",
-            "longitude": "21.74527900",
-            "zoom": "8"
-        },
-        "names": {
-            "ar": {
-                "name": "جمهورية مقدونيا اليوغوسلافية السابقة ",
-                "name_official": "جمهورية مقدونيا اليوغوسلافية السابقة "
-            },
-            "es": {
-                "name": "ex República Yugoslava de Macedonia",
-                "name_official": "la ex República Yugoslava de Macedonia"
-            },
-            "fr": {
-                "name": "ex-République yougoslave de Macédoine",
-                "name_official": "l'ex-République yougoslave de Macédoine"
-            },
-            "it": {
-                "name": "ex Repubblica jugoslava di Macedonia",
-                "name_official": "L'ex Repubblica jugoslava di Macedonia"
-            },
-            "ru": {
-                "name": "бывшая югославская Республика Македония",
-                "name_official": "бывшая югославская Республика Македония"
-            },
-            "zh": {
-                "name": "前南斯拉夫的马其顿共和国",
-                "name_official": "前南斯拉夫的马其顿共和国"
             }
         }
     },
