@@ -1503,13 +1503,13 @@ INSERT INTO `country_name` VALUES (1173,158,'SE','fr','Suède','le Royaume de Su
 INSERT INTO `country_name` VALUES (1174,158,'SE','it','Svezia','Regno di Svezia','http://termportal.fao.org/faonocs/appl/');
 INSERT INTO `country_name` VALUES (1175,158,'SE','zh','瑞 典','瑞典王国','http://termportal.fao.org/faonocs/appl/');
 INSERT INTO `country_name` VALUES (1176,158,'SE','ru','Швеция','Королевство Швеция','http://termportal.fao.org/faonocs/appl/');
-INSERT INTO `country_name` VALUES (1177,157,'SZ','ar','سوازيلند','سوازيلند مملكة ','http://termportal.fao.org/faonocs/appl/');
-INSERT INTO `country_name` VALUES (1178,157,'SZ','en','Swaziland','the Kingdom of Swaziland','http://termportal.fao.org/faonocs/appl/');
-INSERT INTO `country_name` VALUES (1179,157,'SZ','es','Swazilandia','el Reino de Swazilandia','http://termportal.fao.org/faonocs/appl/');
-INSERT INTO `country_name` VALUES (1180,157,'SZ','fr','Swaziland','le Royaume du Swaziland','http://termportal.fao.org/faonocs/appl/');
-INSERT INTO `country_name` VALUES (1181,157,'SZ','it','Swaziland','Regno dello Swaziland','http://termportal.fao.org/faonocs/appl/');
-INSERT INTO `country_name` VALUES (1182,157,'SZ','zh','斯威士兰','斯威士兰王国','http://termportal.fao.org/faonocs/appl/');
-INSERT INTO `country_name` VALUES (1183,157,'SZ','ru','Свазиленд','Королевство Свазиленд','http://termportal.fao.org/faonocs/appl/');
+INSERT INTO `country_name` VALUES (1177,157,'SZ','ar','إسواتيني','مملكة إسواتيني','https://unterm.un.org/unterm/display/record/unhq/na/01b637e1-1497-4825-b73d-e0114a7f4d22');
+INSERT INTO `country_name` VALUES (1178,157,'SZ','en','Eswatini','the Kingdom of Eswatini','https://unterm.un.org/unterm/display/record/unhq/na/01b637e1-1497-4825-b73d-e0114a7f4d22');
+INSERT INTO `country_name` VALUES (1179,157,'SZ','es','Eswatini','el Reino de Eswatini','https://unterm.un.org/unterm/display/record/unhq/na/01b637e1-1497-4825-b73d-e0114a7f4d22');
+INSERT INTO `country_name` VALUES (1180,157,'SZ','fr','Eswatini (l\')','le Royaume d’Eswatini','https://unterm.un.org/unterm/display/record/unhq/na/01b637e1-1497-4825-b73d-e0114a7f4d22');
+INSERT INTO `country_name` VALUES (1181,157,'SZ','it','Eswatini','il Regno di Eswatini','https://nocs.fao.org/multilingualView?id=15492&language=en');
+INSERT INTO `country_name` VALUES (1182,157,'SZ','zh','斯威士兰','斯威士兰王国','https://unterm.un.org/unterm/display/record/unhq/na/01b637e1-1497-4825-b73d-e0114a7f4d22');
+INSERT INTO `country_name` VALUES (1183,157,'SZ','ru','Эсватини','Королевство Эсватини','https://unterm.un.org/unterm/display/record/unhq/na/01b637e1-1497-4825-b73d-e0114a7f4d22');
 INSERT INTO `country_name` VALUES (1184,145,'SC','ar','سيشيل','جمهورية سيشيل ','http://termportal.fao.org/faonocs/appl/');
 INSERT INTO `country_name` VALUES (1185,145,'SC','en','Seychelles','the Republic of Seychelles','http://termportal.fao.org/faonocs/appl/');
 INSERT INTO `country_name` VALUES (1186,145,'SC','es','Seychelles','la República de Seychelles','http://termportal.fao.org/faonocs/appl/');
@@ -2039,4 +2039,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-04-06 11:19:06
+-- Dump completed on 2022-04-06 11:32:08
