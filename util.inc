@@ -39,6 +39,7 @@ function query_names($country_id): array {
         $name_official = $row['name_official'];
         $data[$id][$language]['name'] = $name;
         $data[$id][$language]['name_official'] = $name_official;
+        $data[$id][$language]['source'] = $row['source'];
       }
     }
     $rows->close();
@@ -57,4 +58,36 @@ function query_full_countries($order_by = 'name'): array {
     $data[] = $c;
   }
   return $data;
+}
+
+function query_regions($order_by = 'name'): array {
+  $ret = [];
+  $conn = new mysqli('localhost', 'root', 'root', 'countries');
+  $rows = $conn->query('SELECT * FROM region ORDER BY ' . $order_by);
+  foreach($rows as $row) {
+    $r = [];
+    $r['id'] = $row['id'];
+    $r['name'] = $row['name'];
+    $r['is_unep'] = $row['is_unep'];
+    $ret[] = $r;
+  }
+  $rows->close();
+  $conn->close();
+  return $ret;
+}
+
+function query_country_regions(): array {
+  $ret = [];
+  $conn = new mysqli('localhost', 'root', 'root', 'countries');
+  $rows = $conn->query('SELECT * FROM country_region');
+  foreach($rows as $row) {
+    $r = [];
+    $r['id'] = $row['id'];
+    $r['country_id'] = $row['country_id'];
+    $r['region_id'] = $row['region_id'];
+    $ret[] = $r;
+  }
+  $rows->close();
+  $conn->close();
+  return $ret;
 }
