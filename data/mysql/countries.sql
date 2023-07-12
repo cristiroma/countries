@@ -212,7 +212,7 @@ INSERT INTO `country` VALUES (164,1,'TGO','TG','Togo','Togolese Republic',8.6808
 INSERT INTO `country` VALUES (165,1,'TON','TO','Tonga','Kingdom of Tonga',-21.17890075,-175.19824200,11);
 INSERT INTO `country` VALUES (166,1,'TTO','TT','Trinidad and Tobago','Republic of Trinidad and Tobago',10.43241863,-61.22250300,10);
 INSERT INTO `country` VALUES (167,1,'TUN','TN','Tunisia','Republic of Tunisia',33.88431940,9.71878341,6);
-INSERT INTO `country` VALUES (168,1,'TUR','TR','Turkey','Republic of Turkey',38.27069555,36.28703317,5);
+INSERT INTO `country` VALUES (168,1,'TUR','TR','Türkiye','Republic of Türkiye',38.27069555,36.28703317,5);
 INSERT INTO `country` VALUES (169,1,'TKM','TM','Turkmenistan','Turkmenistan',38.94915421,59.06190323,6);
 INSERT INTO `country` VALUES (170,1,'TUV','TV','Tuvalu','Tuvalu',-8.45968122,179.13310944,12);
 INSERT INTO `country` VALUES (171,1,'UGA','UG','Uganda','Republic of Uganda',1.54760620,32.44409759,7);
@@ -1595,7 +1595,7 @@ INSERT INTO `country_name` VALUES (1265,167,'TN','it','Tunisia','Repubblica tuni
 INSERT INTO `country_name` VALUES (1266,167,'TN','zh','突尼斯','突尼斯共和国','http://termportal.fao.org/faonocs/appl/');
 INSERT INTO `country_name` VALUES (1267,167,'TN','ru','Тунис','Тунисская Республика','http://termportal.fao.org/faonocs/appl/');
 INSERT INTO `country_name` VALUES (1268,168,'TR','ar','تركيا','الجمهورية التركية ','http://termportal.fao.org/faonocs/appl/');
-INSERT INTO `country_name` VALUES (1269,168,'TR','en','Turkey','the Republic of Turkey','http://termportal.fao.org/faonocs/appl/');
+INSERT INTO `country_name` VALUES (1269,168,'TR','en','Türkiye','the Republic of Türkiye','http://termportal.fao.org/faonocs/appl/');
 INSERT INTO `country_name` VALUES (1270,168,'TR','es','Turquía','la República de Turquía','http://termportal.fao.org/faonocs/appl/');
 INSERT INTO `country_name` VALUES (1271,168,'TR','fr','Turquie','la République turque','http://termportal.fao.org/faonocs/appl/');
 INSERT INTO `country_name` VALUES (1272,168,'TR','it','Turchia','Repubblica di Turchia','http://termportal.fao.org/faonocs/appl/');
