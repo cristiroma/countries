@@ -5,7 +5,7 @@
   "name_fr": "Monde",
   "name_ru": "Весь мир",
   "name_zh": "世界",
-  "name_r": "العالم",
+  "name_ar": "العالم",
   "subregions": [
     {
       "id": "002",
@@ -14,7 +14,7 @@
       "name_fr": "Afrique",
       "name_ru": "Африка",
       "name_zh": "非洲",
-      "name_r": "أفريقيا",
+      "name_ar": "أفريقيا",
       "subregions": [
         {
           "id": "015",
@@ -23,7 +23,7 @@
           "name_fr": "Afrique septentrionale",
           "name_ru": "Северная Африка",
           "name_zh": "北非",
-          "name_r": "أفريقيا الشمالية"
+          "name_ar": "أفريقيا الشمالية"
         },
         {
           "id": "202",
@@ -32,7 +32,7 @@
           "name_fr": "Afrique subsaharienne",
           "name_ru": "Африка к югу от Сахары",
           "name_zh": "撒哈拉以南非洲",
-          "name_r": "أفريقيا جنوب الصحراء الكبرى",
+          "name_ar": "أفريقيا جنوب الصحراء الكبرى",
           "subregions": [
             {
               "id": "014",
@@ -41,7 +41,7 @@
               "name_fr": "Afrique orientale",
               "name_ru": "Восточная Африка",
               "name_zh": "东非",
-              "name_r": "شرق أفريقيا"
+              "name_ar": "شرق أفريقيا"
             },
             {
               "id": "017",
@@ -50,7 +50,7 @@
               "name_fr": "Afrique centrale",
               "name_ru": "Центральная Африка",
               "name_zh": "中非",
-              "name_r": "وسط أفريقيا"
+              "name_ar": "وسط أفريقيا"
             },
             {
               "id": "018",
@@ -59,7 +59,7 @@
               "name_fr": "Afrique australe",
               "name_ru": "Южная часть Африки",
               "name_zh": "南部非洲",
-              "name_r": "الجنوب الأفريقي"
+              "name_ar": "الجنوب الأفريقي"
             },
             {
               "id": "011",
@@ -68,7 +68,7 @@
               "name_fr": "Afrique occidentale",
               "name_ru": "Западная Африка",
               "name_zh": "西非",
-              "name_r": "غرب أفريقيا"
+              "name_ar": "غرب أفريقيا"
             }
           ]
         }
@@ -81,7 +81,7 @@
       "name_fr": "Amériques",
       "name_ru": "Северная и Южная Америка",
       "name_zh": "美洲",
-      "name_r": "الأمريكتان",
+      "name_ar": "الأمريكتان",
       "subregions": [
         {
           "id": "419",
@@ -90,7 +90,7 @@
           "name_fr": "Amérique latine et Caraïbes",
           "name_ru": "Латинская Америка и Карибский бассейн",
           "name_zh": "拉丁美洲和加勒比",
-          "name_r": "أمريكا اللاتينية ومنطقة البحر الكاريبي",
+          "name_ar": "أمريكا اللاتينية ومنطقة البحر الكاريبي",
           "subregions": [
             {
               "id": "029",
@@ -99,7 +99,7 @@
               "name_fr": "Caraïbes",
               "name_ru": "Карибский бассейн",
               "name_zh": "加勒比",
-              "name_r": "منطقة البحر الكاريبي"
+              "name_ar": "منطقة البحر الكاريبي"
             },
             {
               "id": "013",
@@ -108,7 +108,7 @@
               "name_fr": "Amérique centrale",
               "name_ru": "Центральная Америка",
               "name_zh": "中美洲",
-              "name_r": "أمريكا الوسطى"
+              "name_ar": "أمريكا الوسطى"
             },
             {
               "id": "005",
@@ -117,7 +117,7 @@
               "name_fr": "Amérique du Sud",
               "name_ru": "Южная Америка",
               "name_zh": "南美洲",
-              "name_r": "أمريكا الجنوبية"
+              "name_ar": "أمريكا الجنوبية"
             }
           ]
         },
@@ -128,7 +128,7 @@
           "name_fr": "Amérique septentrionale",
           "name_ru": "Северная Америка",
           "name_zh": "北美",
-          "name_r": "أمريكا الشمالية"
+          "name_ar": "أمريكا الشمالية"
         }
       ]
     },
@@ -139,7 +139,7 @@
       "name_fr": "Antarctique",
       "name_ru": "Антарктике",
       "name_zh": "南极洲",
-      "name_r": "أنتاركتيكا",
+      "name_ar": "أنتاركتيكا",
       "iso3l": "ATA"
     },
     {
@@ -149,7 +149,7 @@
       "name_fr": "Asie",
       "name_ru": "Азия",
       "name_zh": "亚洲",
-      "name_r": "آسيا",
+      "name_ar": "آسيا",
       "subregions": [
         {
           "id": "143",
@@ -158,7 +158,7 @@
           "name_fr": "Asie centrale",
           "name_ru": "Центральная Азия",
           "name_zh": "中亚",
-          "name_r": "آسيا الوسطى"
+          "name_ar": "آسيا الوسطى"
         },
         {
           "id": "030",
@@ -167,7 +167,7 @@
           "name_fr": "Asie orientale",
           "name_ru": "Восточная Азия",
           "name_zh": "东亚",
-          "name_r": "شرقي آسيا"
+          "name_ar": "شرقي آسيا"
         },
         {
           "id": "035",
@@ -176,7 +176,7 @@
           "name_fr": "Asie du Sud-Est",
           "name_ru": "Юго-Восточная Азия",
           "name_zh": "东南亚",
-          "name_r": "جنوب شرقي آسيا"
+          "name_ar": "جنوب شرقي آسيا"
         },
         {
           "id": "034",
@@ -185,7 +185,7 @@
           "name_fr": "Asie méridionale",
           "name_ru": "Южная Азия",
           "name_zh": "南亚",
-          "name_r": "جنوب آسيا"
+          "name_ar": "جنوب آسيا"
         },
         {
           "id": "145",
@@ -194,7 +194,7 @@
           "name_fr": "Asie occidentale",
           "name_ru": "Западная Азия",
           "name_zh": "西亚",
-          "name_r": "غربي آسيا"
+          "name_ar": "غربي آسيا"
         }
       ]
     },
@@ -205,7 +205,7 @@
       "name_fr": "Europe",
       "name_ru": "Европа",
       "name_zh": "欧洲",
-      "name_r": "أوروبا",
+      "name_ar": "أوروبا",
       "subregions": [
         {
           "id": "151",
@@ -214,7 +214,7 @@
           "name_fr": "Europe orientale",
           "name_ru": "Восточная Европа",
           "name_zh": "东欧",
-          "name_r": "أوروبا الشرقية"
+          "name_ar": "أوروبا الشرقية"
         },
         {
           "id": "154",
@@ -223,7 +223,7 @@
           "name_fr": "Europe septentrionale",
           "name_ru": "Северная Европa",
           "name_zh": "北欧",
-          "name_r": "أوروبا الشمالية",
+          "name_ar": "أوروبا الشمالية",
           "subregions": [
             {
               "id": "830",
@@ -232,7 +232,7 @@
               "name_fr": "Îles Anglo-Normandes",
               "name_ru": "Нормандские острова",
               "name_zh": "海峡群岛",
-              "name_r": "جزر تشانل"
+              "name_ar": "جزر تشانل"
             }
           ]
         },
@@ -243,7 +243,7 @@
           "name_fr": "Europe méridionale",
           "name_ru": "Южная Европа",
           "name_zh": "南欧",
-          "name_r": "أوروبا الجنوبية"
+          "name_ar": "أوروبا الجنوبية"
         },
         {
           "id": "155",
@@ -252,7 +252,7 @@
           "name_fr": "Europe occidentale",
           "name_ru": "Западная Европа",
           "name_zh": "西欧",
-          "name_r": "أوروبا الغربية"
+          "name_ar": "أوروبا الغربية"
         }
       ]
     },
@@ -263,7 +263,7 @@
       "name_fr": "Océanie",
       "name_ru": "Океания",
       "name_zh": "大洋洲",
-      "name_r": "أوقيانوسيا",
+      "name_ar": "أوقيانوسيا",
       "subregions": [
         {
           "id": "053",
@@ -272,7 +272,7 @@
           "name_fr": "Australie et Nouvelle-Zélande",
           "name_ru": "Австралия и Новая Зеландия",
           "name_zh": "澳大利亚和新西兰",
-          "name_r": "أستراليا ونيوزيلندا"
+          "name_ar": "أستراليا ونيوزيلندا"
         },
         {
           "id": "054",
@@ -281,7 +281,7 @@
           "name_fr": "Mélanésie",
           "name_ru": "Меланезия",
           "name_zh": "美拉尼西亚",
-          "name_r": "ميلانيزيا"
+          "name_ar": "ميلانيزيا"
         },
         {
           "id": "057",
@@ -290,7 +290,7 @@
           "name_fr": "Micronésie",
           "name_ru": "Микронезия",
           "name_zh": "密克罗尼西亚",
-          "name_r": "ميكرونيزيا"
+          "name_ar": "ميكرونيزيا"
         },
         {
           "id": "061",
@@ -299,7 +299,7 @@
           "name_fr": "Polynésie",
           "name_ru": "Полинезия",
           "name_zh": "波利尼西亚",
-          "name_r": "بولينيزيا"
+          "name_ar": "بولينيزيا"
         }
       ]
     }
