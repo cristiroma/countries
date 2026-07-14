@@ -158,7 +158,7 @@ INSERT INTO `country` VALUES (110,1,'MAR','MA','Morocco','Kingdom of Morocco',31
 INSERT INTO `country` VALUES (111,1,'MOZ','MZ','Mozambique','Republic of Mozambique',-19.07617816,33.81570282,5);
 INSERT INTO `country` VALUES (112,1,'MMR','MM','Myanmar','Republic of Union of Myanmar',19.20985380,96.54949272,5);
 INSERT INTO `country` VALUES (113,1,'NAM','NA','Namibia','Republic of Namibia',-22.70965620,16.72161918,6);
-INSERT INTO `country` VALUES (114,1,'NRU','NR','Nauru','Republic of Nauru',-0.52586763,166.93270463,13);
+INSERT INTO `country` VALUES (114,1,'NRU','NR','Naoero','Republic of Naoero',-0.52586763,166.93270463,13);
 INSERT INTO `country` VALUES (115,1,'NPL','NP','Nepal','Federal Democratic Republic of Nepal',28.28430770,83.98119373,7);
 INSERT INTO `country` VALUES (116,1,'NLD','NL','Netherlands','Kingdom of Netherlands',52.33939951,4.98914998,7);
 INSERT INTO `country` VALUES (117,1,'NZL','NZ','New Zealand','New Zealand',-40.95025298,171.76586181,5);
@@ -1273,7 +1273,7 @@ INSERT INTO `country_name` VALUES (943,115,'NP','it','Nepal','Repubblica Democra
 INSERT INTO `country_name` VALUES (944,115,'NP','zh','尼泊尔','尼泊尔联邦民主共和国','http://termportal.fao.org/faonocs/appl/');
 INSERT INTO `country_name` VALUES (945,115,'NP','ru','Непал','Федеративная Демократическая Республика Непал','http://termportal.fao.org/faonocs/appl/');
 INSERT INTO `country_name` VALUES (946,114,'NR','ar','ناورو','ناورو جمهورية ','http://termportal.fao.org/faonocs/appl/');
-INSERT INTO `country_name` VALUES (947,114,'NR','en','Nauru','the Republic of Nauru','http://termportal.fao.org/faonocs/appl/');
+INSERT INTO `country_name` VALUES (947,114,'NR','en','Naoero','the Republic of Naoero','https://unterm.un.org/unterm2/en/view/d9b9e1d7-f1fa-4b1d-a396-b686c5c27806');
 INSERT INTO `country_name` VALUES (948,114,'NR','es','Nauru','la República de Nauru','http://termportal.fao.org/faonocs/appl/');
 INSERT INTO `country_name` VALUES (949,114,'NR','fr','Nauru','la République de Nauru','http://termportal.fao.org/faonocs/appl/');
 INSERT INTO `country_name` VALUES (950,114,'NR','it','Nauru','Repubblica di Nauru','http://termportal.fao.org/faonocs/appl/');
